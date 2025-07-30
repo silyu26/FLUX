@@ -10,7 +10,7 @@ import random
 
 df = pd.read_csv('weather.csv')
 # Params
-receiver_ip = "192.168.2.105"
+receiver_ip = "192.168.2.100"
 
 # Send data via HTTP
 def send_http():
@@ -24,14 +24,14 @@ def send_http():
         time.sleep(1)
 
 # Websockets
-def send_websocket():
+async def send_websocket():
     uri = f"ws://{receiver_ip}:5000"
-    with websockets.connect(uri) as websocket:
+    async with websockets.connect(uri) as websocket:
         for _, row in df.iterrows():
             data_raw = row.to_dict()
             data_raw.update({"sent_at": datetime.now().isoformat()})
             data = json.dumps(data_raw)
-            websocket.send(data)
+            await websocket.send(data)
             print(f"Data sent at {data_raw['sent_at']} via WebSocket")
             time.sleep(1)
 
@@ -61,11 +61,11 @@ def main():
     #print("Starting HTTP sender...")
     #send_http()
     
-    #print("Starting WebSocket sender...")
-    #asyncio.run(send_websocket())
+    print("Starting WebSocket sender...")
+    asyncio.run(send_websocket())
     
-    print("Starting MQTT sender...")
-    send_mqtt()
+    #print("Starting MQTT sender...")
+    #send_mqtt()
 
 if __name__ == "__main__":
     main()
