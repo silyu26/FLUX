@@ -32,7 +32,7 @@ async def send_websocket():
             data_raw.update({"sent_at": datetime.now().isoformat()})
             data = json.dumps(data_raw)
             await websocket.send(data)
-            print(f"Data sent at {data['sent_at']} via WebSocket")
+            print(f"Data sent at {data_raw['sent_at']} via WebSocket")
             time.sleep(1)
 
 # MQTT
