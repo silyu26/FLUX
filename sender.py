@@ -24,14 +24,14 @@ def send_http():
         time.sleep(1)
 
 # Websockets
-async def send_websocket():
+def send_websocket():
     uri = f"ws://{receiver_ip}:5000"
-    async with websockets.connect(uri) as websocket:
+    with websockets.connect(uri) as websocket:
         for _, row in df.iterrows():
             data_raw = row.to_dict()
             data_raw.update({"sent_at": datetime.now().isoformat()})
             data = json.dumps(data_raw)
-            await websocket.send(data)
+            websocket.send(data)
             print(f"Data sent at {data_raw['sent_at']} via WebSocket")
             time.sleep(1)
 
