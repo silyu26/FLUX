@@ -33,7 +33,8 @@ async def send_websocket():
             data = json.dumps(data_raw)
             await websocket.send(data)
             print(f"Data sent at {data_raw['sent_at']} via WebSocket")
-            time.sleep(1)
+            #time.sleep(1)
+            await asyncio.sleep(1)
 
 # MQTT
 def send_mqtt():
