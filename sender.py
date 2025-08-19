@@ -8,9 +8,10 @@ from datetime import datetime
 import paho.mqtt.client as mqtt
 import random
 
-df = pd.read_csv('weather.csv')
+df = pd.read_csv('seattle-weather.csv')
 # Params
 receiver_ip = "192.168.2.100"
+#receiver_ip = "localhost"
 
 # Send data via HTTP
 def send_http():
