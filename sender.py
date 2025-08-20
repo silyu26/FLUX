@@ -18,7 +18,7 @@ def send_http():
     url = f"http://{receiver_ip}:5000/receive"
     for _, row in df.iterrows():
         data = row.to_dict()
-        data.update({"sent_at": datetime.now().isoformat()})
+        data.update({"gen_at": datetime.now().isoformat()})
         req_time = datetime.now()
         response = requests.post(url, json=data)
         print(f"Data sent at {req_time.isoformat()}| Response: {response.status_code}")
@@ -30,10 +30,10 @@ async def send_websocket():
     async with websockets.connect(uri) as websocket:
         for _, row in df.iterrows():
             data_raw = row.to_dict()
-            data_raw.update({"sent_at": datetime.now().isoformat()})
+            data_raw.update({"gen_at": datetime.now().isoformat()})
             data = json.dumps(data_raw)
             await websocket.send(data)
-            print(f"Data sent at {data_raw['sent_at']} via WebSocket")
+            print(f"Data sent at {data_raw['gen_at']} via WebSocket")
             #time.sleep(1)
             await asyncio.sleep(1)
 
@@ -49,10 +49,10 @@ def send_mqtt():
     try:
         for _, row in df.iterrows():
             data_raw = row.to_dict()
-            data_raw.update({"sent_at": datetime.now().isoformat()})
+            data_raw.update({"gen_at": datetime.now().isoformat()})
             data = json.dumps(data_raw)
             client.publish(topic, data)
-            print(f"Published data at {data_raw['sent_at']}")
+            print(f"Published data at {data_raw['gen_at']}")
             time.sleep(1)
 
     except KeyboardInterrupt:

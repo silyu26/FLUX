@@ -1,5 +1,5 @@
 from flask import Flask, request
-from datetime import datetime
+from datetime import datetime, timezone
 import requests
 #from . import crud, model, db
 from model import Experiment, WeatherData
