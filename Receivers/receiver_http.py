@@ -3,8 +3,8 @@ from datetime import datetime, timezone
 import requests
 #from . import crud, model, db
 from model import Experiment, WeatherData
-from crud import create_experiment_with_weather
-from db import SessionLocal
+from SQL.crud import create_experiment_with_weather
+from SQL.db import SessionLocal
 
 
 app = Flask(__name__)
@@ -14,7 +14,7 @@ app = Flask(__name__)
 def receive_data():
     data = request.get_json()
     res_time = datetime.now()
-    #print("Received Data at",res_time.isoformat())
+    print("Received Data at",res_time.isoformat())
     #forward_to_n8n(data)
     exp = Experiment(
         gen_at=data['gen_at'],

@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, Float, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from datetime import datetime
-from db import Base  # import shared Base
+from SQL.db import Base  # import shared Base
 from sqlalchemy.dialects.mysql import DATETIME
 
 class Experiment(Base):
