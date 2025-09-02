@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 # ---------------------------
 # Load and prepare data
 # ---------------------------
-df = pd.read_csv('../seattle-weather.csv', parse_dates=['date'])
+df = pd.read_csv('./seattle-weather.csv', parse_dates=['date'])
 df = df.sort_values('date').reset_index(drop=True)
 
 # Moving average
