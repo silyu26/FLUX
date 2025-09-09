@@ -3,10 +3,14 @@ from fastapi.responses import JSONResponse
 from ultralytics import YOLO
 from PIL import Image
 import io
+import psutil
 from datetime import datetime
+from SQL.crud import create_experiment_with_weather
+from SQL.db import SessionLocal
+from model import Experiment, WeatherData
 
 app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", version="1.0")
-
+ #uvicorn YOLO.yolo_v11_csfy:app --reload --host 0.0.0.0 --port 5000
 model = YOLO("yolo11n.pt")
 
 @app.post("/yolo/")
@@ -21,6 +25,18 @@ async def predict(file: UploadFile = File(...),
         # Run YOLO inference
         results = model(image)
         model_out = datetime.now()
+        exp = Experiment(
+          gen_at=gen_at,
+          exp_id=2,
+          model_in=model_in,
+          model_out=model_out,
+          cpu_usage=psutil.cpu_percent(interval=0),
+          memory_usage=psutil.virtual_memory().percent,
+          process_count=len(psutil.pids()),
+          #server_in=server_in,
+          #model_out=datetime.now()
+        )
+        create_experiment_with_weather(SessionLocal(), exp)
         return {
             "predictions": results[0].boxes.xyxy.tolist(),  # Bounding boxes
             "scores": results[0].boxes.conf.tolist(),      # Confidence scores
@@ -38,4 +54,4 @@ async def predict(file: UploadFile = File(...),
 #results = model.train(data="coco8.yaml", epochs=100, imgsz=640)
 
 
-results = model("./imgs/cat1.jpg")
+#results = model("./imgs/cat1.jpg")
