@@ -21,7 +21,7 @@ class Experiment(Base):
     cpu_usage = Column(Float, nullable=True)
     memory_usage = Column(Float, nullable=True)
     process_count = Column(Integer, nullable=True)
-
+    fps = Column(Integer, nullable=True)
     weather = relationship("WeatherData", back_populates="experiment", uselist=False, cascade="all, delete-orphan")
 
 

@@ -23,7 +23,7 @@ class Experiment(Base):
     cpu_usage = Column(Float, nullable=True)
     memory_usage = Column(Float, nullable=True)
     process_count = Column(Integer, nullable=True)
-
+    fps = Column(Integer, nullable=True)
     weather = relationship("WeatherData", back_populates="experiment", uselist=False, cascade="all, delete-orphan")
 
 
@@ -42,7 +42,7 @@ class WeatherData(Base):
     experiment = relationship("Experiment", back_populates="weather")
 
 
-DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3306/test_db"
+DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3306/throughput_test"
 # Create engine & session factory
 engine = create_engine(DATABASE_URL, echo=True)  # echo=True logs SQL
 SessionLocal = sessionmaker(bind=engine)
