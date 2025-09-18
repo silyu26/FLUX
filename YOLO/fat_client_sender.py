@@ -7,7 +7,7 @@ from ping3 import ping
 host = '8.8.8.8'
 API_URL = "http://127.0.0.1:5000/yolo/"
 IMAGE_PATHS = ["./imgs/cat1.jpg"]
-fps = 3
+fps = 40
 
 # network checking
 latency = ping(host)
@@ -23,7 +23,7 @@ print("Upload Speed:", upload_speed, "Mbps")
 # tasks with different images
 print("Start sending frames at", fps, "FPS")
 i = 0
-while (i < 30):
+while (i < 50):
     img_path = IMAGE_PATHS[0]
     files = []
 

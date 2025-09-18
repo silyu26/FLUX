@@ -4,6 +4,7 @@ from ultralytics import YOLO
 from PIL import Image
 from typing import List
 import io
+import os
 import psutil
 from datetime import datetime
 from SQL.crud import create_experiment_with_weather
@@ -13,7 +14,15 @@ from model import Experiment, WeatherData
 app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", version="1.0")
 #uvicorn YOLO.yolo_v11_csfy:app --reload --host 0.0.0.0 --port 5000
 model = YOLO("yolo11n.pt")
-expId = 4
+expId = 5
+
+def limit_resources():
+    process = psutil.Process(os.getpid())
+
+    process.cpu_affinity([0])  # Restrict to first CPU core (0-based index)
+
+    max_memory_bytes = 500 * 1024 * 1024  # 500 MB
+    process.rlimit(psutil.RLIMIT_AS, (max_memory_bytes, max_memory_bytes))
 
 @app.post("/yolo/")
 async def predict(files: List[UploadFile] = File(...),
