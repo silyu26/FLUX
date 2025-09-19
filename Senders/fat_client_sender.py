@@ -7,7 +7,7 @@ from ping3 import ping
 host = '8.8.8.8'
 API_URL = "http://127.0.0.1:5000/yolo/"
 IMAGE_PATHS = ["./imgs/cat1.jpg"]
-fps = 40
+fps = 1
 
 # network checking
 latency = ping(host)
@@ -31,6 +31,5 @@ while (i < 50):
         files.append(("files", (f"{img_path}_copy{j}", open(img_path, "rb"), "image/jpeg")))
 
     data = {"gen_at": datetime.now().isoformat(), "req_id": i, "fps": fps}
-    response = requests.post(API_URL, files=files, data=data)
-    #time.sleep(1/fps)  
+    response = requests.post(API_URL, files=files, data=data)  
     i = i + 1
