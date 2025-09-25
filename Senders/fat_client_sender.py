@@ -7,7 +7,7 @@ from ping3 import ping
 host = '8.8.8.8'
 API_URL = "http://127.0.0.1:5000/yolo/"
 IMAGE_PATHS = ["./imgs/cat1.jpg"]
-fps = 1
+fps = 40
 
 # network checking
 latency = ping(host)
