@@ -42,7 +42,7 @@ class WeatherData(Base):
     experiment = relationship("Experiment", back_populates="weather")
 
 
-DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3306/throughput_test"
+DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3306/model_selection"
 # Create engine & session factory
 engine = create_engine(DATABASE_URL, echo=True)  # echo=True logs SQL
 SessionLocal = sessionmaker(bind=engine)

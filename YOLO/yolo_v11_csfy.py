@@ -14,7 +14,7 @@ from model import Experiment, WeatherData
 app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", version="1.0")
 #uvicorn YOLO.yolo_v11_csfy:app --reload --host 0.0.0.0 --port 5000
 model = YOLO("yolo11m.pt")
-expId = 9
+expId = 15
 
 def limit_resources():
     process = psutil.Process(os.getpid())
