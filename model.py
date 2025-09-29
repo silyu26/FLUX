@@ -1,7 +1,11 @@
 from sqlalchemy import Column, Integer, Float, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from datetime import datetime
+<<<<<<< HEAD
 from db import Base  # import shared Base
+=======
+from SQL.db import Base  # import shared Base
+>>>>>>> origin/main
 from sqlalchemy.dialects.mysql import DATETIME
 
 class Experiment(Base):
@@ -18,7 +22,14 @@ class Experiment(Base):
     db_out = Column(DATETIME(fsp=3), nullable=True)
     dpse_in = Column(DATETIME(fsp=3), nullable=True)
     dpse_out = Column(DATETIME(fsp=3), nullable=True)
+<<<<<<< HEAD
 
+=======
+    cpu_usage = Column(Float, nullable=True)
+    memory_usage = Column(Float, nullable=True)
+    process_count = Column(Integer, nullable=True)
+    fps = Column(Integer, nullable=True)
+>>>>>>> origin/main
     weather = relationship("WeatherData", back_populates="experiment", uselist=False, cascade="all, delete-orphan")
 
 
