@@ -4,78 +4,76 @@ import json
 import base64
 import asyncio
 import requests
-import websockets
 import paho.mqtt.client as mqtt
 from datetime import datetime
 from ping3 import ping
 import speedtest
+import sys
+
+# ------------------ Logging ------------------
+log_filename = f"multi_sender_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+log_file = open(log_filename, "a", encoding="utf-8")
+sys.stdout = log_file  # Redirect all print() output to file
+sys.stderr = log_file
+
+def log(msg):
+    """Helper to print and flush logs"""
+    print(f"[{datetime.now().isoformat()}] {msg}")
+    log_file.flush()
 
 # ------------------ Params ------------------
 host = '8.8.8.8'
 receiver_ip = "127.0.0.1"
 HTTP_URL = f"http://{receiver_ip}:5000/yolo/"
-WS_URL = f"ws://{receiver_ip}:5000/yolo/"
 MQTT_BROKER = receiver_ip
 MQTT_TOPIC = "sensor/yolo"
 
 IMAGE_PATHS = ["./imgs/cat1.jpg"]
-fps = 1   # how many frames per request/batch
+FPS_LIST = [1, 5, 10, 20, 40]  # automatically loop over these
 TOTAL_REQUESTS = 10
 
-# ------------------ Network check ------------------
-#latency = ping(host)
-#st = speedtest.Speedtest()
-#st.get_best_server()
-#download_speed = st.download() / 1_000_000  # in Mbps
-#upload_speed = st.upload() / 1_000_000      # in Mbps
+# ------------------ Network Check ------------------
+log("=== Starting network check ===")
+try:
+    latency = ping(host)
+    st = speedtest.Speedtest()
+    st.get_best_server()
+    download_speed = st.download() / 1_000_000  # Mbps
+    upload_speed = st.upload() / 1_000_000      # Mbps
 
-#print(f"Ping to {host}: {latency*1000:.2f} ms")
-#print("Download Speed:", download_speed, "Mbps")
-#print("Upload Speed:", upload_speed, "Mbps")
-
+    log(f"Ping to {host}: {latency*1000:.2f} ms")
+    log(f"Download Speed: {download_speed:.2f} Mbps")
+    log(f"Upload Speed: {upload_speed:.2f} Mbps")
+except Exception as e:
+    log(f"Network check failed: {e}")
 
 # ------------------ HTTP ------------------
-def send_http():
-    print("Start sending frames via HTTP at", fps, "FPS")
+def send_http(fps):
+    log(f"=== Starting HTTP test at {fps} FPS ===")
     for i in range(TOTAL_REQUESTS):
         img_path = IMAGE_PATHS[0]
         files = []
 
         for j in range(fps):
-            files.append(("files", (f"{os.path.basename(img_path)}_copy{j}", open(img_path, "rb"), "image/jpeg")))
+            try:
+                files.append(("files", (f"{os.path.basename(img_path)}_copy{j}", open(img_path, "rb"), "image/jpeg")))
+            except Exception as e:
+                log(f"Error opening image: {e}")
+                continue
 
         data = {"gen_at": datetime.now().isoformat(), "req_id": i, "fps": fps}
-        response = requests.post(HTTP_URL, files=files, data=data)  
-        print(f"HTTP request {i} | Status: {response.status_code}")
+        try:
+            response = requests.post(HTTP_URL, files=files, data=data, timeout=60)
+            log(f"HTTP request {i+1}/{TOTAL_REQUESTS} | FPS={fps} | Status={response.status_code}")
+        except Exception as e:
+            log(f"HTTP request {i+1} failed: {e}")
 
-
-# ------------------ WebSocket ------------------
-async def send_websocket():
-    print("Start sending frames via WebSocket at", fps, "FPS")
-    uri = WS_URL
-    async with websockets.connect(uri, max_size=None) as websocket:
-        img_path = IMAGE_PATHS[0]
-        with open(img_path, "rb") as f:
-            img_bytes = f.read()
-
-        for i in range(TOTAL_REQUESTS):
-            batch = []
-            for j in range(fps):
-                batch.append({
-                    "filename": f"{os.path.basename(img_path)}_copy{j}",
-                    "data": base64.b64encode(img_bytes).decode("utf-8"),
-                    "gen_at": datetime.now().isoformat(),
-                    "req_id": i,
-                    "fps": fps
-                })
-
-            await websocket.send(json.dumps({"batch": batch}))
-            print(f"WebSocket request {i} sent with {fps} frames")
-
+        time.sleep(0.05)
+    log(f"=== Finished HTTP test at {fps} FPS ===")
 
 # ------------------ MQTT ------------------
-def send_mqtt():
-    print("Start sending frames via MQTT at", fps, "FPS")
+def send_mqtt(fps):
+    log(f"=== Starting MQTT test at {fps} FPS ===")
     client = mqtt.Client()
     client.connect(MQTT_BROKER, 1883, 60)
 
@@ -94,17 +92,25 @@ def send_mqtt():
                     "req_id": i,
                     "fps": fps
                 })
-
             client.publish(MQTT_TOPIC, json.dumps({"batch": batch}))
-            print(f"MQTT request {i} published with {fps} frames")
-
+            log(f"MQTT request {i+1}/{TOTAL_REQUESTS} published with {fps} frames")
+            time.sleep(0.05)
+    except Exception as e:
+        log(f"MQTT test failed at FPS={fps}: {e}")
     finally:
         client.disconnect()
+        log(f"=== Finished MQTT test at {fps} FPS ===")
 
-
-# ------------------ Run examples ------------------
+# ------------------ Main ------------------
 if __name__ == "__main__":
-     send_http()
-    # asyncio.run(send_websocket())
-    # send_mqtt()
-    #pass
+    log("=== Starting multi-FPS sender test ===")
+
+    for fps in FPS_LIST:
+        start = time.time()
+        send_http(fps)
+        send_mqtt(fps)
+        elapsed = time.time() - start
+        log(f"Completed all tests at {fps} FPS in {elapsed:.2f} seconds\n")
+
+    log("=== All FPS tests completed ===")
+    log_file.close()
