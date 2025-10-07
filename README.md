@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# FLUX
-=======
 # FLUX: Feedback Latency and Utilization Examination for Real-Time Sensor-Based AI Pipelines
 
 A master thesis in analyzing all possible factors and optimization techniques that affect the latency in a generic ML inference pipeline with sensor data streams as input.
@@ -33,4 +30,3 @@ We categorize a machine learning inference pipeline with sensor data stream as i
 
 ## Literatures
 ## External Tools
->>>>>>> origin/main
