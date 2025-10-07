@@ -24,6 +24,7 @@ class Experiment(Base):
     memory_usage = Column(Float, nullable=True)
     process_count = Column(Integer, nullable=True)
     fps = Column(Integer, nullable=True)
+    #device = Column(String(50), nullable=True)
     weather = relationship("WeatherData", back_populates="experiment", uselist=False, cascade="all, delete-orphan")
 
 
@@ -42,7 +43,7 @@ class WeatherData(Base):
     experiment = relationship("Experiment", back_populates="weather")
 
 
-DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3306/model_selection"
+DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3307/model_selection"
 # Create engine & session factory
 engine = create_engine(DATABASE_URL, echo=True)  # echo=True logs SQL
 SessionLocal = sessionmaker(bind=engine)

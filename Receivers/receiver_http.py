@@ -33,7 +33,7 @@ def receive_data():
     )
     exp.weather = weather
 
-    create_experiment_with_weather(SessionLocal(), exp)
+    #create_experiment_with_weather(SessionLocal(), exp)
     return {'status': 'success'}, 200
 
 def forward_to_n8n(data):

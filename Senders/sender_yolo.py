@@ -23,15 +23,15 @@ fps = 1   # how many frames per request/batch
 TOTAL_REQUESTS = 10
 
 # ------------------ Network check ------------------
-latency = ping(host)
-st = speedtest.Speedtest()
-st.get_best_server()
-download_speed = st.download() / 1_000_000  # in Mbps
-upload_speed = st.upload() / 1_000_000      # in Mbps
+#latency = ping(host)
+#st = speedtest.Speedtest()
+#st.get_best_server()
+#download_speed = st.download() / 1_000_000  # in Mbps
+#upload_speed = st.upload() / 1_000_000      # in Mbps
 
-print(f"Ping to {host}: {latency*1000:.2f} ms")
-print("Download Speed:", download_speed, "Mbps")
-print("Upload Speed:", upload_speed, "Mbps")
+#print(f"Ping to {host}: {latency*1000:.2f} ms")
+#print("Download Speed:", download_speed, "Mbps")
+#print("Upload Speed:", upload_speed, "Mbps")
 
 
 # ------------------ HTTP ------------------
@@ -104,7 +104,7 @@ def send_mqtt():
 
 # ------------------ Run examples ------------------
 if __name__ == "__main__":
-    # send_http()
-     asyncio.run(send_websocket())
+     send_http()
+    # asyncio.run(send_websocket())
     # send_mqtt()
     #pass
