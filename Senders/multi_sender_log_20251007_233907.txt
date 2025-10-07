@@ -1,0 +1,30 @@
+[2025-10-07T23:39:07.057541] === Starting multi-FPS sender test ===
+[2025-10-07T23:39:07.057541] === Starting network check ===
+[2025-10-07T23:39:58.437961] Ping to 8.8.8.8: 15.89 ms
+[2025-10-07T23:39:58.437961] Download Speed: 52.09 Mbps
+[2025-10-07T23:39:58.437961] Upload Speed: 20.38 Mbps
+[2025-10-07T23:39:58.437961] === Starting MQTT test at 1 FPS ===
+D:\FLUX\Senders\sender_yolo_hm.py:78: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+  client = mqtt.Client()
+Traceback (most recent call last):
+  File "D:\FLUX\Senders\sender_yolo_hm.py", line 113, in <module>
+    send_mqtt(fps)
+  File "D:\FLUX\Senders\sender_yolo_hm.py", line 79, in send_mqtt
+    client.connect(MQTT_BROKER, 1883, 60)
+  File "D:\Anaconda\envs\dbis\Lib\site-packages\paho\mqtt\client.py", line 1435, in connect
+    return self.reconnect()
+           ^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\dbis\Lib\site-packages\paho\mqtt\client.py", line 1598, in reconnect
+    self._sock = self._create_socket()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\dbis\Lib\site-packages\paho\mqtt\client.py", line 4609, in _create_socket
+    sock = self._create_socket_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\dbis\Lib\site-packages\paho\mqtt\client.py", line 4640, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\dbis\Lib\socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "D:\Anaconda\envs\dbis\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out

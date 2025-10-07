@@ -23,14 +23,14 @@ def log(msg):
 
 # ------------------ Params ------------------
 host = '8.8.8.8'
-receiver_ip = "127.0.0.1"
+receiver_ip = "192.169.2.100"
 HTTP_URL = f"http://{receiver_ip}:5000/yolo/"
 MQTT_BROKER = receiver_ip
-MQTT_TOPIC = "sensor/yolo"
+MQTT_TOPIC = "image_stream/test"
 
 IMAGE_PATHS = ["./imgs/cat1.jpg"]
 FPS_LIST = [1, 5, 10, 20, 40]  # automatically loop over these
-TOTAL_REQUESTS = 10
+TOTAL_REQUESTS = 50
 
 # ------------------ Network Check ------------------
 def network_test():
@@ -109,7 +109,7 @@ if __name__ == "__main__":
     for fps in FPS_LIST:
         network_test()
         start = time.time()
-        send_http(fps)
+        #send_http(fps)
         send_mqtt(fps)
         elapsed = time.time() - start
         log(f"Completed all tests at {fps} FPS in {elapsed:.2f} seconds\n")
