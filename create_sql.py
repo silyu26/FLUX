@@ -1,13 +1,11 @@
-from sqlalchemy import Column, Integer, Float, DateTime, ForeignKey
-from sqlalchemy.orm import relationship
-from datetime import datetime
-<<<<<<< HEAD
-from db import Base  # import shared Base
-=======
-from SQL.db import Base  # import shared Base
->>>>>>> origin/main
+from sqlalchemy import create_engine, Column, Integer, String, Float, DateTime, ForeignKey
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker, relationship
 from sqlalchemy.dialects.mysql import DATETIME
 
+Base = declarative_base()
+
+# Define the table as a Python class
 class Experiment(Base):
     __tablename__ = "experiments_data"
 
@@ -22,14 +20,7 @@ class Experiment(Base):
     db_out = Column(DATETIME(fsp=3), nullable=True)
     dpse_in = Column(DATETIME(fsp=3), nullable=True)
     dpse_out = Column(DATETIME(fsp=3), nullable=True)
-<<<<<<< HEAD
 
-=======
-    cpu_usage = Column(Float, nullable=True)
-    memory_usage = Column(Float, nullable=True)
-    process_count = Column(Integer, nullable=True)
-    fps = Column(Integer, nullable=True)
->>>>>>> origin/main
     weather = relationship("WeatherData", back_populates="experiment", uselist=False, cascade="all, delete-orphan")
 
 
@@ -46,3 +37,13 @@ class WeatherData(Base):
     experiment_id = Column(Integer, ForeignKey("experiments_data.req_id"), nullable=False, unique=True)
 
     experiment = relationship("Experiment", back_populates="weather")
+
+
+DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3306/test_db"
+# Create engine & session factory
+engine = create_engine(DATABASE_URL, echo=True)  # echo=True logs SQL
+SessionLocal = sessionmaker(bind=engine)
+
+# Create tables in the database
+Base.metadata.create_all(engine)
+
