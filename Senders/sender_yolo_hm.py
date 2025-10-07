@@ -33,19 +33,20 @@ FPS_LIST = [1, 5, 10, 20, 40]  # automatically loop over these
 TOTAL_REQUESTS = 10
 
 # ------------------ Network Check ------------------
-log("=== Starting network check ===")
-try:
-    latency = ping(host)
-    st = speedtest.Speedtest()
-    st.get_best_server()
-    download_speed = st.download() / 1_000_000  # Mbps
-    upload_speed = st.upload() / 1_000_000      # Mbps
+def network_test():
+    log("=== Starting network check ===")
+    try:
+        latency = ping(host)
+        st = speedtest.Speedtest()
+        st.get_best_server()
+        download_speed = st.download() / 1_000_000  # Mbps
+        upload_speed = st.upload() / 1_000_000      # Mbps
 
-    log(f"Ping to {host}: {latency*1000:.2f} ms")
-    log(f"Download Speed: {download_speed:.2f} Mbps")
-    log(f"Upload Speed: {upload_speed:.2f} Mbps")
-except Exception as e:
-    log(f"Network check failed: {e}")
+        log(f"Ping to {host}: {latency*1000:.2f} ms")
+        log(f"Download Speed: {download_speed:.2f} Mbps")
+        log(f"Upload Speed: {upload_speed:.2f} Mbps")
+    except Exception as e:
+        log(f"Network check failed: {e}")
 
 # ------------------ HTTP ------------------
 def send_http(fps):
@@ -106,6 +107,7 @@ if __name__ == "__main__":
     log("=== Starting multi-FPS sender test ===")
 
     for fps in FPS_LIST:
+        network_test()
         start = time.time()
         send_http(fps)
         send_mqtt(fps)
