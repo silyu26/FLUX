@@ -8,75 +8,91 @@ import model
 import os
 
 # --- Settings ---
-IMAGE_PATH = "./imgs/cat1.jpg"   # Example static image (can be replaced with real frame source)
-FPS = 10                         # Simulated streaming FPS
-TOTAL_FRAMES = 100               # How many frames to simulate
-expId = 0                        # Experiment ID
+RECEIVER_IP = "0.0.0.0"  # Listen on all available network interfaces
+RTP_PORT = 5000
+expId = 11 # Using a new experiment ID
 
 # --- Model and DB Setup ---
 print("Loading YOLO model...")
-yolo_model = YOLO("yolo11n.pt")
+model = YOLO("yolo11n.pt")
 db_session = db.SessionLocal()
 print("Model loaded and DB session created.")
 
 def main():
-    if not os.path.exists(IMAGE_PATH):
-        print(f"Error: Image not found at {IMAGE_PATH}")
+    # GStreamer pipeline for receiving an H.264 encoded RTP stream over UDP
+    # This pipeline listens on the specified port, depacketizes the RTP stream,
+    # decodes the H.264 video, converts the color space, and sends it to the app.
+    pipeline = (
+        f"udpsrc port={RTP_PORT} caps=\"application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264, payload=(int)96\" ! "
+        "rtph264depay ! "
+        "decodebin ! "
+        "videoconvert ! "
+        "appsink"
+    )
+
+    # Use CAP_GSTREAMER to tell OpenCV to use the GStreamer backend
+    cap = cv2.VideoCapture(pipeline, cv2.CAP_GSTREAMER)
+
+    if not cap.isOpened():
+        print("Error: VideoCapture not opened. Check GStreamer installation and the pipeline.")
         return
 
-    print(f"Simulating image stream from {IMAGE_PATH} at {FPS} FPS...")
+    print(f"Listening for RTP stream on port {RTP_PORT}...")
 
     frame_count = 0
-    frame_interval = 1.0 / FPS  # seconds per frame
-
-    while frame_count < TOTAL_FRAMES:
-        frame = cv2.imread(IMAGE_PATH)
-        if frame is None:
-            print("Error loading image. Check path or format.")
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            print("Stream ended or error reading frame.")
             break
-
-        # --- YOLO Inference ---
+        
+        # --- Start of Inference and Logging Logic (from your original FastAPI endpoint) ---
         model_in = datetime.now()
-        results = yolo_model.predict(source=frame, verbose=False)
-        model_out = datetime.now()
 
-        # --- Performance and Resource Metrics ---
+        # Run YOLO inference
+        results = model.predict(source=frame, verbose=False) # verbose=False to keep logs clean
+
+        model_out = datetime.now()
         frame_count += 1
+
+        # Calculate processing FPS (how fast this receiver is processing frames)
+        # This is an approximation. For more accuracy, use a rolling average.
         processing_time = (model_out - model_in).total_seconds()
         current_processing_fps = 1 / processing_time if processing_time > 0 else float('inf')
 
+        # Create experiment record
         exp = model.Experiment(
-            gen_at=model_in.isoformat(),
+            gen_at=model_in.isoformat(), # We use model_in as the generation time at receiver
             exp_id=expId,
             model_in=model_in,
             model_out=model_out,
             cpu_usage=psutil.cpu_percent(),
             memory_usage=psutil.virtual_memory().percent,
             process_count=len(psutil.pids()),
-            fps=int(current_processing_fps)
+            fps=int(current_processing_fps) # Log the actual processing FPS
         )
-
         crud.create_experiment_with_weather(db_session, exp)
-
+        
         print(
-            f"Frame {frame_count}/{TOTAL_FRAMES}: "
+            f"Frame {frame_count}: "
             f"Processed in {processing_time*1000:.2f} ms "
             f"(~{current_processing_fps:.2f} FPS) | "
             f"CPU: {exp.cpu_usage}% | "
             f"Mem: {exp.memory_usage}%"
         )
-
-        # Optional: visualize results
-        # annotated = results[0].plot()
-        # cv2.imshow("YOLO Stream", annotated)
+        
+        # Optionally, display the video feed with bounding boxes
+        # annotated_frame = results[0].plot()
+        # cv2.imshow('YOLO Inference', annotated_frame)
         # if cv2.waitKey(1) & 0xFF == ord('q'):
         #     break
 
-        # Wait so the loop matches the target FPS
-        time.sleep(frame_interval)
-
+    # --- Cleanup ---
+    cap.release()
+    # cv2.destroyAllWindows()
     db_session.close()
-    print("Stream simulation finished.")
+    print("Stream finished.")
+
 
 if __name__ == "__main__":
     main()
