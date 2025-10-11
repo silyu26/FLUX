@@ -12,7 +12,7 @@ import psutil
 from datetime import datetime
 from SQL.crud import create_experiment_with_weather
 from SQL.db import SessionLocal
-from model import Experiment, WeatherData
+from SQL.model import Experiment, WeatherData
 
 app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", version="1.0")
 #uvicorn YOLO.yolo_v11_ws:app --reload --host 0.0.0.0 --port 5000

@@ -8,8 +8,8 @@ Base = declarative_base()
 # Define the table as a Python class
 class Experiment(Base):
     __tablename__ = "experiments_data"
-
-    req_id = Column(Integer, primary_key=True, autoincrement=True)
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    req_id = Column(Integer, nullable=False)
     exp_id = Column(Integer, nullable=False)
     gen_at = Column(DATETIME(fsp=3), nullable=False)
     server_in = Column(DATETIME(fsp=3), nullable=True)

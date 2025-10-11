@@ -3,6 +3,7 @@ import time
 import speedtest
 from datetime import datetime
 from ping3 import ping
+from SQL.save_data import push_buffer_to_db
 import sys
 
 if len(sys.argv) < 3:
@@ -11,7 +12,7 @@ if len(sys.argv) < 3:
 
 n = sys.argv[1] #workflow
 exp = sys.argv[2] #expId
-
+# python -m Senders.sender_yolo_fat n exp
 # --- Logging setup ---
 log_filename = f"workflow_{n}_expId_{exp}.txt"
 log_file = open(log_filename, "a", encoding="utf-8")
@@ -26,7 +27,7 @@ def log(msg):
 # --- Settings ---
 host = '8.8.8.8'
 API_URL = "http://127.0.0.1:5000/yolo/"
-IMAGE_PATHS = ["./imgs/cat1_m.jpg"]
+IMAGE_PATHS = ["./Senders/imgs/cat1_m.jpg"]
 FPS_LIST = [1, 5, 10, 20, 40, 60]
 NUM_ITERATIONS = 30
 
@@ -58,7 +59,7 @@ for fps in FPS_LIST:
             log(f"Error opening image: {e}")
             continue
 
-        data = {"gen_at": datetime.now().isoformat(), "req_id": i + index*20, "fps": fps, "expId": exp}
+        data = {"gen_at": datetime.now().isoformat(), "req_id": i + index*30, "fps": fps, "expId": exp}
         try:
             response = requests.post(API_URL, files=files, data=data)
             log(f"Iteration {i+1}/{NUM_ITERATIONS} | FPS={fps} | Status={response.status_code}")
@@ -71,5 +72,7 @@ for fps in FPS_LIST:
     elapsed = time.time() - start_time
     log(f"Finished test at {fps} FPS in {elapsed:.2f} seconds")
 
-log("=== All tests completed ===")
+log("=== All tests completed, start writing data into database ===")
+push_buffer_to_db()
+log("=== Finished writing ===")
 log_file.close()

@@ -2,7 +2,7 @@ from flask import Flask, request
 from datetime import datetime, timezone
 import requests
 #from . import crud, model, db
-from model import Experiment, WeatherData
+from SQL.model import Experiment, WeatherData
 from SQL.crud import create_experiment_with_weather
 from SQL.db import SessionLocal
 

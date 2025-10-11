@@ -10,7 +10,7 @@ from ultralytics import YOLO
 
 # === SQL + Models ===
 from SQL import crud, db
-import model
+import SQL.model as model
 
 # === Config ===
 MQTT_BROKER = "localhost"

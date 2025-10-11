@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from model import Experiment
+from SQL.model import Experiment
 from datetime import datetime
 
 def create_experiment_with_weather(session: Session, exp: Experiment):

@@ -6,9 +6,11 @@ import io
 import os
 import psutil
 from datetime import datetime
-from SQL.crud import create_experiment_with_weather
-from SQL.db import SessionLocal
-from model import Experiment
+#from SQL.crud import create_experiment_with_weather
+#from SQL.db import SessionLocal
+from SQL.model import Experiment
+from SQL.buffer_data import save_experiment_to_buffer
+#from save_data import push_buffer_to_db
 import logging
 
 app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", version="1.0")
@@ -75,14 +77,14 @@ async def predict(
             process_count=len(psutil.pids()),
             fps=fps
         )
-        try:
-            with SessionLocal() as session:
-                create_experiment_with_weather(session, exp)
-            logging.info(f"Experiment saved to DB | req_id={req_id}")
+        save_experiment_to_buffer(exp)
+        #try:
+        #    with SessionLocal() as session:
+        #        create_experiment_with_weather(session, exp)
+        #    logging.info(f"Experiment saved to DB | req_id={req_id}")
 
-        except Exception as db_err:
-            # Log DB issues separately without affecting response
-            logging.error(f"DB error while saving experiment | req_id={req_id} | {db_err}")
+        #except Exception as db_err:
+        #    logging.error(f"DB error while saving experiment | req_id={req_id} | {db_err}")
 
         return {
             "predictions": results[0].boxes.xyxy.tolist(),

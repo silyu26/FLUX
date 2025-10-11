@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 from ultralytics import YOLO
 from SQL import crud, db
-import model
+import SQL.model as model
 import os
 
 # --- Settings ---

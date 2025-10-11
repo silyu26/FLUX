@@ -5,7 +5,7 @@ from .knn import moving_average_predict, knn_predict, markov_predict, df
 from datetime import datetime
 from SQL.crud import create_experiment_with_weather
 from SQL.db import SessionLocal
-from model import Experiment, WeatherData
+from SQL.model import Experiment, WeatherData
 import pandas as pd
 import time
 
