@@ -2,64 +2,91 @@ from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.responses import JSONResponse
 from ultralytics import YOLO
 from PIL import Image
-from typing import List
 import io
 import os
 import psutil
 from datetime import datetime
 from SQL.crud import create_experiment_with_weather
 from SQL.db import SessionLocal
-from model import Experiment, WeatherData
+from model import Experiment
+import logging
 
 app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", version="1.0")
 #uvicorn YOLO.yolo_v11_csfy:app --reload --host 0.0.0.0 --port 5000
+
+# --- Setup logging ---
+log_filename = "yolo_api.log"
+logging.basicConfig(
+    filename=log_filename,
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
+
+# Also log to console
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
+console_handler.setFormatter(formatter)
+logging.getLogger().addHandler(console_handler)
+
+# Load model
 model = YOLO("yolo11n.pt")
-expId = 30
 
 def limit_resources():
     process = psutil.Process(os.getpid())
-
-    #process.cpu_affinity([16])  # Restrict to first CPU core (0-based index)
-
-    #max_memory_bytes = 1024 * 1024 * 1024  
-    #process.rlimit(psutil.RLIMIT_AS, (max_memory_bytes, max_memory_bytes))
+    # Example: limit CPU or memory if needed
+    # process.cpu_affinity([0])
+    # max_memory_bytes = 1024 * 1024 * 1024  
+    # process.rlimit(psutil.RLIMIT_AS, (max_memory_bytes, max_memory_bytes))
 
 @app.post("/yolo/")
-async def predict(files: List[UploadFile] = File(...),
-                  req_id: int = Form(...),
-                  gen_at: str = Form(...),
-                  fps: int = Form(...)):
+async def predict(
+    file: UploadFile = File(...),
+    req_id: int = Form(...),
+    gen_at: str = Form(...),
+    expId: int = Form(...),
+    fps: int = Form(...)
+):
     #limit_resources()
-    memory_usage_b=psutil.virtual_memory().percent
-    print(f"Memory Usage Before Inference: {memory_usage_b}%")
+    #memory_usage_b = psutil.virtual_memory().percent
+    #logging.info(f"Memory Usage Before Inference: {memory_usage_b}% | exp_id={req_id}")
+
     try:
         model_in = datetime.now()
-        images = []
-        for file in files:
-            contents = await file.read()
-            image = Image.open(io.BytesIO(contents))
-            images.append(image)
+        contents = await file.read()
+        image = Image.open(io.BytesIO(contents))
 
-        # Run YOLO inference
-        results = model.predict(source=images, batch=len(images))
+        logging.info(f"Running YOLO inference | req_id={req_id} | expId={expId}")
+        #results = model.predict(source=[image], batch=1, device='cuda')
+        results = model.predict(source=[image], batch=1)
         model_out = datetime.now()
+        logging.info(f"Inference completed | Time taken: {(model_out - model_in).total_seconds():.2f}s")
+
+        # Save experiment data
         exp = Experiment(
-          gen_at=gen_at,
-          exp_id=expId,
-          model_in=model_in,
-          model_out=model_out,
-          cpu_usage=psutil.cpu_percent(interval=0),
-          memory_usage=psutil.virtual_memory().percent,
-          process_count=len(psutil.pids()),
-          fps=fps,
-          #server_in=server_in,
-          #model_out=datetime.now()
+            gen_at=gen_at,
+            exp_id=expId,
+            model_in=model_in,
+            model_out=model_out,
+            cpu_usage=psutil.cpu_percent(interval=0),
+            memory_usage=psutil.virtual_memory().percent,
+            process_count=len(psutil.pids()),
+            fps=fps
         )
-        create_experiment_with_weather(SessionLocal(), exp)
+        try:
+            with SessionLocal() as session:
+                create_experiment_with_weather(session, exp)
+            logging.info(f"Experiment saved to DB | req_id={req_id}")
+
+        except Exception as db_err:
+            # Log DB issues separately without affecting response
+            logging.error(f"DB error while saving experiment | req_id={req_id} | {db_err}")
+
         return {
-            "predictions": results[0].boxes.xyxy.tolist(),  # Bounding boxes
-            "scores": results[0].boxes.conf.tolist(),      # Confidence scores
-            "classes": results[0].boxes.cls.tolist(),      # Class IDs
+            "predictions": results[0].boxes.xyxy.tolist(),
+            "scores": results[0].boxes.conf.tolist(),
+            "classes": results[0].boxes.cls.tolist(),
             "model_in": model_in.isoformat(),
             "model_out": model_out.isoformat(),
             "req_id": req_id,
@@ -68,10 +95,5 @@ async def predict(files: List[UploadFile] = File(...),
         }
 
     except Exception as e:
+        logging.error(f"Error in prediction | req_id={req_id} | {str(e)}")
         return JSONResponse(content={"error": str(e)}, status_code=500)
-
-
-#results = model.train(data="coco8.yaml", epochs=100, imgsz=640)
-
-
-#results = model("./imgs/cat1.jpg")

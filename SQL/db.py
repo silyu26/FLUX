@@ -2,9 +2,10 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3307/tr_protocol"
+DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3307/throughput"
 
-engine = create_engine(DATABASE_URL, echo=True)
+engine = create_engine(DATABASE_URL, echo=True,pool_size=10,
+    max_overflow=20)
 SessionLocal = sessionmaker(bind=engine)
 
 Base = declarative_base()

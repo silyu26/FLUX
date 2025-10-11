@@ -5,8 +5,15 @@ from datetime import datetime
 from ping3 import ping
 import sys
 
+if len(sys.argv) < 3:
+    print("Usage: python script.py <n>")
+    sys.exit(1)
+
+n = sys.argv[1] #workflow
+exp = sys.argv[2] #expId
+
 # --- Logging setup ---
-log_filename = "run_logs.txt"
+log_filename = f"workflow_{n}_expId_{exp}.txt"
 log_file = open(log_filename, "a", encoding="utf-8")
 sys.stdout = log_file  # Redirect all print() output to file
 sys.stderr = log_file
@@ -19,9 +26,9 @@ def log(msg):
 # --- Settings ---
 host = '8.8.8.8'
 API_URL = "http://127.0.0.1:5000/yolo/"
-IMAGE_PATHS = ["./imgs/cat1.jpg"]
+IMAGE_PATHS = ["./imgs/cat1_m.jpg"]
 FPS_LIST = [1, 5, 10, 20, 40]
-NUM_ITERATIONS = 50
+NUM_ITERATIONS = 20
 
 # --- Network check ---
 log("=== Starting network test ===")
@@ -44,14 +51,13 @@ for fps in FPS_LIST:
         img_path = IMAGE_PATHS[0]
         files = []
 
-        for j in range(fps):
-            try:
-                files.append(("files", (f"{img_path}_copy{j}", open(img_path, "rb"), "image/jpeg")))
-            except Exception as e:
-                log(f"Error opening image: {e}")
-                continue
+        try:
+            files.append(("file", (f"{img_path}", open(img_path, "rb"), "image/jpeg")))
+        except Exception as e:
+            log(f"Error opening image: {e}")
+            continue
 
-        data = {"gen_at": datetime.now().isoformat(), "req_id": i, "fps": fps}
+        data = {"gen_at": datetime.now().isoformat(), "req_id": i, "fps": fps, "expId": exp}
         try:
             response = requests.post(API_URL, files=files, data=data)
             log(f"Iteration {i+1}/{NUM_ITERATIONS} | FPS={fps} | Status={response.status_code}")
@@ -59,7 +65,7 @@ for fps in FPS_LIST:
             log(f"Request failed on iteration {i+1}: {e}")
 
         # Optional small delay between iterations to avoid flooding
-        time.sleep(0.05)
+        time.sleep(1/fps)
 
     elapsed = time.time() - start_time
     log(f"Finished test at {fps} FPS in {elapsed:.2f} seconds")
