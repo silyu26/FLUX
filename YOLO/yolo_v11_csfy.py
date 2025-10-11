@@ -67,6 +67,7 @@ async def predict(
         exp = Experiment(
             gen_at=gen_at,
             exp_id=expId,
+            req_id=req_id,
             model_in=model_in,
             model_out=model_out,
             cpu_usage=psutil.cpu_percent(interval=0),

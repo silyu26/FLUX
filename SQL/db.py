@@ -2,10 +2,10 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3307/throughput"
+DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3307/wf4"
 
-engine = create_engine(DATABASE_URL, echo=True,pool_size=10,
-    max_overflow=20)
+engine = create_engine(DATABASE_URL, echo=True,pool_size=30,
+    max_overflow=60)
 SessionLocal = sessionmaker(bind=engine)
 
 Base = declarative_base()

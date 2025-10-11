@@ -27,8 +27,8 @@ def log(msg):
 host = '8.8.8.8'
 API_URL = "http://127.0.0.1:5000/yolo/"
 IMAGE_PATHS = ["./imgs/cat1_m.jpg"]
-FPS_LIST = [1, 5, 10, 20, 40]
-NUM_ITERATIONS = 20
+FPS_LIST = [1, 5, 10, 20, 40, 60]
+NUM_ITERATIONS = 30
 
 # --- Network check ---
 log("=== Starting network test ===")
@@ -44,6 +44,7 @@ log(f"Upload Speed: {upload_speed:.2f} Mbps")
 
 # --- Run tests for each FPS ---
 for fps in FPS_LIST:
+    index = FPS_LIST.index(fps) 
     log(f"\n=== Starting test at {fps} FPS ===")
     start_time = time.time()
 
@@ -57,7 +58,7 @@ for fps in FPS_LIST:
             log(f"Error opening image: {e}")
             continue
 
-        data = {"gen_at": datetime.now().isoformat(), "req_id": i, "fps": fps, "expId": exp}
+        data = {"gen_at": datetime.now().isoformat(), "req_id": i + index*20, "fps": fps, "expId": exp}
         try:
             response = requests.post(API_URL, files=files, data=data)
             log(f"Iteration {i+1}/{NUM_ITERATIONS} | FPS={fps} | Status={response.status_code}")
