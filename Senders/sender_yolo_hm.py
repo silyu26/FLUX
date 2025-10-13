@@ -7,17 +7,24 @@ import requests
 import paho.mqtt.client as mqtt
 from datetime import datetime
 from ping3 import ping
+from SQL.save_data import push_buffer_to_db
 import speedtest
 import sys
 
+if len(sys.argv) < 3:
+    print("Usage: python script.py <n>")
+    sys.exit(1)
+
+n = sys.argv[1] #workflow
+exp = sys.argv[2] #expId
 # ------------------ Logging ------------------
-log_filename = f"multi_sender_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+log_filename = f"workflow_{n}_expId_{exp}.txt"
 log_file = open(log_filename, "a", encoding="utf-8")
 sys.stdout = log_file  # Redirect all print() output to file
 sys.stderr = log_file
 
 def log(msg):
-    """Helper to print and flush logs"""
+    """Helper function to log messages with timestamp"""
     print(f"[{datetime.now().isoformat()}] {msg}")
     log_file.flush()
 
@@ -29,8 +36,8 @@ MQTT_BROKER = receiver_ip
 MQTT_TOPIC = "image_stream/test"
 
 IMAGE_PATHS = ["./imgs/cat1.jpg"]
-FPS_LIST = [1, 5, 10, 20, 40]  # automatically loop over these
-TOTAL_REQUESTS = 50
+FPS_LIST = [1, 5, 10, 20, 40, 60]  # automatically loop over these
+TOTAL_REQUESTS = 30
 
 # ------------------ Network Check ------------------
 def network_test():
@@ -57,12 +64,12 @@ def send_http(fps):
 
         for j in range(fps):
             try:
-                files.append(("files", (f"{os.path.basename(img_path)}_copy{j}", open(img_path, "rb"), "image/jpeg")))
+                files.append(("file", (f"{img_path}", open(img_path, "rb"), "image/jpeg")))
             except Exception as e:
                 log(f"Error opening image: {e}")
                 continue
 
-        data = {"gen_at": datetime.now().isoformat(), "req_id": i, "fps": fps}
+        data = {"gen_at": datetime.now().isoformat(), "req_id": i + index*30, "fps": fps, "expId": exp}
         try:
             response = requests.post(HTTP_URL, files=files, data=data, timeout=60)
             log(f"HTTP request {i+1}/{TOTAL_REQUESTS} | FPS={fps} | Status={response.status_code}")
@@ -105,14 +112,13 @@ def send_mqtt(fps):
 # ------------------ Main ------------------
 if __name__ == "__main__":
     log("=== Starting multi-FPS sender test ===")
-
+    network_test()
     for fps in FPS_LIST:
-        network_test()
+        
         start = time.time()
         #send_http(fps)
-        send_mqtt(fps)
+        # send_mqtt(fps)
         elapsed = time.time() - start
         log(f"Completed all tests at {fps} FPS in {elapsed:.2f} seconds\n")
 
-    log("=== All FPS tests completed ===")
     log_file.close()
