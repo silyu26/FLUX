@@ -17,7 +17,7 @@ app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", vers
 #uvicorn YOLO.yolo_v11_csfy:app --reload --host 0.0.0.0 --port 5000
 
 # --- Setup logging ---
-log_filename = "yolo_api.log"
+log_filename = "yolo_wf.log"
 logging.basicConfig(
     filename=log_filename,
     level=logging.INFO,
@@ -38,7 +38,7 @@ model = YOLO("yolo11n.pt")
 def limit_resources():
     process = psutil.Process(os.getpid())
     # Example: limit CPU or memory if needed
-    # process.cpu_affinity([0])
+    process.cpu_affinity([19])
     # max_memory_bytes = 1024 * 1024 * 1024  
     # process.rlimit(psutil.RLIMIT_AS, (max_memory_bytes, max_memory_bytes))
 
@@ -50,7 +50,7 @@ async def predict(
     expId: int = Form(...),
     fps: int = Form(...)
 ):
-    #limit_resources()
+    limit_resources()
     #memory_usage_b = psutil.virtual_memory().percent
     #logging.info(f"Memory Usage Before Inference: {memory_usage_b}% | exp_id={req_id}")
 

@@ -34,7 +34,7 @@ NUM_ITERATIONS = 30
 # --- Network check ---
 log("=== Starting network test ===")
 latency = ping(host)
-st = speedtest.Speedtest()
+st = speedtest.Speedtest(secure=True)
 st.get_best_server()
 download_speed = st.download() / 1_000_000  # in Mbps
 upload_speed = st.upload() / 1_000_000      # in Mbps
