@@ -27,7 +27,7 @@ def log(msg):
 # --- Settings ---
 host = '8.8.8.8'
 API_URL = "http://127.0.0.1:5000/yolo/"
-IMAGE_PATHS = ["./Senders/imgs/cat1_m.jpg"]
+IMAGE_PATHS = ["./Senders/imgs/cat1_s.jpg"]
 FPS_LIST = [1, 5, 10, 20, 40, 60]
 NUM_ITERATIONS = 30
 
