@@ -27,7 +27,7 @@ def log(msg):
 # --- Settings ---
 host = '8.8.8.8'
 API_URL = "http://127.0.0.1:5000/yolo/"
-IMAGE_PATHS = ["./Senders/imgs/cat1_s.jpg"]
+IMAGE_PATHS = ["./Senders/imgs/cat1_m.jpg"]
 FPS_LIST = [1, 5, 10, 20, 40, 60]
 NUM_ITERATIONS = 30
 
@@ -72,7 +72,7 @@ for fps in FPS_LIST:
     elapsed = time.time() - start_time
     log(f"Finished test at {fps} FPS in {elapsed:.2f} seconds")
 
-log("=== All tests completed, start writing data into database ===")
+log("=== All tests completed, need to write data into db manually ===")
 # push_buffer_to_db()
-log("=== Finished writing ===")
+#log("=== Finished writing ===")
 log_file.close()
