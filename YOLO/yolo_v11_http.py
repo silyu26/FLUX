@@ -14,7 +14,7 @@ from SQL.buffer_data import save_experiment_to_buffer
 import logging
 
 app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", version="1.0")
-#uvicorn YOLO.yolo_v11_csfy:app --reload --host 0.0.0.0 --port 5000
+#uvicorn YOLO.yolo_v11_http:app --reload --host 0.0.0.0 --port 5000
 
 # --- Setup logging ---
 log_filename = "yolo_wf8.log"

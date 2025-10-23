@@ -1,93 +1,102 @@
-import os
-import io
+import paho.mqtt.client as mqtt
 import json
 import base64
+import io
 import psutil
 from datetime import datetime
 from PIL import Image
-import paho.mqtt.client as mqtt
 from ultralytics import YOLO
+import logging
+import os
+from SQL.model import Experiment
+from SQL.buffer_data import save_experiment_to_buffer
 
-# === SQL + Models ===
-from SQL import crud, db
-import SQL.model as model
+BROKER = "127.0.0.1"
+PORT = 1883
+TOPIC_REQUEST = "yolo/requests"
+TOPIC_RESPONSE_BASE = "yolo/responses/"
 
-# === Config ===
-MQTT_BROKER = "localhost"
-MQTT_PORT = 1883
-MQTT_TOPIC = "image_stream/test"
+# --- Setup logging ---
+log_filename = "yolo_mqtt.log"
+logging.basicConfig(
+    filename=log_filename,
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
 
-# Load YOLO model
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
+console.setFormatter(formatter)
+logging.getLogger().addHandler(console)
+
+# --- Load YOLO ---
 model = YOLO("yolo11n.pt")
-expId = 0
+logging.info("YOLO model loaded successfully")
 
-# === Optional Resource Limit ===
-def limit_resources():
-    process = psutil.Process(os.getpid())
-    # Example: limit to 1 GB RAM or one CPU core
-    # process.cpu_affinity([0])
-    # max_memory_bytes = 1024 * 1024 * 1024
-    # process.rlimit(psutil.RLIMIT_AS, (max_memory_bytes, max_memory_bytes))
+# --- MQTT setup ---
+client = mqtt.Client()
 
-# === MQTT Callback ===
+def on_connect(client, userdata, flags, rc):
+    logging.info(f"Connected to MQTT broker (code={rc})")
+    client.subscribe(TOPIC_REQUEST)
+    logging.info(f"Subscribed to topic: {TOPIC_REQUEST}")
+
 def on_message(client, userdata, msg):
     try:
         payload = json.loads(msg.payload.decode())
-        batch = payload.get("batch", [])
+        req_id = payload["req_id"]
+        expId = payload["expId"]
+        fps = payload["fps"]
+        gen_at = payload["gen_at"]
+        filename = payload.get("filename", "unknown.jpg")
 
-        # Measure pre-inference system stats
-        memory_usage_before = psutil.virtual_memory().percent
-        print(f" Received batch of {len(batch)} images")
-        print(f"Memory usage before inference: {memory_usage_before}%")
+        logging.info(f"Received message | req_id={req_id} | expId={expId}")
 
-        # Decode images
-        images = []
-        req_id = None
-        gen_at = None
-        fps = None
-        for item in batch:
-            img_data = base64.b64decode(item["data"])
-            image = Image.open(io.BytesIO(img_data))
-            images.append(image)
-            req_id = item.get("req_id")
-            gen_at = item.get("gen_at")
-            fps = item.get("fps")
+        # Decode image
+        image_data = base64.b64decode(payload["image"])
+        image = Image.open(io.BytesIO(image_data))
 
-        # Run YOLO inference
         model_in = datetime.now()
-        results = model.predict(source=images, batch=len(images))
+        results = model.predict(source=[image], batch=1)
         model_out = datetime.now()
 
-        # Record metrics in SQL
-        exp = model.Experiment(
+        logging.info(f"Inference done | req_id={req_id} | duration={(model_out - model_in).total_seconds():.2f}s")
+
+        exp = Experiment(
             gen_at=gen_at,
             exp_id=expId,
+            req_id=req_id,
             model_in=model_in,
             model_out=model_out,
             cpu_usage=psutil.cpu_percent(interval=0),
             memory_usage=psutil.virtual_memory().percent,
             process_count=len(psutil.pids()),
-            fps=fps,
+            fps=fps
         )
-        crud.create_experiment_with_weather(db.SessionLocal(), exp)
+        save_experiment_to_buffer(exp)
 
-        # Print or log results
-        print(f" Processed req_id={req_id} | fps={fps}")
-        print(f"Model in: {model_in}, Model out: {model_out}")
-        print(f"Detected objects: {len(results[0].boxes)}")
+        response = {
+            "req_id": req_id,
+            "expId": expId,
+            "fps": fps,
+            "predictions": results[0].boxes.xyxy.tolist(),
+            "scores": results[0].boxes.conf.tolist(),
+            "classes": results[0].boxes.cls.tolist(),
+            "model_in": model_in.isoformat(),
+            "model_out": model_out.isoformat()
+        }
+
+        topic_response = TOPIC_RESPONSE_BASE + str(expId)
+        client.publish(topic_response, json.dumps(response))
+        logging.info(f"Sent response to {topic_response} | req_id={req_id}")
 
     except Exception as e:
-        print(f" Error processing MQTT message: {e}")
+        logging.error(f"Error processing message: {e}")
 
-# === MQTT Setup ===
-def main():
-    limit_resources()
-    client = mqtt.Client()
-    client.connect(MQTT_BROKER, MQTT_PORT, 60)
-    client.subscribe(MQTT_TOPIC)
-    client.on_message = on_message
-    print(f"Subscribed to MQTT topic '{MQTT_TOPIC}' on {MQTT_BROKER}:{MQTT_PORT}")
-    client.loop_forever()
+client.on_connect = on_connect
+client.on_message = on_message
 
-if __name__ == "__main__":
-    main()
+client.connect(BROKER, PORT, 60)
+client.loop_forever()

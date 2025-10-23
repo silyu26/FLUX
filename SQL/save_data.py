@@ -34,3 +34,6 @@ def push_buffer_to_db():
 
     clear_buffer()
     print(f"Pushed {len(experiments)} experiments to database.")
+
+if __name__ == "__main__":
+    push_buffer_to_db()
