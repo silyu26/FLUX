@@ -16,6 +16,8 @@ PORT = 1883
 TOPIC_REQUEST = "yolo/requests"
 TOPIC_RESPONSE_BASE = "yolo/responses/"
 
+#uvicorn YOLO.yolo_v11_mqtt:app --host 0.0.0.0 --port 5001
+
 # --- Setup logging ---
 log_filename = "yolo_mqtt.log"
 logging.basicConfig(
@@ -55,10 +57,11 @@ def on_message(client, userdata, msg):
         logging.info(f"Received message | req_id={req_id} | expId={expId}")
 
         # Decode image
+        model_in = datetime.now()
         image_data = base64.b64decode(payload["image"])
         image = Image.open(io.BytesIO(image_data))
 
-        model_in = datetime.now()
+        
         results = model.predict(source=[image], batch=1)
         model_out = datetime.now()
 
