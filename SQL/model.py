@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, Float, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, Float, DateTime, ForeignKey, String
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from SQL.db import Base  # import shared Base
@@ -21,6 +21,7 @@ class Experiment(Base):
     cpu_usage = Column(Float, nullable=True)
     memory_usage = Column(Float, nullable=True)
     process_count = Column(Integer, nullable=True)
+    device = Column(String(50), nullable=True)
     fps = Column(Integer, nullable=True)
     weather = relationship("WeatherData", back_populates="experiment", uselist=False, cascade="all, delete-orphan")
 

@@ -19,6 +19,7 @@ def save_experiment_to_buffer(exp: Experiment):
         "db_out": exp.db_out.isoformat() if exp.db_out else None,
         "dpse_in": exp.dpse_in.isoformat() if exp.dpse_in else None,
         "dpse_out": exp.dpse_out.isoformat() if exp.dpse_out else None,
+        "device": exp.device if exp.device else None,
         "cpu_usage": exp.cpu_usage,
         "memory_usage": exp.memory_usage,
         "process_count": exp.process_count,
