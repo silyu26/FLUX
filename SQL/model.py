@@ -19,6 +19,7 @@ class Experiment(Base):
     dpse_in = Column(DATETIME(fsp=3), nullable=True)
     dpse_out = Column(DATETIME(fsp=3), nullable=True)
     cpu_usage = Column(Float, nullable=True)
+    gpu_usage = Column(Float, nullable=True)
     memory_usage = Column(Float, nullable=True)
     process_count = Column(Integer, nullable=True)
     device = Column(String(50), nullable=True)

@@ -5,6 +5,8 @@ from PIL import Image
 import io
 import os
 import psutil
+import torch
+import pynvml
 from datetime import datetime
 #from SQL.crud import create_experiment_with_weather
 #from SQL.db import SessionLocal
@@ -42,6 +44,9 @@ def limit_resources():
     # max_memory_bytes = 1024 * 1024 * 1024  
     # process.rlimit(psutil.RLIMIT_AS, (max_memory_bytes, max_memory_bytes))
 
+pynvml.nvmlInit()
+handle = pynvml.nvmlDeviceGetHandleByIndex(0)
+
 @app.post("/yolo/")
 async def predict(
     file: UploadFile = File(...),
@@ -60,8 +65,12 @@ async def predict(
         image = Image.open(io.BytesIO(contents))
 
         logging.info(f"Running YOLO inference | req_id={req_id} | expId={expId}")
-        #results = model.predict(source=[image], batch=1, device='cuda')
-        results = model.predict(source=[image], batch=1)
+        results = model.predict(source=[image], batch=1, device='cuda')
+        mem = pynvml.nvmlDeviceGetMemoryInfo(handle)
+        #allocated = torch.cuda.memory_allocated() / 1024**2
+        #reserved = torch.cuda.memory_reserved() / 1024**2
+        #total = torch.cuda.get_device_properties(0).total_memory / 1024**2
+        #results = model.predict(source=[image], batch=1)
         model_out = datetime.now()
         logging.info(f"Inference completed | Time taken: {(model_out - model_in).total_seconds():.2f}s")
 
@@ -75,6 +84,8 @@ async def predict(
             cpu_usage=psutil.cpu_percent(interval=0),
             memory_usage=psutil.virtual_memory().percent,
             process_count=len(psutil.pids()),
+            #gpu_usage=allocated / total * 100 if total > 0 else 0,
+            gpu_usage=mem.used / mem.total * 100 if mem.total > 0 else 0,
             fps=fps
         )
         save_experiment_to_buffer(exp)
