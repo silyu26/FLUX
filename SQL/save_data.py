@@ -25,6 +25,8 @@ def push_buffer_to_db():
                 dpse_out=datetime.fromisoformat(exp_data["dpse_out"]) if exp_data["dpse_out"] else None,
                 model_in=datetime.fromisoformat(exp_data["model_in"]),
                 model_out=datetime.fromisoformat(exp_data["model_out"]),
+                minio_in=datetime.fromisoformat(exp_data["minio_in"]) if exp_data["minio_in"] else None,
+                minio_out=datetime.fromisoformat(exp_data["minio_out"]) if exp_data["minio_out"] else None,
                 cpu_usage=exp_data["cpu_usage"],
                 memory_usage=exp_data["memory_usage"],
                 process_count=exp_data["process_count"],

@@ -16,6 +16,8 @@ class Experiment(Base):
     model_out = Column(DATETIME(fsp=3), nullable=False)
     db_in = Column(DATETIME(fsp=3), nullable=True)
     db_out = Column(DATETIME(fsp=3), nullable=True)
+    minio_in = Column(DATETIME(fsp=3), nullable=True)
+    minio_out = Column(DATETIME(fsp=3), nullable=True)
     dpse_in = Column(DATETIME(fsp=3), nullable=True)
     dpse_out = Column(DATETIME(fsp=3), nullable=True)
     cpu_usage = Column(Float, nullable=True)

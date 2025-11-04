@@ -16,6 +16,8 @@ class Experiment(Base):
     server_out = Column(DATETIME(fsp=3), nullable=True)
     model_in = Column(DATETIME(fsp=3), nullable=False)
     model_out = Column(DATETIME(fsp=3), nullable=False)
+    minio_in = Column(DATETIME(fsp=3), nullable=True)
+    minio_out = Column(DATETIME(fsp=3), nullable=True)
     db_in = Column(DATETIME(fsp=3), nullable=True)
     db_out = Column(DATETIME(fsp=3), nullable=True)
     dpse_in = Column(DATETIME(fsp=3), nullable=True)
@@ -44,7 +46,7 @@ class WeatherData(Base):
     experiment = relationship("Experiment", back_populates="weather")
 
 
-DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3307/wf7"
+DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3307/cloud"
 # Create engine & session factory
 engine = create_engine(DATABASE_URL, echo=True, pool_size=30,
     max_overflow=60)  # echo=True logs SQL
