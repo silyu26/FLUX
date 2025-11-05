@@ -19,7 +19,7 @@ app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", vers
 #uvicorn YOLO.yolo_v11_csfy:app --reload --host 0.0.0.0 --port 5000
 
 # --- Setup logging ---
-log_filename = "yolo_wf00.log"
+log_filename = "yolo_wf37.log"
 logging.basicConfig(
     filename=log_filename,
     level=logging.INFO,
@@ -35,7 +35,7 @@ console_handler.setFormatter(formatter)
 logging.getLogger().addHandler(console_handler)
 
 # Load model
-model = YOLO("yolo11n.pt")
+model = YOLO("yolo11x.pt")
 
 def limit_resources():
     process = psutil.Process(os.getpid())
