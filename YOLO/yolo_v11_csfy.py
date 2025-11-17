@@ -35,7 +35,7 @@ console_handler.setFormatter(formatter)
 logging.getLogger().addHandler(console_handler)
 
 # Load model
-model = YOLO("yolo11x.pt")
+model = YOLO("yolo11n.pt")
 
 def limit_resources():
     process = psutil.Process(os.getpid())
