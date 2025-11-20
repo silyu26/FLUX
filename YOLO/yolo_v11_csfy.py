@@ -19,7 +19,7 @@ app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", vers
 #uvicorn YOLO.yolo_v11_csfy:app --reload --host 0.0.0.0 --port 5000
 
 # --- Setup logging ---
-log_filename = "yolo_wf37.log"
+log_filename = "yolo_wf3.log"
 logging.basicConfig(
     filename=log_filename,
     level=logging.INFO,
@@ -35,7 +35,7 @@ console_handler.setFormatter(formatter)
 logging.getLogger().addHandler(console_handler)
 
 # Load model
-model = YOLO("yolo11n.pt")
+model = YOLO("yolo11x.pt")
 
 def limit_resources():
     process = psutil.Process(os.getpid())
@@ -65,7 +65,8 @@ async def predict(
         image = Image.open(io.BytesIO(contents))
 
         logging.info(f"Running YOLO inference | req_id={req_id} | expId={expId}")
-        results = model.predict(source=[image], batch=1, device='cuda')
+        #results = model.predict(source=[image], batch=1, device='cuda')
+        results = model.predict(source=[image], batch=1, device='cpu')
         mem = pynvml.nvmlDeviceGetMemoryInfo(handle)
         #allocated = torch.cuda.memory_allocated() / 1024**2
         #reserved = torch.cuda.memory_reserved() / 1024**2

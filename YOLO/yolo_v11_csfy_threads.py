@@ -18,7 +18,7 @@ import time
 app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", version="1.0")
 #uvicorn YOLO.yolo_v11_csfy_threads:app --reload --host 0.0.0.0 --port 5000
 # --- Setup logging ---
-log_filename = "yolo_wf46.log"
+log_filename = "yolo_wf01.log"
 logging.basicConfig(
     filename=log_filename,
     level=logging.INFO,
@@ -42,6 +42,7 @@ NUM_WORKERS = 6
 def inference_worker(worker_id: int):
     # IMPORTANT: each worker gets its own YOLO model instance
     model = YOLO("yolo11n.pt")
+    #model.to('cuda')  # Move model to GPU
 
     logging.info(f"[Worker-{worker_id}] Started")
 
@@ -59,9 +60,13 @@ def inference_worker(worker_id: int):
 
             logging.info(f"[Worker-{worker_id}] Running inference | req_id={req_id}")
 
-            results = model.predict(source=[image], batch=1)
-            #results = model.predict(source=[image], batch=1, device='cuda')
-            #mem = pynvml.nvmlDeviceGetMemoryInfo(handle)
+            #results = model.predict(source=[image], batch=1)
+            results = model.predict(source=[image], batch=1, device='cpu')
+            #results = model.predict(source=[image], batch=1, device='cuda:0')
+            device = next(model.parameters()).device
+            print(f"Model is on: {device}")
+            print(f"YOLO model device is: {model.device}")
+            mem = pynvml.nvmlDeviceGetMemoryInfo(handle)
 
             model_out = datetime.now()
 
@@ -72,14 +77,14 @@ def inference_worker(worker_id: int):
                 model_in=model_in,
                 model_out=model_out,
                 cpu_usage=psutil.cpu_percent(interval=0),
-                #gpu_usage=mem.used / mem.total * 100 if mem.total > 0 else 0,
+                gpu_usage=mem.used / mem.total * 100 if mem.total > 0 else 0,
                 memory_usage=psutil.virtual_memory().percent,
                 process_count=len(psutil.pids()),
                 fps=fps,
                 server_in=server_in
             )
 
-            save_experiment_to_buffer(exp)
+            #save_experiment_to_buffer(exp)
 
             logging.info(
                 f"[Worker-{worker_id}] Done | req_id={req_id} | Time={(model_out - model_in).total_seconds():.2f}s"
