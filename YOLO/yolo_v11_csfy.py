@@ -19,7 +19,7 @@ app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", vers
 #uvicorn YOLO.yolo_v11_csfy:app --reload --host 0.0.0.0 --port 5000
 
 # --- Setup logging ---
-log_filename = "yolo_wf3.log"
+log_filename = "yolo_wf9.log"
 logging.basicConfig(
     filename=log_filename,
     level=logging.INFO,
@@ -35,15 +35,7 @@ console_handler.setFormatter(formatter)
 logging.getLogger().addHandler(console_handler)
 
 # Load model
-model = YOLO("yolo11x.pt")
-
-def limit_resources():
-    process = psutil.Process(os.getpid())
-    # Example: limit CPU or memory if needed
-    #process.cpu_affinity([19])
-    # max_memory_bytes = 1024 * 1024 * 1024  
-    # process.rlimit(psutil.RLIMIT_AS, (max_memory_bytes, max_memory_bytes))
-
+model = YOLO("yolo11l.pt")
 pynvml.nvmlInit()
 handle = pynvml.nvmlDeviceGetHandleByIndex(0)
 
@@ -55,9 +47,6 @@ async def predict(
     expId: int = Form(...),
     fps: int = Form(...)
 ):
-    #limit_resources()
-    #memory_usage_b = psutil.virtual_memory().percent
-    #logging.info(f"Memory Usage Before Inference: {memory_usage_b}% | exp_id={req_id}")
 
     try:
         model_in = datetime.now()
@@ -65,14 +54,16 @@ async def predict(
         image = Image.open(io.BytesIO(contents))
 
         logging.info(f"Running YOLO inference | req_id={req_id} | expId={expId}")
-        #results = model.predict(source=[image], batch=1, device='cuda')
-        results = model.predict(source=[image], batch=1, device='cpu')
-        mem = pynvml.nvmlDeviceGetMemoryInfo(handle)
-        #allocated = torch.cuda.memory_allocated() / 1024**2
-        #reserved = torch.cuda.memory_reserved() / 1024**2
-        #total = torch.cuda.get_device_properties(0).total_memory / 1024**2
-        #results = model.predict(source=[image], batch=1)
+        results = model.predict(source=[image], batch=1, device='cuda')
+        #results = model.predict(source=[image], batch=1, device='cpu')
         model_out = datetime.now()
+        mem = pynvml.nvmlDeviceGetMemoryInfo(handle)
+        power = pynvml.nvmlDeviceGetPowerUsage(handle) / 1000   # watts
+        temp = pynvml.nvmlDeviceGetTemperature(handle, pynvml.NVML_TEMPERATURE_GPU)
+        util_rates = pynvml.nvmlDeviceGetUtilizationRates(handle)
+
+        #results = model.predict(source=[image], batch=1)
+        
         logging.info(f"Inference completed | Time taken: {(model_out - model_in).total_seconds():.2f}s")
 
         # Save experiment data
@@ -82,22 +73,16 @@ async def predict(
             req_id=req_id,
             model_in=model_in,
             model_out=model_out,
-            cpu_usage=psutil.cpu_percent(interval=0),
+            cpu_usage=psutil.cpu_percent(interval=0,percpu=False),
             memory_usage=psutil.virtual_memory().percent,
             process_count=len(psutil.pids()),
-            #gpu_usage=allocated / total * 100 if total > 0 else 0,
-            gpu_usage=mem.used / mem.total * 100 if mem.total > 0 else 0,
+            gpu_usage=util_rates.gpu,
+            gpu_vram_usage=mem.used / mem.total * 100 if mem.total > 0 else 0,
+            gpu_temperature=temp,
+            gpu_power=power,
             fps=fps
         )
         save_experiment_to_buffer(exp)
-        #try:
-        #    with SessionLocal() as session:
-        #        create_experiment_with_weather(session, exp)
-        #    logging.info(f"Experiment saved to DB | req_id={req_id}")
-
-        #except Exception as db_err:
-        #    logging.error(f"DB error while saving experiment | req_id={req_id} | {db_err}")
-
         return {
             "predictions": results[0].boxes.xyxy.tolist(),
             "scores": results[0].boxes.conf.tolist(),

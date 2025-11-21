@@ -10,14 +10,14 @@ from datetime import datetime
 #from SQL.db import SessionLocal
 from SQL.model import Experiment
 from SQL.buffer_data import save_experiment_to_buffer
-#from save_data import push_buffer_to_db
+import pynvml
 import logging
 
 app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", version="1.0")
 #uvicorn YOLO.yolo_v11_scale:app --reload --host 0.0.0.0 --port 5000
 
 # --- Setup logging ---
-log_filename = "yolo_wf39.log"
+log_filename = "yolo_wf24.log"
 logging.basicConfig(
     filename=log_filename,
     level=logging.INFO,
@@ -33,14 +33,10 @@ console_handler.setFormatter(formatter)
 logging.getLogger().addHandler(console_handler)
 
 # Load model
-model = YOLO("yolo11n.pt")
+model = YOLO("yolo11l.pt")
 
-def limit_resources():
-    process = psutil.Process(os.getpid())
-    # Example: limit CPU or memory if needed
-    #process.cpu_affinity([19])
-    # max_memory_bytes = 1024 * 1024 * 1024  
-    # process.rlimit(psutil.RLIMIT_AS, (max_memory_bytes, max_memory_bytes))
+pynvml.nvmlInit()
+handle = pynvml.nvmlDeviceGetHandleByIndex(0)
 
 @app.post("/yolo/")
 async def predict(
@@ -51,9 +47,6 @@ async def predict(
     fps: int = Form(...),
     device: str = Form(...)
 ):
-    #limit_resources()
-    #memory_usage_b = psutil.virtual_memory().percent
-    #logging.info(f"Memory Usage Before Inference: {memory_usage_b}% | exp_id={req_id}")
 
     try:
         model_in = datetime.now()
@@ -61,9 +54,13 @@ async def predict(
         image = Image.open(io.BytesIO(contents))
 
         logging.info(f"Running YOLO inference | req_id={req_id} | expId={expId}")
-        #results = model.predict(source=[image], batch=1, device='cuda')
-        results = model.predict(source=[image], batch=1)
+        results = model.predict(source=[image], batch=1, device='cuda')
+        #results = model.predict(source=[image], batch=1)
         model_out = datetime.now()
+        mem = pynvml.nvmlDeviceGetMemoryInfo(handle)
+        power = pynvml.nvmlDeviceGetPowerUsage(handle) / 1000   # watts
+        temp = pynvml.nvmlDeviceGetTemperature(handle, pynvml.NVML_TEMPERATURE_GPU)
+        util_rates = pynvml.nvmlDeviceGetUtilizationRates(handle)
         logging.info(f"Inference completed | Time taken: {(model_out - model_in).total_seconds():.2f}s")
 
         # Save experiment data
@@ -76,17 +73,14 @@ async def predict(
             cpu_usage=psutil.cpu_percent(interval=0),
             memory_usage=psutil.virtual_memory().percent,
             process_count=len(psutil.pids()),
+            gpu_usage=util_rates.gpu,
+            gpu_vram_usage=mem.used / mem.total * 100 if mem.total > 0 else 0,
+            gpu_temperature=temp,
+            gpu_power=power,
             fps=fps,
             device=device
         )
         save_experiment_to_buffer(exp)
-        #try:
-        #    with SessionLocal() as session:
-        #        create_experiment_with_weather(session, exp)
-        #    logging.info(f"Experiment saved to DB | req_id={req_id}")
-
-        #except Exception as db_err:
-        #    logging.error(f"DB error while saving experiment | req_id={req_id} | {db_err}")
 
         return {
             "predictions": results[0].boxes.xyxy.tolist(),

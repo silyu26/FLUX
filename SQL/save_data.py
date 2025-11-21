@@ -33,6 +33,9 @@ def push_buffer_to_db():
                 fps=exp_data["fps"],
                 device = exp_data["device"] if exp_data["device"] else None,
                 gpu_usage = exp_data["gpu_usage"] if exp_data["gpu_usage"] else None,
+                gpu_vram_usage = exp_data["gpu_vram_usage"] if exp_data["gpu_vram_usage"] else None,
+                gpu_temperature = exp_data["gpu_temperature"] if exp_data["gpu_temperature"] else None,
+                gpu_power = exp_data["gpu_power"] if exp_data["gpu_power"] else None
             )
             create_experiment_with_weather(session, exp)
 

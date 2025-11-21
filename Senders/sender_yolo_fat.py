@@ -29,7 +29,7 @@ host = '8.8.8.8'
 API_URL = "http://127.0.0.1:5000/yolo/"
 IMAGE_PATHS = ["./Senders/imgs/cat1_m.jpg"]
 FPS_LIST = [1, 5, 10, 20, 40, 60]
-NUM_ITERATIONS = 30
+NUM_ITERATIONS = 60
 
 # --- Network check ---
 log("=== Starting network test ===")
@@ -59,14 +59,13 @@ for fps in FPS_LIST:
             log(f"Error opening image: {e}")
             continue
 
-        data = {"gen_at": datetime.now().isoformat(), "req_id": i + index*30, "fps": fps, "expId": exp}
+        data = {"gen_at": datetime.now().isoformat(), "req_id": i + index*60, "fps": fps, "expId": exp}
         try:
             response = requests.post(API_URL, files=files, data=data)
             log(f"Iteration {i+1}/{NUM_ITERATIONS} | FPS={fps} | Status={response.status_code}")
         except Exception as e:
             log(f"Request failed on iteration {i+1}: {e}")
 
-        # Optional small delay between iterations to avoid flooding
         time.sleep(1/fps)
 
     elapsed = time.time() - start_time

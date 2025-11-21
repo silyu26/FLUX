@@ -24,6 +24,9 @@ class Experiment(Base):
     dpse_out = Column(DATETIME(fsp=3), nullable=True)
     cpu_usage = Column(Float, nullable=True)
     gpu_usage = Column(Float, nullable=True)
+    gpu_vram_usage = Column(Float, nullable=True)
+    gpu_temperature = Column(Float, nullable=True)
+    gpu_power = Column(Float, nullable=True)
     memory_usage = Column(Float, nullable=True)
     process_count = Column(Integer, nullable=True)
     fps = Column(Integer, nullable=True)
@@ -46,7 +49,7 @@ class WeatherData(Base):
     experiment = relationship("Experiment", back_populates="weather")
 
 
-DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3307/wf3"
+DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3307/wf32"
 # Create engine & session factory
 engine = create_engine(DATABASE_URL, echo=True, pool_size=30,
     max_overflow=60)  # echo=True logs SQL

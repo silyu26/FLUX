@@ -1,0 +1,478 @@
+[2025-11-20T22:34:41.207766] === Starting network test ===
+[2025-11-20T22:35:03.064825] Ping to 8.8.8.8: 14.25 ms
+[2025-11-20T22:35:03.064825] Download Speed: 51.45 Mbps
+[2025-11-20T22:35:03.064825] Upload Speed: 21.30 Mbps
+[2025-11-20T22:35:03.064825] 
+=== Starting test at 1 FPS ===
+[2025-11-20T22:35:04.545047] Iteration 1/60 | FPS=1 | Status=200
+[2025-11-20T22:35:06.026639] Iteration 2/60 | FPS=1 | Status=200
+[2025-11-20T22:35:07.475221] Iteration 3/60 | FPS=1 | Status=200
+[2025-11-20T22:35:08.947130] Iteration 4/60 | FPS=1 | Status=200
+[2025-11-20T22:35:10.473314] Iteration 5/60 | FPS=1 | Status=200
+[2025-11-20T22:35:12.004213] Iteration 6/60 | FPS=1 | Status=200
+[2025-11-20T22:35:13.513241] Iteration 7/60 | FPS=1 | Status=200
+[2025-11-20T22:35:15.034898] Iteration 8/60 | FPS=1 | Status=200
+[2025-11-20T22:35:16.540338] Iteration 9/60 | FPS=1 | Status=200
+[2025-11-20T22:35:17.976139] Iteration 10/60 | FPS=1 | Status=200
+[2025-11-20T22:35:19.532049] Iteration 11/60 | FPS=1 | Status=200
+[2025-11-20T22:35:21.052623] Iteration 12/60 | FPS=1 | Status=200
+[2025-11-20T22:35:22.574193] Iteration 13/60 | FPS=1 | Status=200
+[2025-11-20T22:35:24.086359] Iteration 14/60 | FPS=1 | Status=200
+[2025-11-20T22:35:25.612525] Iteration 15/60 | FPS=1 | Status=200
+[2025-11-20T22:35:27.133995] Iteration 16/60 | FPS=1 | Status=200
+[2025-11-20T22:35:28.642954] Iteration 17/60 | FPS=1 | Status=200
+[2025-11-20T22:35:30.076124] Iteration 18/60 | FPS=1 | Status=200
+[2025-11-20T22:35:31.610495] Iteration 19/60 | FPS=1 | Status=200
+[2025-11-20T22:35:33.123695] Iteration 20/60 | FPS=1 | Status=200
+[2025-11-20T22:35:34.646897] Iteration 21/60 | FPS=1 | Status=200
+[2025-11-20T22:35:36.080141] Iteration 22/60 | FPS=1 | Status=200
+[2025-11-20T22:35:37.623257] Iteration 23/60 | FPS=1 | Status=200
+[2025-11-20T22:35:39.138277] Iteration 24/60 | FPS=1 | Status=200
+[2025-11-20T22:35:40.639125] Iteration 25/60 | FPS=1 | Status=200
+[2025-11-20T22:35:42.063208] Iteration 26/60 | FPS=1 | Status=200
+[2025-11-20T22:35:43.594229] Iteration 27/60 | FPS=1 | Status=200
+[2025-11-20T22:35:45.115723] Iteration 28/60 | FPS=1 | Status=200
+[2025-11-20T22:35:46.624820] Iteration 29/60 | FPS=1 | Status=200
+[2025-11-20T22:35:48.050923] Iteration 30/60 | FPS=1 | Status=200
+[2025-11-20T22:35:49.602813] Iteration 31/60 | FPS=1 | Status=200
+[2025-11-20T22:35:51.020502] Iteration 32/60 | FPS=1 | Status=200
+[2025-11-20T22:35:52.551012] Iteration 33/60 | FPS=1 | Status=200
+[2025-11-20T22:35:54.065795] Iteration 34/60 | FPS=1 | Status=200
+[2025-11-20T22:35:55.660410] Iteration 35/60 | FPS=1 | Status=200
+[2025-11-20T22:35:57.085345] Iteration 36/60 | FPS=1 | Status=200
+[2025-11-20T22:35:58.608344] Iteration 37/60 | FPS=1 | Status=200
+[2025-11-20T22:36:00.131386] Iteration 38/60 | FPS=1 | Status=200
+[2025-11-20T22:36:01.634540] Iteration 39/60 | FPS=1 | Status=200
+[2025-11-20T22:36:03.065549] Iteration 40/60 | FPS=1 | Status=200
+[2025-11-20T22:36:04.599787] Iteration 41/60 | FPS=1 | Status=200
+[2025-11-20T22:36:06.114970] Iteration 42/60 | FPS=1 | Status=200
+[2025-11-20T22:36:07.637212] Iteration 43/60 | FPS=1 | Status=200
+[2025-11-20T22:36:09.067136] Iteration 44/60 | FPS=1 | Status=200
+[2025-11-20T22:36:10.622414] Iteration 45/60 | FPS=1 | Status=200
+[2025-11-20T22:36:12.137135] Iteration 46/60 | FPS=1 | Status=200
+[2025-11-20T22:36:13.635458] Iteration 47/60 | FPS=1 | Status=200
+[2025-11-20T22:36:15.064051] Iteration 48/60 | FPS=1 | Status=200
+[2025-11-20T22:36:16.594584] Iteration 49/60 | FPS=1 | Status=200
+[2025-11-20T22:36:18.099306] Iteration 50/60 | FPS=1 | Status=200
+[2025-11-20T22:36:19.608424] Iteration 51/60 | FPS=1 | Status=200
+[2025-11-20T22:36:21.061383] Iteration 52/60 | FPS=1 | Status=200
+[2025-11-20T22:36:22.596629] Iteration 53/60 | FPS=1 | Status=200
+[2025-11-20T22:36:24.108372] Iteration 54/60 | FPS=1 | Status=200
+[2025-11-20T22:36:25.633460] Iteration 55/60 | FPS=1 | Status=200
+[2025-11-20T22:36:27.132531] Iteration 56/60 | FPS=1 | Status=200
+[2025-11-20T22:36:28.557888] Iteration 57/60 | FPS=1 | Status=200
+[2025-11-20T22:36:30.090466] Iteration 58/60 | FPS=1 | Status=200
+[2025-11-20T22:36:31.609886] Iteration 59/60 | FPS=1 | Status=200
+[2025-11-20T22:36:33.126269] Iteration 60/60 | FPS=1 | Status=200
+[2025-11-20T22:36:34.127661] Finished test at 1 FPS in 91.06 seconds
+[2025-11-20T22:36:34.127661] 
+=== Starting test at 5 FPS ===
+[2025-11-20T22:36:34.550692] Iteration 1/60 | FPS=5 | Status=200
+[2025-11-20T22:36:35.312019] Iteration 2/60 | FPS=5 | Status=200
+[2025-11-20T22:36:36.032836] Iteration 3/60 | FPS=5 | Status=200
+[2025-11-20T22:36:36.748177] Iteration 4/60 | FPS=5 | Status=200
+[2025-11-20T22:36:37.377280] Iteration 5/60 | FPS=5 | Status=200
+[2025-11-20T22:36:38.015930] Iteration 6/60 | FPS=5 | Status=200
+[2025-11-20T22:36:38.704261] Iteration 7/60 | FPS=5 | Status=200
+[2025-11-20T22:36:39.353335] Iteration 8/60 | FPS=5 | Status=200
+[2025-11-20T22:36:40.011409] Iteration 9/60 | FPS=5 | Status=200
+[2025-11-20T22:36:40.761573] Iteration 10/60 | FPS=5 | Status=200
+[2025-11-20T22:36:41.388538] Iteration 11/60 | FPS=5 | Status=200
+[2025-11-20T22:36:42.020953] Iteration 12/60 | FPS=5 | Status=200
+[2025-11-20T22:36:42.681650] Iteration 13/60 | FPS=5 | Status=200
+[2025-11-20T22:36:43.348068] Iteration 14/60 | FPS=5 | Status=200
+[2025-11-20T22:36:44.029749] Iteration 15/60 | FPS=5 | Status=200
+[2025-11-20T22:36:44.784202] Iteration 16/60 | FPS=5 | Status=200
+[2025-11-20T22:36:45.412421] Iteration 17/60 | FPS=5 | Status=200
+[2025-11-20T22:36:46.039374] Iteration 18/60 | FPS=5 | Status=200
+[2025-11-20T22:36:46.764273] Iteration 19/60 | FPS=5 | Status=200
+[2025-11-20T22:36:47.474280] Iteration 20/60 | FPS=5 | Status=200
+[2025-11-20T22:36:48.188655] Iteration 21/60 | FPS=5 | Status=200
+[2025-11-20T22:36:48.814413] Iteration 22/60 | FPS=5 | Status=200
+[2025-11-20T22:36:49.439044] Iteration 23/60 | FPS=5 | Status=200
+[2025-11-20T22:36:50.093168] Iteration 24/60 | FPS=5 | Status=200
+[2025-11-20T22:36:50.827727] Iteration 25/60 | FPS=5 | Status=200
+[2025-11-20T22:36:51.549544] Iteration 26/60 | FPS=5 | Status=200
+[2025-11-20T22:36:52.264941] Iteration 27/60 | FPS=5 | Status=200
+[2025-11-20T22:36:52.970835] Iteration 28/60 | FPS=5 | Status=200
+[2025-11-20T22:36:53.593057] Iteration 29/60 | FPS=5 | Status=200
+[2025-11-20T22:36:54.217590] Iteration 30/60 | FPS=5 | Status=200
+[2025-11-20T22:36:54.878036] Iteration 31/60 | FPS=5 | Status=200
+[2025-11-20T22:36:55.604824] Iteration 32/60 | FPS=5 | Status=200
+[2025-11-20T22:36:56.332644] Iteration 33/60 | FPS=5 | Status=200
+[2025-11-20T22:36:57.037400] Iteration 34/60 | FPS=5 | Status=200
+[2025-11-20T22:36:57.758543] Iteration 35/60 | FPS=5 | Status=200
+[2025-11-20T22:36:58.380631] Iteration 36/60 | FPS=5 | Status=200
+[2025-11-20T22:36:59.004842] Iteration 37/60 | FPS=5 | Status=200
+[2025-11-20T22:36:59.668262] Iteration 38/60 | FPS=5 | Status=200
+[2025-11-20T22:37:00.398369] Iteration 39/60 | FPS=5 | Status=200
+[2025-11-20T22:37:01.111873] Iteration 40/60 | FPS=5 | Status=200
+[2025-11-20T22:37:01.747028] Iteration 41/60 | FPS=5 | Status=200
+[2025-11-20T22:37:02.380948] Iteration 42/60 | FPS=5 | Status=200
+[2025-11-20T22:37:03.022634] Iteration 43/60 | FPS=5 | Status=200
+[2025-11-20T22:37:03.761352] Iteration 44/60 | FPS=5 | Status=200
+[2025-11-20T22:37:04.477086] Iteration 45/60 | FPS=5 | Status=200
+[2025-11-20T22:37:05.195429] Iteration 46/60 | FPS=5 | Status=200
+[2025-11-20T22:37:05.938364] Iteration 47/60 | FPS=5 | Status=200
+[2025-11-20T22:37:06.567077] Iteration 48/60 | FPS=5 | Status=200
+[2025-11-20T22:37:07.195346] Iteration 49/60 | FPS=5 | Status=200
+[2025-11-20T22:37:07.853838] Iteration 50/60 | FPS=5 | Status=200
+[2025-11-20T22:37:08.512935] Iteration 51/60 | FPS=5 | Status=200
+[2025-11-20T22:37:09.197506] Iteration 52/60 | FPS=5 | Status=200
+[2025-11-20T22:37:09.945581] Iteration 53/60 | FPS=5 | Status=200
+[2025-11-20T22:37:10.598487] Iteration 54/60 | FPS=5 | Status=200
+[2025-11-20T22:37:11.212105] Iteration 55/60 | FPS=5 | Status=200
+[2025-11-20T22:37:11.935379] Iteration 56/60 | FPS=5 | Status=200
+[2025-11-20T22:37:12.636279] Iteration 57/60 | FPS=5 | Status=200
+[2025-11-20T22:37:13.342195] Iteration 58/60 | FPS=5 | Status=200
+[2025-11-20T22:37:13.970460] Iteration 59/60 | FPS=5 | Status=200
+[2025-11-20T22:37:14.587355] Iteration 60/60 | FPS=5 | Status=200
+[2025-11-20T22:37:14.788199] Finished test at 5 FPS in 40.66 seconds
+[2025-11-20T22:37:14.788199] 
+=== Starting test at 10 FPS ===
+[2025-11-20T22:37:15.207507] Iteration 1/60 | FPS=10 | Status=200
+[2025-11-20T22:37:15.839499] Iteration 2/60 | FPS=10 | Status=200
+[2025-11-20T22:37:16.463837] Iteration 3/60 | FPS=10 | Status=200
+[2025-11-20T22:37:17.078890] Iteration 4/60 | FPS=10 | Status=200
+[2025-11-20T22:37:17.698265] Iteration 5/60 | FPS=10 | Status=200
+[2025-11-20T22:37:18.302121] Iteration 6/60 | FPS=10 | Status=200
+[2025-11-20T22:37:18.903721] Iteration 7/60 | FPS=10 | Status=200
+[2025-11-20T22:37:19.429610] Iteration 8/60 | FPS=10 | Status=200
+[2025-11-20T22:37:19.960117] Iteration 9/60 | FPS=10 | Status=200
+[2025-11-20T22:37:20.487272] Iteration 10/60 | FPS=10 | Status=200
+[2025-11-20T22:37:21.110558] Iteration 11/60 | FPS=10 | Status=200
+[2025-11-20T22:37:21.727361] Iteration 12/60 | FPS=10 | Status=200
+[2025-11-20T22:37:22.254972] Iteration 13/60 | FPS=10 | Status=200
+[2025-11-20T22:37:22.787194] Iteration 14/60 | FPS=10 | Status=200
+[2025-11-20T22:37:23.318385] Iteration 15/60 | FPS=10 | Status=200
+[2025-11-20T22:37:23.952214] Iteration 16/60 | FPS=10 | Status=200
+[2025-11-20T22:37:24.554987] Iteration 17/60 | FPS=10 | Status=200
+[2025-11-20T22:37:25.081208] Iteration 18/60 | FPS=10 | Status=200
+[2025-11-20T22:37:25.615085] Iteration 19/60 | FPS=10 | Status=200
+[2025-11-20T22:37:26.149870] Iteration 20/60 | FPS=10 | Status=200
+[2025-11-20T22:37:26.720149] Iteration 21/60 | FPS=10 | Status=200
+[2025-11-20T22:37:27.360971] Iteration 22/60 | FPS=10 | Status=200
+[2025-11-20T22:37:27.967602] Iteration 23/60 | FPS=10 | Status=200
+[2025-11-20T22:37:28.576204] Iteration 24/60 | FPS=10 | Status=200
+[2025-11-20T22:37:29.114959] Iteration 25/60 | FPS=10 | Status=200
+[2025-11-20T22:37:29.647717] Iteration 26/60 | FPS=10 | Status=200
+[2025-11-20T22:37:30.199502] Iteration 27/60 | FPS=10 | Status=200
+[2025-11-20T22:37:30.836776] Iteration 28/60 | FPS=10 | Status=200
+[2025-11-20T22:37:31.463913] Iteration 29/60 | FPS=10 | Status=200
+[2025-11-20T22:37:32.078972] Iteration 30/60 | FPS=10 | Status=200
+[2025-11-20T22:37:32.689876] Iteration 31/60 | FPS=10 | Status=200
+[2025-11-20T22:37:33.300381] Iteration 32/60 | FPS=10 | Status=200
+[2025-11-20T22:37:33.912165] Iteration 33/60 | FPS=10 | Status=200
+[2025-11-20T22:37:34.447804] Iteration 34/60 | FPS=10 | Status=200
+[2025-11-20T22:37:35.000099] Iteration 35/60 | FPS=10 | Status=200
+[2025-11-20T22:37:35.546391] Iteration 36/60 | FPS=10 | Status=200
+[2025-11-20T22:37:36.170022] Iteration 37/60 | FPS=10 | Status=200
+[2025-11-20T22:37:36.784422] Iteration 38/60 | FPS=10 | Status=200
+[2025-11-20T22:37:37.344924] Iteration 39/60 | FPS=10 | Status=200
+[2025-11-20T22:37:37.872553] Iteration 40/60 | FPS=10 | Status=200
+[2025-11-20T22:37:38.416193] Iteration 41/60 | FPS=10 | Status=200
+[2025-11-20T22:37:39.060085] Iteration 42/60 | FPS=10 | Status=200
+[2025-11-20T22:37:39.693528] Iteration 43/60 | FPS=10 | Status=200
+[2025-11-20T22:37:40.313185] Iteration 44/60 | FPS=10 | Status=200
+[2025-11-20T22:37:40.850439] Iteration 45/60 | FPS=10 | Status=200
+[2025-11-20T22:37:41.383853] Iteration 46/60 | FPS=10 | Status=200
+[2025-11-20T22:37:41.912330] Iteration 47/60 | FPS=10 | Status=200
+[2025-11-20T22:37:42.531108] Iteration 48/60 | FPS=10 | Status=200
+[2025-11-20T22:37:43.138315] Iteration 49/60 | FPS=10 | Status=200
+[2025-11-20T22:37:43.676485] Iteration 50/60 | FPS=10 | Status=200
+[2025-11-20T22:37:44.206943] Iteration 51/60 | FPS=10 | Status=200
+[2025-11-20T22:37:44.728418] Iteration 52/60 | FPS=10 | Status=200
+[2025-11-20T22:37:45.292138] Iteration 53/60 | FPS=10 | Status=200
+[2025-11-20T22:37:45.919716] Iteration 54/60 | FPS=10 | Status=200
+[2025-11-20T22:37:46.555428] Iteration 55/60 | FPS=10 | Status=200
+[2025-11-20T22:37:47.160206] Iteration 56/60 | FPS=10 | Status=200
+[2025-11-20T22:37:47.695050] Iteration 57/60 | FPS=10 | Status=200
+[2025-11-20T22:37:48.239407] Iteration 58/60 | FPS=10 | Status=200
+[2025-11-20T22:37:48.769148] Iteration 59/60 | FPS=10 | Status=200
+[2025-11-20T22:37:49.385871] Iteration 60/60 | FPS=10 | Status=200
+[2025-11-20T22:37:49.486970] Finished test at 10 FPS in 34.70 seconds
+[2025-11-20T22:37:49.486970] 
+=== Starting test at 20 FPS ===
+[2025-11-20T22:37:49.997615] Iteration 1/60 | FPS=20 | Status=200
+[2025-11-20T22:37:50.479431] Iteration 2/60 | FPS=20 | Status=200
+[2025-11-20T22:37:50.960516] Iteration 3/60 | FPS=20 | Status=200
+[2025-11-20T22:37:51.447639] Iteration 4/60 | FPS=20 | Status=200
+[2025-11-20T22:37:52.008913] Iteration 5/60 | FPS=20 | Status=200
+[2025-11-20T22:37:52.508066] Iteration 6/60 | FPS=20 | Status=200
+[2025-11-20T22:37:53.004361] Iteration 7/60 | FPS=20 | Status=200
+[2025-11-20T22:37:53.502786] Iteration 8/60 | FPS=20 | Status=200
+[2025-11-20T22:37:54.081534] Iteration 9/60 | FPS=20 | Status=200
+[2025-11-20T22:37:54.653646] Iteration 10/60 | FPS=20 | Status=200
+[2025-11-20T22:37:55.229713] Iteration 11/60 | FPS=20 | Status=200
+[2025-11-20T22:37:55.800957] Iteration 12/60 | FPS=20 | Status=200
+[2025-11-20T22:37:56.356156] Iteration 13/60 | FPS=20 | Status=200
+[2025-11-20T22:37:56.837780] Iteration 14/60 | FPS=20 | Status=200
+[2025-11-20T22:37:57.323314] Iteration 15/60 | FPS=20 | Status=200
+[2025-11-20T22:37:57.804229] Iteration 16/60 | FPS=20 | Status=200
+[2025-11-20T22:37:58.318959] Iteration 17/60 | FPS=20 | Status=200
+[2025-11-20T22:37:58.908748] Iteration 18/60 | FPS=20 | Status=200
+[2025-11-20T22:37:59.479733] Iteration 19/60 | FPS=20 | Status=200
+[2025-11-20T22:38:00.047373] Iteration 20/60 | FPS=20 | Status=200
+[2025-11-20T22:38:00.616789] Iteration 21/60 | FPS=20 | Status=200
+[2025-11-20T22:38:01.180275] Iteration 22/60 | FPS=20 | Status=200
+[2025-11-20T22:38:01.663172] Iteration 23/60 | FPS=20 | Status=200
+[2025-11-20T22:38:02.142716] Iteration 24/60 | FPS=20 | Status=200
+[2025-11-20T22:38:02.621865] Iteration 25/60 | FPS=20 | Status=200
+[2025-11-20T22:38:03.145806] Iteration 26/60 | FPS=20 | Status=200
+[2025-11-20T22:38:03.720382] Iteration 27/60 | FPS=20 | Status=200
+[2025-11-20T22:38:04.283417] Iteration 28/60 | FPS=20 | Status=200
+[2025-11-20T22:38:04.843111] Iteration 29/60 | FPS=20 | Status=200
+[2025-11-20T22:38:05.398218] Iteration 30/60 | FPS=20 | Status=200
+[2025-11-20T22:38:05.876843] Iteration 31/60 | FPS=20 | Status=200
+[2025-11-20T22:38:06.365882] Iteration 32/60 | FPS=20 | Status=200
+[2025-11-20T22:38:06.851379] Iteration 33/60 | FPS=20 | Status=200
+[2025-11-20T22:38:07.355077] Iteration 34/60 | FPS=20 | Status=200
+[2025-11-20T22:38:07.928962] Iteration 35/60 | FPS=20 | Status=200
+[2025-11-20T22:38:08.495355] Iteration 36/60 | FPS=20 | Status=200
+[2025-11-20T22:38:08.982060] Iteration 37/60 | FPS=20 | Status=200
+[2025-11-20T22:38:09.461672] Iteration 38/60 | FPS=20 | Status=200
+[2025-11-20T22:38:09.948041] Iteration 39/60 | FPS=20 | Status=200
+[2025-11-20T22:38:10.516982] Iteration 40/60 | FPS=20 | Status=200
+[2025-11-20T22:38:11.004613] Iteration 41/60 | FPS=20 | Status=200
+[2025-11-20T22:38:11.490302] Iteration 42/60 | FPS=20 | Status=200
+[2025-11-20T22:38:11.974586] Iteration 43/60 | FPS=20 | Status=200
+[2025-11-20T22:38:12.538968] Iteration 44/60 | FPS=20 | Status=200
+[2025-11-20T22:38:13.096710] Iteration 45/60 | FPS=20 | Status=200
+[2025-11-20T22:38:13.582067] Iteration 46/60 | FPS=20 | Status=200
+[2025-11-20T22:38:14.057941] Iteration 47/60 | FPS=20 | Status=200
+[2025-11-20T22:38:14.542379] Iteration 48/60 | FPS=20 | Status=200
+[2025-11-20T22:38:15.053153] Iteration 49/60 | FPS=20 | Status=200
+[2025-11-20T22:38:15.569699] Iteration 50/60 | FPS=20 | Status=200
+[2025-11-20T22:38:16.155152] Iteration 51/60 | FPS=20 | Status=200
+[2025-11-20T22:38:16.710863] Iteration 52/60 | FPS=20 | Status=200
+[2025-11-20T22:38:17.271332] Iteration 53/60 | FPS=20 | Status=200
+[2025-11-20T22:38:17.746821] Iteration 54/60 | FPS=20 | Status=200
+[2025-11-20T22:38:18.229630] Iteration 55/60 | FPS=20 | Status=200
+[2025-11-20T22:38:18.712763] Iteration 56/60 | FPS=20 | Status=200
+[2025-11-20T22:38:19.229616] Iteration 57/60 | FPS=20 | Status=200
+[2025-11-20T22:38:19.954924] Iteration 58/60 | FPS=20 | Status=200
+[2025-11-20T22:38:20.435310] Iteration 59/60 | FPS=20 | Status=200
+[2025-11-20T22:38:20.963628] Iteration 60/60 | FPS=20 | Status=200
+[2025-11-20T22:38:21.014561] Finished test at 20 FPS in 31.53 seconds
+[2025-11-20T22:38:21.014561] 
+=== Starting test at 40 FPS ===
+[2025-11-20T22:38:21.465822] Iteration 1/60 | FPS=40 | Status=200
+[2025-11-20T22:38:21.965377] Iteration 2/60 | FPS=40 | Status=200
+[2025-11-20T22:38:22.458640] Iteration 3/60 | FPS=40 | Status=200
+[2025-11-20T22:38:22.965135] Iteration 4/60 | FPS=40 | Status=200
+[2025-11-20T22:38:23.477089] Iteration 5/60 | FPS=40 | Status=200
+[2025-11-20T22:38:23.987899] Iteration 6/60 | FPS=40 | Status=200
+[2025-11-20T22:38:24.520221] Iteration 7/60 | FPS=40 | Status=200
+[2025-11-20T22:38:25.057443] Iteration 8/60 | FPS=40 | Status=200
+[2025-11-20T22:38:25.638493] Iteration 9/60 | FPS=40 | Status=200
+[2025-11-20T22:38:26.193348] Iteration 10/60 | FPS=40 | Status=200
+[2025-11-20T22:38:26.745624] Iteration 11/60 | FPS=40 | Status=200
+[2025-11-20T22:38:27.193585] Iteration 12/60 | FPS=40 | Status=200
+[2025-11-20T22:38:27.648382] Iteration 13/60 | FPS=40 | Status=200
+[2025-11-20T22:38:28.128369] Iteration 14/60 | FPS=40 | Status=200
+[2025-11-20T22:38:28.664925] Iteration 15/60 | FPS=40 | Status=200
+[2025-11-20T22:38:29.237739] Iteration 16/60 | FPS=40 | Status=200
+[2025-11-20T22:38:29.793117] Iteration 17/60 | FPS=40 | Status=200
+[2025-11-20T22:38:30.266132] Iteration 18/60 | FPS=40 | Status=200
+[2025-11-20T22:38:30.725373] Iteration 19/60 | FPS=40 | Status=200
+[2025-11-20T22:38:31.192516] Iteration 20/60 | FPS=40 | Status=200
+[2025-11-20T22:38:31.750661] Iteration 21/60 | FPS=40 | Status=200
+[2025-11-20T22:38:32.297861] Iteration 22/60 | FPS=40 | Status=200
+[2025-11-20T22:38:32.748143] Iteration 23/60 | FPS=40 | Status=200
+[2025-11-20T22:38:33.196723] Iteration 24/60 | FPS=40 | Status=200
+[2025-11-20T22:38:33.643890] Iteration 25/60 | FPS=40 | Status=200
+[2025-11-20T22:38:34.094734] Iteration 26/60 | FPS=40 | Status=200
+[2025-11-20T22:38:34.570023] Iteration 27/60 | FPS=40 | Status=200
+[2025-11-20T22:38:35.068528] Iteration 28/60 | FPS=40 | Status=200
+[2025-11-20T22:38:35.564466] Iteration 29/60 | FPS=40 | Status=200
+[2025-11-20T22:38:36.063402] Iteration 30/60 | FPS=40 | Status=200
+[2025-11-20T22:38:36.571414] Iteration 31/60 | FPS=40 | Status=200
+[2025-11-20T22:38:37.137675] Iteration 32/60 | FPS=40 | Status=200
+[2025-11-20T22:38:37.701515] Iteration 33/60 | FPS=40 | Status=200
+[2025-11-20T22:38:38.154115] Iteration 34/60 | FPS=40 | Status=200
+[2025-11-20T22:38:38.619865] Iteration 35/60 | FPS=40 | Status=200
+[2025-11-20T22:38:39.070720] Iteration 36/60 | FPS=40 | Status=200
+[2025-11-20T22:38:39.526833] Iteration 37/60 | FPS=40 | Status=200
+[2025-11-20T22:38:40.010635] Iteration 38/60 | FPS=40 | Status=200
+[2025-11-20T22:38:40.500407] Iteration 39/60 | FPS=40 | Status=200
+[2025-11-20T22:38:40.999736] Iteration 40/60 | FPS=40 | Status=200
+[2025-11-20T22:38:41.520966] Iteration 41/60 | FPS=40 | Status=200
+[2025-11-20T22:38:42.092685] Iteration 42/60 | FPS=40 | Status=200
+[2025-11-20T22:38:42.647437] Iteration 43/60 | FPS=40 | Status=200
+[2025-11-20T22:38:43.207755] Iteration 44/60 | FPS=40 | Status=200
+[2025-11-20T22:38:43.760367] Iteration 45/60 | FPS=40 | Status=200
+[2025-11-20T22:38:44.229665] Iteration 46/60 | FPS=40 | Status=200
+[2025-11-20T22:38:44.721063] Iteration 47/60 | FPS=40 | Status=200
+[2025-11-20T22:38:45.173361] Iteration 48/60 | FPS=40 | Status=200
+[2025-11-20T22:38:45.664299] Iteration 49/60 | FPS=40 | Status=200
+[2025-11-20T22:38:46.162467] Iteration 50/60 | FPS=40 | Status=200
+[2025-11-20T22:38:46.658873] Iteration 51/60 | FPS=40 | Status=200
+[2025-11-20T22:38:47.151508] Iteration 52/60 | FPS=40 | Status=200
+[2025-11-20T22:38:47.658582] Iteration 53/60 | FPS=40 | Status=200
+[2025-11-20T22:38:48.220180] Iteration 54/60 | FPS=40 | Status=200
+[2025-11-20T22:38:48.778408] Iteration 55/60 | FPS=40 | Status=200
+[2025-11-20T22:38:49.334634] Iteration 56/60 | FPS=40 | Status=200
+[2025-11-20T22:38:49.787367] Iteration 57/60 | FPS=40 | Status=200
+[2025-11-20T22:38:50.244752] Iteration 58/60 | FPS=40 | Status=200
+[2025-11-20T22:38:50.695042] Iteration 59/60 | FPS=40 | Status=200
+[2025-11-20T22:38:51.157472] Iteration 60/60 | FPS=40 | Status=200
+[2025-11-20T22:38:51.183115] Finished test at 40 FPS in 30.17 seconds
+[2025-11-20T22:38:51.183115] 
+=== Starting test at 60 FPS ===
+[2025-11-20T22:38:51.709785] Iteration 1/60 | FPS=60 | Status=200
+[2025-11-20T22:38:52.250529] Iteration 2/60 | FPS=60 | Status=200
+[2025-11-20T22:38:52.787086] Iteration 3/60 | FPS=60 | Status=200
+[2025-11-20T22:38:53.242523] Iteration 4/60 | FPS=60 | Status=200
+[2025-11-20T22:38:53.688812] Iteration 5/60 | FPS=60 | Status=200
+[2025-11-20T22:38:54.125788] Iteration 6/60 | FPS=60 | Status=200
+[2025-11-20T22:38:54.574329] Iteration 7/60 | FPS=60 | Status=200
+[2025-11-20T22:38:55.055030] Iteration 8/60 | FPS=60 | Status=200
+[2025-11-20T22:38:55.534541] Iteration 9/60 | FPS=60 | Status=200
+[2025-11-20T22:38:56.028633] Iteration 10/60 | FPS=60 | Status=200
+[2025-11-20T22:38:56.595585] Iteration 11/60 | FPS=60 | Status=200
+[2025-11-20T22:38:57.140509] Iteration 12/60 | FPS=60 | Status=200
+[2025-11-20T22:38:57.688191] Iteration 13/60 | FPS=60 | Status=200
+[2025-11-20T22:38:58.153230] Iteration 14/60 | FPS=60 | Status=200
+[2025-11-20T22:38:58.610144] Iteration 15/60 | FPS=60 | Status=200
+[2025-11-20T22:38:59.091196] Iteration 16/60 | FPS=60 | Status=200
+[2025-11-20T22:38:59.559846] Iteration 17/60 | FPS=60 | Status=200
+[2025-11-20T22:39:00.029487] Iteration 18/60 | FPS=60 | Status=200
+[2025-11-20T22:39:00.498774] Iteration 19/60 | FPS=60 | Status=200
+[2025-11-20T22:39:00.998808] Iteration 20/60 | FPS=60 | Status=200
+[2025-11-20T22:39:01.547684] Iteration 21/60 | FPS=60 | Status=200
+[2025-11-20T22:39:02.077330] Iteration 22/60 | FPS=60 | Status=200
+[2025-11-20T22:39:02.599554] Iteration 23/60 | FPS=60 | Status=200
+[2025-11-20T22:39:03.133268] Iteration 24/60 | FPS=60 | Status=200
+[2025-11-20T22:39:03.576851] Iteration 25/60 | FPS=60 | Status=200
+[2025-11-20T22:39:04.011375] Iteration 26/60 | FPS=60 | Status=200
+[2025-11-20T22:39:04.446799] Iteration 27/60 | FPS=60 | Status=200
+[2025-11-20T22:39:04.878267] Iteration 28/60 | FPS=60 | Status=200
+[2025-11-20T22:39:05.412509] Iteration 29/60 | FPS=60 | Status=200
+[2025-11-20T22:39:05.950835] Iteration 30/60 | FPS=60 | Status=200
+[2025-11-20T22:39:06.487947] Iteration 31/60 | FPS=60 | Status=200
+[2025-11-20T22:39:06.944016] Iteration 32/60 | FPS=60 | Status=200
+[2025-11-20T22:39:07.384668] Iteration 33/60 | FPS=60 | Status=200
+[2025-11-20T22:39:07.825435] Iteration 34/60 | FPS=60 | Status=200
+[2025-11-20T22:39:08.271185] Iteration 35/60 | FPS=60 | Status=200
+[2025-11-20T22:39:08.753378] Iteration 36/60 | FPS=60 | Status=200
+[2025-11-20T22:39:09.229747] Iteration 37/60 | FPS=60 | Status=200
+[2025-11-20T22:39:09.780235] Iteration 38/60 | FPS=60 | Status=200
+[2025-11-20T22:39:10.309892] Iteration 39/60 | FPS=60 | Status=200
+[2025-11-20T22:39:10.836852] Iteration 40/60 | FPS=60 | Status=200
+[2025-11-20T22:39:11.360300] Iteration 41/60 | FPS=60 | Status=200
+[2025-11-20T22:39:11.794662] Iteration 42/60 | FPS=60 | Status=200
+[2025-11-20T22:39:12.236487] Iteration 43/60 | FPS=60 | Status=200
+[2025-11-20T22:39:12.674479] Iteration 44/60 | FPS=60 | Status=200
+[2025-11-20T22:39:13.110441] Iteration 45/60 | FPS=60 | Status=200
+[2025-11-20T22:39:13.575126] Iteration 46/60 | FPS=60 | Status=200
+[2025-11-20T22:39:14.046153] Iteration 47/60 | FPS=60 | Status=200
+[2025-11-20T22:39:14.591132] Iteration 48/60 | FPS=60 | Status=200
+[2025-11-20T22:39:15.122817] Iteration 49/60 | FPS=60 | Status=200
+[2025-11-20T22:39:15.646358] Iteration 50/60 | FPS=60 | Status=200
+[2025-11-20T22:39:16.169735] Iteration 51/60 | FPS=60 | Status=200
+[2025-11-20T22:39:16.619529] Iteration 52/60 | FPS=60 | Status=200
+[2025-11-20T22:39:17.059866] Iteration 53/60 | FPS=60 | Status=200
+[2025-11-20T22:39:17.506805] Iteration 54/60 | FPS=60 | Status=200
+[2025-11-20T22:39:17.942389] Iteration 55/60 | FPS=60 | Status=200
+[2025-11-20T22:39:18.436642] Iteration 56/60 | FPS=60 | Status=200
+[2025-11-20T22:39:18.962962] Iteration 57/60 | FPS=60 | Status=200
+[2025-11-20T22:39:19.488679] Iteration 58/60 | FPS=60 | Status=200
+[2025-11-20T22:39:19.937149] Iteration 59/60 | FPS=60 | Status=200
+[2025-11-20T22:39:20.378070] Iteration 60/60 | FPS=60 | Status=200
+[2025-11-20T22:39:20.395284] Finished test at 60 FPS in 29.21 seconds
+[2025-11-20T22:39:20.395284] === All tests completed, start writing data into database ===
+Traceback (most recent call last):
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\mysql\connector\connection_cext.py", line 772, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: Table 'wf9.experiments_data' doesn't exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\mysql\connector\cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\mysql\connector\connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'wf9.experiments_data' doesn't exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\11584\OneDrive\桌面\FLUX\Senders\sender_yolo_fat.py", line 76, in <module>
+    push_buffer_to_db()
+  File "C:\Users\11584\OneDrive\桌面\FLUX\SQL\save_data.py", line 40, in push_buffer_to_db
+    create_experiment_with_weather(session, exp)
+  File "C:\Users\11584\OneDrive\桌面\FLUX\SQL\crud.py", line 8, in create_experiment_with_weather
+    session.commit()
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\session.py", line 2032, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\session.py", line 1313, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\session.py", line 1288, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\session.py", line 4345, in flush
+    self._flush(objects)
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\session.py", line 4480, in _flush
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\session.py", line 4441, in _flush
+    flush_context.execute()
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1233, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\mysql\connector\cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11584\anaconda3\envs\dbis12\Lib\site-packages\mysql\connector\connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+sqlalchemy.exc.ProgrammingError: (mysql.connector.errors.ProgrammingError) 1146 (42S02): Table 'wf9.experiments_data' doesn't exist
+[SQL: INSERT INTO experiments_data (req_id, exp_id, gen_at, server_in, server_out, model_in, model_out, db_in, db_out, minio_in, minio_out, dpse_in, dpse_out, cpu_usage, gpu_usage, gpu_vram_usage, gpu_temperature, gpu_power, memory_usage, process_count, device, fps) VALUES (%(req_id)s, %(exp_id)s, %(gen_at)s, %(server_in)s, %(server_out)s, %(model_in)s, %(model_out)s, %(db_in)s, %(db_out)s, %(minio_in)s, %(minio_out)s, %(dpse_in)s, %(dpse_out)s, %(cpu_usage)s, %(gpu_usage)s, %(gpu_vram_usage)s, %(gpu_temperature)s, %(gpu_power)s, %(memory_usage)s, %(process_count)s, %(device)s, %(fps)s)]
+[parameters: {'req_id': 0, 'exp_id': 1, 'gen_at': '2025-11-20T22:35:03.064825', 'server_in': None, 'server_out': None, 'model_in': datetime.datetime(2025, 11, 20, 22, 35, 3, 79151), 'model_out': datetime.datetime(2025, 11, 20, 22, 35, 4, 536046), 'db_in': None, 'db_out': None, 'minio_in': None, 'minio_out': None, 'dpse_in': None, 'dpse_out': None, 'cpu_usage': 3.6, 'gpu_usage': 3, 'gpu_vram_usage': 25.756263732910156, 'gpu_temperature': 37, 'gpu_power': 32.519, 'memory_usage': 63.7, 'process_count': 282, 'device': None, 'fps': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)

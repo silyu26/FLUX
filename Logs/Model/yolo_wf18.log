@@ -1,0 +1,720 @@
+2025-11-21 00:48:07 [INFO] Running YOLO inference | req_id=0 | expId=1
+2025-11-21 00:48:16 [INFO] Inference completed | Time taken: 9.42s
+2025-11-21 00:48:19 [INFO] Running YOLO inference | req_id=1 | expId=1
+2025-11-21 00:48:25 [INFO] Inference completed | Time taken: 6.17s
+2025-11-21 00:48:26 [INFO] Running YOLO inference | req_id=2 | expId=1
+2025-11-21 00:48:30 [INFO] Inference completed | Time taken: 3.94s
+2025-11-21 00:48:31 [INFO] Running YOLO inference | req_id=3 | expId=1
+2025-11-21 00:48:35 [INFO] Inference completed | Time taken: 3.62s
+2025-11-21 00:48:36 [INFO] Running YOLO inference | req_id=4 | expId=1
+2025-11-21 00:48:39 [INFO] Inference completed | Time taken: 3.12s
+2025-11-21 00:48:40 [INFO] Running YOLO inference | req_id=5 | expId=1
+2025-11-21 00:48:43 [INFO] Inference completed | Time taken: 2.70s
+2025-11-21 00:48:44 [INFO] Running YOLO inference | req_id=6 | expId=1
+2025-11-21 00:48:47 [INFO] Inference completed | Time taken: 3.19s
+2025-11-21 00:48:48 [INFO] Running YOLO inference | req_id=7 | expId=1
+2025-11-21 00:48:51 [INFO] Inference completed | Time taken: 2.78s
+2025-11-21 00:48:52 [INFO] Running YOLO inference | req_id=8 | expId=1
+2025-11-21 00:48:54 [INFO] Inference completed | Time taken: 2.51s
+2025-11-21 00:48:55 [INFO] Running YOLO inference | req_id=9 | expId=1
+2025-11-21 00:48:58 [INFO] Inference completed | Time taken: 2.66s
+2025-11-21 00:48:59 [INFO] Running YOLO inference | req_id=10 | expId=1
+2025-11-21 00:49:02 [INFO] Inference completed | Time taken: 3.22s
+2025-11-21 00:49:03 [INFO] Running YOLO inference | req_id=11 | expId=1
+2025-11-21 00:49:10 [INFO] Inference completed | Time taken: 6.69s
+2025-11-21 00:49:12 [INFO] Running YOLO inference | req_id=12 | expId=1
+2025-11-21 00:49:16 [INFO] Inference completed | Time taken: 3.84s
+2025-11-21 00:49:17 [INFO] Running YOLO inference | req_id=13 | expId=1
+2025-11-21 00:49:20 [INFO] Inference completed | Time taken: 3.66s
+2025-11-21 00:49:21 [INFO] Running YOLO inference | req_id=14 | expId=1
+2025-11-21 00:49:25 [INFO] Inference completed | Time taken: 3.70s
+2025-11-21 00:49:26 [INFO] Running YOLO inference | req_id=15 | expId=1
+2025-11-21 00:49:30 [INFO] Inference completed | Time taken: 4.11s
+2025-11-21 00:49:31 [INFO] Running YOLO inference | req_id=16 | expId=1
+2025-11-21 00:49:35 [INFO] Inference completed | Time taken: 3.31s
+2025-11-21 00:49:36 [INFO] Running YOLO inference | req_id=17 | expId=1
+2025-11-21 00:49:40 [INFO] Inference completed | Time taken: 4.51s
+2025-11-21 00:49:41 [INFO] Running YOLO inference | req_id=18 | expId=1
+2025-11-21 00:49:46 [INFO] Inference completed | Time taken: 5.04s
+2025-11-21 00:49:47 [INFO] Running YOLO inference | req_id=19 | expId=1
+2025-11-21 00:49:51 [INFO] Inference completed | Time taken: 3.82s
+2025-11-21 00:49:52 [INFO] Running YOLO inference | req_id=20 | expId=1
+2025-11-21 00:49:56 [INFO] Inference completed | Time taken: 3.45s
+2025-11-21 00:49:57 [INFO] Running YOLO inference | req_id=21 | expId=1
+2025-11-21 00:50:03 [INFO] Inference completed | Time taken: 6.61s
+2025-11-21 00:50:05 [INFO] Running YOLO inference | req_id=22 | expId=1
+2025-11-21 00:50:09 [INFO] Inference completed | Time taken: 4.02s
+2025-11-21 00:50:10 [INFO] Running YOLO inference | req_id=23 | expId=1
+2025-11-21 00:50:14 [INFO] Inference completed | Time taken: 3.13s
+2025-11-21 00:50:15 [INFO] Running YOLO inference | req_id=24 | expId=1
+2025-11-21 00:50:18 [INFO] Inference completed | Time taken: 3.69s
+2025-11-21 00:50:19 [INFO] Running YOLO inference | req_id=25 | expId=1
+2025-11-21 00:50:23 [INFO] Inference completed | Time taken: 3.58s
+2025-11-21 00:50:24 [INFO] Running YOLO inference | req_id=26 | expId=1
+2025-11-21 00:50:28 [INFO] Inference completed | Time taken: 4.26s
+2025-11-21 00:50:30 [INFO] Running YOLO inference | req_id=27 | expId=1
+2025-11-21 00:50:33 [INFO] Inference completed | Time taken: 3.15s
+2025-11-21 00:50:34 [INFO] Running YOLO inference | req_id=28 | expId=1
+2025-11-21 00:50:38 [INFO] Inference completed | Time taken: 4.16s
+2025-11-21 00:50:39 [INFO] Running YOLO inference | req_id=29 | expId=1
+2025-11-21 00:50:42 [INFO] Inference completed | Time taken: 3.19s
+2025-11-21 00:50:43 [INFO] Running YOLO inference | req_id=30 | expId=1
+2025-11-21 00:50:47 [INFO] Inference completed | Time taken: 3.96s
+2025-11-21 00:50:48 [INFO] Running YOLO inference | req_id=31 | expId=1
+2025-11-21 00:50:52 [INFO] Inference completed | Time taken: 3.52s
+2025-11-21 00:50:53 [INFO] Running YOLO inference | req_id=32 | expId=1
+2025-11-21 00:50:56 [INFO] Inference completed | Time taken: 3.16s
+2025-11-21 00:50:57 [INFO] Running YOLO inference | req_id=33 | expId=1
+2025-11-21 00:51:00 [INFO] Inference completed | Time taken: 3.00s
+2025-11-21 00:51:01 [INFO] Running YOLO inference | req_id=34 | expId=1
+2025-11-21 00:51:06 [INFO] Inference completed | Time taken: 4.57s
+2025-11-21 00:51:07 [INFO] Running YOLO inference | req_id=35 | expId=1
+2025-11-21 00:51:10 [INFO] Inference completed | Time taken: 3.60s
+2025-11-21 00:51:11 [INFO] Running YOLO inference | req_id=36 | expId=1
+2025-11-21 00:51:15 [INFO] Inference completed | Time taken: 3.27s
+2025-11-21 00:51:16 [INFO] Running YOLO inference | req_id=37 | expId=1
+2025-11-21 00:51:19 [INFO] Inference completed | Time taken: 3.20s
+2025-11-21 00:51:20 [INFO] Running YOLO inference | req_id=38 | expId=1
+2025-11-21 00:51:23 [INFO] Inference completed | Time taken: 2.88s
+2025-11-21 00:51:24 [INFO] Running YOLO inference | req_id=39 | expId=1
+2025-11-21 00:51:28 [INFO] Inference completed | Time taken: 4.11s
+2025-11-21 00:51:29 [INFO] Running YOLO inference | req_id=40 | expId=1
+2025-11-21 00:51:32 [INFO] Inference completed | Time taken: 3.20s
+2025-11-21 00:51:33 [INFO] Running YOLO inference | req_id=41 | expId=1
+2025-11-21 00:51:36 [INFO] Inference completed | Time taken: 3.07s
+2025-11-21 00:51:37 [INFO] Running YOLO inference | req_id=42 | expId=1
+2025-11-21 00:51:40 [INFO] Inference completed | Time taken: 2.85s
+2025-11-21 00:51:41 [INFO] Running YOLO inference | req_id=43 | expId=1
+2025-11-21 00:51:45 [INFO] Inference completed | Time taken: 3.70s
+2025-11-21 00:51:46 [INFO] Running YOLO inference | req_id=44 | expId=1
+2025-11-21 00:51:49 [INFO] Inference completed | Time taken: 2.86s
+2025-11-21 00:51:50 [INFO] Running YOLO inference | req_id=45 | expId=1
+2025-11-21 00:51:56 [INFO] Inference completed | Time taken: 5.97s
+2025-11-21 00:51:57 [INFO] Running YOLO inference | req_id=46 | expId=1
+2025-11-21 00:52:01 [INFO] Inference completed | Time taken: 3.58s
+2025-11-21 00:52:02 [INFO] Running YOLO inference | req_id=47 | expId=1
+2025-11-21 00:52:04 [INFO] Inference completed | Time taken: 2.47s
+2025-11-21 00:52:05 [INFO] Running YOLO inference | req_id=48 | expId=1
+2025-11-21 00:52:08 [INFO] Inference completed | Time taken: 2.84s
+2025-11-21 00:52:09 [INFO] Running YOLO inference | req_id=49 | expId=1
+2025-11-21 00:52:12 [INFO] Inference completed | Time taken: 3.21s
+2025-11-21 00:52:13 [INFO] Running YOLO inference | req_id=50 | expId=1
+2025-11-21 00:52:17 [INFO] Inference completed | Time taken: 3.22s
+2025-11-21 00:52:18 [INFO] Running YOLO inference | req_id=51 | expId=1
+2025-11-21 00:52:21 [INFO] Inference completed | Time taken: 2.93s
+2025-11-21 00:52:22 [INFO] Running YOLO inference | req_id=52 | expId=1
+2025-11-21 00:52:24 [INFO] Inference completed | Time taken: 2.76s
+2025-11-21 00:52:25 [INFO] Running YOLO inference | req_id=53 | expId=1
+2025-11-21 00:52:28 [INFO] Inference completed | Time taken: 2.73s
+2025-11-21 00:52:29 [INFO] Running YOLO inference | req_id=54 | expId=1
+2025-11-21 00:52:32 [INFO] Inference completed | Time taken: 3.18s
+2025-11-21 00:52:33 [INFO] Running YOLO inference | req_id=55 | expId=1
+2025-11-21 00:52:36 [INFO] Inference completed | Time taken: 2.99s
+2025-11-21 00:52:37 [INFO] Running YOLO inference | req_id=56 | expId=1
+2025-11-21 00:52:41 [INFO] Inference completed | Time taken: 3.37s
+2025-11-21 00:52:42 [INFO] Running YOLO inference | req_id=57 | expId=1
+2025-11-21 00:52:45 [INFO] Inference completed | Time taken: 3.12s
+2025-11-21 00:52:46 [INFO] Running YOLO inference | req_id=58 | expId=1
+2025-11-21 00:52:49 [INFO] Inference completed | Time taken: 2.56s
+2025-11-21 00:52:50 [INFO] Running YOLO inference | req_id=59 | expId=1
+2025-11-21 00:52:53 [INFO] Inference completed | Time taken: 3.20s
+2025-11-21 00:52:54 [INFO] Running YOLO inference | req_id=60 | expId=1
+2025-11-21 00:52:57 [INFO] Inference completed | Time taken: 3.15s
+2025-11-21 00:52:57 [INFO] Running YOLO inference | req_id=61 | expId=1
+2025-11-21 00:53:00 [INFO] Inference completed | Time taken: 3.15s
+2025-11-21 00:53:01 [INFO] Running YOLO inference | req_id=62 | expId=1
+2025-11-21 00:53:04 [INFO] Inference completed | Time taken: 2.98s
+2025-11-21 00:53:04 [INFO] Running YOLO inference | req_id=63 | expId=1
+2025-11-21 00:53:07 [INFO] Inference completed | Time taken: 2.93s
+2025-11-21 00:53:07 [INFO] Running YOLO inference | req_id=64 | expId=1
+2025-11-21 00:53:12 [INFO] Inference completed | Time taken: 4.48s
+2025-11-21 00:53:12 [INFO] Running YOLO inference | req_id=65 | expId=1
+2025-11-21 00:53:15 [INFO] Inference completed | Time taken: 3.44s
+2025-11-21 00:53:16 [INFO] Running YOLO inference | req_id=66 | expId=1
+2025-11-21 00:53:19 [INFO] Inference completed | Time taken: 2.97s
+2025-11-21 00:53:19 [INFO] Running YOLO inference | req_id=67 | expId=1
+2025-11-21 00:53:22 [INFO] Inference completed | Time taken: 2.87s
+2025-11-21 00:53:22 [INFO] Running YOLO inference | req_id=68 | expId=1
+2025-11-21 00:53:25 [INFO] Inference completed | Time taken: 3.05s
+2025-11-21 00:53:25 [INFO] Running YOLO inference | req_id=69 | expId=1
+2025-11-21 00:53:29 [INFO] Inference completed | Time taken: 3.11s
+2025-11-21 00:53:29 [INFO] Running YOLO inference | req_id=70 | expId=1
+2025-11-21 00:53:32 [INFO] Inference completed | Time taken: 3.16s
+2025-11-21 00:53:32 [INFO] Running YOLO inference | req_id=71 | expId=1
+2025-11-21 00:53:36 [INFO] Inference completed | Time taken: 3.51s
+2025-11-21 00:53:36 [INFO] Running YOLO inference | req_id=72 | expId=1
+2025-11-21 00:53:42 [INFO] Inference completed | Time taken: 5.88s
+2025-11-21 00:53:42 [INFO] Running YOLO inference | req_id=73 | expId=1
+2025-11-21 00:53:45 [INFO] Inference completed | Time taken: 3.23s
+2025-11-21 00:53:46 [INFO] Running YOLO inference | req_id=74 | expId=1
+2025-11-21 00:53:49 [INFO] Inference completed | Time taken: 3.39s
+2025-11-21 00:53:49 [INFO] Running YOLO inference | req_id=75 | expId=1
+2025-11-21 00:53:52 [INFO] Inference completed | Time taken: 2.98s
+2025-11-21 00:53:53 [INFO] Running YOLO inference | req_id=76 | expId=1
+2025-11-21 00:53:55 [INFO] Inference completed | Time taken: 2.86s
+2025-11-21 00:53:56 [INFO] Running YOLO inference | req_id=77 | expId=1
+2025-11-21 00:53:59 [INFO] Inference completed | Time taken: 3.14s
+2025-11-21 00:53:59 [INFO] Running YOLO inference | req_id=78 | expId=1
+2025-11-21 00:54:02 [INFO] Inference completed | Time taken: 3.31s
+2025-11-21 00:54:03 [INFO] Running YOLO inference | req_id=79 | expId=1
+2025-11-21 00:54:06 [INFO] Inference completed | Time taken: 3.57s
+2025-11-21 00:54:07 [INFO] Running YOLO inference | req_id=80 | expId=1
+2025-11-21 00:54:12 [INFO] Inference completed | Time taken: 5.74s
+2025-11-21 00:54:13 [INFO] Running YOLO inference | req_id=81 | expId=1
+2025-11-21 00:54:16 [INFO] Inference completed | Time taken: 3.38s
+2025-11-21 00:54:16 [INFO] Running YOLO inference | req_id=82 | expId=1
+2025-11-21 00:54:20 [INFO] Inference completed | Time taken: 3.38s
+2025-11-21 00:54:20 [INFO] Running YOLO inference | req_id=83 | expId=1
+2025-11-21 00:54:24 [INFO] Inference completed | Time taken: 3.97s
+2025-11-21 00:54:24 [INFO] Running YOLO inference | req_id=84 | expId=1
+2025-11-21 00:54:27 [INFO] Inference completed | Time taken: 2.70s
+2025-11-21 00:54:27 [INFO] Running YOLO inference | req_id=85 | expId=1
+2025-11-21 00:54:31 [INFO] Inference completed | Time taken: 3.89s
+2025-11-21 00:54:31 [INFO] Running YOLO inference | req_id=86 | expId=1
+2025-11-21 00:54:34 [INFO] Inference completed | Time taken: 2.92s
+2025-11-21 00:54:35 [INFO] Running YOLO inference | req_id=87 | expId=1
+2025-11-21 00:54:38 [INFO] Inference completed | Time taken: 3.46s
+2025-11-21 00:54:38 [INFO] Running YOLO inference | req_id=88 | expId=1
+2025-11-21 00:54:42 [INFO] Inference completed | Time taken: 3.42s
+2025-11-21 00:54:42 [INFO] Running YOLO inference | req_id=89 | expId=1
+2025-11-21 00:54:46 [INFO] Inference completed | Time taken: 3.67s
+2025-11-21 00:54:46 [INFO] Running YOLO inference | req_id=90 | expId=1
+2025-11-21 00:54:49 [INFO] Inference completed | Time taken: 2.78s
+2025-11-21 00:54:49 [INFO] Running YOLO inference | req_id=91 | expId=1
+2025-11-21 00:54:52 [INFO] Inference completed | Time taken: 3.23s
+2025-11-21 00:54:52 [INFO] Running YOLO inference | req_id=92 | expId=1
+2025-11-21 00:54:55 [INFO] Inference completed | Time taken: 2.94s
+2025-11-21 00:54:56 [INFO] Running YOLO inference | req_id=93 | expId=1
+2025-11-21 00:54:58 [INFO] Inference completed | Time taken: 2.78s
+2025-11-21 00:54:59 [INFO] Running YOLO inference | req_id=94 | expId=1
+2025-11-21 00:55:02 [INFO] Inference completed | Time taken: 3.03s
+2025-11-21 00:55:02 [INFO] Running YOLO inference | req_id=95 | expId=1
+2025-11-21 00:55:05 [INFO] Inference completed | Time taken: 3.35s
+2025-11-21 00:55:06 [INFO] Running YOLO inference | req_id=96 | expId=1
+2025-11-21 00:55:09 [INFO] Inference completed | Time taken: 3.28s
+2025-11-21 00:55:09 [INFO] Running YOLO inference | req_id=97 | expId=1
+2025-11-21 00:55:13 [INFO] Inference completed | Time taken: 3.43s
+2025-11-21 00:55:13 [INFO] Running YOLO inference | req_id=98 | expId=1
+2025-11-21 00:55:16 [INFO] Inference completed | Time taken: 3.06s
+2025-11-21 00:55:16 [INFO] Running YOLO inference | req_id=99 | expId=1
+2025-11-21 00:55:19 [INFO] Inference completed | Time taken: 2.64s
+2025-11-21 00:55:19 [INFO] Running YOLO inference | req_id=100 | expId=1
+2025-11-21 00:55:22 [INFO] Inference completed | Time taken: 3.14s
+2025-11-21 00:55:22 [INFO] Running YOLO inference | req_id=101 | expId=1
+2025-11-21 00:55:28 [INFO] Inference completed | Time taken: 6.08s
+2025-11-21 00:55:29 [INFO] Running YOLO inference | req_id=102 | expId=1
+2025-11-21 00:55:32 [INFO] Inference completed | Time taken: 3.00s
+2025-11-21 00:55:32 [INFO] Running YOLO inference | req_id=103 | expId=1
+2025-11-21 00:55:36 [INFO] Inference completed | Time taken: 3.59s
+2025-11-21 00:55:36 [INFO] Running YOLO inference | req_id=104 | expId=1
+2025-11-21 00:55:39 [INFO] Inference completed | Time taken: 3.10s
+2025-11-21 00:55:39 [INFO] Running YOLO inference | req_id=105 | expId=1
+2025-11-21 00:55:42 [INFO] Inference completed | Time taken: 3.20s
+2025-11-21 00:55:43 [INFO] Running YOLO inference | req_id=106 | expId=1
+2025-11-21 00:55:45 [INFO] Inference completed | Time taken: 2.69s
+2025-11-21 00:55:46 [INFO] Running YOLO inference | req_id=107 | expId=1
+2025-11-21 00:55:50 [INFO] Inference completed | Time taken: 4.28s
+2025-11-21 00:55:50 [INFO] Running YOLO inference | req_id=108 | expId=1
+2025-11-21 00:55:54 [INFO] Inference completed | Time taken: 3.45s
+2025-11-21 00:55:54 [INFO] Running YOLO inference | req_id=109 | expId=1
+2025-11-21 00:55:57 [INFO] Inference completed | Time taken: 3.26s
+2025-11-21 00:55:57 [INFO] Running YOLO inference | req_id=110 | expId=1
+2025-11-21 00:56:01 [INFO] Inference completed | Time taken: 3.16s
+2025-11-21 00:56:01 [INFO] Running YOLO inference | req_id=111 | expId=1
+2025-11-21 00:56:05 [INFO] Inference completed | Time taken: 3.86s
+2025-11-21 00:56:05 [INFO] Running YOLO inference | req_id=112 | expId=1
+2025-11-21 00:56:08 [INFO] Inference completed | Time taken: 3.11s
+2025-11-21 00:56:08 [INFO] Running YOLO inference | req_id=113 | expId=1
+2025-11-21 00:56:12 [INFO] Inference completed | Time taken: 3.90s
+2025-11-21 00:56:13 [INFO] Running YOLO inference | req_id=114 | expId=1
+2025-11-21 00:56:16 [INFO] Inference completed | Time taken: 3.22s
+2025-11-21 00:56:16 [INFO] Running YOLO inference | req_id=115 | expId=1
+2025-11-21 00:56:19 [INFO] Inference completed | Time taken: 2.88s
+2025-11-21 00:56:19 [INFO] Running YOLO inference | req_id=116 | expId=1
+2025-11-21 00:56:22 [INFO] Inference completed | Time taken: 3.00s
+2025-11-21 00:56:23 [INFO] Running YOLO inference | req_id=117 | expId=1
+2025-11-21 00:56:26 [INFO] Inference completed | Time taken: 3.22s
+2025-11-21 00:56:26 [INFO] Running YOLO inference | req_id=118 | expId=1
+2025-11-21 00:56:29 [INFO] Inference completed | Time taken: 2.80s
+2025-11-21 00:56:29 [INFO] Running YOLO inference | req_id=119 | expId=1
+2025-11-21 00:56:32 [INFO] Inference completed | Time taken: 3.31s
+2025-11-21 00:56:33 [INFO] Running YOLO inference | req_id=120 | expId=1
+2025-11-21 00:56:36 [INFO] Inference completed | Time taken: 3.17s
+2025-11-21 00:56:36 [INFO] Running YOLO inference | req_id=121 | expId=1
+2025-11-21 00:56:39 [INFO] Inference completed | Time taken: 2.64s
+2025-11-21 00:56:39 [INFO] Running YOLO inference | req_id=122 | expId=1
+2025-11-21 00:56:42 [INFO] Inference completed | Time taken: 3.45s
+2025-11-21 00:56:42 [INFO] Running YOLO inference | req_id=123 | expId=1
+2025-11-21 00:56:46 [INFO] Inference completed | Time taken: 3.27s
+2025-11-21 00:56:46 [INFO] Running YOLO inference | req_id=124 | expId=1
+2025-11-21 00:56:49 [INFO] Inference completed | Time taken: 3.01s
+2025-11-21 00:56:49 [INFO] Running YOLO inference | req_id=125 | expId=1
+2025-11-21 00:56:52 [INFO] Inference completed | Time taken: 3.10s
+2025-11-21 00:56:52 [INFO] Running YOLO inference | req_id=126 | expId=1
+2025-11-21 00:56:55 [INFO] Inference completed | Time taken: 3.09s
+2025-11-21 00:56:56 [INFO] Running YOLO inference | req_id=127 | expId=1
+2025-11-21 00:56:59 [INFO] Inference completed | Time taken: 2.73s
+2025-11-21 00:56:59 [INFO] Running YOLO inference | req_id=128 | expId=1
+2025-11-21 00:57:02 [INFO] Inference completed | Time taken: 3.41s
+2025-11-21 00:57:02 [INFO] Running YOLO inference | req_id=129 | expId=1
+2025-11-21 00:57:05 [INFO] Inference completed | Time taken: 2.98s
+2025-11-21 00:57:06 [INFO] Running YOLO inference | req_id=130 | expId=1
+2025-11-21 00:57:12 [INFO] Inference completed | Time taken: 6.26s
+2025-11-21 00:57:12 [INFO] Running YOLO inference | req_id=131 | expId=1
+2025-11-21 00:57:16 [INFO] Inference completed | Time taken: 3.82s
+2025-11-21 00:57:16 [INFO] Running YOLO inference | req_id=132 | expId=1
+2025-11-21 00:57:19 [INFO] Inference completed | Time taken: 2.75s
+2025-11-21 00:57:19 [INFO] Running YOLO inference | req_id=133 | expId=1
+2025-11-21 00:57:22 [INFO] Inference completed | Time taken: 3.29s
+2025-11-21 00:57:23 [INFO] Running YOLO inference | req_id=134 | expId=1
+2025-11-21 00:57:26 [INFO] Inference completed | Time taken: 3.02s
+2025-11-21 00:57:26 [INFO] Running YOLO inference | req_id=135 | expId=1
+2025-11-21 00:57:29 [INFO] Inference completed | Time taken: 2.90s
+2025-11-21 00:57:29 [INFO] Running YOLO inference | req_id=136 | expId=1
+2025-11-21 00:57:33 [INFO] Inference completed | Time taken: 3.73s
+2025-11-21 00:57:33 [INFO] Running YOLO inference | req_id=137 | expId=1
+2025-11-21 00:57:36 [INFO] Inference completed | Time taken: 3.30s
+2025-11-21 00:57:36 [INFO] Running YOLO inference | req_id=138 | expId=1
+2025-11-21 00:57:39 [INFO] Inference completed | Time taken: 2.71s
+2025-11-21 00:57:39 [INFO] Running YOLO inference | req_id=139 | expId=1
+2025-11-21 00:57:42 [INFO] Inference completed | Time taken: 3.20s
+2025-11-21 00:57:43 [INFO] Running YOLO inference | req_id=140 | expId=1
+2025-11-21 00:57:46 [INFO] Inference completed | Time taken: 3.27s
+2025-11-21 00:57:46 [INFO] Running YOLO inference | req_id=141 | expId=1
+2025-11-21 00:57:49 [INFO] Inference completed | Time taken: 3.02s
+2025-11-21 00:57:49 [INFO] Running YOLO inference | req_id=142 | expId=1
+2025-11-21 00:57:52 [INFO] Inference completed | Time taken: 2.91s
+2025-11-21 00:57:52 [INFO] Running YOLO inference | req_id=143 | expId=1
+2025-11-21 00:57:55 [INFO] Inference completed | Time taken: 3.14s
+2025-11-21 00:57:56 [INFO] Running YOLO inference | req_id=144 | expId=1
+2025-11-21 00:57:58 [INFO] Inference completed | Time taken: 2.88s
+2025-11-21 00:57:59 [INFO] Running YOLO inference | req_id=145 | expId=1
+2025-11-21 00:58:02 [INFO] Inference completed | Time taken: 3.04s
+2025-11-21 00:58:02 [INFO] Running YOLO inference | req_id=146 | expId=1
+2025-11-21 00:58:05 [INFO] Inference completed | Time taken: 2.81s
+2025-11-21 00:58:05 [INFO] Running YOLO inference | req_id=147 | expId=1
+2025-11-21 00:58:08 [INFO] Inference completed | Time taken: 2.78s
+2025-11-21 00:58:08 [INFO] Running YOLO inference | req_id=148 | expId=1
+2025-11-21 00:58:11 [INFO] Inference completed | Time taken: 3.20s
+2025-11-21 00:58:11 [INFO] Running YOLO inference | req_id=149 | expId=1
+2025-11-21 00:58:14 [INFO] Inference completed | Time taken: 2.57s
+2025-11-21 00:58:14 [INFO] Running YOLO inference | req_id=150 | expId=1
+2025-11-21 00:58:17 [INFO] Inference completed | Time taken: 2.64s
+2025-11-21 00:58:17 [INFO] Running YOLO inference | req_id=151 | expId=1
+2025-11-21 00:58:19 [INFO] Inference completed | Time taken: 2.62s
+2025-11-21 00:58:19 [INFO] Running YOLO inference | req_id=152 | expId=1
+2025-11-21 00:58:22 [INFO] Inference completed | Time taken: 2.96s
+2025-11-21 00:58:23 [INFO] Running YOLO inference | req_id=153 | expId=1
+2025-11-21 00:58:26 [INFO] Inference completed | Time taken: 3.40s
+2025-11-21 00:58:26 [INFO] Running YOLO inference | req_id=154 | expId=1
+2025-11-21 00:58:29 [INFO] Inference completed | Time taken: 3.28s
+2025-11-21 00:58:30 [INFO] Running YOLO inference | req_id=155 | expId=1
+2025-11-21 00:58:33 [INFO] Inference completed | Time taken: 3.07s
+2025-11-21 00:58:33 [INFO] Running YOLO inference | req_id=156 | expId=1
+2025-11-21 00:58:36 [INFO] Inference completed | Time taken: 3.36s
+2025-11-21 00:58:36 [INFO] Running YOLO inference | req_id=157 | expId=1
+2025-11-21 00:58:39 [INFO] Inference completed | Time taken: 2.84s
+2025-11-21 00:58:39 [INFO] Running YOLO inference | req_id=158 | expId=1
+2025-11-21 00:58:43 [INFO] Inference completed | Time taken: 3.40s
+2025-11-21 00:58:43 [INFO] Running YOLO inference | req_id=159 | expId=1
+2025-11-21 00:58:46 [INFO] Inference completed | Time taken: 3.37s
+2025-11-21 00:58:46 [INFO] Running YOLO inference | req_id=160 | expId=1
+2025-11-21 00:58:50 [INFO] Inference completed | Time taken: 3.57s
+2025-11-21 00:58:50 [INFO] Running YOLO inference | req_id=161 | expId=1
+2025-11-21 00:58:58 [INFO] Inference completed | Time taken: 7.46s
+2025-11-21 00:58:58 [INFO] Running YOLO inference | req_id=162 | expId=1
+2025-11-21 00:59:02 [INFO] Inference completed | Time taken: 4.27s
+2025-11-21 00:59:03 [INFO] Running YOLO inference | req_id=163 | expId=1
+2025-11-21 00:59:06 [INFO] Inference completed | Time taken: 3.74s
+2025-11-21 00:59:07 [INFO] Running YOLO inference | req_id=164 | expId=1
+2025-11-21 00:59:11 [INFO] Inference completed | Time taken: 3.99s
+2025-11-21 00:59:11 [INFO] Running YOLO inference | req_id=165 | expId=1
+2025-11-21 00:59:14 [INFO] Inference completed | Time taken: 3.17s
+2025-11-21 00:59:14 [INFO] Running YOLO inference | req_id=166 | expId=1
+2025-11-21 00:59:18 [INFO] Inference completed | Time taken: 3.65s
+2025-11-21 00:59:18 [INFO] Running YOLO inference | req_id=167 | expId=1
+2025-11-21 00:59:22 [INFO] Inference completed | Time taken: 3.74s
+2025-11-21 00:59:22 [INFO] Running YOLO inference | req_id=168 | expId=1
+2025-11-21 00:59:26 [INFO] Inference completed | Time taken: 3.61s
+2025-11-21 00:59:26 [INFO] Running YOLO inference | req_id=169 | expId=1
+2025-11-21 00:59:29 [INFO] Inference completed | Time taken: 3.09s
+2025-11-21 00:59:29 [INFO] Running YOLO inference | req_id=170 | expId=1
+2025-11-21 00:59:32 [INFO] Inference completed | Time taken: 2.85s
+2025-11-21 00:59:32 [INFO] Running YOLO inference | req_id=171 | expId=1
+2025-11-21 00:59:35 [INFO] Inference completed | Time taken: 3.32s
+2025-11-21 00:59:36 [INFO] Running YOLO inference | req_id=172 | expId=1
+2025-11-21 00:59:38 [INFO] Inference completed | Time taken: 2.71s
+2025-11-21 00:59:39 [INFO] Running YOLO inference | req_id=173 | expId=1
+2025-11-21 00:59:42 [INFO] Inference completed | Time taken: 3.16s
+2025-11-21 00:59:42 [INFO] Running YOLO inference | req_id=174 | expId=1
+2025-11-21 00:59:44 [INFO] Inference completed | Time taken: 2.53s
+2025-11-21 00:59:45 [INFO] Running YOLO inference | req_id=175 | expId=1
+2025-11-21 00:59:48 [INFO] Inference completed | Time taken: 3.38s
+2025-11-21 00:59:48 [INFO] Running YOLO inference | req_id=176 | expId=1
+2025-11-21 00:59:51 [INFO] Inference completed | Time taken: 3.04s
+2025-11-21 00:59:51 [INFO] Running YOLO inference | req_id=177 | expId=1
+2025-11-21 00:59:54 [INFO] Inference completed | Time taken: 2.60s
+2025-11-21 00:59:54 [INFO] Running YOLO inference | req_id=178 | expId=1
+2025-11-21 00:59:57 [INFO] Inference completed | Time taken: 2.96s
+2025-11-21 00:59:57 [INFO] Running YOLO inference | req_id=179 | expId=1
+2025-11-21 01:00:00 [INFO] Inference completed | Time taken: 2.91s
+2025-11-21 01:00:00 [INFO] Running YOLO inference | req_id=180 | expId=1
+2025-11-21 01:00:03 [INFO] Inference completed | Time taken: 2.75s
+2025-11-21 01:00:03 [INFO] Running YOLO inference | req_id=181 | expId=1
+2025-11-21 01:00:06 [INFO] Inference completed | Time taken: 3.03s
+2025-11-21 01:00:06 [INFO] Running YOLO inference | req_id=182 | expId=1
+2025-11-21 01:00:09 [INFO] Inference completed | Time taken: 2.92s
+2025-11-21 01:00:09 [INFO] Running YOLO inference | req_id=183 | expId=1
+2025-11-21 01:00:13 [INFO] Inference completed | Time taken: 3.25s
+2025-11-21 01:00:13 [INFO] Running YOLO inference | req_id=184 | expId=1
+2025-11-21 01:00:16 [INFO] Inference completed | Time taken: 2.81s
+2025-11-21 01:00:16 [INFO] Running YOLO inference | req_id=185 | expId=1
+2025-11-21 01:00:19 [INFO] Inference completed | Time taken: 3.57s
+2025-11-21 01:00:19 [INFO] Running YOLO inference | req_id=186 | expId=1
+2025-11-21 01:00:22 [INFO] Inference completed | Time taken: 2.92s
+2025-11-21 01:00:22 [INFO] Running YOLO inference | req_id=187 | expId=1
+2025-11-21 01:00:25 [INFO] Inference completed | Time taken: 3.05s
+2025-11-21 01:00:25 [INFO] Running YOLO inference | req_id=188 | expId=1
+2025-11-21 01:00:28 [INFO] Inference completed | Time taken: 2.79s
+2025-11-21 01:00:28 [INFO] Running YOLO inference | req_id=189 | expId=1
+2025-11-21 01:00:31 [INFO] Inference completed | Time taken: 2.63s
+2025-11-21 01:00:31 [INFO] Running YOLO inference | req_id=190 | expId=1
+2025-11-21 01:00:34 [INFO] Inference completed | Time taken: 2.78s
+2025-11-21 01:00:34 [INFO] Running YOLO inference | req_id=191 | expId=1
+2025-11-21 01:00:37 [INFO] Inference completed | Time taken: 3.06s
+2025-11-21 01:00:37 [INFO] Running YOLO inference | req_id=192 | expId=1
+2025-11-21 01:00:43 [INFO] Inference completed | Time taken: 5.42s
+2025-11-21 01:00:43 [INFO] Running YOLO inference | req_id=193 | expId=1
+2025-11-21 01:00:46 [INFO] Inference completed | Time taken: 3.51s
+2025-11-21 01:00:46 [INFO] Running YOLO inference | req_id=194 | expId=1
+2025-11-21 01:00:50 [INFO] Inference completed | Time taken: 3.85s
+2025-11-21 01:00:50 [INFO] Running YOLO inference | req_id=195 | expId=1
+2025-11-21 01:00:53 [INFO] Inference completed | Time taken: 2.71s
+2025-11-21 01:00:53 [INFO] Running YOLO inference | req_id=196 | expId=1
+2025-11-21 01:00:57 [INFO] Inference completed | Time taken: 3.62s
+2025-11-21 01:00:57 [INFO] Running YOLO inference | req_id=197 | expId=1
+2025-11-21 01:01:00 [INFO] Inference completed | Time taken: 2.99s
+2025-11-21 01:01:00 [INFO] Running YOLO inference | req_id=198 | expId=1
+2025-11-21 01:01:03 [INFO] Inference completed | Time taken: 2.84s
+2025-11-21 01:01:03 [INFO] Running YOLO inference | req_id=199 | expId=1
+2025-11-21 01:01:07 [INFO] Inference completed | Time taken: 3.81s
+2025-11-21 01:01:07 [INFO] Running YOLO inference | req_id=200 | expId=1
+2025-11-21 01:01:11 [INFO] Inference completed | Time taken: 3.55s
+2025-11-21 01:01:11 [INFO] Running YOLO inference | req_id=201 | expId=1
+2025-11-21 01:01:14 [INFO] Inference completed | Time taken: 2.88s
+2025-11-21 01:01:14 [INFO] Running YOLO inference | req_id=202 | expId=1
+2025-11-21 01:01:17 [INFO] Inference completed | Time taken: 3.23s
+2025-11-21 01:01:17 [INFO] Running YOLO inference | req_id=203 | expId=1
+2025-11-21 01:01:19 [INFO] Inference completed | Time taken: 2.25s
+2025-11-21 01:01:19 [INFO] Running YOLO inference | req_id=204 | expId=1
+2025-11-21 01:01:23 [INFO] Inference completed | Time taken: 3.12s
+2025-11-21 01:01:23 [INFO] Running YOLO inference | req_id=205 | expId=1
+2025-11-21 01:01:26 [INFO] Inference completed | Time taken: 3.28s
+2025-11-21 01:01:26 [INFO] Running YOLO inference | req_id=206 | expId=1
+2025-11-21 01:01:30 [INFO] Inference completed | Time taken: 3.75s
+2025-11-21 01:01:30 [INFO] Running YOLO inference | req_id=207 | expId=1
+2025-11-21 01:01:33 [INFO] Inference completed | Time taken: 2.86s
+2025-11-21 01:01:33 [INFO] Running YOLO inference | req_id=208 | expId=1
+2025-11-21 01:01:36 [INFO] Inference completed | Time taken: 3.09s
+2025-11-21 01:01:36 [INFO] Running YOLO inference | req_id=209 | expId=1
+2025-11-21 01:01:39 [INFO] Inference completed | Time taken: 3.46s
+2025-11-21 01:01:40 [INFO] Running YOLO inference | req_id=210 | expId=1
+2025-11-21 01:01:43 [INFO] Inference completed | Time taken: 3.25s
+2025-11-21 01:01:43 [INFO] Running YOLO inference | req_id=211 | expId=1
+2025-11-21 01:01:46 [INFO] Inference completed | Time taken: 2.58s
+2025-11-21 01:01:46 [INFO] Running YOLO inference | req_id=212 | expId=1
+2025-11-21 01:01:49 [INFO] Inference completed | Time taken: 3.48s
+2025-11-21 01:01:49 [INFO] Running YOLO inference | req_id=213 | expId=1
+2025-11-21 01:01:52 [INFO] Inference completed | Time taken: 2.86s
+2025-11-21 01:01:52 [INFO] Running YOLO inference | req_id=214 | expId=1
+2025-11-21 01:01:55 [INFO] Inference completed | Time taken: 2.73s
+2025-11-21 01:01:55 [INFO] Running YOLO inference | req_id=215 | expId=1
+2025-11-21 01:01:58 [INFO] Inference completed | Time taken: 2.98s
+2025-11-21 01:01:58 [INFO] Running YOLO inference | req_id=216 | expId=1
+2025-11-21 01:02:01 [INFO] Inference completed | Time taken: 3.02s
+2025-11-21 01:02:01 [INFO] Running YOLO inference | req_id=217 | expId=1
+2025-11-21 01:02:04 [INFO] Inference completed | Time taken: 2.71s
+2025-11-21 01:02:04 [INFO] Running YOLO inference | req_id=218 | expId=1
+2025-11-21 01:02:07 [INFO] Inference completed | Time taken: 2.82s
+2025-11-21 01:02:07 [INFO] Running YOLO inference | req_id=219 | expId=1
+2025-11-21 01:02:11 [INFO] Inference completed | Time taken: 3.58s
+2025-11-21 01:02:11 [INFO] Running YOLO inference | req_id=220 | expId=1
+2025-11-21 01:02:14 [INFO] Inference completed | Time taken: 2.94s
+2025-11-21 01:02:14 [INFO] Running YOLO inference | req_id=221 | expId=1
+2025-11-21 01:02:17 [INFO] Inference completed | Time taken: 3.22s
+2025-11-21 01:02:17 [INFO] Running YOLO inference | req_id=222 | expId=1
+2025-11-21 01:02:21 [INFO] Inference completed | Time taken: 3.49s
+2025-11-21 01:02:21 [INFO] Running YOLO inference | req_id=223 | expId=1
+2025-11-21 01:02:23 [INFO] Inference completed | Time taken: 2.82s
+2025-11-21 01:02:24 [INFO] Running YOLO inference | req_id=224 | expId=1
+2025-11-21 01:02:26 [INFO] Inference completed | Time taken: 2.77s
+2025-11-21 01:02:27 [INFO] Running YOLO inference | req_id=225 | expId=1
+2025-11-21 01:02:30 [INFO] Inference completed | Time taken: 2.99s
+2025-11-21 01:02:30 [INFO] Running YOLO inference | req_id=226 | expId=1
+2025-11-21 01:02:35 [INFO] Inference completed | Time taken: 5.80s
+2025-11-21 01:02:36 [INFO] Running YOLO inference | req_id=227 | expId=1
+2025-11-21 01:02:39 [INFO] Inference completed | Time taken: 3.41s
+2025-11-21 01:02:39 [INFO] Running YOLO inference | req_id=228 | expId=1
+2025-11-21 01:02:42 [INFO] Inference completed | Time taken: 3.27s
+2025-11-21 01:02:42 [INFO] Running YOLO inference | req_id=229 | expId=1
+2025-11-21 01:02:46 [INFO] Inference completed | Time taken: 3.29s
+2025-11-21 01:02:46 [INFO] Running YOLO inference | req_id=230 | expId=1
+2025-11-21 01:02:49 [INFO] Inference completed | Time taken: 2.64s
+2025-11-21 01:02:49 [INFO] Running YOLO inference | req_id=231 | expId=1
+2025-11-21 01:02:52 [INFO] Inference completed | Time taken: 2.86s
+2025-11-21 01:02:52 [INFO] Running YOLO inference | req_id=232 | expId=1
+2025-11-21 01:02:55 [INFO] Inference completed | Time taken: 2.81s
+2025-11-21 01:02:55 [INFO] Running YOLO inference | req_id=233 | expId=1
+2025-11-21 01:02:58 [INFO] Inference completed | Time taken: 2.94s
+2025-11-21 01:02:58 [INFO] Running YOLO inference | req_id=234 | expId=1
+2025-11-21 01:03:01 [INFO] Inference completed | Time taken: 2.83s
+2025-11-21 01:03:01 [INFO] Running YOLO inference | req_id=235 | expId=1
+2025-11-21 01:03:03 [INFO] Inference completed | Time taken: 2.67s
+2025-11-21 01:03:03 [INFO] Running YOLO inference | req_id=236 | expId=1
+2025-11-21 01:03:07 [INFO] Inference completed | Time taken: 3.04s
+2025-11-21 01:03:07 [INFO] Running YOLO inference | req_id=237 | expId=1
+2025-11-21 01:03:10 [INFO] Inference completed | Time taken: 3.43s
+2025-11-21 01:03:10 [INFO] Running YOLO inference | req_id=238 | expId=1
+2025-11-21 01:03:13 [INFO] Inference completed | Time taken: 3.09s
+2025-11-21 01:03:13 [INFO] Running YOLO inference | req_id=239 | expId=1
+2025-11-21 01:03:16 [INFO] Inference completed | Time taken: 2.83s
+2025-11-21 01:03:16 [INFO] Running YOLO inference | req_id=240 | expId=1
+2025-11-21 01:03:19 [INFO] Inference completed | Time taken: 2.98s
+2025-11-21 01:03:19 [INFO] Running YOLO inference | req_id=241 | expId=1
+2025-11-21 01:03:22 [INFO] Inference completed | Time taken: 3.01s
+2025-11-21 01:03:22 [INFO] Running YOLO inference | req_id=242 | expId=1
+2025-11-21 01:03:26 [INFO] Inference completed | Time taken: 3.13s
+2025-11-21 01:03:26 [INFO] Running YOLO inference | req_id=243 | expId=1
+2025-11-21 01:03:28 [INFO] Inference completed | Time taken: 2.69s
+2025-11-21 01:03:28 [INFO] Running YOLO inference | req_id=244 | expId=1
+2025-11-21 01:03:32 [INFO] Inference completed | Time taken: 3.10s
+2025-11-21 01:03:32 [INFO] Running YOLO inference | req_id=245 | expId=1
+2025-11-21 01:03:35 [INFO] Inference completed | Time taken: 2.98s
+2025-11-21 01:03:35 [INFO] Running YOLO inference | req_id=246 | expId=1
+2025-11-21 01:03:38 [INFO] Inference completed | Time taken: 3.17s
+2025-11-21 01:03:38 [INFO] Running YOLO inference | req_id=247 | expId=1
+2025-11-21 01:03:41 [INFO] Inference completed | Time taken: 2.79s
+2025-11-21 01:03:41 [INFO] Running YOLO inference | req_id=248 | expId=1
+2025-11-21 01:03:43 [INFO] Inference completed | Time taken: 2.55s
+2025-11-21 01:03:43 [INFO] Running YOLO inference | req_id=249 | expId=1
+2025-11-21 01:03:46 [INFO] Inference completed | Time taken: 2.83s
+2025-11-21 01:03:46 [INFO] Running YOLO inference | req_id=250 | expId=1
+2025-11-21 01:03:49 [INFO] Inference completed | Time taken: 2.95s
+2025-11-21 01:03:49 [INFO] Running YOLO inference | req_id=251 | expId=1
+2025-11-21 01:03:53 [INFO] Inference completed | Time taken: 3.39s
+2025-11-21 01:03:53 [INFO] Running YOLO inference | req_id=252 | expId=1
+2025-11-21 01:03:56 [INFO] Inference completed | Time taken: 2.89s
+2025-11-21 01:03:56 [INFO] Running YOLO inference | req_id=253 | expId=1
+2025-11-21 01:03:59 [INFO] Inference completed | Time taken: 3.78s
+2025-11-21 01:04:00 [INFO] Running YOLO inference | req_id=254 | expId=1
+2025-11-21 01:04:05 [INFO] Inference completed | Time taken: 5.09s
+2025-11-21 01:04:05 [INFO] Running YOLO inference | req_id=255 | expId=1
+2025-11-21 01:04:14 [INFO] Inference completed | Time taken: 9.59s
+2025-11-21 01:04:15 [INFO] Running YOLO inference | req_id=256 | expId=1
+2025-11-21 01:04:21 [INFO] Inference completed | Time taken: 6.07s
+2025-11-21 01:04:21 [INFO] Running YOLO inference | req_id=257 | expId=1
+2025-11-21 01:04:25 [INFO] Inference completed | Time taken: 4.04s
+2025-11-21 01:04:25 [INFO] Running YOLO inference | req_id=258 | expId=1
+2025-11-21 01:04:29 [INFO] Inference completed | Time taken: 3.95s
+2025-11-21 01:04:29 [INFO] Running YOLO inference | req_id=259 | expId=1
+2025-11-21 01:04:33 [INFO] Inference completed | Time taken: 3.36s
+2025-11-21 01:04:33 [INFO] Running YOLO inference | req_id=260 | expId=1
+2025-11-21 01:04:36 [INFO] Inference completed | Time taken: 3.09s
+2025-11-21 01:04:36 [INFO] Running YOLO inference | req_id=261 | expId=1
+2025-11-21 01:04:40 [INFO] Inference completed | Time taken: 4.33s
+2025-11-21 01:04:40 [INFO] Running YOLO inference | req_id=262 | expId=1
+2025-11-21 01:05:00 [INFO] Inference completed | Time taken: 19.87s
+2025-11-21 01:05:01 [INFO] Running YOLO inference | req_id=263 | expId=1
+2025-11-21 01:05:08 [INFO] Inference completed | Time taken: 7.22s
+2025-11-21 01:05:09 [INFO] Running YOLO inference | req_id=264 | expId=1
+2025-11-21 01:05:13 [INFO] Inference completed | Time taken: 4.39s
+2025-11-21 01:05:14 [INFO] Running YOLO inference | req_id=265 | expId=1
+2025-11-21 01:05:18 [INFO] Inference completed | Time taken: 4.20s
+2025-11-21 01:05:18 [INFO] Running YOLO inference | req_id=266 | expId=1
+2025-11-21 01:05:22 [INFO] Inference completed | Time taken: 4.05s
+2025-11-21 01:05:22 [INFO] Running YOLO inference | req_id=267 | expId=1
+2025-11-21 01:05:25 [INFO] Inference completed | Time taken: 3.02s
+2025-11-21 01:05:25 [INFO] Running YOLO inference | req_id=268 | expId=1
+2025-11-21 01:05:29 [INFO] Inference completed | Time taken: 3.63s
+2025-11-21 01:05:29 [INFO] Running YOLO inference | req_id=269 | expId=1
+2025-11-21 01:05:32 [INFO] Inference completed | Time taken: 3.19s
+2025-11-21 01:05:32 [INFO] Running YOLO inference | req_id=270 | expId=1
+2025-11-21 01:05:35 [INFO] Inference completed | Time taken: 3.01s
+2025-11-21 01:05:35 [INFO] Running YOLO inference | req_id=271 | expId=1
+2025-11-21 01:05:39 [INFO] Inference completed | Time taken: 3.43s
+2025-11-21 01:05:39 [INFO] Running YOLO inference | req_id=272 | expId=1
+2025-11-21 01:05:42 [INFO] Inference completed | Time taken: 3.43s
+2025-11-21 01:05:42 [INFO] Running YOLO inference | req_id=273 | expId=1
+2025-11-21 01:05:46 [INFO] Inference completed | Time taken: 3.06s
+2025-11-21 01:05:46 [INFO] Running YOLO inference | req_id=274 | expId=1
+2025-11-21 01:05:49 [INFO] Inference completed | Time taken: 3.47s
+2025-11-21 01:05:49 [INFO] Running YOLO inference | req_id=275 | expId=1
+2025-11-21 01:05:52 [INFO] Inference completed | Time taken: 3.20s
+2025-11-21 01:05:52 [INFO] Running YOLO inference | req_id=276 | expId=1
+2025-11-21 01:05:55 [INFO] Inference completed | Time taken: 3.00s
+2025-11-21 01:05:55 [INFO] Running YOLO inference | req_id=277 | expId=1
+2025-11-21 01:05:59 [INFO] Inference completed | Time taken: 3.20s
+2025-11-21 01:05:59 [INFO] Running YOLO inference | req_id=278 | expId=1
+2025-11-21 01:06:02 [INFO] Inference completed | Time taken: 2.91s
+2025-11-21 01:06:02 [INFO] Running YOLO inference | req_id=279 | expId=1
+2025-11-21 01:06:07 [INFO] Inference completed | Time taken: 4.85s
+2025-11-21 01:06:07 [INFO] Running YOLO inference | req_id=280 | expId=1
+2025-11-21 01:06:10 [INFO] Inference completed | Time taken: 3.20s
+2025-11-21 01:06:10 [INFO] Running YOLO inference | req_id=281 | expId=1
+2025-11-21 01:06:14 [INFO] Inference completed | Time taken: 3.53s
+2025-11-21 01:06:14 [INFO] Running YOLO inference | req_id=282 | expId=1
+2025-11-21 01:06:17 [INFO] Inference completed | Time taken: 3.28s
+2025-11-21 01:06:17 [INFO] Running YOLO inference | req_id=283 | expId=1
+2025-11-21 01:06:20 [INFO] Inference completed | Time taken: 2.99s
+2025-11-21 01:06:20 [INFO] Running YOLO inference | req_id=284 | expId=1
+2025-11-21 01:06:24 [INFO] Inference completed | Time taken: 3.15s
+2025-11-21 01:06:24 [INFO] Running YOLO inference | req_id=285 | expId=1
+2025-11-21 01:06:29 [INFO] Inference completed | Time taken: 5.40s
+2025-11-21 01:06:29 [INFO] Running YOLO inference | req_id=286 | expId=1
+2025-11-21 01:06:33 [INFO] Inference completed | Time taken: 3.85s
+2025-11-21 01:06:33 [INFO] Running YOLO inference | req_id=287 | expId=1
+2025-11-21 01:06:36 [INFO] Inference completed | Time taken: 2.79s
+2025-11-21 01:06:36 [INFO] Running YOLO inference | req_id=288 | expId=1
+2025-11-21 01:06:39 [INFO] Inference completed | Time taken: 3.16s
+2025-11-21 01:06:39 [INFO] Running YOLO inference | req_id=289 | expId=1
+2025-11-21 01:06:42 [INFO] Inference completed | Time taken: 2.96s
+2025-11-21 01:06:42 [INFO] Running YOLO inference | req_id=290 | expId=1
+2025-11-21 01:06:45 [INFO] Inference completed | Time taken: 3.27s
+2025-11-21 01:06:45 [INFO] Running YOLO inference | req_id=291 | expId=1
+2025-11-21 01:06:49 [INFO] Inference completed | Time taken: 3.58s
+2025-11-21 01:06:49 [INFO] Running YOLO inference | req_id=292 | expId=1
+2025-11-21 01:06:52 [INFO] Inference completed | Time taken: 3.00s
+2025-11-21 01:06:52 [INFO] Running YOLO inference | req_id=293 | expId=1
+2025-11-21 01:06:55 [INFO] Inference completed | Time taken: 2.87s
+2025-11-21 01:06:55 [INFO] Running YOLO inference | req_id=294 | expId=1
+2025-11-21 01:06:58 [INFO] Inference completed | Time taken: 2.96s
+2025-11-21 01:06:58 [INFO] Running YOLO inference | req_id=295 | expId=1
+2025-11-21 01:07:01 [INFO] Inference completed | Time taken: 2.73s
+2025-11-21 01:07:01 [INFO] Running YOLO inference | req_id=296 | expId=1
+2025-11-21 01:07:04 [INFO] Inference completed | Time taken: 2.87s
+2025-11-21 01:07:04 [INFO] Running YOLO inference | req_id=297 | expId=1
+2025-11-21 01:07:07 [INFO] Inference completed | Time taken: 2.88s
+2025-11-21 01:07:07 [INFO] Running YOLO inference | req_id=298 | expId=1
+2025-11-21 01:07:09 [INFO] Inference completed | Time taken: 2.54s
+2025-11-21 01:07:10 [INFO] Running YOLO inference | req_id=299 | expId=1
+2025-11-21 01:07:13 [INFO] Inference completed | Time taken: 3.43s
+2025-11-21 01:07:13 [INFO] Running YOLO inference | req_id=300 | expId=1
+2025-11-21 01:07:16 [INFO] Inference completed | Time taken: 3.02s
+2025-11-21 01:07:16 [INFO] Running YOLO inference | req_id=301 | expId=1
+2025-11-21 01:07:19 [INFO] Inference completed | Time taken: 3.02s
+2025-11-21 01:07:19 [INFO] Running YOLO inference | req_id=302 | expId=1
+2025-11-21 01:07:23 [INFO] Inference completed | Time taken: 3.40s
+2025-11-21 01:07:23 [INFO] Running YOLO inference | req_id=303 | expId=1
+2025-11-21 01:07:26 [INFO] Inference completed | Time taken: 3.15s
+2025-11-21 01:07:26 [INFO] Running YOLO inference | req_id=304 | expId=1
+2025-11-21 01:07:29 [INFO] Inference completed | Time taken: 2.87s
+2025-11-21 01:07:29 [INFO] Running YOLO inference | req_id=305 | expId=1
+2025-11-21 01:07:32 [INFO] Inference completed | Time taken: 3.24s
+2025-11-21 01:07:32 [INFO] Running YOLO inference | req_id=306 | expId=1
+2025-11-21 01:07:35 [INFO] Inference completed | Time taken: 2.92s
+2025-11-21 01:07:35 [INFO] Running YOLO inference | req_id=307 | expId=1
+2025-11-21 01:07:38 [INFO] Inference completed | Time taken: 3.03s
+2025-11-21 01:07:38 [INFO] Running YOLO inference | req_id=308 | expId=1
+2025-11-21 01:07:41 [INFO] Inference completed | Time taken: 3.24s
+2025-11-21 01:07:41 [INFO] Running YOLO inference | req_id=309 | expId=1
+2025-11-21 01:07:44 [INFO] Inference completed | Time taken: 2.74s
+2025-11-21 01:07:44 [INFO] Running YOLO inference | req_id=310 | expId=1
+2025-11-21 01:07:47 [INFO] Inference completed | Time taken: 2.78s
+2025-11-21 01:07:47 [INFO] Running YOLO inference | req_id=311 | expId=1
+2025-11-21 01:07:50 [INFO] Inference completed | Time taken: 3.22s
+2025-11-21 01:07:50 [INFO] Running YOLO inference | req_id=312 | expId=1
+2025-11-21 01:07:53 [INFO] Inference completed | Time taken: 3.01s
+2025-11-21 01:07:53 [INFO] Running YOLO inference | req_id=313 | expId=1
+2025-11-21 01:07:56 [INFO] Inference completed | Time taken: 2.70s
+2025-11-21 01:07:56 [INFO] Running YOLO inference | req_id=314 | expId=1
+2025-11-21 01:08:00 [INFO] Inference completed | Time taken: 3.48s
+2025-11-21 01:08:00 [INFO] Running YOLO inference | req_id=315 | expId=1
+2025-11-21 01:08:03 [INFO] Inference completed | Time taken: 3.04s
+2025-11-21 01:08:03 [INFO] Running YOLO inference | req_id=316 | expId=1
+2025-11-21 01:08:06 [INFO] Inference completed | Time taken: 2.89s
+2025-11-21 01:08:06 [INFO] Running YOLO inference | req_id=317 | expId=1
+2025-11-21 01:08:09 [INFO] Inference completed | Time taken: 2.87s
+2025-11-21 01:08:09 [INFO] Running YOLO inference | req_id=318 | expId=1
+2025-11-21 01:08:12 [INFO] Inference completed | Time taken: 3.46s
+2025-11-21 01:08:12 [INFO] Running YOLO inference | req_id=319 | expId=1
+2025-11-21 01:08:15 [INFO] Inference completed | Time taken: 2.94s
+2025-11-21 01:08:15 [INFO] Running YOLO inference | req_id=320 | expId=1
+2025-11-21 01:08:19 [INFO] Inference completed | Time taken: 3.33s
+2025-11-21 01:08:19 [INFO] Running YOLO inference | req_id=321 | expId=1
+2025-11-21 01:08:22 [INFO] Inference completed | Time taken: 3.02s
+2025-11-21 01:08:22 [INFO] Running YOLO inference | req_id=322 | expId=1
+2025-11-21 01:08:24 [INFO] Inference completed | Time taken: 2.68s
+2025-11-21 01:08:24 [INFO] Running YOLO inference | req_id=323 | expId=1
+2025-11-21 01:08:30 [INFO] Inference completed | Time taken: 5.20s
+2025-11-21 01:08:30 [INFO] Running YOLO inference | req_id=324 | expId=1
+2025-11-21 01:08:33 [INFO] Inference completed | Time taken: 3.40s
+2025-11-21 01:08:33 [INFO] Running YOLO inference | req_id=325 | expId=1
+2025-11-21 01:08:37 [INFO] Inference completed | Time taken: 3.39s
+2025-11-21 01:08:37 [INFO] Running YOLO inference | req_id=326 | expId=1
+2025-11-21 01:08:40 [INFO] Inference completed | Time taken: 3.55s
+2025-11-21 01:08:40 [INFO] Running YOLO inference | req_id=327 | expId=1
+2025-11-21 01:08:44 [INFO] Inference completed | Time taken: 3.65s
+2025-11-21 01:08:44 [INFO] Running YOLO inference | req_id=328 | expId=1
+2025-11-21 01:08:47 [INFO] Inference completed | Time taken: 3.02s
+2025-11-21 01:08:47 [INFO] Running YOLO inference | req_id=329 | expId=1
+2025-11-21 01:08:50 [INFO] Inference completed | Time taken: 2.98s
+2025-11-21 01:08:50 [INFO] Running YOLO inference | req_id=330 | expId=1
+2025-11-21 01:08:53 [INFO] Inference completed | Time taken: 2.77s
+2025-11-21 01:08:53 [INFO] Running YOLO inference | req_id=331 | expId=1
+2025-11-21 01:08:56 [INFO] Inference completed | Time taken: 3.52s
+2025-11-21 01:08:56 [INFO] Running YOLO inference | req_id=332 | expId=1
+2025-11-21 01:08:59 [INFO] Inference completed | Time taken: 2.99s
+2025-11-21 01:09:00 [INFO] Running YOLO inference | req_id=333 | expId=1
+2025-11-21 01:09:02 [INFO] Inference completed | Time taken: 2.71s
+2025-11-21 01:09:02 [INFO] Running YOLO inference | req_id=334 | expId=1
+2025-11-21 01:09:06 [INFO] Inference completed | Time taken: 3.16s
+2025-11-21 01:09:06 [INFO] Running YOLO inference | req_id=335 | expId=1
+2025-11-21 01:09:09 [INFO] Inference completed | Time taken: 3.25s
+2025-11-21 01:09:09 [INFO] Running YOLO inference | req_id=336 | expId=1
+2025-11-21 01:09:12 [INFO] Inference completed | Time taken: 3.60s
+2025-11-21 01:09:13 [INFO] Running YOLO inference | req_id=337 | expId=1
+2025-11-21 01:09:16 [INFO] Inference completed | Time taken: 3.55s
+2025-11-21 01:09:16 [INFO] Running YOLO inference | req_id=338 | expId=1
+2025-11-21 01:09:19 [INFO] Inference completed | Time taken: 3.17s
+2025-11-21 01:09:19 [INFO] Running YOLO inference | req_id=339 | expId=1
+2025-11-21 01:09:22 [INFO] Inference completed | Time taken: 2.83s
+2025-11-21 01:09:22 [INFO] Running YOLO inference | req_id=340 | expId=1
+2025-11-21 01:09:25 [INFO] Inference completed | Time taken: 2.61s
+2025-11-21 01:09:25 [INFO] Running YOLO inference | req_id=341 | expId=1
+2025-11-21 01:09:28 [INFO] Inference completed | Time taken: 3.21s
+2025-11-21 01:09:28 [INFO] Running YOLO inference | req_id=342 | expId=1
+2025-11-21 01:09:32 [INFO] Inference completed | Time taken: 3.58s
+2025-11-21 01:09:32 [INFO] Running YOLO inference | req_id=343 | expId=1
+2025-11-21 01:09:35 [INFO] Inference completed | Time taken: 3.43s
+2025-11-21 01:09:35 [INFO] Running YOLO inference | req_id=344 | expId=1
+2025-11-21 01:09:38 [INFO] Inference completed | Time taken: 2.83s
+2025-11-21 01:09:38 [INFO] Running YOLO inference | req_id=345 | expId=1
+2025-11-21 01:09:41 [INFO] Inference completed | Time taken: 2.77s
+2025-11-21 01:09:41 [INFO] Running YOLO inference | req_id=346 | expId=1
+2025-11-21 01:09:44 [INFO] Inference completed | Time taken: 3.06s
+2025-11-21 01:09:44 [INFO] Running YOLO inference | req_id=347 | expId=1
+2025-11-21 01:09:47 [INFO] Inference completed | Time taken: 3.01s
+2025-11-21 01:09:47 [INFO] Running YOLO inference | req_id=348 | expId=1
+2025-11-21 01:09:50 [INFO] Inference completed | Time taken: 3.18s
+2025-11-21 01:09:50 [INFO] Running YOLO inference | req_id=349 | expId=1
+2025-11-21 01:09:54 [INFO] Inference completed | Time taken: 3.08s
+2025-11-21 01:09:54 [INFO] Running YOLO inference | req_id=350 | expId=1
+2025-11-21 01:09:57 [INFO] Inference completed | Time taken: 3.07s
+2025-11-21 01:09:57 [INFO] Running YOLO inference | req_id=351 | expId=1
+2025-11-21 01:10:00 [INFO] Inference completed | Time taken: 3.06s
+2025-11-21 01:10:00 [INFO] Running YOLO inference | req_id=352 | expId=1
+2025-11-21 01:10:03 [INFO] Inference completed | Time taken: 3.12s
+2025-11-21 01:10:03 [INFO] Running YOLO inference | req_id=353 | expId=1
+2025-11-21 01:10:06 [INFO] Inference completed | Time taken: 2.95s
+2025-11-21 01:10:06 [INFO] Running YOLO inference | req_id=354 | expId=1
+2025-11-21 01:10:09 [INFO] Inference completed | Time taken: 2.72s
+2025-11-21 01:10:09 [INFO] Running YOLO inference | req_id=355 | expId=1
+2025-11-21 01:10:12 [INFO] Inference completed | Time taken: 3.14s
+2025-11-21 01:10:12 [INFO] Running YOLO inference | req_id=356 | expId=1
+2025-11-21 01:10:15 [INFO] Inference completed | Time taken: 2.70s
+2025-11-21 01:10:15 [INFO] Running YOLO inference | req_id=357 | expId=1
+2025-11-21 01:10:18 [INFO] Inference completed | Time taken: 3.04s
+2025-11-21 01:10:18 [INFO] Running YOLO inference | req_id=358 | expId=1
+2025-11-21 01:10:21 [INFO] Inference completed | Time taken: 2.73s
+2025-11-21 01:10:21 [INFO] Running YOLO inference | req_id=359 | expId=1
+2025-11-21 01:10:24 [INFO] Inference completed | Time taken: 2.87s
