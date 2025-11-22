@@ -18,7 +18,7 @@ import time
 app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", version="1.0")
 #uvicorn YOLO.yolo_v11_csfy_threads:app --reload --host 0.0.0.0 --port 5000
 # --- Setup logging ---
-log_filename = "yolo_wf32.log"
+log_filename = "yolo_wf34.log"
 logging.basicConfig(
     filename=log_filename,
     level=logging.INFO,
@@ -36,7 +36,7 @@ pynvml.nvmlInit()
 handle = pynvml.nvmlDeviceGetHandleByIndex(0)
 
 image_queue = queue.Queue(maxsize=500) 
-NUM_WORKERS = 6
+NUM_WORKERS = 10
 #model = YOLO("yolo11n.pt")
 # --- Background inference worker ---
 def inference_worker(worker_id: int):

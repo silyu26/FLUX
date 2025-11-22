@@ -30,7 +30,7 @@ TOPIC_RESPONSE = f"yolo/responses/{exp}"
 
 IMAGE_PATH = "./Senders/imgs/cat1_m.jpg"
 FPS_LIST = [1, 5, 10, 20, 40, 60]
-NUM_ITERATIONS = 30
+NUM_ITERATIONS = 60
 
 # --- Setup MQTT ---
 client = mqtt.Client()
@@ -69,9 +69,12 @@ for fps in FPS_LIST:
 
     for i in range(NUM_ITERATIONS):
         try:
+            tmp = time.time()
             with open(IMAGE_PATH, "rb") as f:
                 image_bytes = f.read()
             image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            tmp2 = time.time()
+            log(f"Image read and encoded in {tmp2 - tmp:.4f} seconds")
 
             message = {
                 "gen_at": datetime.now().isoformat(),
