@@ -1,98 +1,90 @@
-import cv2
-import psutil
-import time
-from datetime import datetime
+import socket
+import struct
+import json
+import base64
+import io
+from collections import defaultdict
 from ultralytics import YOLO
-from SQL import crud, db
-import SQL.model as model
-import os
+from PIL import Image
+from datetime import datetime
+import logging
 
-# --- Settings ---
-RECEIVER_IP = "0.0.0.0"  # Listen on all available network interfaces
-RTP_PORT = 5000
-expId = 11 # Using a new experiment ID
+# --- Config ---
+BIND_IP = "0.0.0.0"
+BIND_PORT = 5006
+SENDER_ACK_PORT = 5007
 
-# --- Model and DB Setup ---
-print("Loading YOLO model...")
-model = YOLO("yolo11n.pt")
-db_session = db.SessionLocal()
-print("Model loaded and DB session created.")
+# --- Logging & Model ---
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(INFO)s] %(message)s")
+model = YOLO("yolo11l.pt")
+logging.info("YOLO Loaded.")
 
-def main():
-    # GStreamer pipeline for receiving an H.264 encoded RTP stream over UDP
-    # This pipeline listens on the specified port, depacketizes the RTP stream,
-    # decodes the H.264 video, converts the color space, and sends it to the app.
-    pipeline = (
-        f"udpsrc port={RTP_PORT} caps=\"application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264, payload=(int)96\" ! "
-        "rtph264depay ! "
-        "decodebin ! "
-        "videoconvert ! "
-        "appsink"
-    )
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+sock.bind((BIND_IP, BIND_PORT))
+logging.info(f"RTP Receiver listening on {BIND_PORT}")
 
-    # Use CAP_GSTREAMER to tell OpenCV to use the GStreamer backend
-    cap = cv2.VideoCapture(pipeline, cv2.CAP_GSTREAMER)
+# Buffers
+# Buffer structure: { timestamp: { seq_num: payload_bytes } }
+rtp_buffer = defaultdict(dict)
 
-    if not cap.isOpened():
-        print("Error: VideoCapture not opened. Check GStreamer installation and the pipeline.")
-        return
-
-    print(f"Listening for RTP stream on port {RTP_PORT}...")
-
-    frame_count = 0
-    while True:
-        ret, frame = cap.read()
-        if not ret:
-            print("Stream ended or error reading frame.")
-            break
+while True:
+    try:
+        packet, addr = sock.recvfrom(65535)
         
-        # --- Start of Inference and Logging Logic (from your original FastAPI endpoint) ---
-        model_in = datetime.now()
+        # --- Parse RTP Header (12 Bytes) ---
+        if len(packet) < 12:
+            continue
 
-        # Run YOLO inference
-        results = model.predict(source=frame, verbose=False) # verbose=False to keep logs clean
-
-        model_out = datetime.now()
-        frame_count += 1
-
-        # Calculate processing FPS (how fast this receiver is processing frames)
-        # This is an approximation. For more accuracy, use a rolling average.
-        processing_time = (model_out - model_in).total_seconds()
-        current_processing_fps = 1 / processing_time if processing_time > 0 else float('inf')
-
-        # Create experiment record
-        exp = model.Experiment(
-            gen_at=model_in.isoformat(), # We use model_in as the generation time at receiver
-            exp_id=expId,
-            model_in=model_in,
-            model_out=model_out,
-            cpu_usage=psutil.cpu_percent(),
-            memory_usage=psutil.virtual_memory().percent,
-            process_count=len(psutil.pids()),
-            fps=int(current_processing_fps) # Log the actual processing FPS
-        )
-        crud.create_experiment_with_weather(db_session, exp)
+        header = packet[:12]
+        payload = packet[12:]
         
-        print(
-            f"Frame {frame_count}: "
-            f"Processed in {processing_time*1000:.2f} ms "
-            f"(~{current_processing_fps:.2f} FPS) | "
-            f"CPU: {exp.cpu_usage}% | "
-            f"Mem: {exp.memory_usage}%"
-        )
+        # Unpack !BBHII
+        b0, b1, seq_num, timestamp, ssrc = struct.unpack("!BBHII", header)
         
-        # Optionally, display the video feed with bounding boxes
-        # annotated_frame = results[0].plot()
-        # cv2.imshow('YOLO Inference', annotated_frame)
-        # if cv2.waitKey(1) & 0xFF == ord('q'):
-        #     break
+        # Extract flags
+        version = (b0 >> 6) & 0x03
+        marker_bit = (b1 >> 7) & 0x01
+        payload_type = b1 & 0x7F
+        
+        # Store payload in buffer grouped by TIMESTAMP
+        rtp_buffer[timestamp][seq_num] = payload
+        
+        # --- Check for End of Frame ---
+        if marker_bit == 1:
+            # Sort chunks by sequence number to ensure correct order
+            sorted_seq = sorted(rtp_buffer[timestamp].keys())
+            
+            # Reassemble
+            full_data = b"".join([rtp_buffer[timestamp][seq] for seq in sorted_seq])
+            
+            try:
+                # Decode JSON
+                json_str = full_data.decode('utf-8')
+                data = json.loads(json_str)
+                req_id = data.get('req_id', 'unknown')
+                
+                logging.info(f"Reassembled Frame (TS={timestamp}). Running Inference...")
+                
+                # Inference
+                img_bytes = base64.b64decode(data['image'])
+                image = Image.open(io.BytesIO(img_bytes))
+                results = model.predict(image, verbose=False)
+                
+                logging.info(f"Inference Done for req_id={req_id}")
+                
+                # Send simple ACK back to sender
+                ack_msg = f"Done {req_id}".encode()
+                sock.sendto(ack_msg, (addr[0], SENDER_ACK_PORT))
+                
+            except Exception as e:
+                logging.error(f"Failed to process frame: {e}")
+            
+            # Cleanup buffer
+            del rtp_buffer[timestamp]
+            
+            # Optional: Garbage collect old timestamps if buffer gets too big
+            if len(rtp_buffer) > 10:
+                rtp_buffer.clear()
 
-    # --- Cleanup ---
-    cap.release()
-    # cv2.destroyAllWindows()
-    db_session.close()
-    print("Stream finished.")
-
-
-if __name__ == "__main__":
-    main()
+    except Exception as e:
+        logging.error(f"Socket Error: {e}")

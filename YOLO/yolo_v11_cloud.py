@@ -5,6 +5,7 @@ from PIL import Image
 import io
 import os
 import psutil
+import pynvml
 from datetime import datetime
 #from SQL.crud import create_experiment_with_weather
 #from SQL.db import SessionLocal
@@ -17,7 +18,7 @@ app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", vers
 #uvicorn YOLO.yolo_v11_cloud:app --reload --host 0.0.0.0 --port 5000
 
 # --- Setup logging ---
-log_filename = "yolo_wf34.log"
+log_filename = "yolo_wf27.log"
 logging.basicConfig(
     filename=log_filename,
     level=logging.INFO,
@@ -33,7 +34,9 @@ console_handler.setFormatter(formatter)
 logging.getLogger().addHandler(console_handler)
 
 # Load model
-model = YOLO("yolo11n.pt")
+model = YOLO("yolo11l.pt")
+pynvml.nvmlInit()
+handle = pynvml.nvmlDeviceGetHandleByIndex(0)
 
 def limit_resources():
     process = psutil.Process(os.getpid())
@@ -66,9 +69,13 @@ async def predict(
         image = Image.open(io.BytesIO(contents))
 
         logging.info(f"Running YOLO inference | req_id={req_id} | expId={expId}")
-        #results = model.predict(source=[image], batch=1, device='cuda')
-        results = model.predict(source=[image], batch=1)
+        results = model.predict(source=[image], batch=1, device='cuda')
+        #results = model.predict(source=[image], batch=1)
         model_out = datetime.now()
+        mem = pynvml.nvmlDeviceGetMemoryInfo(handle)
+        power = pynvml.nvmlDeviceGetPowerUsage(handle) / 1000   # watts
+        temp = pynvml.nvmlDeviceGetTemperature(handle, pynvml.NVML_TEMPERATURE_GPU)
+        util_rates = pynvml.nvmlDeviceGetUtilizationRates(handle)
         logging.info(f"Inference completed | Time taken: {(model_out - model_in).total_seconds():.2f}s")
 
         # Save experiment data
@@ -87,6 +94,10 @@ async def predict(
             cpu_usage=psutil.cpu_percent(interval=0),
             memory_usage=psutil.virtual_memory().percent,
             process_count=len(psutil.pids()),
+            gpu_usage=util_rates.gpu,
+            gpu_vram_usage=mem.used / mem.total * 100 if mem.total > 0 else 0,
+            gpu_temperature=temp,
+            gpu_power=power,
             fps=fps
         )
         save_experiment_to_buffer(exp)

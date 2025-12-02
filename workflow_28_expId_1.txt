@@ -1,0 +1,855 @@
+[2025-11-26T00:31:54.199764] Response listener thread started.
+[2025-11-26T00:31:54.199764] === Starting network test ===
+[2025-11-26T00:32:22.607952] Ping to 8.8.8.8: 15.03 ms
+[2025-11-26T00:32:22.607952] Download Speed: 52.07 Mbps
+[2025-11-26T00:32:22.607952] Upload Speed: 21.50 Mbps
+[2025-11-26T00:32:22.607952] 
+=== Starting test at 1 FPS ===
+[2025-11-26T00:32:22.611950] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:32:22.614948] Published frame 1/60 at 1 FPS
+[2025-11-26T00:32:23.619295] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:32:23.622296] Published frame 2/60 at 1 FPS
+[2025-11-26T00:32:24.373748] Response received | req_id=0 | status=ok
+[2025-11-26T00:32:24.627867] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:32:24.631862] Published frame 3/60 at 1 FPS
+[2025-11-26T00:32:24.811941] Response received | req_id=1 | status=ok
+[2025-11-26T00:32:25.263357] Response received | req_id=2 | status=ok
+[2025-11-26T00:32:25.636604] Image read and encoded in 0.0041 seconds
+[2025-11-26T00:32:25.640992] Published frame 4/60 at 1 FPS
+[2025-11-26T00:32:26.138853] Response received | req_id=3 | status=ok
+[2025-11-26T00:32:26.646785] Image read and encoded in 0.0048 seconds
+[2025-11-26T00:32:26.650974] Published frame 5/60 at 1 FPS
+[2025-11-26T00:32:27.157685] Response received | req_id=4 | status=ok
+[2025-11-26T00:32:27.655796] Image read and encoded in 0.0041 seconds
+[2025-11-26T00:32:27.660192] Published frame 6/60 at 1 FPS
+[2025-11-26T00:32:28.159523] Response received | req_id=5 | status=ok
+[2025-11-26T00:32:28.665085] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:32:28.669365] Published frame 7/60 at 1 FPS
+[2025-11-26T00:32:29.186008] Response received | req_id=6 | status=ok
+[2025-11-26T00:32:29.675464] Image read and encoded in 0.0050 seconds
+[2025-11-26T00:32:29.679464] Published frame 8/60 at 1 FPS
+[2025-11-26T00:32:30.213688] Response received | req_id=7 | status=ok
+[2025-11-26T00:32:30.684420] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:32:30.688416] Published frame 9/60 at 1 FPS
+[2025-11-26T00:32:31.262443] Response received | req_id=8 | status=ok
+[2025-11-26T00:32:31.694806] Image read and encoded in 0.0060 seconds
+[2025-11-26T00:32:31.697807] Published frame 10/60 at 1 FPS
+[2025-11-26T00:32:32.381720] Response received | req_id=9 | status=ok
+[2025-11-26T00:32:32.702792] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:32:32.706319] Published frame 11/60 at 1 FPS
+[2025-11-26T00:32:33.223171] Response received | req_id=10 | status=ok
+[2025-11-26T00:32:33.714810] Image read and encoded in 0.0075 seconds
+[2025-11-26T00:32:33.718822] Published frame 12/60 at 1 FPS
+[2025-11-26T00:32:34.208577] Response received | req_id=11 | status=ok
+[2025-11-26T00:32:34.725417] Image read and encoded in 0.0054 seconds
+[2025-11-26T00:32:34.729762] Published frame 13/60 at 1 FPS
+[2025-11-26T00:32:35.235415] Response received | req_id=12 | status=ok
+[2025-11-26T00:32:35.738879] Image read and encoded in 0.0085 seconds
+[2025-11-26T00:32:35.742546] Published frame 14/60 at 1 FPS
+[2025-11-26T00:32:36.314002] Response received | req_id=13 | status=ok
+[2025-11-26T00:32:36.753491] Image read and encoded in 0.0100 seconds
+[2025-11-26T00:32:36.756490] Published frame 15/60 at 1 FPS
+[2025-11-26T00:32:37.312084] Response received | req_id=14 | status=ok
+[2025-11-26T00:32:37.761042] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:32:37.765139] Published frame 16/60 at 1 FPS
+[2025-11-26T00:32:38.421812] Response received | req_id=15 | status=ok
+[2025-11-26T00:32:38.772141] Image read and encoded in 0.0060 seconds
+[2025-11-26T00:32:38.777397] Published frame 17/60 at 1 FPS
+[2025-11-26T00:32:39.265876] Response received | req_id=16 | status=ok
+[2025-11-26T00:32:39.781685] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:32:39.785678] Published frame 18/60 at 1 FPS
+[2025-11-26T00:32:40.280041] Response received | req_id=17 | status=ok
+[2025-11-26T00:32:40.794452] Image read and encoded in 0.0077 seconds
+[2025-11-26T00:32:40.799453] Published frame 19/60 at 1 FPS
+[2025-11-26T00:32:41.320616] Response received | req_id=18 | status=ok
+[2025-11-26T00:32:41.803626] Image read and encoded in 0.0038 seconds
+[2025-11-26T00:32:41.807626] Published frame 20/60 at 1 FPS
+[2025-11-26T00:32:42.378897] Response received | req_id=19 | status=ok
+[2025-11-26T00:32:42.812243] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:32:42.815905] Published frame 21/60 at 1 FPS
+[2025-11-26T00:32:43.379031] Response received | req_id=20 | status=ok
+[2025-11-26T00:32:43.824743] Image read and encoded in 0.0080 seconds
+[2025-11-26T00:32:43.828736] Published frame 22/60 at 1 FPS
+[2025-11-26T00:32:44.506169] Response received | req_id=21 | status=ok
+[2025-11-26T00:32:44.841505] Image read and encoded in 0.0120 seconds
+[2025-11-26T00:32:44.846510] Published frame 23/60 at 1 FPS
+[2025-11-26T00:32:45.319567] Response received | req_id=22 | status=ok
+[2025-11-26T00:32:45.857377] Image read and encoded in 0.0094 seconds
+[2025-11-26T00:32:45.861383] Published frame 24/60 at 1 FPS
+[2025-11-26T00:32:46.352669] Response received | req_id=23 | status=ok
+[2025-11-26T00:32:46.869169] Image read and encoded in 0.0066 seconds
+[2025-11-26T00:32:46.872511] Published frame 25/60 at 1 FPS
+[2025-11-26T00:32:47.349874] Response received | req_id=24 | status=ok
+[2025-11-26T00:32:47.877235] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:32:47.881228] Published frame 26/60 at 1 FPS
+[2025-11-26T00:32:48.426406] Response received | req_id=25 | status=ok
+[2025-11-26T00:32:48.885751] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:32:48.889370] Published frame 27/60 at 1 FPS
+[2025-11-26T00:32:49.440349] Response received | req_id=26 | status=ok
+[2025-11-26T00:32:49.901071] Image read and encoded in 0.0109 seconds
+[2025-11-26T00:32:49.905070] Published frame 28/60 at 1 FPS
+[2025-11-26T00:32:50.610608] Response received | req_id=27 | status=ok
+[2025-11-26T00:32:50.914354] Image read and encoded in 0.0090 seconds
+[2025-11-26T00:32:50.922526] Published frame 29/60 at 1 FPS
+[2025-11-26T00:32:51.400913] Response received | req_id=28 | status=ok
+[2025-11-26T00:32:51.930946] Image read and encoded in 0.0080 seconds
+[2025-11-26T00:32:51.934946] Published frame 30/60 at 1 FPS
+[2025-11-26T00:32:52.413562] Response received | req_id=29 | status=ok
+[2025-11-26T00:32:52.939796] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:32:52.943796] Published frame 31/60 at 1 FPS
+[2025-11-26T00:32:53.463120] Response received | req_id=30 | status=ok
+[2025-11-26T00:32:53.948668] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:32:53.953675] Published frame 32/60 at 1 FPS
+[2025-11-26T00:32:54.513790] Response received | req_id=31 | status=ok
+[2025-11-26T00:32:54.959555] Image read and encoded in 0.0048 seconds
+[2025-11-26T00:32:54.963739] Published frame 33/60 at 1 FPS
+[2025-11-26T00:32:55.533942] Response received | req_id=32 | status=ok
+[2025-11-26T00:32:55.968734] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:32:55.972236] Published frame 34/60 at 1 FPS
+[2025-11-26T00:32:56.632579] Response received | req_id=33 | status=ok
+[2025-11-26T00:32:56.978886] Image read and encoded in 0.0060 seconds
+[2025-11-26T00:32:56.982887] Published frame 35/60 at 1 FPS
+[2025-11-26T00:32:57.456954] Response received | req_id=34 | status=ok
+[2025-11-26T00:32:57.988177] Image read and encoded in 0.0047 seconds
+[2025-11-26T00:32:57.991896] Published frame 36/60 at 1 FPS
+[2025-11-26T00:32:58.485640] Response received | req_id=35 | status=ok
+[2025-11-26T00:32:59.000465] Image read and encoded in 0.0080 seconds
+[2025-11-26T00:32:59.004466] Published frame 37/60 at 1 FPS
+[2025-11-26T00:32:59.471231] Response received | req_id=36 | status=ok
+[2025-11-26T00:33:00.009775] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:00.014786] Published frame 38/60 at 1 FPS
+[2025-11-26T00:33:00.482773] Response received | req_id=37 | status=ok
+[2025-11-26T00:33:01.020234] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:01.023240] Published frame 39/60 at 1 FPS
+[2025-11-26T00:33:01.559119] Response received | req_id=38 | status=ok
+[2025-11-26T00:33:02.029642] Image read and encoded in 0.0050 seconds
+[2025-11-26T00:33:02.033642] Published frame 40/60 at 1 FPS
+[2025-11-26T00:33:02.574763] Response received | req_id=39 | status=ok
+[2025-11-26T00:33:03.037996] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:03.041997] Published frame 41/60 at 1 FPS
+[2025-11-26T00:33:03.722537] Response received | req_id=40 | status=ok
+[2025-11-26T00:33:04.051851] Image read and encoded in 0.0089 seconds
+[2025-11-26T00:33:04.055844] Published frame 42/60 at 1 FPS
+[2025-11-26T00:33:04.597398] Response received | req_id=41 | status=ok
+[2025-11-26T00:33:05.062610] Image read and encoded in 0.0065 seconds
+[2025-11-26T00:33:05.066610] Published frame 43/60 at 1 FPS
+[2025-11-26T00:33:05.595397] Response received | req_id=42 | status=ok
+[2025-11-26T00:33:06.076198] Image read and encoded in 0.0090 seconds
+[2025-11-26T00:33:06.082198] Published frame 44/60 at 1 FPS
+[2025-11-26T00:33:06.770306] Response received | req_id=43 | status=ok
+[2025-11-26T00:33:07.092111] Image read and encoded in 0.0094 seconds
+[2025-11-26T00:33:07.096111] Published frame 45/60 at 1 FPS
+[2025-11-26T00:33:07.567121] Response received | req_id=44 | status=ok
+[2025-11-26T00:33:08.101468] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:08.106469] Published frame 46/60 at 1 FPS
+[2025-11-26T00:33:08.593115] Response received | req_id=45 | status=ok
+[2025-11-26T00:33:09.115315] Image read and encoded in 0.0080 seconds
+[2025-11-26T00:33:09.119323] Published frame 47/60 at 1 FPS
+[2025-11-26T00:33:09.624178] Response received | req_id=46 | status=ok
+[2025-11-26T00:33:10.129520] Image read and encoded in 0.0097 seconds
+[2025-11-26T00:33:10.133676] Published frame 48/60 at 1 FPS
+[2025-11-26T00:33:10.702711] Response received | req_id=47 | status=ok
+[2025-11-26T00:33:11.144899] Image read and encoded in 0.0109 seconds
+[2025-11-26T00:33:11.148887] Published frame 49/60 at 1 FPS
+[2025-11-26T00:33:11.700299] Response received | req_id=48 | status=ok
+[2025-11-26T00:33:12.153542] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:12.157543] Published frame 50/60 at 1 FPS
+[2025-11-26T00:33:12.825003] Response received | req_id=49 | status=ok
+[2025-11-26T00:33:13.164847] Image read and encoded in 0.0060 seconds
+[2025-11-26T00:33:13.168844] Published frame 51/60 at 1 FPS
+[2025-11-26T00:33:13.651416] Response received | req_id=50 | status=ok
+[2025-11-26T00:33:14.175616] Image read and encoded in 0.0060 seconds
+[2025-11-26T00:33:14.179623] Published frame 52/60 at 1 FPS
+[2025-11-26T00:33:14.678582] Response received | req_id=51 | status=ok
+[2025-11-26T00:33:15.190275] Image read and encoded in 0.0096 seconds
+[2025-11-26T00:33:15.194608] Published frame 53/60 at 1 FPS
+[2025-11-26T00:33:15.770634] Response received | req_id=52 | status=ok
+[2025-11-26T00:33:16.203696] Image read and encoded in 0.0086 seconds
+[2025-11-26T00:33:16.207717] Published frame 54/60 at 1 FPS
+[2025-11-26T00:33:16.752342] Response received | req_id=53 | status=ok
+[2025-11-26T00:33:17.212881] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:17.215882] Published frame 55/60 at 1 FPS
+[2025-11-26T00:33:17.764456] Response received | req_id=54 | status=ok
+[2025-11-26T00:33:18.221124] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:18.224124] Published frame 56/60 at 1 FPS
+[2025-11-26T00:33:19.010289] Response received | req_id=55 | status=ok
+[2025-11-26T00:33:19.229545] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:19.233544] Published frame 57/60 at 1 FPS
+[2025-11-26T00:33:19.704773] Response received | req_id=56 | status=ok
+[2025-11-26T00:33:20.241058] Image read and encoded in 0.0070 seconds
+[2025-11-26T00:33:20.245066] Published frame 58/60 at 1 FPS
+[2025-11-26T00:33:20.734153] Response received | req_id=57 | status=ok
+[2025-11-26T00:33:21.250139] Image read and encoded in 0.0048 seconds
+[2025-11-26T00:33:21.253139] Published frame 59/60 at 1 FPS
+[2025-11-26T00:33:21.792266] Response received | req_id=58 | status=ok
+[2025-11-26T00:33:22.264786] Image read and encoded in 0.0109 seconds
+[2025-11-26T00:33:22.269780] Published frame 60/60 at 1 FPS
+[2025-11-26T00:33:23.009967] Response received | req_id=59 | status=ok
+[2025-11-26T00:33:23.270183] Finished test at 1 FPS in 60.66 seconds
+[2025-11-26T00:33:23.271198] 
+=== Starting test at 5 FPS ===
+[2025-11-26T00:33:23.280394] Image read and encoded in 0.0092 seconds
+[2025-11-26T00:33:23.283393] Published frame 1/60 at 5 FPS
+[2025-11-26T00:33:23.487612] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:23.492653] Published frame 2/60 at 5 FPS
+[2025-11-26T00:33:23.697333] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:23.701333] Published frame 3/60 at 5 FPS
+[2025-11-26T00:33:23.775235] Response received | req_id=30 | status=ok
+[2025-11-26T00:33:23.905714] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:23.908714] Published frame 4/60 at 5 FPS
+[2025-11-26T00:33:24.113671] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:24.117672] Published frame 5/60 at 5 FPS
+[2025-11-26T00:33:24.211040] Response received | req_id=31 | status=ok
+[2025-11-26T00:33:24.322399] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:24.326399] Published frame 6/60 at 5 FPS
+[2025-11-26T00:33:24.530013] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:24.534510] Published frame 7/60 at 5 FPS
+[2025-11-26T00:33:24.663828] Response received | req_id=32 | status=ok
+[2025-11-26T00:33:24.738684] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:24.742686] Published frame 8/60 at 5 FPS
+[2025-11-26T00:33:24.947957] Image read and encoded in 0.0051 seconds
+[2025-11-26T00:33:24.951832] Published frame 9/60 at 5 FPS
+[2025-11-26T00:33:25.101441] Response received | req_id=33 | status=ok
+[2025-11-26T00:33:25.156859] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:25.160858] Published frame 10/60 at 5 FPS
+[2025-11-26T00:33:25.365190] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:25.369191] Published frame 11/60 at 5 FPS
+[2025-11-26T00:33:25.574970] Image read and encoded in 0.0051 seconds
+[2025-11-26T00:33:25.574970] Response received | req_id=34 | status=ok
+[2025-11-26T00:33:25.578607] Published frame 12/60 at 5 FPS
+[2025-11-26T00:33:25.782902] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:25.785917] Published frame 13/60 at 5 FPS
+[2025-11-26T00:33:25.991401] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:25.994401] Published frame 14/60 at 5 FPS
+[2025-11-26T00:33:26.041740] Response received | req_id=35 | status=ok
+[2025-11-26T00:33:26.199998] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:26.203998] Published frame 15/60 at 5 FPS
+[2025-11-26T00:33:26.408687] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:26.411687] Published frame 16/60 at 5 FPS
+[2025-11-26T00:33:26.545090] Response received | req_id=36 | status=ok
+[2025-11-26T00:33:26.616880] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:26.619880] Published frame 17/60 at 5 FPS
+[2025-11-26T00:33:26.825026] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:26.829029] Published frame 18/60 at 5 FPS
+[2025-11-26T00:33:27.033337] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:27.037331] Published frame 19/60 at 5 FPS
+[2025-11-26T00:33:27.045753] Response received | req_id=37 | status=ok
+[2025-11-26T00:33:27.242055] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:27.245058] Published frame 20/60 at 5 FPS
+[2025-11-26T00:33:27.450173] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:27.453789] Published frame 21/60 at 5 FPS
+[2025-11-26T00:33:27.535246] Response received | req_id=38 | status=ok
+[2025-11-26T00:33:27.658202] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:27.662202] Published frame 22/60 at 5 FPS
+[2025-11-26T00:33:27.866960] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:27.869960] Published frame 23/60 at 5 FPS
+[2025-11-26T00:33:28.036626] Response received | req_id=39 | status=ok
+[2025-11-26T00:33:28.075322] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:28.079327] Published frame 24/60 at 5 FPS
+[2025-11-26T00:33:28.283742] Image read and encoded in 0.0036 seconds
+[2025-11-26T00:33:28.287746] Published frame 25/60 at 5 FPS
+[2025-11-26T00:33:28.492205] Image read and encoded in 0.0030 seconds
+[2025-11-26T00:33:28.495206] Published frame 26/60 at 5 FPS
+[2025-11-26T00:33:28.566899] Response received | req_id=40 | status=ok
+[2025-11-26T00:33:28.700433] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:28.704778] Published frame 27/60 at 5 FPS
+[2025-11-26T00:33:28.908781] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:28.912782] Published frame 28/60 at 5 FPS
+[2025-11-26T00:33:29.075905] Response received | req_id=41 | status=ok
+[2025-11-26T00:33:29.117633] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:29.121643] Published frame 29/60 at 5 FPS
+[2025-11-26T00:33:29.326866] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:29.332362] Published frame 30/60 at 5 FPS
+[2025-11-26T00:33:29.537753] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:29.541753] Published frame 31/60 at 5 FPS
+[2025-11-26T00:33:29.701953] Response received | req_id=42 | status=ok
+[2025-11-26T00:33:29.746202] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:29.750202] Published frame 32/60 at 5 FPS
+[2025-11-26T00:33:29.954250] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:29.958251] Published frame 33/60 at 5 FPS
+[2025-11-26T00:33:30.163614] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:30.166613] Published frame 34/60 at 5 FPS
+[2025-11-26T00:33:30.204005] Response received | req_id=43 | status=ok
+[2025-11-26T00:33:30.371752] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:30.375743] Published frame 35/60 at 5 FPS
+[2025-11-26T00:33:30.580391] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:30.583459] Published frame 36/60 at 5 FPS
+[2025-11-26T00:33:30.687673] Response received | req_id=44 | status=ok
+[2025-11-26T00:33:30.788057] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:30.792057] Published frame 37/60 at 5 FPS
+[2025-11-26T00:33:30.997255] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:31.001255] Published frame 38/60 at 5 FPS
+[2025-11-26T00:33:31.185322] Response received | req_id=45 | status=ok
+[2025-11-26T00:33:31.206909] Image read and encoded in 0.0047 seconds
+[2025-11-26T00:33:31.211099] Published frame 39/60 at 5 FPS
+[2025-11-26T00:33:31.414657] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:31.418657] Published frame 40/60 at 5 FPS
+[2025-11-26T00:33:31.623115] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:31.627115] Published frame 41/60 at 5 FPS
+[2025-11-26T00:33:31.808758] Response received | req_id=46 | status=ok
+[2025-11-26T00:33:31.833851] Image read and encoded in 0.0060 seconds
+[2025-11-26T00:33:31.841851] Published frame 42/60 at 5 FPS
+[2025-11-26T00:33:32.046598] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:32.049600] Published frame 43/60 at 5 FPS
+[2025-11-26T00:33:32.255197] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:32.258569] Response received | req_id=47 | status=ok
+[2025-11-26T00:33:32.259174] Published frame 44/60 at 5 FPS
+[2025-11-26T00:33:32.463248] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:32.467247] Published frame 45/60 at 5 FPS
+[2025-11-26T00:33:32.673073] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:32.678060] Published frame 46/60 at 5 FPS
+[2025-11-26T00:33:32.697436] Response received | req_id=48 | status=ok
+[2025-11-26T00:33:32.882083] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:32.888430] Published frame 47/60 at 5 FPS
+[2025-11-26T00:33:33.093179] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:33.097171] Published frame 48/60 at 5 FPS
+[2025-11-26T00:33:33.147186] Response received | req_id=49 | status=ok
+[2025-11-26T00:33:33.301622] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:33.305622] Published frame 49/60 at 5 FPS
+[2025-11-26T00:33:33.511757] Image read and encoded in 0.0051 seconds
+[2025-11-26T00:33:33.515757] Published frame 50/60 at 5 FPS
+[2025-11-26T00:33:33.602063] Response received | req_id=50 | status=ok
+[2025-11-26T00:33:33.720004] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:33.723003] Published frame 51/60 at 5 FPS
+[2025-11-26T00:33:33.927488] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:33.931489] Published frame 52/60 at 5 FPS
+[2025-11-26T00:33:34.055425] Response received | req_id=51 | status=ok
+[2025-11-26T00:33:34.135960] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:34.139960] Published frame 53/60 at 5 FPS
+[2025-11-26T00:33:34.343955] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:34.347954] Published frame 54/60 at 5 FPS
+[2025-11-26T00:33:34.518279] Response received | req_id=52 | status=ok
+[2025-11-26T00:33:34.552553] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:34.556553] Published frame 55/60 at 5 FPS
+[2025-11-26T00:33:34.760170] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:34.764170] Published frame 56/60 at 5 FPS
+[2025-11-26T00:33:34.969153] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:34.972154] Published frame 57/60 at 5 FPS
+[2025-11-26T00:33:34.986645] Response received | req_id=53 | status=ok
+[2025-11-26T00:33:35.177309] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:35.182664] Published frame 58/60 at 5 FPS
+[2025-11-26T00:33:35.386817] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:35.390818] Published frame 59/60 at 5 FPS
+[2025-11-26T00:33:35.482738] Response received | req_id=54 | status=ok
+[2025-11-26T00:33:35.596100] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:35.599099] Published frame 60/60 at 5 FPS
+[2025-11-26T00:33:35.800098] Finished test at 5 FPS in 12.53 seconds
+[2025-11-26T00:33:35.800601] 
+=== Starting test at 10 FPS ===
+[2025-11-26T00:33:35.804605] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:35.807605] Published frame 1/60 at 10 FPS
+[2025-11-26T00:33:35.911998] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:35.915998] Published frame 2/60 at 10 FPS
+[2025-11-26T00:33:36.000312] Response received | req_id=55 | status=ok
+[2025-11-26T00:33:36.020355] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:36.024403] Published frame 3/60 at 10 FPS
+[2025-11-26T00:33:36.128632] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:36.132631] Published frame 4/60 at 10 FPS
+[2025-11-26T00:33:36.237376] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:36.240376] Published frame 5/60 at 10 FPS
+[2025-11-26T00:33:36.345327] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:36.349329] Published frame 6/60 at 10 FPS
+[2025-11-26T00:33:36.453011] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:36.457011] Published frame 7/60 at 10 FPS
+[2025-11-26T00:33:36.556812] Response received | req_id=56 | status=ok
+[2025-11-26T00:33:36.562563] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:36.565921] Published frame 8/60 at 10 FPS
+[2025-11-26T00:33:36.670893] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:36.673895] Published frame 9/60 at 10 FPS
+[2025-11-26T00:33:36.778741] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:36.782741] Published frame 10/60 at 10 FPS
+[2025-11-26T00:33:36.887075] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:36.891075] Published frame 11/60 at 10 FPS
+[2025-11-26T00:33:36.994968] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:36.998988] Published frame 12/60 at 10 FPS
+[2025-11-26T00:33:37.052401] Response received | req_id=57 | status=ok
+[2025-11-26T00:33:37.103975] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:37.106975] Published frame 13/60 at 10 FPS
+[2025-11-26T00:33:37.211466] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:37.215457] Published frame 14/60 at 10 FPS
+[2025-11-26T00:33:37.319662] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:37.323664] Published frame 15/60 at 10 FPS
+[2025-11-26T00:33:37.428596] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:37.431596] Published frame 16/60 at 10 FPS
+[2025-11-26T00:33:37.536227] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:37.540671] Published frame 17/60 at 10 FPS
+[2025-11-26T00:33:37.555711] Response received | req_id=58 | status=ok
+[2025-11-26T00:33:37.645262] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:37.648925] Published frame 18/60 at 10 FPS
+[2025-11-26T00:33:37.753233] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:37.757233] Published frame 19/60 at 10 FPS
+[2025-11-26T00:33:37.861421] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:37.865421] Published frame 20/60 at 10 FPS
+[2025-11-26T00:33:37.969747] Image read and encoded in 0.0033 seconds
+[2025-11-26T00:33:37.973752] Published frame 21/60 at 10 FPS
+[2025-11-26T00:33:38.078457] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:38.082807] Response received | req_id=59 | status=ok
+[2025-11-26T00:33:38.083327] Published frame 22/60 at 10 FPS
+[2025-11-26T00:33:38.187524] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:38.190525] Published frame 23/60 at 10 FPS
+[2025-11-26T00:33:38.295138] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:38.302136] Published frame 24/60 at 10 FPS
+[2025-11-26T00:33:38.407277] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:38.411278] Published frame 25/60 at 10 FPS
+[2025-11-26T00:33:38.515277] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:38.519278] Published frame 26/60 at 10 FPS
+[2025-11-26T00:33:38.595795] Response received | req_id=60 | status=ok
+[2025-11-26T00:33:38.623730] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:38.628998] Published frame 27/60 at 10 FPS
+[2025-11-26T00:33:38.734060] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:38.738282] Published frame 28/60 at 10 FPS
+[2025-11-26T00:33:38.843535] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:38.849535] Published frame 29/60 at 10 FPS
+[2025-11-26T00:33:38.953953] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:38.957954] Published frame 30/60 at 10 FPS
+[2025-11-26T00:33:39.063459] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:39.067966] Published frame 31/60 at 10 FPS
+[2025-11-26T00:33:39.172096] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:39.176096] Published frame 32/60 at 10 FPS
+[2025-11-26T00:33:39.232128] Response received | req_id=61 | status=ok
+[2025-11-26T00:33:39.281161] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:39.285161] Published frame 33/60 at 10 FPS
+[2025-11-26T00:33:39.389803] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:39.392802] Published frame 34/60 at 10 FPS
+[2025-11-26T00:33:39.498187] Image read and encoded in 0.0041 seconds
+[2025-11-26T00:33:39.502187] Published frame 35/60 at 10 FPS
+[2025-11-26T00:33:39.606877] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:39.610877] Published frame 36/60 at 10 FPS
+[2025-11-26T00:33:39.715986] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:39.722207] Response received | req_id=62 | status=ok
+[2025-11-26T00:33:39.722207] Published frame 37/60 at 10 FPS
+[2025-11-26T00:33:39.826980] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:39.830980] Published frame 38/60 at 10 FPS
+[2025-11-26T00:33:39.935552] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:39.939551] Published frame 39/60 at 10 FPS
+[2025-11-26T00:33:40.044013] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:40.048014] Published frame 40/60 at 10 FPS
+[2025-11-26T00:33:40.152064] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:40.157064] Published frame 41/60 at 10 FPS
+[2025-11-26T00:33:40.216037] Response received | req_id=63 | status=ok
+[2025-11-26T00:33:40.261538] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:40.265539] Published frame 42/60 at 10 FPS
+[2025-11-26T00:33:40.370091] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:40.374093] Published frame 43/60 at 10 FPS
+[2025-11-26T00:33:40.478783] Image read and encoded in 0.0037 seconds
+[2025-11-26T00:33:40.482783] Published frame 44/60 at 10 FPS
+[2025-11-26T00:33:40.586686] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:40.593687] Published frame 45/60 at 10 FPS
+[2025-11-26T00:33:40.698359] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:40.702359] Published frame 46/60 at 10 FPS
+[2025-11-26T00:33:40.730063] Response received | req_id=64 | status=ok
+[2025-11-26T00:33:40.807235] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:40.810239] Published frame 47/60 at 10 FPS
+[2025-11-26T00:33:40.915482] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:40.918487] Published frame 48/60 at 10 FPS
+[2025-11-26T00:33:41.022940] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:41.026940] Published frame 49/60 at 10 FPS
+[2025-11-26T00:33:41.132319] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:41.136166] Published frame 50/60 at 10 FPS
+[2025-11-26T00:33:41.240609] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:41.245521] Published frame 51/60 at 10 FPS
+[2025-11-26T00:33:41.349767] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:41.356768] Published frame 52/60 at 10 FPS
+[2025-11-26T00:33:41.400497] Response received | req_id=65 | status=ok
+[2025-11-26T00:33:41.461157] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:41.465164] Published frame 53/60 at 10 FPS
+[2025-11-26T00:33:41.569760] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:41.573760] Published frame 54/60 at 10 FPS
+[2025-11-26T00:33:41.678271] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:41.681271] Published frame 55/60 at 10 FPS
+[2025-11-26T00:33:41.786530] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:41.789531] Published frame 56/60 at 10 FPS
+[2025-11-26T00:33:41.840616] Response received | req_id=66 | status=ok
+[2025-11-26T00:33:41.894700] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:41.897700] Published frame 57/60 at 10 FPS
+[2025-11-26T00:33:42.002233] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:42.006233] Published frame 58/60 at 10 FPS
+[2025-11-26T00:33:42.110671] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:42.114673] Published frame 59/60 at 10 FPS
+[2025-11-26T00:33:42.219370] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:42.222374] Published frame 60/60 at 10 FPS
+[2025-11-26T00:33:42.292078] Response received | req_id=67 | status=ok
+[2025-11-26T00:33:42.323449] Finished test at 10 FPS in 6.52 seconds
+[2025-11-26T00:33:42.323449] 
+=== Starting test at 20 FPS ===
+[2025-11-26T00:33:42.327457] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:42.331457] Published frame 1/60 at 20 FPS
+[2025-11-26T00:33:42.385919] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:42.389919] Published frame 2/60 at 20 FPS
+[2025-11-26T00:33:42.443675] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:42.447675] Published frame 3/60 at 20 FPS
+[2025-11-26T00:33:42.502857] Image read and encoded in 0.0041 seconds
+[2025-11-26T00:33:42.508482] Published frame 4/60 at 20 FPS
+[2025-11-26T00:33:42.563310] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:42.566309] Published frame 5/60 at 20 FPS
+[2025-11-26T00:33:42.621595] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:42.624595] Published frame 6/60 at 20 FPS
+[2025-11-26T00:33:42.679770] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:42.682771] Published frame 7/60 at 20 FPS
+[2025-11-26T00:33:42.724702] Response received | req_id=68 | status=ok
+[2025-11-26T00:33:42.737909] Image read and encoded in 0.0037 seconds
+[2025-11-26T00:33:42.741911] Published frame 8/60 at 20 FPS
+[2025-11-26T00:33:42.797010] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:42.801008] Published frame 9/60 at 20 FPS
+[2025-11-26T00:33:42.855497] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:42.858498] Published frame 10/60 at 20 FPS
+[2025-11-26T00:33:42.912552] Image read and encoded in 0.0032 seconds
+[2025-11-26T00:33:42.916552] Published frame 11/60 at 20 FPS
+[2025-11-26T00:33:42.971301] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:42.974291] Published frame 12/60 at 20 FPS
+[2025-11-26T00:33:43.029519] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:43.033520] Published frame 13/60 at 20 FPS
+[2025-11-26T00:33:43.088173] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:43.092173] Published frame 14/60 at 20 FPS
+[2025-11-26T00:33:43.146389] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:43.150390] Published frame 15/60 at 20 FPS
+[2025-11-26T00:33:43.174080] Response received | req_id=69 | status=ok
+[2025-11-26T00:33:43.205512] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:43.212913] Published frame 16/60 at 20 FPS
+[2025-11-26T00:33:43.266936] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:43.270935] Published frame 17/60 at 20 FPS
+[2025-11-26T00:33:43.325535] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:43.331230] Published frame 18/60 at 20 FPS
+[2025-11-26T00:33:43.385809] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:43.389085] Published frame 19/60 at 20 FPS
+[2025-11-26T00:33:43.443698] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:43.447690] Published frame 20/60 at 20 FPS
+[2025-11-26T00:33:43.502511] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:43.506511] Published frame 21/60 at 20 FPS
+[2025-11-26T00:33:43.562307] Image read and encoded in 0.0047 seconds
+[2025-11-26T00:33:43.565304] Published frame 22/60 at 20 FPS
+[2025-11-26T00:33:43.620646] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:43.623646] Published frame 23/60 at 20 FPS
+[2025-11-26T00:33:43.656200] Response received | req_id=70 | status=ok
+[2025-11-26T00:33:43.678902] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:43.682904] Published frame 24/60 at 20 FPS
+[2025-11-26T00:33:43.736926] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:43.740926] Published frame 25/60 at 20 FPS
+[2025-11-26T00:33:43.795761] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:43.798761] Published frame 26/60 at 20 FPS
+[2025-11-26T00:33:43.853926] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:43.856926] Published frame 27/60 at 20 FPS
+[2025-11-26T00:33:43.911998] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:43.914998] Published frame 28/60 at 20 FPS
+[2025-11-26T00:33:43.970029] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:43.975052] Published frame 29/60 at 20 FPS
+[2025-11-26T00:33:44.029063] Image read and encoded in 0.0038 seconds
+[2025-11-26T00:33:44.035063] Published frame 30/60 at 20 FPS
+[2025-11-26T00:33:44.089815] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:44.092815] Published frame 31/60 at 20 FPS
+[2025-11-26T00:33:44.141655] Response received | req_id=71 | status=ok
+[2025-11-26T00:33:44.148520] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:44.152112] Published frame 32/60 at 20 FPS
+[2025-11-26T00:33:44.206941] Image read and encoded in 0.0041 seconds
+[2025-11-26T00:33:44.209940] Published frame 33/60 at 20 FPS
+[2025-11-26T00:33:44.265966] Image read and encoded in 0.0050 seconds
+[2025-11-26T00:33:44.270296] Published frame 34/60 at 20 FPS
+[2025-11-26T00:33:44.324954] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:44.328953] Published frame 35/60 at 20 FPS
+[2025-11-26T00:33:44.383570] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:44.387212] Published frame 36/60 at 20 FPS
+[2025-11-26T00:33:44.441611] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:44.445609] Published frame 37/60 at 20 FPS
+[2025-11-26T00:33:44.500050] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:44.504050] Published frame 38/60 at 20 FPS
+[2025-11-26T00:33:44.558623] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:44.561622] Published frame 39/60 at 20 FPS
+[2025-11-26T00:33:44.616927] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:44.620926] Published frame 40/60 at 20 FPS
+[2025-11-26T00:33:44.636788] Response received | req_id=72 | status=ok
+[2025-11-26T00:33:44.675851] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:44.679853] Published frame 41/60 at 20 FPS
+[2025-11-26T00:33:44.733646] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:44.737647] Published frame 42/60 at 20 FPS
+[2025-11-26T00:33:44.792359] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:44.796359] Published frame 43/60 at 20 FPS
+[2025-11-26T00:33:44.851045] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:44.854046] Published frame 44/60 at 20 FPS
+[2025-11-26T00:33:44.908836] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:44.911841] Published frame 45/60 at 20 FPS
+[2025-11-26T00:33:44.967283] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:44.971283] Published frame 46/60 at 20 FPS
+[2025-11-26T00:33:45.026819] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:45.029818] Published frame 47/60 at 20 FPS
+[2025-11-26T00:33:45.084472] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:45.088473] Published frame 48/60 at 20 FPS
+[2025-11-26T00:33:45.134202] Response received | req_id=73 | status=ok
+[2025-11-26T00:33:45.143498] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:45.147566] Published frame 49/60 at 20 FPS
+[2025-11-26T00:33:45.202031] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:45.205031] Published frame 50/60 at 20 FPS
+[2025-11-26T00:33:45.261369] Image read and encoded in 0.0050 seconds
+[2025-11-26T00:33:45.264369] Published frame 51/60 at 20 FPS
+[2025-11-26T00:33:45.319370] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:45.323474] Published frame 52/60 at 20 FPS
+[2025-11-26T00:33:45.377835] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:45.387835] Published frame 53/60 at 20 FPS
+[2025-11-26T00:33:45.442366] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:45.446391] Published frame 54/60 at 20 FPS
+[2025-11-26T00:33:45.500523] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:45.504516] Published frame 55/60 at 20 FPS
+[2025-11-26T00:33:45.559446] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:45.562446] Published frame 56/60 at 20 FPS
+[2025-11-26T00:33:45.617502] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:45.620495] Published frame 57/60 at 20 FPS
+[2025-11-26T00:33:45.676233] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:45.676233] Response received | req_id=74 | status=ok
+[2025-11-26T00:33:45.680447] Published frame 58/60 at 20 FPS
+[2025-11-26T00:33:45.735018] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:45.738264] Published frame 59/60 at 20 FPS
+[2025-11-26T00:33:45.793450] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:45.796443] Published frame 60/60 at 20 FPS
+[2025-11-26T00:33:45.847648] Finished test at 20 FPS in 3.52 seconds
+[2025-11-26T00:33:45.848164] 
+=== Starting test at 40 FPS ===
+[2025-11-26T00:33:45.852180] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:45.855173] Published frame 1/60 at 40 FPS
+[2025-11-26T00:33:45.885302] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:45.888309] Published frame 2/60 at 40 FPS
+[2025-11-26T00:33:45.917797] Image read and encoded in 0.0033 seconds
+[2025-11-26T00:33:45.921792] Published frame 3/60 at 40 FPS
+[2025-11-26T00:33:45.951679] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:45.955988] Published frame 4/60 at 40 FPS
+[2025-11-26T00:33:45.985475] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:45.989475] Published frame 5/60 at 40 FPS
+[2025-11-26T00:33:46.019805] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:46.023815] Published frame 6/60 at 40 FPS
+[2025-11-26T00:33:46.053097] Image read and encoded in 0.0036 seconds
+[2025-11-26T00:33:46.057098] Published frame 7/60 at 40 FPS
+[2025-11-26T00:33:46.086551] Image read and encoded in 0.0038 seconds
+[2025-11-26T00:33:46.090555] Published frame 8/60 at 40 FPS
+[2025-11-26T00:33:46.120657] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.124665] Published frame 9/60 at 40 FPS
+[2025-11-26T00:33:46.154538] Image read and encoded in 0.0041 seconds
+[2025-11-26T00:33:46.157538] Published frame 10/60 at 40 FPS
+[2025-11-26T00:33:46.187388] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.191386] Published frame 11/60 at 40 FPS
+[2025-11-26T00:33:46.220635] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.224635] Published frame 12/60 at 40 FPS
+[2025-11-26T00:33:46.231415] Response received | req_id=75 | status=ok
+[2025-11-26T00:33:46.254272] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.257854] Published frame 13/60 at 40 FPS
+[2025-11-26T00:33:46.287317] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:46.291310] Published frame 14/60 at 40 FPS
+[2025-11-26T00:33:46.320902] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:46.324895] Published frame 15/60 at 40 FPS
+[2025-11-26T00:33:46.354851] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.358864] Published frame 16/60 at 40 FPS
+[2025-11-26T00:33:46.389085] Image read and encoded in 0.0037 seconds
+[2025-11-26T00:33:46.393308] Published frame 17/60 at 40 FPS
+[2025-11-26T00:33:46.422827] Image read and encoded in 0.0041 seconds
+[2025-11-26T00:33:46.425827] Published frame 18/60 at 40 FPS
+[2025-11-26T00:33:46.456074] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.459074] Published frame 19/60 at 40 FPS
+[2025-11-26T00:33:46.489419] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.493418] Published frame 20/60 at 40 FPS
+[2025-11-26T00:33:46.522856] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.526856] Published frame 21/60 at 40 FPS
+[2025-11-26T00:33:46.557144] Image read and encoded in 0.0047 seconds
+[2025-11-26T00:33:46.561144] Published frame 22/60 at 40 FPS
+[2025-11-26T00:33:46.590692] Image read and encoded in 0.0038 seconds
+[2025-11-26T00:33:46.594691] Published frame 23/60 at 40 FPS
+[2025-11-26T00:33:46.624291] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.628285] Published frame 24/60 at 40 FPS
+[2025-11-26T00:33:46.657813] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.661813] Published frame 25/60 at 40 FPS
+[2025-11-26T00:33:46.690879] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:46.694870] Published frame 26/60 at 40 FPS
+[2025-11-26T00:33:46.724579] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.728221] Published frame 27/60 at 40 FPS
+[2025-11-26T00:33:46.753742] Response received | req_id=76 | status=ok
+[2025-11-26T00:33:46.757632] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:46.761478] Published frame 28/60 at 40 FPS
+[2025-11-26T00:33:46.790709] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:46.794705] Published frame 29/60 at 40 FPS
+[2025-11-26T00:33:46.824586] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.828602] Published frame 30/60 at 40 FPS
+[2025-11-26T00:33:46.858017] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.862010] Published frame 31/60 at 40 FPS
+[2025-11-26T00:33:46.891206] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.895205] Published frame 32/60 at 40 FPS
+[2025-11-26T00:33:46.924986] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:46.928988] Published frame 33/60 at 40 FPS
+[2025-11-26T00:33:46.958540] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:46.962383] Published frame 34/60 at 40 FPS
+[2025-11-26T00:33:46.991877] Image read and encoded in 0.0038 seconds
+[2025-11-26T00:33:46.995880] Published frame 35/60 at 40 FPS
+[2025-11-26T00:33:47.025200] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.029200] Published frame 36/60 at 40 FPS
+[2025-11-26T00:33:47.058236] Image read and encoded in 0.0038 seconds
+[2025-11-26T00:33:47.062736] Published frame 37/60 at 40 FPS
+[2025-11-26T00:33:47.092136] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.097136] Published frame 38/60 at 40 FPS
+[2025-11-26T00:33:47.126440] Image read and encoded in 0.0036 seconds
+[2025-11-26T00:33:47.130431] Published frame 39/60 at 40 FPS
+[2025-11-26T00:33:47.160607] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.164598] Published frame 40/60 at 40 FPS
+[2025-11-26T00:33:47.194168] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.198161] Published frame 41/60 at 40 FPS
+[2025-11-26T00:33:47.227593] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.231598] Published frame 42/60 at 40 FPS
+[2025-11-26T00:33:47.261049] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.264901] Published frame 43/60 at 40 FPS
+[2025-11-26T00:33:47.294086] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:47.299090] Published frame 44/60 at 40 FPS
+[2025-11-26T00:33:47.307408] Response received | req_id=77 | status=ok
+[2025-11-26T00:33:47.328908] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:47.332461] Published frame 45/60 at 40 FPS
+[2025-11-26T00:33:47.362132] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:47.366132] Published frame 46/60 at 40 FPS
+[2025-11-26T00:33:47.396043] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.401044] Published frame 47/60 at 40 FPS
+[2025-11-26T00:33:47.431351] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:47.435531] Published frame 48/60 at 40 FPS
+[2025-11-26T00:33:47.465248] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.469250] Published frame 49/60 at 40 FPS
+[2025-11-26T00:33:47.498891] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.501891] Published frame 50/60 at 40 FPS
+[2025-11-26T00:33:47.531789] Image read and encoded in 0.0036 seconds
+[2025-11-26T00:33:47.535789] Published frame 51/60 at 40 FPS
+[2025-11-26T00:33:47.564877] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:47.568873] Published frame 52/60 at 40 FPS
+[2025-11-26T00:33:47.598603] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.602595] Published frame 53/60 at 40 FPS
+[2025-11-26T00:33:47.632009] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.636010] Published frame 54/60 at 40 FPS
+[2025-11-26T00:33:47.665694] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:47.669694] Published frame 55/60 at 40 FPS
+[2025-11-26T00:33:47.699760] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.703754] Published frame 56/60 at 40 FPS
+[2025-11-26T00:33:47.733025] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.737025] Published frame 57/60 at 40 FPS
+[2025-11-26T00:33:47.766102] Image read and encoded in 0.0037 seconds
+[2025-11-26T00:33:47.769818] Published frame 58/60 at 40 FPS
+[2025-11-26T00:33:47.800218] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.803411] Published frame 59/60 at 40 FPS
+[2025-11-26T00:33:47.834150] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:47.834150] Response received | req_id=78 | status=ok
+[2025-11-26T00:33:47.838063] Published frame 60/60 at 40 FPS
+[2025-11-26T00:33:47.863786] Finished test at 40 FPS in 2.02 seconds
+[2025-11-26T00:33:47.864359] 
+=== Starting test at 60 FPS ===
+[2025-11-26T00:33:47.868374] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.871372] Published frame 1/60 at 60 FPS
+[2025-11-26T00:33:47.892910] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.896034] Published frame 2/60 at 60 FPS
+[2025-11-26T00:33:47.918130] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:47.921390] Published frame 3/60 at 60 FPS
+[2025-11-26T00:33:47.943281] Image read and encoded in 0.0047 seconds
+[2025-11-26T00:33:47.947426] Published frame 4/60 at 60 FPS
+[2025-11-26T00:33:47.968922] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:47.972816] Published frame 5/60 at 60 FPS
+[2025-11-26T00:33:47.994002] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:47.997899] Published frame 6/60 at 60 FPS
+[2025-11-26T00:33:48.018834] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:48.022489] Published frame 7/60 at 60 FPS
+[2025-11-26T00:33:48.043885] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:48.047464] Published frame 8/60 at 60 FPS
+[2025-11-26T00:33:48.069042] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:48.072678] Published frame 9/60 at 60 FPS
+[2025-11-26T00:33:48.094099] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:48.097678] Published frame 10/60 at 60 FPS
+[2025-11-26T00:33:48.119660] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:48.123672] Published frame 11/60 at 60 FPS
+[2025-11-26T00:33:48.145035] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:48.149041] Published frame 12/60 at 60 FPS
+[2025-11-26T00:33:48.170453] Image read and encoded in 0.0041 seconds
+[2025-11-26T00:33:48.174849] Published frame 13/60 at 60 FPS
+[2025-11-26T00:33:48.195994] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:48.199691] Published frame 14/60 at 60 FPS
+[2025-11-26T00:33:48.221060] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:48.224629] Published frame 15/60 at 60 FPS
+[2025-11-26T00:33:48.246187] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:48.252764] Published frame 16/60 at 60 FPS
+[2025-11-26T00:33:48.273429] Image read and encoded in 0.0038 seconds
+[2025-11-26T00:33:48.277592] Published frame 17/60 at 60 FPS
+[2025-11-26T00:33:48.299322] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:48.302997] Published frame 18/60 at 60 FPS
+[2025-11-26T00:33:48.324327] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:48.330830] Published frame 19/60 at 60 FPS
+[2025-11-26T00:33:48.352512] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:48.357273] Published frame 20/60 at 60 FPS
+[2025-11-26T00:33:48.367744] Response received | req_id=79 | status=ok
+[2025-11-26T00:33:48.378816] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:48.384337] Published frame 21/60 at 60 FPS
+[2025-11-26T00:33:48.405187] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:48.408758] Published frame 22/60 at 60 FPS
+[2025-11-26T00:33:48.430995] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:48.437146] Published frame 23/60 at 60 FPS
+[2025-11-26T00:33:48.459464] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:48.463664] Published frame 24/60 at 60 FPS
+[2025-11-26T00:33:48.485556] Image read and encoded in 0.0047 seconds
+[2025-11-26T00:33:48.490345] Published frame 25/60 at 60 FPS
+[2025-11-26T00:33:48.511241] Image read and encoded in 0.0035 seconds
+[2025-11-26T00:33:48.515254] Published frame 26/60 at 60 FPS
+[2025-11-26T00:33:48.536693] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:48.540505] Published frame 27/60 at 60 FPS
+[2025-11-26T00:33:48.561926] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:48.565825] Published frame 28/60 at 60 FPS
+[2025-11-26T00:33:48.587110] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:48.590678] Published frame 29/60 at 60 FPS
+[2025-11-26T00:33:48.612268] Image read and encoded in 0.0041 seconds
+[2025-11-26T00:33:48.615906] Published frame 30/60 at 60 FPS
+[2025-11-26T00:33:48.637646] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:48.642006] Published frame 31/60 at 60 FPS
+[2025-11-26T00:33:48.663452] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:48.667260] Published frame 32/60 at 60 FPS
+[2025-11-26T00:33:48.688982] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:48.693656] Published frame 33/60 at 60 FPS
+[2025-11-26T00:33:48.716776] Image read and encoded in 0.0048 seconds
+[2025-11-26T00:33:48.721270] Published frame 34/60 at 60 FPS
+[2025-11-26T00:33:48.743042] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:48.747268] Published frame 35/60 at 60 FPS
+[2025-11-26T00:33:48.768698] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:48.773076] Published frame 36/60 at 60 FPS
+[2025-11-26T00:33:48.794160] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:48.800162] Published frame 37/60 at 60 FPS
+[2025-11-26T00:33:48.821488] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:48.827186] Published frame 38/60 at 60 FPS
+[2025-11-26T00:33:48.848930] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:48.852929] Published frame 39/60 at 60 FPS
+[2025-11-26T00:33:48.874759] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:48.878763] Published frame 40/60 at 60 FPS
+[2025-11-26T00:33:48.900455] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:48.904464] Published frame 41/60 at 60 FPS
+[2025-11-26T00:33:48.926595] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:48.930135] Published frame 42/60 at 60 FPS
+[2025-11-26T00:33:48.952096] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:48.955853] Published frame 43/60 at 60 FPS
+[2025-11-26T00:33:48.977323] Image read and encoded in 0.0042 seconds
+[2025-11-26T00:33:48.981553] Published frame 44/60 at 60 FPS
+[2025-11-26T00:33:49.003027] Image read and encoded in 0.0043 seconds
+[2025-11-26T00:33:49.007210] Published frame 45/60 at 60 FPS
+[2025-11-26T00:33:49.028617] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:49.028617] Response received | req_id=80 | status=ok
+[2025-11-26T00:33:49.032505] Published frame 46/60 at 60 FPS
+[2025-11-26T00:33:49.053719] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:49.058073] Published frame 47/60 at 60 FPS
+[2025-11-26T00:33:49.079139] Image read and encoded in 0.0038 seconds
+[2025-11-26T00:33:49.083090] Published frame 48/60 at 60 FPS
+[2025-11-26T00:33:49.104660] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:49.108667] Published frame 49/60 at 60 FPS
+[2025-11-26T00:33:49.129978] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:49.133547] Published frame 50/60 at 60 FPS
+[2025-11-26T00:33:49.155316] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:49.158888] Published frame 51/60 at 60 FPS
+[2025-11-26T00:33:49.180114] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:49.184130] Published frame 52/60 at 60 FPS
+[2025-11-26T00:33:49.205251] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:49.208813] Published frame 53/60 at 60 FPS
+[2025-11-26T00:33:49.230688] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:49.233703] Published frame 54/60 at 60 FPS
+[2025-11-26T00:33:49.255925] Image read and encoded in 0.0040 seconds
+[2025-11-26T00:33:49.258931] Published frame 55/60 at 60 FPS
+[2025-11-26T00:33:49.280845] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:49.284851] Published frame 56/60 at 60 FPS
+[2025-11-26T00:33:49.306423] Image read and encoded in 0.0044 seconds
+[2025-11-26T00:33:49.310233] Published frame 57/60 at 60 FPS
+[2025-11-26T00:33:49.331812] Image read and encoded in 0.0045 seconds
+[2025-11-26T00:33:49.335464] Published frame 58/60 at 60 FPS
+[2025-11-26T00:33:49.357126] Image read and encoded in 0.0039 seconds
+[2025-11-26T00:33:49.362140] Published frame 59/60 at 60 FPS
+[2025-11-26T00:33:49.383685] Image read and encoded in 0.0041 seconds
+[2025-11-26T00:33:49.387265] Published frame 60/60 at 60 FPS
+[2025-11-26T00:33:49.405064] Finished test at 60 FPS in 1.54 seconds
+[2025-11-26T00:33:49.405635] === All tests completed ===

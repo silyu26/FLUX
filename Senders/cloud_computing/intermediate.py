@@ -31,7 +31,7 @@ if not minio_client.bucket_exists(config.MINIO_BUCKET):
 app = Flask(__name__)
 #uvicorn intermediate:app --reload --host 0.0.0.0 --port 5001
 
-log_filename = f"intermediate.txt"
+log_filename = f"intermediate_wf25.txt"
 log_file = open(log_filename, "a", encoding="utf-8")
 sys.stdout = log_file  # Redirect all print() output to file
 sys.stderr = log_file

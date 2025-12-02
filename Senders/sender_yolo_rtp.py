@@ -1,79 +1,109 @@
-import cv2
+import socket
 import time
+import json
+import base64
+import struct
+import threading
+import os
 from datetime import datetime
-import sys
 
-# --- Logging setup ---
-log_filename = "run_logs_rtp.txt"
-log_file = open(log_filename, "a", encoding="utf-8")
-sys.stdout = log_file
-sys.stderr = log_file
+# --- Configuration ---
+TARGET_IP = "127.0.0.1"
+TARGET_PORT = 5006
+PAYLOAD_SIZE = 60000  # Max bytes per packet (UDP MTU safe-ish)
 
-def log(msg):
-    """Helper function to log messages with timestamp"""
-    print(f"[{datetime.now().isoformat()}] {msg}")
-    log_file.flush()
+IMAGE_PATH = "./Senders/imgs/cat1_m.jpg"
+FPS_LIST = [1, 5, 10, 20]
+NUM_ITERATIONS = 60
 
-# --- Settings ---
-RECEIVER_IP = '127.0.0.1'  # IP address of the receiver
-RTP_PORT = 5000
-IMAGE_PATH = "./imgs/cat1.jpg"
-FPS_LIST = [1, 5, 10, 20, 40]
-DURATION_PER_FPS = 10  # Stream for 10 seconds at each FPS setting
+# --- RTP State Variables ---
+SEQ_NUM = 0
+TIMESTAMP = 0
+SSRC = 12345678  # Random ID for this source
+PAYLOAD_TYPE = 96  # Dynamic payload type
 
-# --- Run tests for each FPS ---
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+def create_rtp_header(seq, ts, ssrc, marker):
+    """
+    Constructs a 12-byte RTP header.
+    Format: !BBHII (Network Endian, 1B, 1B, 2B, 4B, 4B)
+    """
+    # Byte 0: Version (2 bits), Padding (1), Extension (1), CSRC Count (4)
+    # V=2 (10), P=0, X=0, CC=0 -> 10000000 -> 0x80
+    byte0 = 0x80
+    
+    # Byte 1: Marker (1 bit), Payload Type (7 bits)
+    # M=1 if last chunk, else 0
+    byte1 = (marker << 7) | PAYLOAD_TYPE
+    
+    return struct.pack("!BBHII", byte0, byte1, seq, ts, ssrc)
+
+def send_frame_rtp(req_id, json_payload):
+    global SEQ_NUM, TIMESTAMP
+    
+    data_bytes = json_payload.encode('utf-8')
+    total_len = len(data_bytes)
+    offset = 0
+    
+    # Increment timestamp for this new frame (arbitrary step, e.g., 3000 ticks)
+    TIMESTAMP += 3000 
+    
+    while offset < total_len:
+        # Determine chunk size
+        chunk_size = min(PAYLOAD_SIZE, total_len - offset)
+        chunk = data_bytes[offset : offset + chunk_size]
+        offset += chunk_size
+        
+        # Is this the last chunk?
+        is_last = (offset >= total_len)
+        marker_bit = 1 if is_last else 0
+        
+        # Create Header
+        header = create_rtp_header(SEQ_NUM, TIMESTAMP, SSRC, marker_bit)
+        
+        # Send Packet
+        sock.sendto(header + chunk, (TARGET_IP, TARGET_PORT))
+        
+        # Increment Sequence (wraps at 65535)
+        SEQ_NUM = (SEQ_NUM + 1) % 65535
+
+def response_listener():
+    """Simple listener for completion signals"""
+    s_listen = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s_listen.bind(("0.0.0.0", 5007)) # Listen port for Ack
+    while True:
+        try:
+            data, _ = s_listen.recvfrom(1024)
+            print(f"[{datetime.now().time()}] ACK Received: {data.decode()}")
+        except:
+            pass
+
+# Start ACK listener
+t = threading.Thread(target=response_listener, daemon=True)
+t.start()
+
+print(f"RTP Sender targeting {TARGET_IP}:{TARGET_PORT}")
+
+# --- Main Loop ---
 for fps in FPS_LIST:
-    log(f"\n=== Starting stream at {fps} FPS for {DURATION_PER_FPS} seconds ===")
-    
-    # Read the source image
-    frame = cv2.imread(IMAGE_PATH)
-    if frame is None:
-        log(f"Error: Could not read image at {IMAGE_PATH}")
-        continue
-    
-    frame_height, frame_width, _ = frame.shape
+    print(f"\n=== Starting RTP Stream at {fps} FPS ===")
+    for i in range(NUM_ITERATIONS):
+        req_id = i + (FPS_LIST.index(fps) * 1000)
+        
+        # Load Image
+        with open(IMAGE_PATH, "rb") as f:
+            image_b64 = base64.b64encode(f.read()).decode("utf-8")
+        
+        msg = {
+            "req_id": req_id,
+            "fps": fps,
+            "image": image_b64
+        }
+        
+        send_frame_rtp(req_id, json.dumps(msg))
+        print(f"Sent Frame {i} via RTP (TS={TIMESTAMP})")
+        
+        time.sleep(1/fps)
 
-    # GStreamer pipeline for encoding the stream to H.264 and sending via RTP
-    # This pipeline takes frames from the app (appsrc), converts them,
-    # encodes them using x264enc with a zero-latency profile, packetizes for RTP,
-    # and sends them over UDP.
-    pipeline = (
-        "appsrc ! "
-        "videoconvert ! "
-        f"video/x-raw,format=I420,width={frame_width},height={frame_height},framerate={fps}/1 ! "
-        "x264enc tune=zerolatency bitrate=500 speed-preset=superfast ! "
-        "rtph264pay ! "
-        f"udpsink host={RECEIVER_IP} port={RTP_PORT}"
-    )
-
-    # Create the VideoWriter object
-    writer = cv2.VideoWriter(pipeline, cv2.CAP_GSTREAMER, 0, fps, (frame_width, frame_height))
-
-    if not writer.isOpened():
-        log(f"Error: VideoWriter not opened for FPS={fps}. Check GStreamer installation.")
-        continue
-
-    start_time = time.time()
-    frames_sent = 0
-    total_frames_to_send = DURATION_PER_FPS * fps
-
-    log(f"Streaming {total_frames_to_send} frames...")
-    
-    while frames_sent < total_frames_to_send:
-        # Write the same frame repeatedly to the stream
-        writer.write(frame)
-        frames_sent += 1
-        # Sleep to maintain the target FPS
-        time.sleep(1 / fps) 
-
-    elapsed = time.time() - start_time
-    log(f"Finished streaming at {fps} FPS. Sent {frames_sent} frames in {elapsed:.2f} seconds.")
-    
-    # Release the writer to close the stream for this FPS
-    writer.release()
-    # Small delay before starting the next stream
-    time.sleep(2)
-
-
-log("\n=== All streaming tests completed ===")
-log_file.close()
+print("RTP Stream Finished.")
