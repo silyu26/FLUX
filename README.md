@@ -55,20 +55,20 @@ We categorize any machine learning inference pipeline with sensor data stream as
 We denote the latency in the stage of sensor data acquisition as $L_{acq}$, data stream transmission: $L_{tr}$, data storage and retrieval: $L_{db}$ and data processing: $L_{proc}$. Similarly, we denote the latency in the four stages of machine learning inference pipeline as data ingestion and data preprocessing: $L_{etl}$ (which stands for the extraction, transform and load process), prediction generation: $L_{pred}$ and post processing: $L_{post}$. Additionally, there could exist latency from the end-user side, denoted as $L_{GUI}$. Then, considering all the factors, the overall latency can be expressed as:
 
 $$
-    \textbf{$L$} = \textbf{$L_{acq}$} + \textbf{$L_{tr}$} + \textbf{$L_{db}$} + \textbf{$L_{proc}$} + \textbf{$L_{etl}$} + \textbf{$L_{pred}$} + \textbf{$L_{post}$} [+ \textbf{$L_{GUI}$}]
+    \mathbf{L} = \mathbf{L_{acq}} + \mathbf{L_{tr}} + \mathbf{L_{db}} + \mathbf{L_{proc}} + \mathbf{L_{etl}} + \mathbf{L_{pred}} + \mathbf{L_{post}} [+ \mathbf{L_{GUI}}]
 $$
 
 Depending on the specific scenario, components of this equation such as $L_{tr}$, may appear multiple times. We denote them as $L_{tr1}$, $L_{tr2}$ and so forth. Futhermore in fat client scenario, we don't have any data stream transmission latency, thus $L_{tr}$ = 0.
 ### 1. Fat Client
 $$
- \textbf{$L$} = \textbf{$L_{acq}$} + \textbf{$L_{etl}$} + \textbf{$L_{pred}$} + \textbf{$L_{post}$}
+ \mathbf{L} = \mathbf{L_{acq}} + \mathbf{L_{etl}} + \mathbf{L_{pred}} + \mathbf{L_{post}}
 $$
 ### 2. Remote Inference
 $$
-\textbf{$L$} = \textbf{$L_{acq}$} + \textbf{$L_{tr1}$}  + \textbf{$L_{etl}$} + \textbf{$L_{pred}$} + \textbf{$L_{post}$} [+ \textbf{$L_{tr2}$} + \textbf{$L_{GUI}$}]
+\mathbf{L} = \mathbf{L_{acq}} + \mathbf{L_{tr1}}  + \mathbf{L_{etl}} + \mathbf{L_{pred}} + \mathbf{L_{post}} [+ \mathbf{L_{tr2}} + \mathbf{L_{GUI}}]
 $$
 ### 3. Complex Setup
 $$
-\textbf{$L$} = \textbf{$L_{acq}$} + \sum_{i=1}^{3}\textbf{$L_{tri}$} + \textbf{$L_{db}$} + \textbf{$L_{proc}$} + \textbf{$L_{etl}$} + \textbf{$L_{pred}$} + \textbf{$L_{post}$} [+ \textbf{$L_{tr4}$} + \textbf{$L_{GUI}$}]
+\mathbf{L} = \mathbf{L_{acq}} + \sum_{i=1}^{3}\mathbf{L_{tri}} + \mathbf{L_{db}} + \mathbf{L_{proc}} + \mathbf{L_{etl}} + \mathbf{L_{pred}} + \mathbf{L_{post}} [+ \mathbf{L_{tr4}} + \mathbf{L_{GUI}}]
 $$
 
