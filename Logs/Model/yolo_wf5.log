@@ -1,0 +1,322 @@
+2025-12-17 09:56:42 [INFO] YOLO model loaded.
+2025-12-17 09:56:42 [INFO] UDP Receiver listening on port 5000
+2025-12-17 09:58:23 [INFO] Reassembled frame 1 from 31 chunks.
+2025-12-17 09:58:26 [INFO] Best detection for req_id=1: cat
+2025-12-17 09:58:26 [INFO] Experiment data saved for req_id=1
+2025-12-17 09:58:26 [INFO] Sent response for req_id=1 to ('192.168.2.106', 61511)
+2025-12-17 09:58:27 [INFO] Reassembled frame 4 from 31 chunks.
+2025-12-17 09:58:28 [INFO] Best detection for req_id=4: cat
+2025-12-17 09:58:28 [INFO] Experiment data saved for req_id=4
+2025-12-17 09:58:28 [INFO] Sent response for req_id=4 to ('192.168.2.106', 61511)
+2025-12-17 09:58:28 [INFO] Reassembled frame 5 from 31 chunks.
+2025-12-17 09:58:29 [INFO] Best detection for req_id=5: cat
+2025-12-17 09:58:29 [INFO] Experiment data saved for req_id=5
+2025-12-17 09:58:29 [INFO] Sent response for req_id=5 to ('192.168.2.106', 61511)
+2025-12-17 09:58:29 [INFO] Reassembled frame 6 from 31 chunks.
+2025-12-17 09:58:30 [INFO] Best detection for req_id=6: cat
+2025-12-17 09:58:30 [INFO] Experiment data saved for req_id=6
+2025-12-17 09:58:30 [INFO] Sent response for req_id=6 to ('192.168.2.106', 61511)
+2025-12-17 09:58:30 [INFO] Reassembled frame 7 from 31 chunks.
+2025-12-17 09:58:31 [INFO] Best detection for req_id=7: cat
+2025-12-17 09:58:31 [INFO] Experiment data saved for req_id=7
+2025-12-17 09:58:31 [INFO] Sent response for req_id=7 to ('192.168.2.106', 61511)
+2025-12-17 09:58:31 [INFO] Reassembled frame 8 from 31 chunks.
+2025-12-17 09:58:32 [INFO] Best detection for req_id=8: cat
+2025-12-17 09:58:32 [INFO] Experiment data saved for req_id=8
+2025-12-17 09:58:32 [INFO] Sent response for req_id=8 to ('192.168.2.106', 61511)
+2025-12-17 09:58:32 [INFO] Reassembled frame 9 from 31 chunks.
+2025-12-17 09:58:33 [INFO] Best detection for req_id=9: cat
+2025-12-17 09:58:33 [INFO] Experiment data saved for req_id=9
+2025-12-17 09:58:33 [INFO] Sent response for req_id=9 to ('192.168.2.106', 61511)
+2025-12-17 09:58:33 [INFO] Reassembled frame 10 from 31 chunks.
+2025-12-17 09:58:34 [INFO] Best detection for req_id=10: cat
+2025-12-17 09:58:34 [INFO] Experiment data saved for req_id=10
+2025-12-17 09:58:34 [INFO] Sent response for req_id=10 to ('192.168.2.106', 61511)
+2025-12-17 09:58:34 [INFO] Reassembled frame 11 from 31 chunks.
+2025-12-17 09:58:35 [INFO] Best detection for req_id=11: cat
+2025-12-17 09:58:35 [INFO] Experiment data saved for req_id=11
+2025-12-17 09:58:35 [INFO] Sent response for req_id=11 to ('192.168.2.106', 61511)
+2025-12-17 09:58:35 [INFO] Reassembled frame 12 from 31 chunks.
+2025-12-17 09:58:36 [INFO] Best detection for req_id=12: cat
+2025-12-17 09:58:36 [INFO] Experiment data saved for req_id=12
+2025-12-17 09:58:36 [INFO] Sent response for req_id=12 to ('192.168.2.106', 61511)
+2025-12-17 09:58:36 [INFO] Reassembled frame 13 from 31 chunks.
+2025-12-17 09:58:37 [INFO] Best detection for req_id=13: cat
+2025-12-17 09:58:37 [INFO] Experiment data saved for req_id=13
+2025-12-17 09:58:37 [INFO] Sent response for req_id=13 to ('192.168.2.106', 61511)
+2025-12-17 09:58:37 [INFO] Reassembled frame 14 from 31 chunks.
+2025-12-17 09:58:38 [INFO] Best detection for req_id=14: cat
+2025-12-17 09:58:38 [INFO] Experiment data saved for req_id=14
+2025-12-17 09:58:38 [INFO] Sent response for req_id=14 to ('192.168.2.106', 61511)
+2025-12-17 09:58:38 [INFO] Reassembled frame 15 from 31 chunks.
+2025-12-17 09:58:39 [INFO] Best detection for req_id=15: cat
+2025-12-17 09:58:39 [INFO] Experiment data saved for req_id=15
+2025-12-17 09:58:39 [INFO] Sent response for req_id=15 to ('192.168.2.106', 61511)
+2025-12-17 09:58:39 [INFO] Reassembled frame 16 from 31 chunks.
+2025-12-17 09:58:40 [INFO] Best detection for req_id=16: cat
+2025-12-17 09:58:40 [INFO] Experiment data saved for req_id=16
+2025-12-17 09:58:40 [INFO] Sent response for req_id=16 to ('192.168.2.106', 61511)
+2025-12-17 09:58:40 [INFO] Reassembled frame 17 from 31 chunks.
+2025-12-17 09:58:41 [INFO] Best detection for req_id=17: cat
+2025-12-17 09:58:41 [INFO] Experiment data saved for req_id=17
+2025-12-17 09:58:41 [INFO] Sent response for req_id=17 to ('192.168.2.106', 61511)
+2025-12-17 09:58:42 [INFO] Reassembled frame 18 from 31 chunks.
+2025-12-17 09:58:42 [INFO] Best detection for req_id=18: cat
+2025-12-17 09:58:42 [INFO] Experiment data saved for req_id=18
+2025-12-17 09:58:42 [INFO] Sent response for req_id=18 to ('192.168.2.106', 61511)
+2025-12-17 09:58:43 [INFO] Reassembled frame 19 from 31 chunks.
+2025-12-17 09:58:44 [INFO] Best detection for req_id=19: cat
+2025-12-17 09:58:44 [INFO] Experiment data saved for req_id=19
+2025-12-17 09:58:44 [INFO] Sent response for req_id=19 to ('192.168.2.106', 61511)
+2025-12-17 09:58:44 [INFO] Reassembled frame 20 from 31 chunks.
+2025-12-17 09:58:45 [INFO] Best detection for req_id=20: cat
+2025-12-17 09:58:45 [INFO] Experiment data saved for req_id=20
+2025-12-17 09:58:45 [INFO] Sent response for req_id=20 to ('192.168.2.106', 61511)
+2025-12-17 09:58:46 [INFO] Reassembled frame 22 from 31 chunks.
+2025-12-17 09:58:47 [INFO] Best detection for req_id=22: cat
+2025-12-17 09:58:47 [INFO] Experiment data saved for req_id=22
+2025-12-17 09:58:47 [INFO] Sent response for req_id=22 to ('192.168.2.106', 61511)
+2025-12-17 09:58:47 [INFO] Reassembled frame 23 from 31 chunks.
+2025-12-17 09:58:48 [INFO] Best detection for req_id=23: cat
+2025-12-17 09:58:48 [INFO] Experiment data saved for req_id=23
+2025-12-17 09:58:48 [INFO] Sent response for req_id=23 to ('192.168.2.106', 61511)
+2025-12-17 09:58:48 [INFO] Reassembled frame 24 from 31 chunks.
+2025-12-17 09:58:49 [INFO] Best detection for req_id=24: cat
+2025-12-17 09:58:49 [INFO] Experiment data saved for req_id=24
+2025-12-17 09:58:49 [INFO] Sent response for req_id=24 to ('192.168.2.106', 61511)
+2025-12-17 09:58:49 [INFO] Reassembled frame 25 from 31 chunks.
+2025-12-17 09:58:50 [INFO] Best detection for req_id=25: cat
+2025-12-17 09:58:50 [INFO] Experiment data saved for req_id=25
+2025-12-17 09:58:50 [INFO] Sent response for req_id=25 to ('192.168.2.106', 61511)
+2025-12-17 09:58:50 [INFO] Reassembled frame 26 from 31 chunks.
+2025-12-17 09:58:51 [INFO] Best detection for req_id=26: cat
+2025-12-17 09:58:51 [INFO] Experiment data saved for req_id=26
+2025-12-17 09:58:51 [INFO] Sent response for req_id=26 to ('192.168.2.106', 61511)
+2025-12-17 09:58:52 [INFO] Reassembled frame 28 from 31 chunks.
+2025-12-17 09:58:53 [INFO] Best detection for req_id=28: cat
+2025-12-17 09:58:53 [INFO] Experiment data saved for req_id=28
+2025-12-17 09:58:53 [INFO] Sent response for req_id=28 to ('192.168.2.106', 61511)
+2025-12-17 09:58:54 [INFO] Reassembled frame 30 from 31 chunks.
+2025-12-17 09:58:55 [INFO] Best detection for req_id=30: cat
+2025-12-17 09:58:55 [INFO] Experiment data saved for req_id=30
+2025-12-17 09:58:55 [INFO] Sent response for req_id=30 to ('192.168.2.106', 61511)
+2025-12-17 09:58:55 [INFO] Reassembled frame 31 from 31 chunks.
+2025-12-17 09:58:56 [INFO] Best detection for req_id=31: cat
+2025-12-17 09:58:56 [INFO] Experiment data saved for req_id=31
+2025-12-17 09:58:56 [INFO] Sent response for req_id=31 to ('192.168.2.106', 61511)
+2025-12-17 09:58:56 [INFO] Reassembled frame 32 from 31 chunks.
+2025-12-17 09:58:57 [INFO] Best detection for req_id=32: cat
+2025-12-17 09:58:57 [INFO] Experiment data saved for req_id=32
+2025-12-17 09:58:57 [INFO] Sent response for req_id=32 to ('192.168.2.106', 61511)
+2025-12-17 09:58:57 [INFO] Reassembled frame 33 from 31 chunks.
+2025-12-17 09:58:58 [INFO] Best detection for req_id=33: cat
+2025-12-17 09:58:58 [INFO] Experiment data saved for req_id=33
+2025-12-17 09:58:58 [INFO] Sent response for req_id=33 to ('192.168.2.106', 61511)
+2025-12-17 09:58:58 [INFO] Reassembled frame 34 from 31 chunks.
+2025-12-17 09:58:59 [INFO] Best detection for req_id=34: cat
+2025-12-17 09:59:00 [INFO] Experiment data saved for req_id=34
+2025-12-17 09:59:00 [INFO] Sent response for req_id=34 to ('192.168.2.106', 61511)
+2025-12-17 09:59:01 [INFO] Reassembled frame 36 from 31 chunks.
+2025-12-17 09:59:02 [INFO] Best detection for req_id=36: cat
+2025-12-17 09:59:02 [INFO] Experiment data saved for req_id=36
+2025-12-17 09:59:02 [INFO] Sent response for req_id=36 to ('192.168.2.106', 61511)
+2025-12-17 09:59:03 [INFO] Reassembled frame 38 from 31 chunks.
+2025-12-17 09:59:04 [INFO] Best detection for req_id=38: cat
+2025-12-17 09:59:04 [INFO] Experiment data saved for req_id=38
+2025-12-17 09:59:04 [INFO] Sent response for req_id=38 to ('192.168.2.106', 61511)
+2025-12-17 09:59:04 [INFO] Reassembled frame 39 from 31 chunks.
+2025-12-17 09:59:05 [INFO] Best detection for req_id=39: cat
+2025-12-17 09:59:05 [INFO] Experiment data saved for req_id=39
+2025-12-17 09:59:05 [INFO] Sent response for req_id=39 to ('192.168.2.106', 61511)
+2025-12-17 09:59:05 [INFO] Reassembled frame 40 from 31 chunks.
+2025-12-17 09:59:06 [INFO] Best detection for req_id=40: cat
+2025-12-17 09:59:06 [INFO] Experiment data saved for req_id=40
+2025-12-17 09:59:06 [INFO] Sent response for req_id=40 to ('192.168.2.106', 61511)
+2025-12-17 09:59:06 [INFO] Reassembled frame 41 from 31 chunks.
+2025-12-17 09:59:07 [INFO] Best detection for req_id=41: cat
+2025-12-17 09:59:07 [INFO] Experiment data saved for req_id=41
+2025-12-17 09:59:07 [INFO] Sent response for req_id=41 to ('192.168.2.106', 61511)
+2025-12-17 09:59:07 [INFO] Reassembled frame 42 from 31 chunks.
+2025-12-17 09:59:08 [INFO] Best detection for req_id=42: cat
+2025-12-17 09:59:08 [INFO] Experiment data saved for req_id=42
+2025-12-17 09:59:08 [INFO] Sent response for req_id=42 to ('192.168.2.106', 61511)
+2025-12-17 09:59:09 [INFO] Reassembled frame 44 from 31 chunks.
+2025-12-17 09:59:10 [INFO] Best detection for req_id=44: cat
+2025-12-17 09:59:10 [INFO] Experiment data saved for req_id=44
+2025-12-17 09:59:10 [INFO] Sent response for req_id=44 to ('192.168.2.106', 61511)
+2025-12-17 09:59:10 [INFO] Reassembled frame 45 from 31 chunks.
+2025-12-17 09:59:11 [INFO] Best detection for req_id=45: cat
+2025-12-17 09:59:11 [INFO] Experiment data saved for req_id=45
+2025-12-17 09:59:11 [INFO] Sent response for req_id=45 to ('192.168.2.106', 61511)
+2025-12-17 09:59:11 [INFO] Reassembled frame 46 from 31 chunks.
+2025-12-17 09:59:12 [INFO] Best detection for req_id=46: cat
+2025-12-17 09:59:12 [INFO] Experiment data saved for req_id=46
+2025-12-17 09:59:12 [INFO] Sent response for req_id=46 to ('192.168.2.106', 61511)
+2025-12-17 09:59:12 [INFO] Reassembled frame 47 from 31 chunks.
+2025-12-17 09:59:13 [INFO] Best detection for req_id=47: cat
+2025-12-17 09:59:13 [INFO] Experiment data saved for req_id=47
+2025-12-17 09:59:13 [INFO] Sent response for req_id=47 to ('192.168.2.106', 61511)
+2025-12-17 09:59:13 [INFO] Reassembled frame 48 from 31 chunks.
+2025-12-17 09:59:14 [INFO] Best detection for req_id=48: cat
+2025-12-17 09:59:14 [INFO] Experiment data saved for req_id=48
+2025-12-17 09:59:14 [INFO] Sent response for req_id=48 to ('192.168.2.106', 61511)
+2025-12-17 09:59:15 [INFO] Reassembled frame 50 from 31 chunks.
+2025-12-17 09:59:16 [INFO] Best detection for req_id=50: cat
+2025-12-17 09:59:16 [INFO] Experiment data saved for req_id=50
+2025-12-17 09:59:16 [INFO] Sent response for req_id=50 to ('192.168.2.106', 61511)
+2025-12-17 09:59:18 [INFO] Reassembled frame 52 from 31 chunks.
+2025-12-17 09:59:19 [INFO] Best detection for req_id=52: cat
+2025-12-17 09:59:19 [INFO] Experiment data saved for req_id=52
+2025-12-17 09:59:19 [INFO] Sent response for req_id=52 to ('192.168.2.106', 61511)
+2025-12-17 09:59:20 [INFO] Reassembled frame 54 from 31 chunks.
+2025-12-17 09:59:21 [INFO] Best detection for req_id=54: cat
+2025-12-17 09:59:21 [INFO] Experiment data saved for req_id=54
+2025-12-17 09:59:21 [INFO] Sent response for req_id=54 to ('192.168.2.106', 61511)
+2025-12-17 09:59:21 [INFO] Reassembled frame 55 from 31 chunks.
+2025-12-17 09:59:22 [INFO] Best detection for req_id=55: cat
+2025-12-17 09:59:22 [INFO] Experiment data saved for req_id=55
+2025-12-17 09:59:22 [INFO] Sent response for req_id=55 to ('192.168.2.106', 61511)
+2025-12-17 09:59:23 [INFO] Reassembled frame 57 from 31 chunks.
+2025-12-17 09:59:24 [INFO] Best detection for req_id=57: cat
+2025-12-17 09:59:24 [INFO] Experiment data saved for req_id=57
+2025-12-17 09:59:24 [INFO] Sent response for req_id=57 to ('192.168.2.106', 61511)
+2025-12-17 09:59:25 [INFO] Reassembled frame 59 from 31 chunks.
+2025-12-17 09:59:26 [INFO] Best detection for req_id=59: cat
+2025-12-17 09:59:26 [INFO] Experiment data saved for req_id=59
+2025-12-17 09:59:26 [INFO] Sent response for req_id=59 to ('192.168.2.106', 61511)
+2025-12-17 09:59:26 [INFO] Reassembled frame 1001 from 31 chunks.
+2025-12-17 09:59:27 [INFO] Best detection for req_id=1001: cat
+2025-12-17 09:59:27 [INFO] Experiment data saved for req_id=1001
+2025-12-17 09:59:27 [INFO] Sent response for req_id=1001 to ('192.168.2.106', 61511)
+2025-12-17 09:59:28 [INFO] Reassembled frame 1006 from 31 chunks.
+2025-12-17 09:59:29 [INFO] Best detection for req_id=1006: cat
+2025-12-17 09:59:29 [INFO] Experiment data saved for req_id=1006
+2025-12-17 09:59:29 [INFO] Sent response for req_id=1006 to ('192.168.2.106', 61511)
+2025-12-17 09:59:29 [INFO] Reassembled frame 1010 from 31 chunks.
+2025-12-17 09:59:30 [INFO] Best detection for req_id=1010: cat
+2025-12-17 09:59:30 [INFO] Experiment data saved for req_id=1010
+2025-12-17 09:59:30 [INFO] Sent response for req_id=1010 to ('192.168.2.106', 61511)
+2025-12-17 09:59:30 [INFO] Reassembled frame 1015 from 31 chunks.
+2025-12-17 09:59:31 [INFO] Best detection for req_id=1015: cat
+2025-12-17 09:59:31 [INFO] Experiment data saved for req_id=1015
+2025-12-17 09:59:31 [INFO] Sent response for req_id=1015 to ('192.168.2.106', 61511)
+2025-12-17 09:59:31 [INFO] Reassembled frame 1019 from 31 chunks.
+2025-12-17 09:59:32 [INFO] Best detection for req_id=1019: cat
+2025-12-17 09:59:32 [INFO] Experiment data saved for req_id=1019
+2025-12-17 09:59:32 [INFO] Sent response for req_id=1019 to ('192.168.2.106', 61511)
+2025-12-17 09:59:32 [INFO] Reassembled frame 1023 from 31 chunks.
+2025-12-17 09:59:33 [INFO] Best detection for req_id=1023: cat
+2025-12-17 09:59:33 [INFO] Experiment data saved for req_id=1023
+2025-12-17 09:59:33 [INFO] Sent response for req_id=1023 to ('192.168.2.106', 61511)
+2025-12-17 09:59:33 [INFO] Reassembled frame 1027 from 31 chunks.
+2025-12-17 09:59:34 [INFO] Best detection for req_id=1027: cat
+2025-12-17 09:59:34 [INFO] Experiment data saved for req_id=1027
+2025-12-17 09:59:34 [INFO] Sent response for req_id=1027 to ('192.168.2.106', 61511)
+2025-12-17 09:59:35 [INFO] Reassembled frame 1032 from 31 chunks.
+2025-12-17 09:59:36 [INFO] Best detection for req_id=1032: cat
+2025-12-17 09:59:36 [INFO] Experiment data saved for req_id=1032
+2025-12-17 09:59:36 [INFO] Sent response for req_id=1032 to ('192.168.2.106', 61511)
+2025-12-17 09:59:36 [INFO] Reassembled frame 1037 from 31 chunks.
+2025-12-17 09:59:37 [INFO] Best detection for req_id=1037: cat
+2025-12-17 09:59:37 [INFO] Experiment data saved for req_id=1037
+2025-12-17 09:59:37 [INFO] Sent response for req_id=1037 to ('192.168.2.106', 61511)
+2025-12-17 09:59:37 [INFO] Reassembled frame 1042 from 31 chunks.
+2025-12-17 09:59:38 [INFO] Best detection for req_id=1042: cat
+2025-12-17 09:59:38 [INFO] Experiment data saved for req_id=1042
+2025-12-17 09:59:38 [INFO] Sent response for req_id=1042 to ('192.168.2.106', 61511)
+2025-12-17 09:59:38 [INFO] Reassembled frame 1046 from 31 chunks.
+2025-12-17 09:59:39 [INFO] Best detection for req_id=1046: cat
+2025-12-17 09:59:39 [INFO] Experiment data saved for req_id=1046
+2025-12-17 09:59:39 [INFO] Sent response for req_id=1046 to ('192.168.2.106', 61511)
+2025-12-17 09:59:40 [INFO] Reassembled frame 1051 from 31 chunks.
+2025-12-17 09:59:40 [INFO] Best detection for req_id=1051: cat
+2025-12-17 09:59:40 [INFO] Experiment data saved for req_id=1051
+2025-12-17 09:59:40 [INFO] Sent response for req_id=1051 to ('192.168.2.106', 61511)
+2025-12-17 09:59:41 [INFO] Reassembled frame 1055 from 31 chunks.
+2025-12-17 09:59:42 [INFO] Best detection for req_id=1055: cat
+2025-12-17 09:59:42 [INFO] Experiment data saved for req_id=1055
+2025-12-17 09:59:42 [INFO] Sent response for req_id=1055 to ('192.168.2.106', 61511)
+2025-12-17 09:59:42 [INFO] Reassembled frame 1059 from 31 chunks.
+2025-12-17 09:59:43 [INFO] Best detection for req_id=1059: cat
+2025-12-17 09:59:43 [INFO] Experiment data saved for req_id=1059
+2025-12-17 09:59:43 [INFO] Sent response for req_id=1059 to ('192.168.2.106', 61511)
+2025-12-17 09:59:43 [INFO] Reassembled frame 2005 from 31 chunks.
+2025-12-17 09:59:44 [INFO] Best detection for req_id=2005: cat
+2025-12-17 09:59:44 [INFO] Experiment data saved for req_id=2005
+2025-12-17 09:59:44 [INFO] Sent response for req_id=2005 to ('192.168.2.106', 61511)
+2025-12-17 09:59:44 [INFO] Reassembled frame 2012 from 31 chunks.
+2025-12-17 09:59:45 [INFO] Best detection for req_id=2012: cat
+2025-12-17 09:59:45 [INFO] Experiment data saved for req_id=2012
+2025-12-17 09:59:45 [INFO] Sent response for req_id=2012 to ('192.168.2.106', 61511)
+2025-12-17 09:59:45 [INFO] Reassembled frame 2019 from 31 chunks.
+2025-12-17 09:59:46 [INFO] Best detection for req_id=2019: cat
+2025-12-17 09:59:46 [INFO] Experiment data saved for req_id=2019
+2025-12-17 09:59:46 [INFO] Sent response for req_id=2019 to ('192.168.2.106', 61511)
+2025-12-17 09:59:46 [INFO] Reassembled frame 2025 from 31 chunks.
+2025-12-17 09:59:47 [INFO] Best detection for req_id=2025: cat
+2025-12-17 09:59:47 [INFO] Experiment data saved for req_id=2025
+2025-12-17 09:59:47 [INFO] Sent response for req_id=2025 to ('192.168.2.106', 61511)
+2025-12-17 09:59:47 [INFO] Reassembled frame 2030 from 31 chunks.
+2025-12-17 09:59:48 [INFO] Best detection for req_id=2030: cat
+2025-12-17 09:59:48 [INFO] Experiment data saved for req_id=2030
+2025-12-17 09:59:48 [INFO] Sent response for req_id=2030 to ('192.168.2.106', 61511)
+2025-12-17 09:59:48 [INFO] Reassembled frame 2035 from 31 chunks.
+2025-12-17 09:59:49 [INFO] Best detection for req_id=2035: cat
+2025-12-17 09:59:49 [INFO] Experiment data saved for req_id=2035
+2025-12-17 09:59:49 [INFO] Sent response for req_id=2035 to ('192.168.2.106', 61511)
+2025-12-17 09:59:49 [INFO] Reassembled frame 2040 from 31 chunks.
+2025-12-17 09:59:50 [INFO] Best detection for req_id=2040: cat
+2025-12-17 09:59:50 [INFO] Experiment data saved for req_id=2040
+2025-12-17 09:59:50 [INFO] Sent response for req_id=2040 to ('192.168.2.106', 61511)
+2025-12-17 09:59:51 [INFO] Reassembled frame 2045 from 31 chunks.
+2025-12-17 09:59:52 [INFO] Best detection for req_id=2045: cat
+2025-12-17 09:59:52 [INFO] Experiment data saved for req_id=2045
+2025-12-17 09:59:52 [INFO] Sent response for req_id=2045 to ('192.168.2.106', 61511)
+2025-12-17 09:59:52 [INFO] Reassembled frame 2052 from 31 chunks.
+2025-12-17 09:59:53 [INFO] Best detection for req_id=2052: cat
+2025-12-17 09:59:53 [INFO] Experiment data saved for req_id=2052
+2025-12-17 09:59:53 [INFO] Sent response for req_id=2052 to ('192.168.2.106', 61511)
+2025-12-17 09:59:53 [INFO] Reassembled frame 2059 from 31 chunks.
+2025-12-17 09:59:54 [INFO] Best detection for req_id=2059: cat
+2025-12-17 09:59:54 [INFO] Experiment data saved for req_id=2059
+2025-12-17 09:59:54 [INFO] Sent response for req_id=2059 to ('192.168.2.106', 61511)
+2025-12-17 09:59:54 [INFO] Reassembled frame 3009 from 31 chunks.
+2025-12-17 09:59:55 [INFO] Best detection for req_id=3009: cat
+2025-12-17 09:59:55 [INFO] Experiment data saved for req_id=3009
+2025-12-17 09:59:55 [INFO] Sent response for req_id=3009 to ('192.168.2.106', 61511)
+2025-12-17 09:59:55 [INFO] Reassembled frame 3019 from 31 chunks.
+2025-12-17 09:59:56 [INFO] Best detection for req_id=3019: cat
+2025-12-17 09:59:56 [INFO] Experiment data saved for req_id=3019
+2025-12-17 09:59:56 [INFO] Sent response for req_id=3019 to ('192.168.2.106', 61511)
+2025-12-17 09:59:56 [INFO] Reassembled frame 3029 from 31 chunks.
+2025-12-17 09:59:57 [INFO] Best detection for req_id=3029: cat
+2025-12-17 09:59:57 [INFO] Experiment data saved for req_id=3029
+2025-12-17 09:59:57 [INFO] Sent response for req_id=3029 to ('192.168.2.106', 61511)
+2025-12-17 09:59:57 [INFO] Reassembled frame 3039 from 31 chunks.
+2025-12-17 09:59:58 [INFO] Best detection for req_id=3039: cat
+2025-12-17 09:59:58 [INFO] Experiment data saved for req_id=3039
+2025-12-17 09:59:58 [INFO] Sent response for req_id=3039 to ('192.168.2.106', 61511)
+2025-12-17 09:59:58 [INFO] Reassembled frame 3050 from 31 chunks.
+2025-12-17 09:59:59 [INFO] Best detection for req_id=3050: cat
+2025-12-17 09:59:59 [INFO] Experiment data saved for req_id=3050
+2025-12-17 09:59:59 [INFO] Sent response for req_id=3050 to ('192.168.2.106', 61511)
+2025-12-17 09:59:59 [INFO] Reassembled frame 4000 from 31 chunks.
+2025-12-17 10:00:00 [INFO] Best detection for req_id=4000: cat
+2025-12-17 10:00:00 [INFO] Experiment data saved for req_id=4000
+2025-12-17 10:00:00 [INFO] Sent response for req_id=4000 to ('192.168.2.106', 61511)
+2025-12-17 10:00:00 [INFO] Reassembled frame 4014 from 31 chunks.
+2025-12-17 10:00:01 [INFO] Best detection for req_id=4014: cat
+2025-12-17 10:00:01 [INFO] Experiment data saved for req_id=4014
+2025-12-17 10:00:01 [INFO] Sent response for req_id=4014 to ('192.168.2.106', 61511)
+2025-12-17 10:00:02 [INFO] Reassembled frame 4025 from 31 chunks.
+2025-12-17 10:00:03 [INFO] Best detection for req_id=4025: cat
+2025-12-17 10:00:03 [INFO] Experiment data saved for req_id=4025
+2025-12-17 10:00:03 [INFO] Sent response for req_id=4025 to ('192.168.2.106', 61511)
+2025-12-17 10:00:03 [INFO] Reassembled frame 4037 from 31 chunks.
+2025-12-17 10:00:04 [INFO] Best detection for req_id=4037: cat
+2025-12-17 10:00:04 [INFO] Experiment data saved for req_id=4037
+2025-12-17 10:00:04 [INFO] Sent response for req_id=4037 to ('192.168.2.106', 61511)
+2025-12-17 10:00:04 [INFO] Reassembled frame 4050 from 31 chunks.
+2025-12-17 10:00:05 [INFO] Best detection for req_id=4050: cat
+2025-12-17 10:00:05 [INFO] Experiment data saved for req_id=4050
+2025-12-17 10:00:05 [INFO] Sent response for req_id=4050 to ('192.168.2.106', 61511)

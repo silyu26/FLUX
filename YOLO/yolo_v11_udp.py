@@ -16,7 +16,7 @@ from SQL.model import Experiment
 from SQL.buffer_data import save_experiment_to_buffer
 
 # --- Configuration ---
-UDP_IP = "192.168.2.101"
+UDP_IP = "0.0.0.0"
 UDP_PORT = 5000
 MAX_DGRAM = 65000  # Safe buffer size for recv
 EXPERIMENT_DATA_FILE = "udp_experiment_data.jsonl" # New file for metrics
@@ -69,6 +69,7 @@ while True:
             del frame_meta[req_id]
 
             # --- INFERENCE LOGIC ---
+            time.sleep(0.5)
             model_in = datetime.now()
             image_data = base64.b64decode(payload["image"])
             image = Image.open(io.BytesIO(image_data))

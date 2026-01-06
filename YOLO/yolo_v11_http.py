@@ -18,7 +18,7 @@ app = FastAPI(title="YOLOv11 API", description="API for YOLOv11 inference", vers
 #uvicorn YOLO.yolo_v11_http:app --reload --host 0.0.0.0 --port 5000
 
 # --- Setup logging ---
-log_filename = "yolo_wf10.log"
+log_filename = "yolo_wf11.log"
 logging.basicConfig(
     filename=log_filename,
     level=logging.INFO,

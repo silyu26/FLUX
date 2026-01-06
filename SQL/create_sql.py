@@ -11,6 +11,9 @@ class Experiment(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     req_id = Column(Integer, nullable=False)
     exp_id = Column(Integer, nullable=False)
+    fps = Column(Integer, nullable=True)
+    device = Column(String(50), nullable=True)
+    acq_start = Column(DATETIME(fsp=3), nullable=True)
     gen_at = Column(DATETIME(fsp=3), nullable=False)
     server_in = Column(DATETIME(fsp=3), nullable=True)
     server_out = Column(DATETIME(fsp=3), nullable=True)
@@ -29,8 +32,7 @@ class Experiment(Base):
     gpu_power = Column(Float, nullable=True)
     memory_usage = Column(Float, nullable=True)
     process_count = Column(Integer, nullable=True)
-    fps = Column(Integer, nullable=True)
-    device = Column(String(50), nullable=True)
+    acq_end = Column(DATETIME(fsp=3), nullable=True)
     weather = relationship("WeatherData", back_populates="experiment", uselist=False, cascade="all, delete-orphan")
 
 
@@ -49,7 +51,7 @@ class WeatherData(Base):
     experiment = relationship("Experiment", back_populates="weather")
 
 
-DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3307/wf5"
+DATABASE_URL = "mysql+mysqlconnector://root:root@localhost:3307/wf11"
 # Create engine & session factory
 engine = create_engine(DATABASE_URL, echo=True, pool_size=30,
     max_overflow=60)  # echo=True logs SQL

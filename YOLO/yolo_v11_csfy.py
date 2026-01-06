@@ -35,7 +35,7 @@ console_handler.setFormatter(formatter)
 logging.getLogger().addHandler(console_handler)
 
 # Load model
-model = YOLO("yolo11l.pt")
+model = YOLO("yolo11x.pt")
 pynvml.nvmlInit()
 handle = pynvml.nvmlDeviceGetHandleByIndex(0)
 

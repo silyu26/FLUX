@@ -1,0 +1,678 @@
+2025-11-21 17:03:02 [INFO] [System] Loading YOLO models...
+2025-11-21 17:03:02 [INFO] [System] Loaded model for worker 0
+2025-11-21 17:03:02 [INFO] [System] Loaded model for worker 1
+2025-11-21 17:03:41 [INFO] [Receiver] Accepted req_id=0 -> worker-0 job_id=9d306bc1-3cde-4afb-b5aa-3994c1fff978
+2025-11-21 17:03:41 [INFO] [Worker-0] Starting inference job_id=9d306bc1-3cde-4afb-b5aa-3994c1fff978 req_id=0
+2025-11-21 17:03:42 [INFO] [Receiver] Accepted req_id=1 -> worker-1 job_id=5bdb70c6-6f48-492c-8496-cf871ed7abb0
+2025-11-21 17:03:42 [INFO] [Worker-0] Finished job_id=9d306bc1-3cde-4afb-b5aa-3994c1fff978 req_id=0 time=0.88s
+2025-11-21 17:03:42 [INFO] [Worker-1] Starting inference job_id=5bdb70c6-6f48-492c-8496-cf871ed7abb0 req_id=1
+2025-11-21 17:03:43 [INFO] [Worker-1] Finished job_id=5bdb70c6-6f48-492c-8496-cf871ed7abb0 req_id=1 time=0.52s
+2025-11-21 17:03:43 [INFO] [Receiver] Accepted req_id=2 -> worker-0 job_id=789d63c6-ec53-4afa-95bd-22fdb2aff158
+2025-11-21 17:03:43 [INFO] [Worker-0] Starting inference job_id=789d63c6-ec53-4afa-95bd-22fdb2aff158 req_id=2
+2025-11-21 17:03:44 [INFO] [Worker-0] Finished job_id=789d63c6-ec53-4afa-95bd-22fdb2aff158 req_id=2 time=0.16s
+2025-11-21 17:03:44 [INFO] [Receiver] Accepted req_id=3 -> worker-0 job_id=1ed4c445-388b-46c9-bb60-97f7b963bbb8
+2025-11-21 17:03:44 [INFO] [Worker-0] Starting inference job_id=1ed4c445-388b-46c9-bb60-97f7b963bbb8 req_id=3
+2025-11-21 17:03:45 [INFO] [Worker-0] Finished job_id=1ed4c445-388b-46c9-bb60-97f7b963bbb8 req_id=3 time=0.17s
+2025-11-21 17:03:45 [INFO] [Receiver] Accepted req_id=4 -> worker-0 job_id=d2498aa5-7b5e-4a57-8116-9d6672d3391b
+2025-11-21 17:03:45 [INFO] [Worker-0] Starting inference job_id=d2498aa5-7b5e-4a57-8116-9d6672d3391b req_id=4
+2025-11-21 17:03:46 [INFO] [Worker-0] Finished job_id=d2498aa5-7b5e-4a57-8116-9d6672d3391b req_id=4 time=0.16s
+2025-11-21 17:03:46 [INFO] [Receiver] Accepted req_id=5 -> worker-0 job_id=29dcdc72-7c59-4ae1-8e7a-e3923f71df86
+2025-11-21 17:03:46 [INFO] [Worker-0] Starting inference job_id=29dcdc72-7c59-4ae1-8e7a-e3923f71df86 req_id=5
+2025-11-21 17:03:47 [INFO] [Worker-0] Finished job_id=29dcdc72-7c59-4ae1-8e7a-e3923f71df86 req_id=5 time=0.16s
+2025-11-21 17:03:47 [INFO] [Receiver] Accepted req_id=6 -> worker-0 job_id=ad5abb4d-c2b9-46f6-9e12-50d1466aee83
+2025-11-21 17:03:47 [INFO] [Worker-0] Starting inference job_id=ad5abb4d-c2b9-46f6-9e12-50d1466aee83 req_id=6
+2025-11-21 17:03:48 [INFO] [Worker-0] Finished job_id=ad5abb4d-c2b9-46f6-9e12-50d1466aee83 req_id=6 time=0.16s
+2025-11-21 17:03:48 [INFO] [Receiver] Accepted req_id=7 -> worker-0 job_id=7d09fb47-db04-462c-a9f1-a4cde6735cda
+2025-11-21 17:03:48 [INFO] [Worker-0] Starting inference job_id=7d09fb47-db04-462c-a9f1-a4cde6735cda req_id=7
+2025-11-21 17:03:49 [INFO] [Worker-0] Finished job_id=7d09fb47-db04-462c-a9f1-a4cde6735cda req_id=7 time=0.21s
+2025-11-21 17:03:49 [INFO] [Receiver] Accepted req_id=8 -> worker-0 job_id=65be1153-3048-42d0-b369-d7a82fdfd775
+2025-11-21 17:03:49 [INFO] [Worker-0] Starting inference job_id=65be1153-3048-42d0-b369-d7a82fdfd775 req_id=8
+2025-11-21 17:03:50 [INFO] [Worker-0] Finished job_id=65be1153-3048-42d0-b369-d7a82fdfd775 req_id=8 time=0.22s
+2025-11-21 17:03:50 [INFO] [Receiver] Accepted req_id=9 -> worker-0 job_id=1c7bf9cd-2630-4b53-9fdd-aaa69d10d468
+2025-11-21 17:03:50 [INFO] [Worker-0] Starting inference job_id=1c7bf9cd-2630-4b53-9fdd-aaa69d10d468 req_id=9
+2025-11-21 17:03:51 [INFO] [Worker-0] Finished job_id=1c7bf9cd-2630-4b53-9fdd-aaa69d10d468 req_id=9 time=0.23s
+2025-11-21 17:03:51 [INFO] [Receiver] Accepted req_id=10 -> worker-0 job_id=f73002d8-ef55-4135-8b29-dc5b4dc3a00f
+2025-11-21 17:03:51 [INFO] [Worker-0] Starting inference job_id=f73002d8-ef55-4135-8b29-dc5b4dc3a00f req_id=10
+2025-11-21 17:03:52 [INFO] [Worker-0] Finished job_id=f73002d8-ef55-4135-8b29-dc5b4dc3a00f req_id=10 time=0.22s
+2025-11-21 17:03:52 [INFO] [Receiver] Accepted req_id=11 -> worker-0 job_id=d6c7ca77-1e80-4d20-96c1-c6d1f7c70d2d
+2025-11-21 17:03:52 [INFO] [Worker-0] Starting inference job_id=d6c7ca77-1e80-4d20-96c1-c6d1f7c70d2d req_id=11
+2025-11-21 17:03:53 [INFO] [Worker-0] Finished job_id=d6c7ca77-1e80-4d20-96c1-c6d1f7c70d2d req_id=11 time=0.24s
+2025-11-21 17:03:53 [INFO] [Receiver] Accepted req_id=12 -> worker-0 job_id=33dcaf35-0302-44b6-b20f-db59e1496d6b
+2025-11-21 17:03:54 [INFO] [Worker-0] Starting inference job_id=33dcaf35-0302-44b6-b20f-db59e1496d6b req_id=12
+2025-11-21 17:03:54 [INFO] [Worker-0] Finished job_id=33dcaf35-0302-44b6-b20f-db59e1496d6b req_id=12 time=0.33s
+2025-11-21 17:03:54 [INFO] [Receiver] Accepted req_id=13 -> worker-0 job_id=bb4ffc63-966d-462f-9a15-00cf65be39ee
+2025-11-21 17:03:55 [INFO] [Worker-0] Starting inference job_id=bb4ffc63-966d-462f-9a15-00cf65be39ee req_id=13
+2025-11-21 17:03:55 [INFO] [Worker-0] Finished job_id=bb4ffc63-966d-462f-9a15-00cf65be39ee req_id=13 time=0.15s
+2025-11-21 17:03:55 [INFO] [Receiver] Accepted req_id=14 -> worker-0 job_id=d26194ea-ba43-4136-83f5-4dba678c9790
+2025-11-21 17:03:56 [INFO] [Worker-0] Starting inference job_id=d26194ea-ba43-4136-83f5-4dba678c9790 req_id=14
+2025-11-21 17:03:56 [INFO] [Worker-0] Finished job_id=d26194ea-ba43-4136-83f5-4dba678c9790 req_id=14 time=0.21s
+2025-11-21 17:03:56 [INFO] [Receiver] Accepted req_id=15 -> worker-0 job_id=9072e382-5e8d-4a7d-92c0-714443798531
+2025-11-21 17:03:57 [INFO] [Worker-0] Starting inference job_id=9072e382-5e8d-4a7d-92c0-714443798531 req_id=15
+2025-11-21 17:03:57 [INFO] [Worker-0] Finished job_id=9072e382-5e8d-4a7d-92c0-714443798531 req_id=15 time=0.22s
+2025-11-21 17:03:57 [INFO] [Receiver] Accepted req_id=16 -> worker-0 job_id=7fbf9fb3-3ca1-418e-a4e9-cf75592cf34a
+2025-11-21 17:03:58 [INFO] [Worker-0] Starting inference job_id=7fbf9fb3-3ca1-418e-a4e9-cf75592cf34a req_id=16
+2025-11-21 17:03:58 [INFO] [Worker-0] Finished job_id=7fbf9fb3-3ca1-418e-a4e9-cf75592cf34a req_id=16 time=0.31s
+2025-11-21 17:03:58 [INFO] [Receiver] Accepted req_id=17 -> worker-0 job_id=4f1ba6eb-e628-4e01-aea9-f545dec10dd7
+2025-11-21 17:03:59 [INFO] [Worker-0] Starting inference job_id=4f1ba6eb-e628-4e01-aea9-f545dec10dd7 req_id=17
+2025-11-21 17:03:59 [INFO] [Worker-0] Finished job_id=4f1ba6eb-e628-4e01-aea9-f545dec10dd7 req_id=17 time=0.24s
+2025-11-21 17:03:59 [INFO] [Receiver] Accepted req_id=18 -> worker-0 job_id=3e8cc2de-b17a-4af3-a021-8cd6da35de9a
+2025-11-21 17:04:00 [INFO] [Worker-0] Starting inference job_id=3e8cc2de-b17a-4af3-a021-8cd6da35de9a req_id=18
+2025-11-21 17:04:00 [INFO] [Worker-0] Finished job_id=3e8cc2de-b17a-4af3-a021-8cd6da35de9a req_id=18 time=0.20s
+2025-11-21 17:04:00 [INFO] [Receiver] Accepted req_id=19 -> worker-0 job_id=e2e2e4db-0ef6-4bf3-a2e2-b8258236651a
+2025-11-21 17:04:01 [INFO] [Worker-0] Starting inference job_id=e2e2e4db-0ef6-4bf3-a2e2-b8258236651a req_id=19
+2025-11-21 17:04:01 [INFO] [Worker-0] Finished job_id=e2e2e4db-0ef6-4bf3-a2e2-b8258236651a req_id=19 time=0.32s
+2025-11-21 17:04:01 [INFO] [Receiver] Accepted req_id=20 -> worker-0 job_id=c2b0db52-fe59-4508-81a9-d73ac024ddd8
+2025-11-21 17:04:02 [INFO] [Worker-0] Starting inference job_id=c2b0db52-fe59-4508-81a9-d73ac024ddd8 req_id=20
+2025-11-21 17:04:02 [INFO] [Worker-0] Finished job_id=c2b0db52-fe59-4508-81a9-d73ac024ddd8 req_id=20 time=0.21s
+2025-11-21 17:04:02 [INFO] [Receiver] Accepted req_id=21 -> worker-0 job_id=33cd5f0f-4f06-4d0d-a4cc-3c100150234c
+2025-11-21 17:04:03 [INFO] [Worker-0] Starting inference job_id=33cd5f0f-4f06-4d0d-a4cc-3c100150234c req_id=21
+2025-11-21 17:04:03 [INFO] [Worker-0] Finished job_id=33cd5f0f-4f06-4d0d-a4cc-3c100150234c req_id=21 time=0.30s
+2025-11-21 17:04:03 [INFO] [Receiver] Accepted req_id=22 -> worker-0 job_id=3e20bb01-e8d6-4fe2-b7a7-b86bab7aeb80
+2025-11-21 17:04:04 [INFO] [Worker-0] Starting inference job_id=3e20bb01-e8d6-4fe2-b7a7-b86bab7aeb80 req_id=22
+2025-11-21 17:04:04 [INFO] [Worker-0] Finished job_id=3e20bb01-e8d6-4fe2-b7a7-b86bab7aeb80 req_id=22 time=0.27s
+2025-11-21 17:04:04 [INFO] [Receiver] Accepted req_id=23 -> worker-0 job_id=f75319ee-4bf5-4c52-81d2-2e4258876e6f
+2025-11-21 17:04:05 [INFO] [Worker-0] Starting inference job_id=f75319ee-4bf5-4c52-81d2-2e4258876e6f req_id=23
+2025-11-21 17:04:05 [INFO] [Worker-0] Finished job_id=f75319ee-4bf5-4c52-81d2-2e4258876e6f req_id=23 time=0.21s
+2025-11-21 17:04:05 [INFO] [Receiver] Accepted req_id=24 -> worker-0 job_id=f44f432f-7ba1-437e-97bc-e95b8f0d2071
+2025-11-21 17:04:06 [INFO] [Worker-0] Starting inference job_id=f44f432f-7ba1-437e-97bc-e95b8f0d2071 req_id=24
+2025-11-21 17:04:06 [INFO] [Worker-0] Finished job_id=f44f432f-7ba1-437e-97bc-e95b8f0d2071 req_id=24 time=0.30s
+2025-11-21 17:04:06 [INFO] [Receiver] Accepted req_id=25 -> worker-0 job_id=e3d1b223-995e-4d12-adee-098950bd1584
+2025-11-21 17:04:07 [INFO] [Worker-0] Starting inference job_id=e3d1b223-995e-4d12-adee-098950bd1584 req_id=25
+2025-11-21 17:04:07 [INFO] [Worker-0] Finished job_id=e3d1b223-995e-4d12-adee-098950bd1584 req_id=25 time=0.30s
+2025-11-21 17:04:07 [INFO] [Receiver] Accepted req_id=26 -> worker-0 job_id=72826213-1fac-4786-8aad-662454bfcbb0
+2025-11-21 17:04:08 [INFO] [Worker-0] Starting inference job_id=72826213-1fac-4786-8aad-662454bfcbb0 req_id=26
+2025-11-21 17:04:08 [INFO] [Worker-0] Finished job_id=72826213-1fac-4786-8aad-662454bfcbb0 req_id=26 time=0.21s
+2025-11-21 17:04:08 [INFO] [Receiver] Accepted req_id=27 -> worker-0 job_id=a4ad7923-0ba0-4921-808b-9252f62918f4
+2025-11-21 17:04:09 [INFO] [Worker-0] Starting inference job_id=a4ad7923-0ba0-4921-808b-9252f62918f4 req_id=27
+2025-11-21 17:04:09 [INFO] [Worker-0] Finished job_id=a4ad7923-0ba0-4921-808b-9252f62918f4 req_id=27 time=0.27s
+2025-11-21 17:04:09 [INFO] [Receiver] Accepted req_id=28 -> worker-0 job_id=21449549-12f5-4461-9488-fecf2604ce64
+2025-11-21 17:04:10 [INFO] [Worker-0] Starting inference job_id=21449549-12f5-4461-9488-fecf2604ce64 req_id=28
+2025-11-21 17:04:10 [INFO] [Worker-0] Finished job_id=21449549-12f5-4461-9488-fecf2604ce64 req_id=28 time=0.21s
+2025-11-21 17:04:10 [INFO] [Receiver] Accepted req_id=29 -> worker-0 job_id=caf1c4c1-3377-4830-bd0b-faa485569c82
+2025-11-21 17:04:11 [INFO] [Worker-0] Starting inference job_id=caf1c4c1-3377-4830-bd0b-faa485569c82 req_id=29
+2025-11-21 17:04:11 [INFO] [Worker-0] Finished job_id=caf1c4c1-3377-4830-bd0b-faa485569c82 req_id=29 time=0.30s
+2025-11-21 17:04:11 [INFO] [Receiver] Accepted req_id=30 -> worker-0 job_id=45f93e30-20e4-421c-8ab7-5fde5de8e0bd
+2025-11-21 17:04:12 [INFO] [Worker-0] Starting inference job_id=45f93e30-20e4-421c-8ab7-5fde5de8e0bd req_id=30
+2025-11-21 17:04:12 [INFO] [Worker-0] Finished job_id=45f93e30-20e4-421c-8ab7-5fde5de8e0bd req_id=30 time=0.16s
+2025-11-21 17:04:13 [INFO] [Receiver] Accepted req_id=31 -> worker-0 job_id=ce885cf7-d779-4331-adbd-9762409280e5
+2025-11-21 17:04:13 [INFO] [Worker-0] Starting inference job_id=ce885cf7-d779-4331-adbd-9762409280e5 req_id=31
+2025-11-21 17:04:13 [INFO] [Worker-0] Finished job_id=ce885cf7-d779-4331-adbd-9762409280e5 req_id=31 time=0.17s
+2025-11-21 17:04:14 [INFO] [Receiver] Accepted req_id=32 -> worker-0 job_id=620d18af-9baf-43b0-bd80-798e4921d89d
+2025-11-21 17:04:14 [INFO] [Worker-0] Starting inference job_id=620d18af-9baf-43b0-bd80-798e4921d89d req_id=32
+2025-11-21 17:04:14 [INFO] [Worker-0] Finished job_id=620d18af-9baf-43b0-bd80-798e4921d89d req_id=32 time=0.22s
+2025-11-21 17:04:15 [INFO] [Receiver] Accepted req_id=33 -> worker-0 job_id=6518c80a-68a9-4ed4-83fb-52801a8f825a
+2025-11-21 17:04:15 [INFO] [Worker-0] Starting inference job_id=6518c80a-68a9-4ed4-83fb-52801a8f825a req_id=33
+2025-11-21 17:04:15 [INFO] [Worker-0] Finished job_id=6518c80a-68a9-4ed4-83fb-52801a8f825a req_id=33 time=0.23s
+2025-11-21 17:04:16 [INFO] [Receiver] Accepted req_id=34 -> worker-0 job_id=3975ac71-7aaa-4c6b-b1c5-e44e61270cc5
+2025-11-21 17:04:16 [INFO] [Worker-0] Starting inference job_id=3975ac71-7aaa-4c6b-b1c5-e44e61270cc5 req_id=34
+2025-11-21 17:04:16 [INFO] [Worker-0] Finished job_id=3975ac71-7aaa-4c6b-b1c5-e44e61270cc5 req_id=34 time=0.30s
+2025-11-21 17:04:17 [INFO] [Receiver] Accepted req_id=35 -> worker-0 job_id=11a3a58d-ed6a-4845-b190-540e1d78e699
+2025-11-21 17:04:17 [INFO] [Worker-0] Starting inference job_id=11a3a58d-ed6a-4845-b190-540e1d78e699 req_id=35
+2025-11-21 17:04:17 [INFO] [Worker-0] Finished job_id=11a3a58d-ed6a-4845-b190-540e1d78e699 req_id=35 time=0.31s
+2025-11-21 17:04:18 [INFO] [Receiver] Accepted req_id=36 -> worker-0 job_id=ce25f551-d1d2-439a-8746-74b08db98f90
+2025-11-21 17:04:18 [INFO] [Worker-0] Starting inference job_id=ce25f551-d1d2-439a-8746-74b08db98f90 req_id=36
+2025-11-21 17:04:18 [INFO] [Worker-0] Finished job_id=ce25f551-d1d2-439a-8746-74b08db98f90 req_id=36 time=0.22s
+2025-11-21 17:04:19 [INFO] [Receiver] Accepted req_id=37 -> worker-0 job_id=c54920c9-1d02-4562-9d92-068792a23684
+2025-11-21 17:04:19 [INFO] [Worker-0] Starting inference job_id=c54920c9-1d02-4562-9d92-068792a23684 req_id=37
+2025-11-21 17:04:19 [INFO] [Worker-0] Finished job_id=c54920c9-1d02-4562-9d92-068792a23684 req_id=37 time=0.23s
+2025-11-21 17:04:20 [INFO] [Receiver] Accepted req_id=38 -> worker-0 job_id=d6bbf874-5498-479a-96b4-25269b201bc1
+2025-11-21 17:04:20 [INFO] [Worker-0] Starting inference job_id=d6bbf874-5498-479a-96b4-25269b201bc1 req_id=38
+2025-11-21 17:04:20 [INFO] [Worker-0] Finished job_id=d6bbf874-5498-479a-96b4-25269b201bc1 req_id=38 time=0.23s
+2025-11-21 17:04:21 [INFO] [Receiver] Accepted req_id=39 -> worker-0 job_id=056775fd-6c15-4833-b282-4b878382dcc9
+2025-11-21 17:04:21 [INFO] [Worker-0] Starting inference job_id=056775fd-6c15-4833-b282-4b878382dcc9 req_id=39
+2025-11-21 17:04:21 [INFO] [Worker-0] Finished job_id=056775fd-6c15-4833-b282-4b878382dcc9 req_id=39 time=0.31s
+2025-11-21 17:04:22 [INFO] [Receiver] Accepted req_id=40 -> worker-0 job_id=15f9c65b-9601-4306-bb7c-9393ebac7791
+2025-11-21 17:04:22 [INFO] [Worker-0] Starting inference job_id=15f9c65b-9601-4306-bb7c-9393ebac7791 req_id=40
+2025-11-21 17:04:22 [INFO] [Worker-0] Finished job_id=15f9c65b-9601-4306-bb7c-9393ebac7791 req_id=40 time=0.22s
+2025-11-21 17:04:23 [INFO] [Receiver] Accepted req_id=41 -> worker-0 job_id=aaabd6fa-81fa-44ca-a9bc-b4efdad818bc
+2025-11-21 17:04:23 [INFO] [Worker-0] Starting inference job_id=aaabd6fa-81fa-44ca-a9bc-b4efdad818bc req_id=41
+2025-11-21 17:04:23 [INFO] [Worker-0] Finished job_id=aaabd6fa-81fa-44ca-a9bc-b4efdad818bc req_id=41 time=0.25s
+2025-11-21 17:04:24 [INFO] [Receiver] Accepted req_id=42 -> worker-0 job_id=d8f88d6e-2bbe-491a-927d-d96407dcbb47
+2025-11-21 17:04:24 [INFO] [Worker-0] Starting inference job_id=d8f88d6e-2bbe-491a-927d-d96407dcbb47 req_id=42
+2025-11-21 17:04:24 [INFO] [Worker-0] Finished job_id=d8f88d6e-2bbe-491a-927d-d96407dcbb47 req_id=42 time=0.30s
+2025-11-21 17:04:25 [INFO] [Receiver] Accepted req_id=43 -> worker-0 job_id=b1e95203-3cf4-427a-91d1-c6c15209904f
+2025-11-21 17:04:25 [INFO] [Worker-0] Starting inference job_id=b1e95203-3cf4-427a-91d1-c6c15209904f req_id=43
+2025-11-21 17:04:25 [INFO] [Worker-0] Finished job_id=b1e95203-3cf4-427a-91d1-c6c15209904f req_id=43 time=0.21s
+2025-11-21 17:04:26 [INFO] [Receiver] Accepted req_id=44 -> worker-0 job_id=30ae9f97-e481-4f80-b9be-b25dff66960b
+2025-11-21 17:04:26 [INFO] [Worker-0] Starting inference job_id=30ae9f97-e481-4f80-b9be-b25dff66960b req_id=44
+2025-11-21 17:04:26 [INFO] [Worker-0] Finished job_id=30ae9f97-e481-4f80-b9be-b25dff66960b req_id=44 time=0.33s
+2025-11-21 17:04:27 [INFO] [Receiver] Accepted req_id=45 -> worker-0 job_id=7eeb87c3-e2db-40ab-9f76-cb601e2eed6a
+2025-11-21 17:04:27 [INFO] [Worker-0] Starting inference job_id=7eeb87c3-e2db-40ab-9f76-cb601e2eed6a req_id=45
+2025-11-21 17:04:27 [INFO] [Worker-0] Finished job_id=7eeb87c3-e2db-40ab-9f76-cb601e2eed6a req_id=45 time=0.15s
+2025-11-21 17:04:28 [INFO] [Receiver] Accepted req_id=46 -> worker-0 job_id=ecc71cd4-fd54-44e5-a113-25d0fbb42505
+2025-11-21 17:04:28 [INFO] [Worker-0] Starting inference job_id=ecc71cd4-fd54-44e5-a113-25d0fbb42505 req_id=46
+2025-11-21 17:04:28 [INFO] [Worker-0] Finished job_id=ecc71cd4-fd54-44e5-a113-25d0fbb42505 req_id=46 time=0.21s
+2025-11-21 17:04:29 [INFO] [Receiver] Accepted req_id=47 -> worker-0 job_id=13d473c0-9ffc-48a8-9e8a-5ac6089ff9f1
+2025-11-21 17:04:29 [INFO] [Worker-0] Starting inference job_id=13d473c0-9ffc-48a8-9e8a-5ac6089ff9f1 req_id=47
+2025-11-21 17:04:29 [INFO] [Worker-0] Finished job_id=13d473c0-9ffc-48a8-9e8a-5ac6089ff9f1 req_id=47 time=0.22s
+2025-11-21 17:04:30 [INFO] [Receiver] Accepted req_id=48 -> worker-0 job_id=9d8073c2-8a56-4792-9dc0-bdcff0941054
+2025-11-21 17:04:30 [INFO] [Worker-0] Starting inference job_id=9d8073c2-8a56-4792-9dc0-bdcff0941054 req_id=48
+2025-11-21 17:04:30 [INFO] [Worker-0] Finished job_id=9d8073c2-8a56-4792-9dc0-bdcff0941054 req_id=48 time=0.23s
+2025-11-21 17:04:31 [INFO] [Receiver] Accepted req_id=49 -> worker-0 job_id=2e9721d0-0bfc-4393-b49c-f591b043ebf7
+2025-11-21 17:04:31 [INFO] [Worker-0] Starting inference job_id=2e9721d0-0bfc-4393-b49c-f591b043ebf7 req_id=49
+2025-11-21 17:04:31 [INFO] [Worker-0] Finished job_id=2e9721d0-0bfc-4393-b49c-f591b043ebf7 req_id=49 time=0.42s
+2025-11-21 17:04:32 [INFO] [Receiver] Accepted req_id=50 -> worker-0 job_id=314b890e-6646-43fd-aeb4-4001de7d12a8
+2025-11-21 17:04:32 [INFO] [Worker-0] Starting inference job_id=314b890e-6646-43fd-aeb4-4001de7d12a8 req_id=50
+2025-11-21 17:04:32 [INFO] [Worker-0] Finished job_id=314b890e-6646-43fd-aeb4-4001de7d12a8 req_id=50 time=0.15s
+2025-11-21 17:04:33 [INFO] [Receiver] Accepted req_id=51 -> worker-0 job_id=0cd049f4-1b0b-4a4e-a9b7-9f87b9de747a
+2025-11-21 17:04:33 [INFO] [Worker-0] Starting inference job_id=0cd049f4-1b0b-4a4e-a9b7-9f87b9de747a req_id=51
+2025-11-21 17:04:33 [INFO] [Worker-0] Finished job_id=0cd049f4-1b0b-4a4e-a9b7-9f87b9de747a req_id=51 time=0.15s
+2025-11-21 17:04:34 [INFO] [Receiver] Accepted req_id=52 -> worker-0 job_id=c8ac8285-fe0c-4be3-8239-ce1a5d72b3f7
+2025-11-21 17:04:34 [INFO] [Worker-0] Starting inference job_id=c8ac8285-fe0c-4be3-8239-ce1a5d72b3f7 req_id=52
+2025-11-21 17:04:34 [INFO] [Worker-0] Finished job_id=c8ac8285-fe0c-4be3-8239-ce1a5d72b3f7 req_id=52 time=0.18s
+2025-11-21 17:04:35 [INFO] [Receiver] Accepted req_id=53 -> worker-0 job_id=72851e51-d431-447e-ad24-791f80daf855
+2025-11-21 17:04:35 [INFO] [Worker-0] Starting inference job_id=72851e51-d431-447e-ad24-791f80daf855 req_id=53
+2025-11-21 17:04:35 [INFO] [Worker-0] Finished job_id=72851e51-d431-447e-ad24-791f80daf855 req_id=53 time=0.22s
+2025-11-21 17:04:36 [INFO] [Receiver] Accepted req_id=54 -> worker-0 job_id=5111c598-904f-4b77-969a-910efc949f19
+2025-11-21 17:04:36 [INFO] [Worker-0] Starting inference job_id=5111c598-904f-4b77-969a-910efc949f19 req_id=54
+2025-11-21 17:04:36 [INFO] [Worker-0] Finished job_id=5111c598-904f-4b77-969a-910efc949f19 req_id=54 time=0.24s
+2025-11-21 17:04:37 [INFO] [Receiver] Accepted req_id=55 -> worker-0 job_id=e834042f-ac70-4721-8368-12d2a6fce63b
+2025-11-21 17:04:37 [INFO] [Worker-0] Starting inference job_id=e834042f-ac70-4721-8368-12d2a6fce63b req_id=55
+2025-11-21 17:04:37 [INFO] [Worker-0] Finished job_id=e834042f-ac70-4721-8368-12d2a6fce63b req_id=55 time=0.31s
+2025-11-21 17:04:38 [INFO] [Receiver] Accepted req_id=56 -> worker-0 job_id=92de46b9-746e-40e1-8841-29fbd8f5147a
+2025-11-21 17:04:38 [INFO] [Worker-0] Starting inference job_id=92de46b9-746e-40e1-8841-29fbd8f5147a req_id=56
+2025-11-21 17:04:38 [INFO] [Worker-0] Finished job_id=92de46b9-746e-40e1-8841-29fbd8f5147a req_id=56 time=0.15s
+2025-11-21 17:04:39 [INFO] [Receiver] Accepted req_id=57 -> worker-0 job_id=11d10a27-90ba-4215-9873-e35f24559d37
+2025-11-21 17:04:39 [INFO] [Worker-0] Starting inference job_id=11d10a27-90ba-4215-9873-e35f24559d37 req_id=57
+2025-11-21 17:04:39 [INFO] [Worker-0] Finished job_id=11d10a27-90ba-4215-9873-e35f24559d37 req_id=57 time=0.17s
+2025-11-21 17:04:40 [INFO] [Receiver] Accepted req_id=58 -> worker-0 job_id=87bbb853-7595-4c72-b020-46c2a52335b3
+2025-11-21 17:04:40 [INFO] [Worker-0] Starting inference job_id=87bbb853-7595-4c72-b020-46c2a52335b3 req_id=58
+2025-11-21 17:04:40 [INFO] [Worker-0] Finished job_id=87bbb853-7595-4c72-b020-46c2a52335b3 req_id=58 time=0.22s
+2025-11-21 17:04:41 [INFO] [Receiver] Accepted req_id=59 -> worker-0 job_id=9168b190-2700-4598-bc3e-6cec7b0cd51b
+2025-11-21 17:04:41 [INFO] [Worker-0] Starting inference job_id=9168b190-2700-4598-bc3e-6cec7b0cd51b req_id=59
+2025-11-21 17:04:41 [INFO] [Worker-0] Finished job_id=9168b190-2700-4598-bc3e-6cec7b0cd51b req_id=59 time=0.22s
+2025-11-21 17:04:42 [INFO] [Receiver] Accepted req_id=60 -> worker-0 job_id=e6e457e1-cc81-481b-8edb-1efb0c6181a3
+2025-11-21 17:04:42 [INFO] [Receiver] Accepted req_id=61 -> worker-1 job_id=71e7c2eb-f46b-407f-9f8b-06c21c24bcdc
+2025-11-21 17:04:42 [INFO] [Worker-0] Starting inference job_id=e6e457e1-cc81-481b-8edb-1efb0c6181a3 req_id=60
+2025-11-21 17:04:42 [INFO] [Receiver] Busy: no worker available for req_id=62
+2025-11-21 17:04:42 [INFO] [Worker-1] Starting inference job_id=71e7c2eb-f46b-407f-9f8b-06c21c24bcdc req_id=61
+2025-11-21 17:04:43 [INFO] [Worker-0] Finished job_id=e6e457e1-cc81-481b-8edb-1efb0c6181a3 req_id=60 time=0.32s
+2025-11-21 17:04:43 [INFO] [Receiver] Accepted req_id=63 -> worker-0 job_id=6764b94a-8a48-408d-9c22-3d25ad97f803
+2025-11-21 17:04:43 [INFO] [Worker-1] Finished job_id=71e7c2eb-f46b-407f-9f8b-06c21c24bcdc req_id=61 time=0.23s
+2025-11-21 17:04:43 [INFO] [Receiver] Accepted req_id=64 -> worker-1 job_id=2cf4d25d-f30d-495a-aeaf-40befbf1f59b
+2025-11-21 17:04:43 [INFO] [Worker-0] Starting inference job_id=6764b94a-8a48-408d-9c22-3d25ad97f803 req_id=63
+2025-11-21 17:04:43 [INFO] [Receiver] Busy: no worker available for req_id=65
+2025-11-21 17:04:43 [INFO] [Worker-0] Finished job_id=6764b94a-8a48-408d-9c22-3d25ad97f803 req_id=63 time=0.22s
+2025-11-21 17:04:43 [INFO] [Worker-1] Starting inference job_id=2cf4d25d-f30d-495a-aeaf-40befbf1f59b req_id=64
+2025-11-21 17:04:43 [INFO] [Receiver] Accepted req_id=66 -> worker-0 job_id=f3888f6d-87c7-480c-af66-b0422473091a
+2025-11-21 17:04:43 [INFO] [Worker-1] Finished job_id=2cf4d25d-f30d-495a-aeaf-40befbf1f59b req_id=64 time=0.22s
+2025-11-21 17:04:43 [INFO] [Receiver] Accepted req_id=67 -> worker-1 job_id=b7f5fb1d-432d-4231-a37c-b5f0292c7016
+2025-11-21 17:04:43 [INFO] [Worker-0] Starting inference job_id=f3888f6d-87c7-480c-af66-b0422473091a req_id=66
+2025-11-21 17:04:44 [INFO] [Receiver] Busy: no worker available for req_id=68
+2025-11-21 17:04:44 [INFO] [Worker-0] Finished job_id=f3888f6d-87c7-480c-af66-b0422473091a req_id=66 time=0.21s
+2025-11-21 17:04:44 [INFO] [Worker-1] Starting inference job_id=b7f5fb1d-432d-4231-a37c-b5f0292c7016 req_id=67
+2025-11-21 17:04:44 [INFO] [Receiver] Accepted req_id=69 -> worker-0 job_id=23313fa7-1a4b-46e9-8ce0-d95ecb5255c7
+2025-11-21 17:04:44 [INFO] [Worker-1] Finished job_id=b7f5fb1d-432d-4231-a37c-b5f0292c7016 req_id=67 time=0.22s
+2025-11-21 17:04:44 [INFO] [Receiver] Accepted req_id=70 -> worker-1 job_id=21c8a4fb-ef8c-4f6c-951b-caa33a96b829
+2025-11-21 17:04:44 [INFO] [Worker-0] Starting inference job_id=23313fa7-1a4b-46e9-8ce0-d95ecb5255c7 req_id=69
+2025-11-21 17:04:44 [INFO] [Receiver] Busy: no worker available for req_id=71
+2025-11-21 17:04:44 [INFO] [Worker-1] Starting inference job_id=21c8a4fb-ef8c-4f6c-951b-caa33a96b829 req_id=70
+2025-11-21 17:04:44 [INFO] [Worker-0] Finished job_id=23313fa7-1a4b-46e9-8ce0-d95ecb5255c7 req_id=69 time=0.25s
+2025-11-21 17:04:44 [INFO] [Receiver] Accepted req_id=72 -> worker-0 job_id=15307b35-2d44-4f26-ba8b-3090f123a38b
+2025-11-21 17:04:45 [INFO] [Worker-1] Finished job_id=21c8a4fb-ef8c-4f6c-951b-caa33a96b829 req_id=70 time=0.23s
+2025-11-21 17:04:45 [INFO] [Receiver] Accepted req_id=73 -> worker-1 job_id=a816f0d3-6d62-4bb1-bde3-48a8a24d4dbf
+2025-11-21 17:04:45 [INFO] [Worker-0] Starting inference job_id=15307b35-2d44-4f26-ba8b-3090f123a38b req_id=72
+2025-11-21 17:04:45 [INFO] [Receiver] Busy: no worker available for req_id=74
+2025-11-21 17:04:45 [INFO] [Worker-1] Starting inference job_id=a816f0d3-6d62-4bb1-bde3-48a8a24d4dbf req_id=73
+2025-11-21 17:04:45 [INFO] [Worker-0] Finished job_id=15307b35-2d44-4f26-ba8b-3090f123a38b req_id=72 time=0.22s
+2025-11-21 17:04:45 [INFO] [Receiver] Accepted req_id=75 -> worker-0 job_id=6a5eb11c-cb4f-415e-8ad6-5b44872c2807
+2025-11-21 17:04:45 [INFO] [Worker-1] Finished job_id=a816f0d3-6d62-4bb1-bde3-48a8a24d4dbf req_id=73 time=0.16s
+2025-11-21 17:04:45 [INFO] [Receiver] Accepted req_id=76 -> worker-1 job_id=c4bcc425-24fe-476f-bd4e-cb7553166810
+2025-11-21 17:04:45 [INFO] [Worker-0] Starting inference job_id=6a5eb11c-cb4f-415e-8ad6-5b44872c2807 req_id=75
+2025-11-21 17:04:45 [INFO] [Receiver] Busy: no worker available for req_id=77
+2025-11-21 17:04:46 [INFO] [Worker-0] Finished job_id=6a5eb11c-cb4f-415e-8ad6-5b44872c2807 req_id=75 time=0.17s
+2025-11-21 17:04:46 [INFO] [Worker-1] Starting inference job_id=c4bcc425-24fe-476f-bd4e-cb7553166810 req_id=76
+2025-11-21 17:04:46 [INFO] [Receiver] Accepted req_id=78 -> worker-0 job_id=90437484-ac20-4489-aebc-83698b2411b3
+2025-11-21 17:04:46 [INFO] [Worker-1] Finished job_id=c4bcc425-24fe-476f-bd4e-cb7553166810 req_id=76 time=0.16s
+2025-11-21 17:04:46 [INFO] [Receiver] Accepted req_id=79 -> worker-1 job_id=4fdf8344-dded-4468-8635-63cb81ced382
+2025-11-21 17:04:46 [INFO] [Worker-0] Starting inference job_id=90437484-ac20-4489-aebc-83698b2411b3 req_id=78
+2025-11-21 17:04:46 [INFO] [Receiver] Busy: no worker available for req_id=80
+2025-11-21 17:04:46 [INFO] [Worker-0] Finished job_id=90437484-ac20-4489-aebc-83698b2411b3 req_id=78 time=0.17s
+2025-11-21 17:04:46 [INFO] [Worker-1] Starting inference job_id=4fdf8344-dded-4468-8635-63cb81ced382 req_id=79
+2025-11-21 17:04:46 [INFO] [Receiver] Accepted req_id=81 -> worker-0 job_id=d49c36e8-f23b-4b83-a853-51721bc18c1a
+2025-11-21 17:04:46 [INFO] [Worker-1] Finished job_id=4fdf8344-dded-4468-8635-63cb81ced382 req_id=79 time=0.16s
+2025-11-21 17:04:47 [INFO] [Receiver] Accepted req_id=82 -> worker-1 job_id=ef344376-471d-4407-806b-1ea9448a8ac8
+2025-11-21 17:04:47 [INFO] [Worker-0] Starting inference job_id=d49c36e8-f23b-4b83-a853-51721bc18c1a req_id=81
+2025-11-21 17:04:47 [INFO] [Receiver] Busy: no worker available for req_id=83
+2025-11-21 17:04:47 [INFO] [Worker-0] Finished job_id=d49c36e8-f23b-4b83-a853-51721bc18c1a req_id=81 time=0.16s
+2025-11-21 17:04:47 [INFO] [Worker-1] Starting inference job_id=ef344376-471d-4407-806b-1ea9448a8ac8 req_id=82
+2025-11-21 17:04:47 [INFO] [Receiver] Accepted req_id=84 -> worker-0 job_id=308420d6-ad44-4eb1-92ac-818a5be8254c
+2025-11-21 17:04:47 [INFO] [Worker-1] Finished job_id=ef344376-471d-4407-806b-1ea9448a8ac8 req_id=82 time=0.18s
+2025-11-21 17:04:47 [INFO] [Receiver] Accepted req_id=85 -> worker-1 job_id=6ea4bc29-f196-4717-91a8-33f4036d7456
+2025-11-21 17:04:47 [INFO] [Worker-0] Starting inference job_id=308420d6-ad44-4eb1-92ac-818a5be8254c req_id=84
+2025-11-21 17:04:47 [INFO] [Receiver] Busy: no worker available for req_id=86
+2025-11-21 17:04:47 [INFO] [Worker-1] Starting inference job_id=6ea4bc29-f196-4717-91a8-33f4036d7456 req_id=85
+2025-11-21 17:04:47 [INFO] [Worker-0] Finished job_id=308420d6-ad44-4eb1-92ac-818a5be8254c req_id=84 time=0.25s
+2025-11-21 17:04:48 [INFO] [Receiver] Accepted req_id=87 -> worker-0 job_id=f969f7b9-373c-4ed2-88e3-452c451f09fd
+2025-11-21 17:04:48 [INFO] [Worker-1] Finished job_id=6ea4bc29-f196-4717-91a8-33f4036d7456 req_id=85 time=0.23s
+2025-11-21 17:04:48 [INFO] [Receiver] Accepted req_id=88 -> worker-1 job_id=f82f5304-07db-401d-a5e8-1a8764e27e81
+2025-11-21 17:04:48 [INFO] [Worker-0] Starting inference job_id=f969f7b9-373c-4ed2-88e3-452c451f09fd req_id=87
+2025-11-21 17:04:48 [INFO] [Receiver] Busy: no worker available for req_id=89
+2025-11-21 17:04:48 [INFO] [Worker-0] Finished job_id=f969f7b9-373c-4ed2-88e3-452c451f09fd req_id=87 time=0.23s
+2025-11-21 17:04:48 [INFO] [Worker-1] Starting inference job_id=f82f5304-07db-401d-a5e8-1a8764e27e81 req_id=88
+2025-11-21 17:04:48 [INFO] [Receiver] Accepted req_id=90 -> worker-0 job_id=54f4c06d-9d21-4978-b59f-21ce29a9767c
+2025-11-21 17:04:48 [INFO] [Worker-1] Finished job_id=f82f5304-07db-401d-a5e8-1a8764e27e81 req_id=88 time=0.21s
+2025-11-21 17:04:48 [INFO] [Receiver] Accepted req_id=91 -> worker-1 job_id=6caf7a3a-cbac-4123-8813-df391d97d260
+2025-11-21 17:04:48 [INFO] [Worker-0] Starting inference job_id=54f4c06d-9d21-4978-b59f-21ce29a9767c req_id=90
+2025-11-21 17:04:49 [INFO] [Receiver] Busy: no worker available for req_id=92
+2025-11-21 17:04:49 [INFO] [Worker-0] Finished job_id=54f4c06d-9d21-4978-b59f-21ce29a9767c req_id=90 time=0.21s
+2025-11-21 17:04:49 [INFO] [Worker-1] Starting inference job_id=6caf7a3a-cbac-4123-8813-df391d97d260 req_id=91
+2025-11-21 17:04:49 [INFO] [Receiver] Accepted req_id=93 -> worker-0 job_id=217e464e-52be-4b80-8134-74837c1bef89
+2025-11-21 17:04:49 [INFO] [Worker-1] Finished job_id=6caf7a3a-cbac-4123-8813-df391d97d260 req_id=91 time=0.21s
+2025-11-21 17:04:49 [INFO] [Receiver] Accepted req_id=94 -> worker-1 job_id=c4c67f05-538f-4ba7-8e75-9d01f7915bc6
+2025-11-21 17:04:49 [INFO] [Worker-0] Starting inference job_id=217e464e-52be-4b80-8134-74837c1bef89 req_id=93
+2025-11-21 17:04:49 [INFO] [Receiver] Busy: no worker available for req_id=95
+2025-11-21 17:04:49 [INFO] [Worker-0] Finished job_id=217e464e-52be-4b80-8134-74837c1bef89 req_id=93 time=0.21s
+2025-11-21 17:04:49 [INFO] [Worker-1] Starting inference job_id=c4c67f05-538f-4ba7-8e75-9d01f7915bc6 req_id=94
+2025-11-21 17:04:49 [INFO] [Receiver] Accepted req_id=96 -> worker-0 job_id=dbf22eab-2920-4d2e-ae09-abc7e742f843
+2025-11-21 17:04:50 [INFO] [Worker-1] Finished job_id=c4c67f05-538f-4ba7-8e75-9d01f7915bc6 req_id=94 time=0.21s
+2025-11-21 17:04:50 [INFO] [Receiver] Accepted req_id=97 -> worker-1 job_id=7b046ba2-5784-4076-bca6-df9e589aab8a
+2025-11-21 17:04:50 [INFO] [Worker-0] Starting inference job_id=dbf22eab-2920-4d2e-ae09-abc7e742f843 req_id=96
+2025-11-21 17:04:50 [INFO] [Receiver] Busy: no worker available for req_id=98
+2025-11-21 17:04:50 [INFO] [Worker-0] Finished job_id=dbf22eab-2920-4d2e-ae09-abc7e742f843 req_id=96 time=0.21s
+2025-11-21 17:04:50 [INFO] [Worker-1] Starting inference job_id=7b046ba2-5784-4076-bca6-df9e589aab8a req_id=97
+2025-11-21 17:04:50 [INFO] [Receiver] Accepted req_id=99 -> worker-0 job_id=72df8342-2d45-448e-b11f-55bb26acf1c0
+2025-11-21 17:04:50 [INFO] [Worker-1] Finished job_id=7b046ba2-5784-4076-bca6-df9e589aab8a req_id=97 time=0.21s
+2025-11-21 17:04:50 [INFO] [Receiver] Accepted req_id=100 -> worker-1 job_id=3b6f6668-a0bc-4e5c-823c-0a8297fb3e5d
+2025-11-21 17:04:50 [INFO] [Worker-0] Starting inference job_id=72df8342-2d45-448e-b11f-55bb26acf1c0 req_id=99
+2025-11-21 17:04:51 [INFO] [Receiver] Busy: no worker available for req_id=101
+2025-11-21 17:04:51 [INFO] [Worker-0] Finished job_id=72df8342-2d45-448e-b11f-55bb26acf1c0 req_id=99 time=0.22s
+2025-11-21 17:04:51 [INFO] [Worker-1] Starting inference job_id=3b6f6668-a0bc-4e5c-823c-0a8297fb3e5d req_id=100
+2025-11-21 17:04:51 [INFO] [Receiver] Accepted req_id=102 -> worker-0 job_id=e45fb72e-5f2a-4115-9357-35caec481818
+2025-11-21 17:04:51 [INFO] [Worker-1] Finished job_id=3b6f6668-a0bc-4e5c-823c-0a8297fb3e5d req_id=100 time=0.23s
+2025-11-21 17:04:51 [INFO] [Receiver] Accepted req_id=103 -> worker-1 job_id=1e158e4c-746c-4e75-be8b-5831f29ed554
+2025-11-21 17:04:51 [INFO] [Worker-0] Starting inference job_id=e45fb72e-5f2a-4115-9357-35caec481818 req_id=102
+2025-11-21 17:04:51 [INFO] [Receiver] Busy: no worker available for req_id=104
+2025-11-21 17:04:51 [INFO] [Worker-0] Finished job_id=e45fb72e-5f2a-4115-9357-35caec481818 req_id=102 time=0.22s
+2025-11-21 17:04:51 [INFO] [Worker-1] Starting inference job_id=1e158e4c-746c-4e75-be8b-5831f29ed554 req_id=103
+2025-11-21 17:04:51 [INFO] [Receiver] Accepted req_id=105 -> worker-0 job_id=c4051b59-0ae2-4c32-9786-1ab399371459
+2025-11-21 17:04:51 [INFO] [Worker-1] Finished job_id=1e158e4c-746c-4e75-be8b-5831f29ed554 req_id=103 time=0.22s
+2025-11-21 17:04:52 [INFO] [Receiver] Accepted req_id=106 -> worker-1 job_id=a1de077f-58e9-4d59-96a9-5104cb41bfd2
+2025-11-21 17:04:52 [INFO] [Worker-0] Starting inference job_id=c4051b59-0ae2-4c32-9786-1ab399371459 req_id=105
+2025-11-21 17:04:52 [INFO] [Receiver] Busy: no worker available for req_id=107
+2025-11-21 17:04:52 [INFO] [Worker-0] Finished job_id=c4051b59-0ae2-4c32-9786-1ab399371459 req_id=105 time=0.22s
+2025-11-21 17:04:52 [INFO] [Worker-1] Starting inference job_id=a1de077f-58e9-4d59-96a9-5104cb41bfd2 req_id=106
+2025-11-21 17:04:52 [INFO] [Receiver] Accepted req_id=108 -> worker-0 job_id=25a39812-359c-463c-af43-9ac4d3808821
+2025-11-21 17:04:52 [INFO] [Worker-1] Finished job_id=a1de077f-58e9-4d59-96a9-5104cb41bfd2 req_id=106 time=0.23s
+2025-11-21 17:04:52 [INFO] [Receiver] Accepted req_id=109 -> worker-1 job_id=c0683e69-09bc-485c-ad37-e511bf25650a
+2025-11-21 17:04:52 [INFO] [Worker-0] Starting inference job_id=25a39812-359c-463c-af43-9ac4d3808821 req_id=108
+2025-11-21 17:04:52 [INFO] [Receiver] Busy: no worker available for req_id=110
+2025-11-21 17:04:52 [INFO] [Worker-0] Finished job_id=25a39812-359c-463c-af43-9ac4d3808821 req_id=108 time=0.21s
+2025-11-21 17:04:52 [INFO] [Worker-1] Starting inference job_id=c0683e69-09bc-485c-ad37-e511bf25650a req_id=109
+2025-11-21 17:04:53 [INFO] [Receiver] Accepted req_id=111 -> worker-0 job_id=e7214306-d879-482d-9711-9fe0cb0d7ba0
+2025-11-21 17:04:53 [INFO] [Worker-1] Finished job_id=c0683e69-09bc-485c-ad37-e511bf25650a req_id=109 time=0.22s
+2025-11-21 17:04:53 [INFO] [Receiver] Accepted req_id=112 -> worker-1 job_id=8027222b-4853-483c-8570-5a162dd3bb8f
+2025-11-21 17:04:53 [INFO] [Worker-0] Starting inference job_id=e7214306-d879-482d-9711-9fe0cb0d7ba0 req_id=111
+2025-11-21 17:04:53 [INFO] [Receiver] Busy: no worker available for req_id=113
+2025-11-21 17:04:53 [INFO] [Worker-0] Finished job_id=e7214306-d879-482d-9711-9fe0cb0d7ba0 req_id=111 time=0.22s
+2025-11-21 17:04:53 [INFO] [Worker-1] Starting inference job_id=8027222b-4853-483c-8570-5a162dd3bb8f req_id=112
+2025-11-21 17:04:53 [INFO] [Receiver] Accepted req_id=114 -> worker-0 job_id=c1bb25d1-4f40-44b9-85fe-bdf97c791879
+2025-11-21 17:04:53 [INFO] [Worker-1] Finished job_id=8027222b-4853-483c-8570-5a162dd3bb8f req_id=112 time=0.21s
+2025-11-21 17:04:53 [INFO] [Receiver] Accepted req_id=115 -> worker-1 job_id=1fe287f4-c29c-4e13-b2b3-d5b294a8afca
+2025-11-21 17:04:54 [INFO] [Worker-0] Starting inference job_id=c1bb25d1-4f40-44b9-85fe-bdf97c791879 req_id=114
+2025-11-21 17:04:54 [INFO] [Receiver] Busy: no worker available for req_id=116
+2025-11-21 17:04:54 [INFO] [Worker-0] Finished job_id=c1bb25d1-4f40-44b9-85fe-bdf97c791879 req_id=114 time=0.22s
+2025-11-21 17:04:54 [INFO] [Worker-1] Starting inference job_id=1fe287f4-c29c-4e13-b2b3-d5b294a8afca req_id=115
+2025-11-21 17:04:54 [INFO] [Receiver] Accepted req_id=117 -> worker-0 job_id=35a55997-7f47-434a-be56-05809d3d3541
+2025-11-21 17:04:54 [INFO] [Worker-1] Finished job_id=1fe287f4-c29c-4e13-b2b3-d5b294a8afca req_id=115 time=0.21s
+2025-11-21 17:04:54 [INFO] [Receiver] Accepted req_id=118 -> worker-1 job_id=c773d56d-de36-4201-b9bd-3dbb746644d4
+2025-11-21 17:04:54 [INFO] [Worker-0] Starting inference job_id=35a55997-7f47-434a-be56-05809d3d3541 req_id=117
+2025-11-21 17:04:54 [INFO] [Receiver] Busy: no worker available for req_id=119
+2025-11-21 17:04:54 [INFO] [Worker-1] Starting inference job_id=c773d56d-de36-4201-b9bd-3dbb746644d4 req_id=118
+2025-11-21 17:04:54 [INFO] [Worker-0] Finished job_id=35a55997-7f47-434a-be56-05809d3d3541 req_id=117 time=0.21s
+2025-11-21 17:04:55 [INFO] [Receiver] Accepted req_id=120 -> worker-0 job_id=e1d2d9d2-0be3-4f3a-87a9-0b2e8675f2fd
+2025-11-21 17:04:55 [INFO] [Worker-1] Finished job_id=c773d56d-de36-4201-b9bd-3dbb746644d4 req_id=118 time=0.22s
+2025-11-21 17:04:55 [INFO] [Receiver] Accepted req_id=121 -> worker-1 job_id=e6ff6d48-e1b0-475a-a086-9d9aac2cd4ae
+2025-11-21 17:04:55 [INFO] [Receiver] Busy: no worker available for req_id=122
+2025-11-21 17:04:55 [INFO] [Worker-0] Starting inference job_id=e1d2d9d2-0be3-4f3a-87a9-0b2e8675f2fd req_id=120
+2025-11-21 17:04:55 [INFO] [Receiver] Busy: no worker available for req_id=123
+2025-11-21 17:04:55 [INFO] [Worker-1] Starting inference job_id=e6ff6d48-e1b0-475a-a086-9d9aac2cd4ae req_id=121
+2025-11-21 17:04:55 [INFO] [Receiver] Busy: no worker available for req_id=124
+2025-11-21 17:04:55 [INFO] [Worker-0] Finished job_id=e1d2d9d2-0be3-4f3a-87a9-0b2e8675f2fd req_id=120 time=0.24s
+2025-11-21 17:04:55 [INFO] [Receiver] Accepted req_id=125 -> worker-0 job_id=797767c8-0904-4987-bfc5-f4acfb1a8706
+2025-11-21 17:04:55 [INFO] [Worker-1] Finished job_id=e6ff6d48-e1b0-475a-a086-9d9aac2cd4ae req_id=121 time=0.23s
+2025-11-21 17:04:55 [INFO] [Receiver] Accepted req_id=126 -> worker-1 job_id=93b7ac33-50af-4cc9-85f1-a1aaf1a88a15
+2025-11-21 17:04:55 [INFO] [Receiver] Busy: no worker available for req_id=127
+2025-11-21 17:04:55 [INFO] [Worker-0] Starting inference job_id=797767c8-0904-4987-bfc5-f4acfb1a8706 req_id=125
+2025-11-21 17:04:55 [INFO] [Receiver] Busy: no worker available for req_id=128
+2025-11-21 17:04:55 [INFO] [Worker-1] Starting inference job_id=93b7ac33-50af-4cc9-85f1-a1aaf1a88a15 req_id=126
+2025-11-21 17:04:56 [INFO] [Receiver] Busy: no worker available for req_id=129
+2025-11-21 17:04:56 [INFO] [Worker-0] Finished job_id=797767c8-0904-4987-bfc5-f4acfb1a8706 req_id=125 time=0.23s
+2025-11-21 17:04:56 [INFO] [Receiver] Accepted req_id=130 -> worker-0 job_id=31ca09f2-39cc-48bb-acce-475fa528ae32
+2025-11-21 17:04:56 [INFO] [Worker-1] Finished job_id=93b7ac33-50af-4cc9-85f1-a1aaf1a88a15 req_id=126 time=0.22s
+2025-11-21 17:04:56 [INFO] [Receiver] Accepted req_id=131 -> worker-1 job_id=0cb1419d-eef8-43ea-b3f3-3910ed350eb5
+2025-11-21 17:04:56 [INFO] [Receiver] Busy: no worker available for req_id=132
+2025-11-21 17:04:56 [INFO] [Worker-0] Starting inference job_id=31ca09f2-39cc-48bb-acce-475fa528ae32 req_id=130
+2025-11-21 17:04:56 [INFO] [Receiver] Busy: no worker available for req_id=133
+2025-11-21 17:04:56 [INFO] [Worker-1] Starting inference job_id=0cb1419d-eef8-43ea-b3f3-3910ed350eb5 req_id=131
+2025-11-21 17:04:56 [INFO] [Receiver] Busy: no worker available for req_id=134
+2025-11-21 17:04:56 [INFO] [Worker-0] Finished job_id=31ca09f2-39cc-48bb-acce-475fa528ae32 req_id=130 time=0.23s
+2025-11-21 17:04:56 [INFO] [Receiver] Accepted req_id=135 -> worker-0 job_id=7544501a-b8bc-4c70-8ae2-d1d4232e3608
+2025-11-21 17:04:56 [INFO] [Worker-1] Finished job_id=0cb1419d-eef8-43ea-b3f3-3910ed350eb5 req_id=131 time=0.21s
+2025-11-21 17:04:56 [INFO] [Receiver] Accepted req_id=136 -> worker-1 job_id=0f948322-f690-494f-9670-1cec6f0035d7
+2025-11-21 17:04:56 [INFO] [Receiver] Busy: no worker available for req_id=137
+2025-11-21 17:04:56 [INFO] [Worker-0] Starting inference job_id=7544501a-b8bc-4c70-8ae2-d1d4232e3608 req_id=135
+2025-11-21 17:04:56 [INFO] [Receiver] Busy: no worker available for req_id=138
+2025-11-21 17:04:57 [INFO] [Worker-1] Starting inference job_id=0f948322-f690-494f-9670-1cec6f0035d7 req_id=136
+2025-11-21 17:04:57 [INFO] [Receiver] Busy: no worker available for req_id=139
+2025-11-21 17:04:57 [INFO] [Worker-0] Finished job_id=7544501a-b8bc-4c70-8ae2-d1d4232e3608 req_id=135 time=0.18s
+2025-11-21 17:04:57 [INFO] [Receiver] Accepted req_id=140 -> worker-0 job_id=ca8286ec-e904-40a1-b63d-f31e9140f72b
+2025-11-21 17:04:57 [INFO] [Worker-1] Finished job_id=0f948322-f690-494f-9670-1cec6f0035d7 req_id=136 time=0.17s
+2025-11-21 17:04:57 [INFO] [Receiver] Accepted req_id=141 -> worker-1 job_id=934b4e8f-36f1-4712-a742-e929d1a407db
+2025-11-21 17:04:57 [INFO] [Receiver] Busy: no worker available for req_id=142
+2025-11-21 17:04:57 [INFO] [Worker-0] Starting inference job_id=ca8286ec-e904-40a1-b63d-f31e9140f72b req_id=140
+2025-11-21 17:04:57 [INFO] [Receiver] Busy: no worker available for req_id=143
+2025-11-21 17:04:57 [INFO] [Worker-1] Starting inference job_id=934b4e8f-36f1-4712-a742-e929d1a407db req_id=141
+2025-11-21 17:04:57 [INFO] [Receiver] Busy: no worker available for req_id=144
+2025-11-21 17:04:57 [INFO] [Worker-0] Finished job_id=ca8286ec-e904-40a1-b63d-f31e9140f72b req_id=140 time=0.19s
+2025-11-21 17:04:57 [INFO] [Receiver] Accepted req_id=145 -> worker-0 job_id=5ca848d0-e84e-4e81-9d1b-1ac4667e2ad0
+2025-11-21 17:04:57 [INFO] [Worker-1] Finished job_id=934b4e8f-36f1-4712-a742-e929d1a407db req_id=141 time=0.17s
+2025-11-21 17:04:57 [INFO] [Receiver] Accepted req_id=146 -> worker-1 job_id=87719d51-fecb-4cdc-93b3-6e2318793444
+2025-11-21 17:04:57 [INFO] [Receiver] Busy: no worker available for req_id=147
+2025-11-21 17:04:58 [INFO] [Worker-0] Starting inference job_id=5ca848d0-e84e-4e81-9d1b-1ac4667e2ad0 req_id=145
+2025-11-21 17:04:58 [INFO] [Receiver] Busy: no worker available for req_id=148
+2025-11-21 17:04:58 [INFO] [Worker-1] Starting inference job_id=87719d51-fecb-4cdc-93b3-6e2318793444 req_id=146
+2025-11-21 17:04:58 [INFO] [Receiver] Busy: no worker available for req_id=149
+2025-11-21 17:04:58 [INFO] [Worker-0] Finished job_id=5ca848d0-e84e-4e81-9d1b-1ac4667e2ad0 req_id=145 time=0.18s
+2025-11-21 17:04:58 [INFO] [Receiver] Accepted req_id=150 -> worker-0 job_id=bc006b4b-bc43-49d5-b2b1-a503bcd2a4b2
+2025-11-21 17:04:58 [INFO] [Worker-1] Finished job_id=87719d51-fecb-4cdc-93b3-6e2318793444 req_id=146 time=0.16s
+2025-11-21 17:04:58 [INFO] [Receiver] Accepted req_id=151 -> worker-1 job_id=1254ae2e-fc92-4e30-8a44-46e0d1e2f882
+2025-11-21 17:04:58 [INFO] [Receiver] Busy: no worker available for req_id=152
+2025-11-21 17:04:58 [INFO] [Worker-0] Starting inference job_id=bc006b4b-bc43-49d5-b2b1-a503bcd2a4b2 req_id=150
+2025-11-21 17:04:58 [INFO] [Receiver] Busy: no worker available for req_id=153
+2025-11-21 17:04:58 [INFO] [Worker-1] Starting inference job_id=1254ae2e-fc92-4e30-8a44-46e0d1e2f882 req_id=151
+2025-11-21 17:04:58 [INFO] [Receiver] Busy: no worker available for req_id=154
+2025-11-21 17:04:58 [INFO] [Receiver] Busy: no worker available for req_id=155
+2025-11-21 17:04:58 [INFO] [Worker-0] Finished job_id=bc006b4b-bc43-49d5-b2b1-a503bcd2a4b2 req_id=150 time=0.32s
+2025-11-21 17:04:58 [INFO] [Worker-1] Finished job_id=1254ae2e-fc92-4e30-8a44-46e0d1e2f882 req_id=151 time=0.22s
+2025-11-21 17:04:59 [INFO] [Receiver] Accepted req_id=156 -> worker-0 job_id=0306c666-92d4-4a26-99a5-a001f3c0cda6
+2025-11-21 17:04:59 [INFO] [Receiver] Accepted req_id=157 -> worker-1 job_id=6080b38b-7d39-4fac-9736-c81218b18706
+2025-11-21 17:04:59 [INFO] [Receiver] Busy: no worker available for req_id=158
+2025-11-21 17:04:59 [INFO] [Worker-0] Starting inference job_id=0306c666-92d4-4a26-99a5-a001f3c0cda6 req_id=156
+2025-11-21 17:04:59 [INFO] [Receiver] Busy: no worker available for req_id=159
+2025-11-21 17:04:59 [INFO] [Worker-1] Starting inference job_id=6080b38b-7d39-4fac-9736-c81218b18706 req_id=157
+2025-11-21 17:04:59 [INFO] [Receiver] Busy: no worker available for req_id=160
+2025-11-21 17:04:59 [INFO] [Worker-0] Finished job_id=0306c666-92d4-4a26-99a5-a001f3c0cda6 req_id=156 time=0.19s
+2025-11-21 17:04:59 [INFO] [Receiver] Accepted req_id=161 -> worker-0 job_id=e74fafe8-325e-40b9-88bf-ec5505b38328
+2025-11-21 17:04:59 [INFO] [Worker-1] Finished job_id=6080b38b-7d39-4fac-9736-c81218b18706 req_id=157 time=0.16s
+2025-11-21 17:04:59 [INFO] [Receiver] Accepted req_id=162 -> worker-1 job_id=dcbaf870-7acb-4ba1-8b08-b79ca51b2e14
+2025-11-21 17:04:59 [INFO] [Receiver] Busy: no worker available for req_id=163
+2025-11-21 17:04:59 [INFO] [Worker-0] Starting inference job_id=e74fafe8-325e-40b9-88bf-ec5505b38328 req_id=161
+2025-11-21 17:04:59 [INFO] [Receiver] Busy: no worker available for req_id=164
+2025-11-21 17:04:59 [INFO] [Worker-1] Starting inference job_id=dcbaf870-7acb-4ba1-8b08-b79ca51b2e14 req_id=162
+2025-11-21 17:05:00 [INFO] [Receiver] Busy: no worker available for req_id=165
+2025-11-21 17:05:00 [INFO] [Worker-0] Finished job_id=e74fafe8-325e-40b9-88bf-ec5505b38328 req_id=161 time=0.19s
+2025-11-21 17:05:00 [INFO] [Receiver] Accepted req_id=166 -> worker-0 job_id=6969800d-9908-4315-8794-4b58634f9205
+2025-11-21 17:05:00 [INFO] [Worker-1] Finished job_id=dcbaf870-7acb-4ba1-8b08-b79ca51b2e14 req_id=162 time=0.18s
+2025-11-21 17:05:00 [INFO] [Receiver] Accepted req_id=167 -> worker-1 job_id=39ca95ef-f3b0-4598-bac2-b93a6300993c
+2025-11-21 17:05:00 [INFO] [Receiver] Busy: no worker available for req_id=168
+2025-11-21 17:05:00 [INFO] [Worker-0] Starting inference job_id=6969800d-9908-4315-8794-4b58634f9205 req_id=166
+2025-11-21 17:05:00 [INFO] [Receiver] Busy: no worker available for req_id=169
+2025-11-21 17:05:00 [INFO] [Worker-1] Starting inference job_id=39ca95ef-f3b0-4598-bac2-b93a6300993c req_id=167
+2025-11-21 17:05:00 [INFO] [Receiver] Busy: no worker available for req_id=170
+2025-11-21 17:05:00 [INFO] [Worker-0] Finished job_id=6969800d-9908-4315-8794-4b58634f9205 req_id=166 time=0.18s
+2025-11-21 17:05:00 [INFO] [Receiver] Accepted req_id=171 -> worker-0 job_id=630acf04-52b6-48d8-8e2d-c2b2266cdc92
+2025-11-21 17:05:00 [INFO] [Worker-1] Finished job_id=39ca95ef-f3b0-4598-bac2-b93a6300993c req_id=167 time=0.17s
+2025-11-21 17:05:00 [INFO] [Receiver] Accepted req_id=172 -> worker-1 job_id=d9875c13-9083-470f-ad7d-6711df8e0652
+2025-11-21 17:05:00 [INFO] [Receiver] Busy: no worker available for req_id=173
+2025-11-21 17:05:00 [INFO] [Worker-0] Starting inference job_id=630acf04-52b6-48d8-8e2d-c2b2266cdc92 req_id=171
+2025-11-21 17:05:01 [INFO] [Receiver] Busy: no worker available for req_id=174
+2025-11-21 17:05:01 [INFO] [Worker-1] Starting inference job_id=d9875c13-9083-470f-ad7d-6711df8e0652 req_id=172
+2025-11-21 17:05:01 [INFO] [Receiver] Busy: no worker available for req_id=175
+2025-11-21 17:05:01 [INFO] [Worker-0] Finished job_id=630acf04-52b6-48d8-8e2d-c2b2266cdc92 req_id=171 time=0.22s
+2025-11-21 17:05:01 [INFO] [Receiver] Accepted req_id=176 -> worker-0 job_id=fa43411a-8174-4aad-86cd-b990b11fd479
+2025-11-21 17:05:01 [INFO] [Worker-1] Finished job_id=d9875c13-9083-470f-ad7d-6711df8e0652 req_id=172 time=0.21s
+2025-11-21 17:05:01 [INFO] [Receiver] Accepted req_id=177 -> worker-1 job_id=cc4a967a-470a-4d0d-b08d-21ef0eec5888
+2025-11-21 17:05:01 [INFO] [Receiver] Busy: no worker available for req_id=178
+2025-11-21 17:05:01 [INFO] [Worker-0] Starting inference job_id=fa43411a-8174-4aad-86cd-b990b11fd479 req_id=176
+2025-11-21 17:05:01 [INFO] [Receiver] Busy: no worker available for req_id=179
+2025-11-21 17:05:01 [INFO] [Worker-1] Starting inference job_id=cc4a967a-470a-4d0d-b08d-21ef0eec5888 req_id=177
+2025-11-21 17:05:01 [INFO] [Receiver] Busy: no worker available for req_id=180
+2025-11-21 17:05:01 [INFO] [Worker-0] Finished job_id=fa43411a-8174-4aad-86cd-b990b11fd479 req_id=176 time=0.19s
+2025-11-21 17:05:01 [INFO] [Receiver] Accepted req_id=181 -> worker-0 job_id=84d7c8c1-f35b-4a00-b03e-be4ff2c32111
+2025-11-21 17:05:01 [INFO] [Receiver] Busy: no worker available for req_id=182
+2025-11-21 17:05:01 [INFO] [Worker-1] Finished job_id=cc4a967a-470a-4d0d-b08d-21ef0eec5888 req_id=177 time=0.18s
+2025-11-21 17:05:01 [INFO] [Receiver] Accepted req_id=183 -> worker-1 job_id=fbeb7d79-ec5a-4f0e-a829-408ffb967294
+2025-11-21 17:05:01 [INFO] [Receiver] Busy: no worker available for req_id=184
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=185
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=186
+2025-11-21 17:05:02 [INFO] [Worker-0] Starting inference job_id=84d7c8c1-f35b-4a00-b03e-be4ff2c32111 req_id=181
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=187
+2025-11-21 17:05:02 [INFO] [Worker-1] Starting inference job_id=fbeb7d79-ec5a-4f0e-a829-408ffb967294 req_id=183
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=188
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=189
+2025-11-21 17:05:02 [INFO] [Worker-0] Finished job_id=84d7c8c1-f35b-4a00-b03e-be4ff2c32111 req_id=181 time=0.19s
+2025-11-21 17:05:02 [INFO] [Receiver] Accepted req_id=190 -> worker-0 job_id=f0755e5b-f440-4f31-9dce-ae52e39c2a1f
+2025-11-21 17:05:02 [INFO] [Worker-1] Finished job_id=fbeb7d79-ec5a-4f0e-a829-408ffb967294 req_id=183 time=0.17s
+2025-11-21 17:05:02 [INFO] [Receiver] Accepted req_id=191 -> worker-1 job_id=69df1be4-9434-41cc-915c-575f805db9f9
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=192
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=193
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=194
+2025-11-21 17:05:02 [INFO] [Worker-0] Starting inference job_id=f0755e5b-f440-4f31-9dce-ae52e39c2a1f req_id=190
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=195
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=196
+2025-11-21 17:05:02 [INFO] [Worker-1] Starting inference job_id=69df1be4-9434-41cc-915c-575f805db9f9 req_id=191
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=197
+2025-11-21 17:05:02 [INFO] [Worker-0] Finished job_id=f0755e5b-f440-4f31-9dce-ae52e39c2a1f req_id=190 time=0.17s
+2025-11-21 17:05:02 [INFO] [Receiver] Accepted req_id=198 -> worker-0 job_id=410adb55-875d-4b2f-8386-1d676541f064
+2025-11-21 17:05:02 [INFO] [Worker-1] Finished job_id=69df1be4-9434-41cc-915c-575f805db9f9 req_id=191 time=0.17s
+2025-11-21 17:05:02 [INFO] [Receiver] Accepted req_id=199 -> worker-1 job_id=42e4f22e-e404-404b-9426-1080a787c21b
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=200
+2025-11-21 17:05:02 [INFO] [Receiver] Busy: no worker available for req_id=201
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=202
+2025-11-21 17:05:03 [INFO] [Worker-0] Starting inference job_id=410adb55-875d-4b2f-8386-1d676541f064 req_id=198
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=203
+2025-11-21 17:05:03 [INFO] [Worker-1] Starting inference job_id=42e4f22e-e404-404b-9426-1080a787c21b req_id=199
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=204
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=205
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=206
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=207
+2025-11-21 17:05:03 [INFO] [Worker-0] Finished job_id=410adb55-875d-4b2f-8386-1d676541f064 req_id=198 time=0.27s
+2025-11-21 17:05:03 [INFO] [Worker-1] Finished job_id=42e4f22e-e404-404b-9426-1080a787c21b req_id=199 time=0.22s
+2025-11-21 17:05:03 [INFO] [Receiver] Accepted req_id=208 -> worker-0 job_id=c8bbedda-c47c-401d-8ee0-d6dda1d6b1fb
+2025-11-21 17:05:03 [INFO] [Receiver] Accepted req_id=209 -> worker-1 job_id=0192196e-3f41-4ca7-a164-49c5df278e28
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=210
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=211
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=212
+2025-11-21 17:05:03 [INFO] [Worker-0] Starting inference job_id=c8bbedda-c47c-401d-8ee0-d6dda1d6b1fb req_id=208
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=213
+2025-11-21 17:05:03 [INFO] [Worker-1] Starting inference job_id=0192196e-3f41-4ca7-a164-49c5df278e28 req_id=209
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=214
+2025-11-21 17:05:03 [INFO] [Receiver] Busy: no worker available for req_id=215
+2025-11-21 17:05:03 [INFO] [Worker-0] Finished job_id=c8bbedda-c47c-401d-8ee0-d6dda1d6b1fb req_id=208 time=0.18s
+2025-11-21 17:05:03 [INFO] [Receiver] Accepted req_id=216 -> worker-0 job_id=cca8b872-d106-4c1c-81e3-c9c8a91713f0
+2025-11-21 17:05:03 [INFO] [Worker-1] Finished job_id=0192196e-3f41-4ca7-a164-49c5df278e28 req_id=209 time=0.18s
+2025-11-21 17:05:03 [INFO] [Receiver] Accepted req_id=217 -> worker-1 job_id=90215fde-b2ac-407b-8851-5700104f7d0c
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=218
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=219
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=220
+2025-11-21 17:05:04 [INFO] [Worker-0] Starting inference job_id=cca8b872-d106-4c1c-81e3-c9c8a91713f0 req_id=216
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=221
+2025-11-21 17:05:04 [INFO] [Worker-1] Starting inference job_id=90215fde-b2ac-407b-8851-5700104f7d0c req_id=217
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=222
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=223
+2025-11-21 17:05:04 [INFO] [Worker-0] Finished job_id=cca8b872-d106-4c1c-81e3-c9c8a91713f0 req_id=216 time=0.17s
+2025-11-21 17:05:04 [INFO] [Receiver] Accepted req_id=224 -> worker-0 job_id=b6536857-85a6-4b66-bb6a-6385f53fcd09
+2025-11-21 17:05:04 [INFO] [Worker-1] Finished job_id=90215fde-b2ac-407b-8851-5700104f7d0c req_id=217 time=0.17s
+2025-11-21 17:05:04 [INFO] [Receiver] Accepted req_id=225 -> worker-1 job_id=62af8a97-f023-4149-935d-16dc1b5f6085
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=226
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=227
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=228
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=229
+2025-11-21 17:05:04 [INFO] [Worker-0] Starting inference job_id=b6536857-85a6-4b66-bb6a-6385f53fcd09 req_id=224
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=230
+2025-11-21 17:05:04 [INFO] [Worker-1] Starting inference job_id=62af8a97-f023-4149-935d-16dc1b5f6085 req_id=225
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=231
+2025-11-21 17:05:04 [INFO] [Receiver] Busy: no worker available for req_id=232
+2025-11-21 17:05:04 [INFO] [Worker-0] Finished job_id=b6536857-85a6-4b66-bb6a-6385f53fcd09 req_id=224 time=0.19s
+2025-11-21 17:05:04 [INFO] [Receiver] Accepted req_id=233 -> worker-0 job_id=5b8396d5-4871-4527-9844-00a3ca660491
+2025-11-21 17:05:04 [INFO] [Worker-1] Finished job_id=62af8a97-f023-4149-935d-16dc1b5f6085 req_id=225 time=0.19s
+2025-11-21 17:05:05 [INFO] [Receiver] Accepted req_id=234 -> worker-1 job_id=d356d94f-036e-4a83-abaa-3457d4ba02a3
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=235
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=236
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=237
+2025-11-21 17:05:05 [INFO] [Worker-0] Starting inference job_id=5b8396d5-4871-4527-9844-00a3ca660491 req_id=233
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=238
+2025-11-21 17:05:05 [INFO] [Worker-1] Starting inference job_id=d356d94f-036e-4a83-abaa-3457d4ba02a3 req_id=234
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=239
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=240
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=241
+2025-11-21 17:05:05 [INFO] [Worker-0] Finished job_id=5b8396d5-4871-4527-9844-00a3ca660491 req_id=233 time=0.18s
+2025-11-21 17:05:05 [INFO] [Receiver] Accepted req_id=242 -> worker-0 job_id=103dcfdc-40b2-488f-a3fa-bc1b8584d3a0
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=243
+2025-11-21 17:05:05 [INFO] [Worker-1] Finished job_id=d356d94f-036e-4a83-abaa-3457d4ba02a3 req_id=234 time=0.19s
+2025-11-21 17:05:05 [INFO] [Receiver] Accepted req_id=244 -> worker-1 job_id=76b48c7f-6bc1-464e-ae9b-f25bee469d6c
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=245
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=246
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=247
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=248
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=249
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=250
+2025-11-21 17:05:05 [INFO] [Worker-0] Starting inference job_id=103dcfdc-40b2-488f-a3fa-bc1b8584d3a0 req_id=242
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=251
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=252
+2025-11-21 17:05:05 [INFO] [Worker-1] Starting inference job_id=76b48c7f-6bc1-464e-ae9b-f25bee469d6c req_id=244
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=253
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=254
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=255
+2025-11-21 17:05:05 [INFO] [Receiver] Busy: no worker available for req_id=256
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=257
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=258
+2025-11-21 17:05:06 [INFO] [Worker-0] Finished job_id=103dcfdc-40b2-488f-a3fa-bc1b8584d3a0 req_id=242 time=0.32s
+2025-11-21 17:05:06 [INFO] [Worker-1] Finished job_id=76b48c7f-6bc1-464e-ae9b-f25bee469d6c req_id=244 time=0.24s
+2025-11-21 17:05:06 [INFO] [Receiver] Accepted req_id=259 -> worker-0 job_id=1a563ef4-7e97-4d78-925a-37667895f290
+2025-11-21 17:05:06 [INFO] [Receiver] Accepted req_id=260 -> worker-1 job_id=61541d32-7706-45dc-aa7b-6c19389dfa1d
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=261
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=262
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=263
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=264
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=265
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=266
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=267
+2025-11-21 17:05:06 [INFO] [Worker-0] Starting inference job_id=1a563ef4-7e97-4d78-925a-37667895f290 req_id=259
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=268
+2025-11-21 17:05:06 [INFO] [Worker-1] Starting inference job_id=61541d32-7706-45dc-aa7b-6c19389dfa1d req_id=260
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=269
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=270
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=271
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=272
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=273
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=274
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=275
+2025-11-21 17:05:06 [INFO] [Worker-0] Finished job_id=1a563ef4-7e97-4d78-925a-37667895f290 req_id=259 time=0.30s
+2025-11-21 17:05:06 [INFO] [Worker-1] Finished job_id=61541d32-7706-45dc-aa7b-6c19389dfa1d req_id=260 time=0.25s
+2025-11-21 17:05:06 [INFO] [Receiver] Accepted req_id=276 -> worker-0 job_id=d168fa31-58a9-414e-8323-4e57daaeaeba
+2025-11-21 17:05:06 [INFO] [Receiver] Accepted req_id=277 -> worker-1 job_id=e6b6c6ed-d5b0-48d4-a438-673f6fabee6c
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=278
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=279
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=280
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=281
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=282
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=283
+2025-11-21 17:05:06 [INFO] [Receiver] Busy: no worker available for req_id=284
+2025-11-21 17:05:06 [INFO] [Worker-0] Starting inference job_id=d168fa31-58a9-414e-8323-4e57daaeaeba req_id=276
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=285
+2025-11-21 17:05:07 [INFO] [Worker-1] Starting inference job_id=e6b6c6ed-d5b0-48d4-a438-673f6fabee6c req_id=277
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=286
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=287
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=288
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=289
+2025-11-21 17:05:07 [INFO] [Worker-0] Finished job_id=d168fa31-58a9-414e-8323-4e57daaeaeba req_id=276 time=0.17s
+2025-11-21 17:05:07 [INFO] [Receiver] Accepted req_id=290 -> worker-0 job_id=920225f5-3282-480b-8d75-f7b939cc57b6
+2025-11-21 17:05:07 [INFO] [Worker-1] Finished job_id=e6b6c6ed-d5b0-48d4-a438-673f6fabee6c req_id=277 time=0.17s
+2025-11-21 17:05:07 [INFO] [Receiver] Accepted req_id=291 -> worker-1 job_id=fde03bc4-4d56-473a-b813-813ac753da68
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=292
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=293
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=294
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=295
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=296
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=297
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=298
+2025-11-21 17:05:07 [INFO] [Worker-0] Starting inference job_id=920225f5-3282-480b-8d75-f7b939cc57b6 req_id=290
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=299
+2025-11-21 17:05:07 [INFO] [Worker-1] Starting inference job_id=fde03bc4-4d56-473a-b813-813ac753da68 req_id=291
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=300
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=301
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=302
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=303
+2025-11-21 17:05:07 [INFO] [Worker-0] Finished job_id=920225f5-3282-480b-8d75-f7b939cc57b6 req_id=290 time=0.16s
+2025-11-21 17:05:07 [INFO] [Receiver] Accepted req_id=304 -> worker-0 job_id=24bb280d-6a9b-4a0c-b120-2bd3ae8fb108
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=305
+2025-11-21 17:05:07 [INFO] [Worker-1] Finished job_id=fde03bc4-4d56-473a-b813-813ac753da68 req_id=291 time=0.16s
+2025-11-21 17:05:07 [INFO] [Receiver] Accepted req_id=306 -> worker-1 job_id=23ba55f9-298f-4bcc-9481-4e3a06d2b09f
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=307
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=308
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=309
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=310
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=311
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=312
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=313
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=314
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=315
+2025-11-21 17:05:07 [INFO] [Worker-0] Starting inference job_id=24bb280d-6a9b-4a0c-b120-2bd3ae8fb108 req_id=304
+2025-11-21 17:05:07 [INFO] [Receiver] Busy: no worker available for req_id=316
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=317
+2025-11-21 17:05:08 [INFO] [Worker-1] Starting inference job_id=23ba55f9-298f-4bcc-9481-4e3a06d2b09f req_id=306
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=318
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=319
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=320
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=321
+2025-11-21 17:05:08 [INFO] [Worker-0] Finished job_id=24bb280d-6a9b-4a0c-b120-2bd3ae8fb108 req_id=304 time=0.16s
+2025-11-21 17:05:08 [INFO] [Receiver] Accepted req_id=322 -> worker-0 job_id=b9408b35-59d4-47f8-b7d1-103853e7f615
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=323
+2025-11-21 17:05:08 [INFO] [Worker-1] Finished job_id=23ba55f9-298f-4bcc-9481-4e3a06d2b09f req_id=306 time=0.16s
+2025-11-21 17:05:08 [INFO] [Receiver] Accepted req_id=324 -> worker-1 job_id=da5e48cd-aefc-4b44-8c83-91950430a512
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=325
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=326
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=327
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=328
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=329
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=330
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=331
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=332
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=333
+2025-11-21 17:05:08 [INFO] [Worker-0] Starting inference job_id=b9408b35-59d4-47f8-b7d1-103853e7f615 req_id=322
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=334
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=335
+2025-11-21 17:05:08 [INFO] [Worker-1] Starting inference job_id=da5e48cd-aefc-4b44-8c83-91950430a512 req_id=324
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=336
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=337
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=338
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=339
+2025-11-21 17:05:08 [INFO] [Worker-0] Finished job_id=b9408b35-59d4-47f8-b7d1-103853e7f615 req_id=322 time=0.18s
+2025-11-21 17:05:08 [INFO] [Receiver] Accepted req_id=340 -> worker-0 job_id=4f481868-cec0-4b89-a41d-1d9c2182c3ff
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=341
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=342
+2025-11-21 17:05:08 [INFO] [Worker-1] Finished job_id=da5e48cd-aefc-4b44-8c83-91950430a512 req_id=324 time=0.19s
+2025-11-21 17:05:08 [INFO] [Receiver] Accepted req_id=343 -> worker-1 job_id=505417df-d090-411e-874b-22f02d78387e
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=344
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=345
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=346
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=347
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=348
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=349
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=350
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=351
+2025-11-21 17:05:08 [INFO] [Worker-0] Starting inference job_id=4f481868-cec0-4b89-a41d-1d9c2182c3ff req_id=340
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=352
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=353
+2025-11-21 17:05:08 [INFO] [Receiver] Busy: no worker available for req_id=354
+2025-11-21 17:05:09 [INFO] [Worker-1] Starting inference job_id=505417df-d090-411e-874b-22f02d78387e req_id=343
+2025-11-21 17:05:09 [INFO] [Receiver] Busy: no worker available for req_id=355
+2025-11-21 17:05:09 [INFO] [Receiver] Busy: no worker available for req_id=356
+2025-11-21 17:05:09 [INFO] [Receiver] Busy: no worker available for req_id=357
+2025-11-21 17:05:09 [INFO] [Receiver] Busy: no worker available for req_id=358
+2025-11-21 17:05:09 [INFO] [Worker-0] Finished job_id=4f481868-cec0-4b89-a41d-1d9c2182c3ff req_id=340 time=0.19s
+2025-11-21 17:05:09 [INFO] [Receiver] Accepted req_id=359 -> worker-0 job_id=a5052610-4bb0-4157-85c3-9274d8624a58
+2025-11-21 17:05:09 [INFO] [Worker-1] Finished job_id=505417df-d090-411e-874b-22f02d78387e req_id=343 time=0.18s
+2025-11-21 17:05:09 [INFO] [Worker-0] Starting inference job_id=a5052610-4bb0-4157-85c3-9274d8624a58 req_id=359
+2025-11-21 17:05:09 [INFO] [Worker-0] Finished job_id=a5052610-4bb0-4157-85c3-9274d8624a58 req_id=359 time=0.18s
+2025-11-21 17:23:26 [INFO] [System] Loading YOLO models...
+2025-11-21 17:23:26 [INFO] [System] Loaded model for worker 0
+2025-11-21 17:23:26 [INFO] [System] Loaded model for worker 1
+2025-11-21 17:35:08 [INFO] [System] Started inference worker thread #0
+2025-11-21 17:35:08 [INFO] [Worker-0] Started
+2025-11-21 17:35:22 [INFO] [System] Started inference worker thread #0
+2025-11-21 17:35:22 [INFO] [System] Started inference worker thread #1
+2025-11-21 17:35:22 [INFO] [Worker-0] Started
+2025-11-21 17:35:22 [INFO] [Worker-1] Started

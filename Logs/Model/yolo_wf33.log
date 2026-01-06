@@ -1,0 +1,1086 @@
+2025-11-21 17:25:34 [INFO] [System] Started inference worker thread #0
+2025-11-21 17:25:34 [INFO] [Worker-0] Started
+2025-11-21 17:25:49 [INFO] [System] Started inference worker thread #0
+2025-11-21 17:25:49 [INFO] [Worker-0] Started
+2025-11-21 17:26:51 [INFO] [Receiver] Received image | req_id=0 | Queue size=1
+2025-11-21 17:26:51 [INFO] [Worker-0] Running inference | req_id=0
+2025-11-21 17:26:52 [INFO] [Receiver] Received image | req_id=1 | Queue size=1
+2025-11-21 17:26:52 [INFO] [Worker-0] Done | req_id=0 | Time=1.07s
+2025-11-21 17:26:52 [INFO] [Worker-0] Running inference | req_id=1
+2025-11-21 17:26:53 [INFO] [Worker-0] Done | req_id=1 | Time=0.41s
+2025-11-21 17:26:53 [INFO] [Receiver] Received image | req_id=2 | Queue size=1
+2025-11-21 17:26:53 [INFO] [Worker-0] Running inference | req_id=2
+2025-11-21 17:26:54 [INFO] [Worker-0] Done | req_id=2 | Time=0.42s
+2025-11-21 17:26:54 [INFO] [Receiver] Received image | req_id=3 | Queue size=1
+2025-11-21 17:26:54 [INFO] [Worker-0] Running inference | req_id=3
+2025-11-21 17:26:55 [INFO] [Worker-0] Done | req_id=3 | Time=0.41s
+2025-11-21 17:26:55 [INFO] [Receiver] Received image | req_id=4 | Queue size=1
+2025-11-21 17:26:55 [INFO] [Worker-0] Running inference | req_id=4
+2025-11-21 17:26:56 [INFO] [Worker-0] Done | req_id=4 | Time=0.41s
+2025-11-21 17:26:56 [INFO] [Receiver] Received image | req_id=5 | Queue size=1
+2025-11-21 17:26:56 [INFO] [Worker-0] Running inference | req_id=5
+2025-11-21 17:26:57 [INFO] [Worker-0] Done | req_id=5 | Time=0.41s
+2025-11-21 17:26:57 [INFO] [Receiver] Received image | req_id=6 | Queue size=1
+2025-11-21 17:26:57 [INFO] [Worker-0] Running inference | req_id=6
+2025-11-21 17:26:58 [INFO] [Worker-0] Done | req_id=6 | Time=0.46s
+2025-11-21 17:26:58 [INFO] [Receiver] Received image | req_id=7 | Queue size=1
+2025-11-21 17:26:58 [INFO] [Worker-0] Running inference | req_id=7
+2025-11-21 17:26:59 [INFO] [Worker-0] Done | req_id=7 | Time=0.55s
+2025-11-21 17:26:59 [INFO] [Receiver] Received image | req_id=8 | Queue size=1
+2025-11-21 17:26:59 [INFO] [Worker-0] Running inference | req_id=8
+2025-11-21 17:27:00 [INFO] [Worker-0] Done | req_id=8 | Time=0.46s
+2025-11-21 17:27:01 [INFO] [Receiver] Received image | req_id=9 | Queue size=1
+2025-11-21 17:27:01 [INFO] [Worker-0] Running inference | req_id=9
+2025-11-21 17:27:01 [INFO] [Worker-0] Done | req_id=9 | Time=0.54s
+2025-11-21 17:27:02 [INFO] [Receiver] Received image | req_id=10 | Queue size=1
+2025-11-21 17:27:02 [INFO] [Worker-0] Running inference | req_id=10
+2025-11-21 17:27:02 [INFO] [Worker-0] Done | req_id=10 | Time=0.46s
+2025-11-21 17:27:03 [INFO] [Receiver] Received image | req_id=11 | Queue size=1
+2025-11-21 17:27:03 [INFO] [Worker-0] Running inference | req_id=11
+2025-11-21 17:27:03 [INFO] [Worker-0] Done | req_id=11 | Time=0.55s
+2025-11-21 17:27:04 [INFO] [Receiver] Received image | req_id=12 | Queue size=1
+2025-11-21 17:27:04 [INFO] [Worker-0] Running inference | req_id=12
+2025-11-21 17:27:04 [INFO] [Worker-0] Done | req_id=12 | Time=0.54s
+2025-11-21 17:27:05 [INFO] [Receiver] Received image | req_id=13 | Queue size=1
+2025-11-21 17:27:05 [INFO] [Worker-0] Running inference | req_id=13
+2025-11-21 17:27:05 [INFO] [Worker-0] Done | req_id=13 | Time=0.46s
+2025-11-21 17:27:06 [INFO] [Receiver] Received image | req_id=14 | Queue size=1
+2025-11-21 17:27:06 [INFO] [Worker-0] Running inference | req_id=14
+2025-11-21 17:27:06 [INFO] [Worker-0] Done | req_id=14 | Time=0.49s
+2025-11-21 17:27:07 [INFO] [Receiver] Received image | req_id=15 | Queue size=1
+2025-11-21 17:27:07 [INFO] [Worker-0] Running inference | req_id=15
+2025-11-21 17:27:07 [INFO] [Worker-0] Done | req_id=15 | Time=0.56s
+2025-11-21 17:27:08 [INFO] [Receiver] Received image | req_id=16 | Queue size=1
+2025-11-21 17:27:08 [INFO] [Worker-0] Running inference | req_id=16
+2025-11-21 17:27:08 [INFO] [Worker-0] Done | req_id=16 | Time=0.40s
+2025-11-21 17:27:09 [INFO] [Receiver] Received image | req_id=17 | Queue size=1
+2025-11-21 17:27:09 [INFO] [Worker-0] Running inference | req_id=17
+2025-11-21 17:27:09 [INFO] [Worker-0] Done | req_id=17 | Time=0.45s
+2025-11-21 17:27:10 [INFO] [Receiver] Received image | req_id=18 | Queue size=1
+2025-11-21 17:27:10 [INFO] [Worker-0] Running inference | req_id=18
+2025-11-21 17:27:10 [INFO] [Worker-0] Done | req_id=18 | Time=0.47s
+2025-11-21 17:27:11 [INFO] [Receiver] Received image | req_id=19 | Queue size=1
+2025-11-21 17:27:11 [INFO] [Worker-0] Running inference | req_id=19
+2025-11-21 17:27:11 [INFO] [Worker-0] Done | req_id=19 | Time=0.54s
+2025-11-21 17:27:12 [INFO] [Receiver] Received image | req_id=20 | Queue size=1
+2025-11-21 17:27:12 [INFO] [Worker-0] Running inference | req_id=20
+2025-11-21 17:27:12 [INFO] [Worker-0] Done | req_id=20 | Time=0.40s
+2025-11-21 17:27:13 [INFO] [Receiver] Received image | req_id=21 | Queue size=1
+2025-11-21 17:27:13 [INFO] [Worker-0] Running inference | req_id=21
+2025-11-21 17:27:13 [INFO] [Worker-0] Done | req_id=21 | Time=0.46s
+2025-11-21 17:27:14 [INFO] [Receiver] Received image | req_id=22 | Queue size=1
+2025-11-21 17:27:14 [INFO] [Worker-0] Running inference | req_id=22
+2025-11-21 17:27:14 [INFO] [Worker-0] Done | req_id=22 | Time=0.43s
+2025-11-21 17:27:15 [INFO] [Receiver] Received image | req_id=23 | Queue size=1
+2025-11-21 17:27:15 [INFO] [Worker-0] Running inference | req_id=23
+2025-11-21 17:27:15 [INFO] [Worker-0] Done | req_id=23 | Time=0.47s
+2025-11-21 17:27:16 [INFO] [Receiver] Received image | req_id=24 | Queue size=1
+2025-11-21 17:27:16 [INFO] [Worker-0] Running inference | req_id=24
+2025-11-21 17:27:16 [INFO] [Worker-0] Done | req_id=24 | Time=0.46s
+2025-11-21 17:27:17 [INFO] [Receiver] Received image | req_id=25 | Queue size=1
+2025-11-21 17:27:17 [INFO] [Worker-0] Running inference | req_id=25
+2025-11-21 17:27:17 [INFO] [Worker-0] Done | req_id=25 | Time=0.56s
+2025-11-21 17:27:18 [INFO] [Receiver] Received image | req_id=26 | Queue size=1
+2025-11-21 17:27:18 [INFO] [Worker-0] Running inference | req_id=26
+2025-11-21 17:27:18 [INFO] [Worker-0] Done | req_id=26 | Time=0.54s
+2025-11-21 17:27:19 [INFO] [Receiver] Received image | req_id=27 | Queue size=1
+2025-11-21 17:27:19 [INFO] [Worker-0] Running inference | req_id=27
+2025-11-21 17:27:19 [INFO] [Worker-0] Done | req_id=27 | Time=0.46s
+2025-11-21 17:27:20 [INFO] [Receiver] Received image | req_id=28 | Queue size=1
+2025-11-21 17:27:20 [INFO] [Worker-0] Running inference | req_id=28
+2025-11-21 17:27:20 [INFO] [Worker-0] Done | req_id=28 | Time=0.51s
+2025-11-21 17:27:21 [INFO] [Receiver] Received image | req_id=29 | Queue size=1
+2025-11-21 17:27:21 [INFO] [Worker-0] Running inference | req_id=29
+2025-11-21 17:27:21 [INFO] [Worker-0] Done | req_id=29 | Time=0.46s
+2025-11-21 17:27:22 [INFO] [Receiver] Received image | req_id=30 | Queue size=1
+2025-11-21 17:27:22 [INFO] [Worker-0] Running inference | req_id=30
+2025-11-21 17:27:22 [INFO] [Worker-0] Done | req_id=30 | Time=0.55s
+2025-11-21 17:27:23 [INFO] [Receiver] Received image | req_id=31 | Queue size=1
+2025-11-21 17:27:23 [INFO] [Worker-0] Running inference | req_id=31
+2025-11-21 17:27:23 [INFO] [Worker-0] Done | req_id=31 | Time=0.40s
+2025-11-21 17:27:24 [INFO] [Receiver] Received image | req_id=32 | Queue size=1
+2025-11-21 17:27:24 [INFO] [Worker-0] Running inference | req_id=32
+2025-11-21 17:27:24 [INFO] [Worker-0] Done | req_id=32 | Time=0.42s
+2025-11-21 17:27:25 [INFO] [Receiver] Received image | req_id=33 | Queue size=1
+2025-11-21 17:27:25 [INFO] [Worker-0] Running inference | req_id=33
+2025-11-21 17:27:25 [INFO] [Worker-0] Done | req_id=33 | Time=0.46s
+2025-11-21 17:27:26 [INFO] [Receiver] Received image | req_id=34 | Queue size=1
+2025-11-21 17:27:26 [INFO] [Worker-0] Running inference | req_id=34
+2025-11-21 17:27:26 [INFO] [Worker-0] Done | req_id=34 | Time=0.48s
+2025-11-21 17:27:27 [INFO] [Receiver] Received image | req_id=35 | Queue size=1
+2025-11-21 17:27:27 [INFO] [Worker-0] Running inference | req_id=35
+2025-11-21 17:27:27 [INFO] [Worker-0] Done | req_id=35 | Time=0.47s
+2025-11-21 17:27:28 [INFO] [Receiver] Received image | req_id=36 | Queue size=1
+2025-11-21 17:27:28 [INFO] [Worker-0] Running inference | req_id=36
+2025-11-21 17:27:28 [INFO] [Worker-0] Done | req_id=36 | Time=0.56s
+2025-11-21 17:27:29 [INFO] [Receiver] Received image | req_id=37 | Queue size=1
+2025-11-21 17:27:29 [INFO] [Worker-0] Running inference | req_id=37
+2025-11-21 17:27:29 [INFO] [Worker-0] Done | req_id=37 | Time=0.54s
+2025-11-21 17:27:30 [INFO] [Receiver] Received image | req_id=38 | Queue size=1
+2025-11-21 17:27:30 [INFO] [Worker-0] Running inference | req_id=38
+2025-11-21 17:27:31 [INFO] [Worker-0] Done | req_id=38 | Time=0.54s
+2025-11-21 17:27:31 [INFO] [Receiver] Received image | req_id=39 | Queue size=1
+2025-11-21 17:27:31 [INFO] [Worker-0] Running inference | req_id=39
+2025-11-21 17:27:31 [INFO] [Worker-0] Done | req_id=39 | Time=0.45s
+2025-11-21 17:27:32 [INFO] [Receiver] Received image | req_id=40 | Queue size=1
+2025-11-21 17:27:32 [INFO] [Worker-0] Running inference | req_id=40
+2025-11-21 17:27:33 [INFO] [Worker-0] Done | req_id=40 | Time=0.51s
+2025-11-21 17:27:33 [INFO] [Receiver] Received image | req_id=41 | Queue size=1
+2025-11-21 17:27:33 [INFO] [Worker-0] Running inference | req_id=41
+2025-11-21 17:27:33 [INFO] [Worker-0] Done | req_id=41 | Time=0.46s
+2025-11-21 17:27:34 [INFO] [Receiver] Received image | req_id=42 | Queue size=1
+2025-11-21 17:27:34 [INFO] [Worker-0] Running inference | req_id=42
+2025-11-21 17:27:35 [INFO] [Worker-0] Done | req_id=42 | Time=0.55s
+2025-11-21 17:27:35 [INFO] [Receiver] Received image | req_id=43 | Queue size=1
+2025-11-21 17:27:35 [INFO] [Worker-0] Running inference | req_id=43
+2025-11-21 17:27:35 [INFO] [Worker-0] Done | req_id=43 | Time=0.40s
+2025-11-21 17:27:36 [INFO] [Receiver] Received image | req_id=44 | Queue size=1
+2025-11-21 17:27:36 [INFO] [Worker-0] Running inference | req_id=44
+2025-11-21 17:27:37 [INFO] [Worker-0] Done | req_id=44 | Time=0.46s
+2025-11-21 17:27:37 [INFO] [Receiver] Received image | req_id=45 | Queue size=1
+2025-11-21 17:27:37 [INFO] [Worker-0] Running inference | req_id=45
+2025-11-21 17:27:38 [INFO] [Worker-0] Done | req_id=45 | Time=0.44s
+2025-11-21 17:27:38 [INFO] [Receiver] Received image | req_id=46 | Queue size=1
+2025-11-21 17:27:38 [INFO] [Worker-0] Running inference | req_id=46
+2025-11-21 17:27:39 [INFO] [Worker-0] Done | req_id=46 | Time=0.48s
+2025-11-21 17:27:39 [INFO] [Receiver] Received image | req_id=47 | Queue size=1
+2025-11-21 17:27:39 [INFO] [Worker-0] Running inference | req_id=47
+2025-11-21 17:27:40 [INFO] [Worker-0] Done | req_id=47 | Time=0.47s
+2025-11-21 17:27:40 [INFO] [Receiver] Received image | req_id=48 | Queue size=1
+2025-11-21 17:27:40 [INFO] [Worker-0] Running inference | req_id=48
+2025-11-21 17:27:41 [INFO] [Worker-0] Done | req_id=48 | Time=0.54s
+2025-11-21 17:27:41 [INFO] [Receiver] Received image | req_id=49 | Queue size=1
+2025-11-21 17:27:41 [INFO] [Worker-0] Running inference | req_id=49
+2025-11-21 17:27:42 [INFO] [Worker-0] Done | req_id=49 | Time=0.54s
+2025-11-21 17:27:42 [INFO] [Receiver] Received image | req_id=50 | Queue size=1
+2025-11-21 17:27:42 [INFO] [Worker-0] Running inference | req_id=50
+2025-11-21 17:27:43 [INFO] [Worker-0] Done | req_id=50 | Time=0.45s
+2025-11-21 17:27:43 [INFO] [Receiver] Received image | req_id=51 | Queue size=1
+2025-11-21 17:27:43 [INFO] [Worker-0] Running inference | req_id=51
+2025-11-21 17:27:44 [INFO] [Worker-0] Done | req_id=51 | Time=0.51s
+2025-11-21 17:27:44 [INFO] [Receiver] Received image | req_id=52 | Queue size=1
+2025-11-21 17:27:44 [INFO] [Worker-0] Running inference | req_id=52
+2025-11-21 17:27:45 [INFO] [Worker-0] Done | req_id=52 | Time=0.54s
+2025-11-21 17:27:45 [INFO] [Receiver] Received image | req_id=53 | Queue size=1
+2025-11-21 17:27:45 [INFO] [Worker-0] Running inference | req_id=53
+2025-11-21 17:27:46 [INFO] [Worker-0] Done | req_id=53 | Time=0.41s
+2025-11-21 17:27:46 [INFO] [Receiver] Received image | req_id=54 | Queue size=1
+2025-11-21 17:27:46 [INFO] [Worker-0] Running inference | req_id=54
+2025-11-21 17:27:47 [INFO] [Worker-0] Done | req_id=54 | Time=0.43s
+2025-11-21 17:27:47 [INFO] [Receiver] Received image | req_id=55 | Queue size=1
+2025-11-21 17:27:47 [INFO] [Worker-0] Running inference | req_id=55
+2025-11-21 17:27:48 [INFO] [Worker-0] Done | req_id=55 | Time=0.46s
+2025-11-21 17:27:48 [INFO] [Receiver] Received image | req_id=56 | Queue size=1
+2025-11-21 17:27:48 [INFO] [Worker-0] Running inference | req_id=56
+2025-11-21 17:27:49 [INFO] [Worker-0] Done | req_id=56 | Time=0.46s
+2025-11-21 17:27:49 [INFO] [Receiver] Received image | req_id=57 | Queue size=1
+2025-11-21 17:27:49 [INFO] [Worker-0] Running inference | req_id=57
+2025-11-21 17:27:50 [INFO] [Worker-0] Done | req_id=57 | Time=0.55s
+2025-11-21 17:27:50 [INFO] [Receiver] Received image | req_id=58 | Queue size=1
+2025-11-21 17:27:50 [INFO] [Worker-0] Running inference | req_id=58
+2025-11-21 17:27:51 [INFO] [Worker-0] Done | req_id=58 | Time=0.53s
+2025-11-21 17:27:51 [INFO] [Receiver] Received image | req_id=59 | Queue size=1
+2025-11-21 17:27:51 [INFO] [Worker-0] Running inference | req_id=59
+2025-11-21 17:27:52 [INFO] [Worker-0] Done | req_id=59 | Time=0.46s
+2025-11-21 17:27:52 [INFO] [Receiver] Received image | req_id=60 | Queue size=1
+2025-11-21 17:27:52 [INFO] [Worker-0] Running inference | req_id=60
+2025-11-21 17:27:53 [INFO] [Receiver] Received image | req_id=61 | Queue size=1
+2025-11-21 17:27:53 [INFO] [Receiver] Received image | req_id=62 | Queue size=2
+2025-11-21 17:27:53 [INFO] [Worker-0] Done | req_id=60 | Time=0.58s
+2025-11-21 17:27:53 [INFO] [Worker-0] Running inference | req_id=61
+2025-11-21 17:27:53 [INFO] [Receiver] Received image | req_id=63 | Queue size=2
+2025-11-21 17:27:53 [INFO] [Receiver] Received image | req_id=64 | Queue size=3
+2025-11-21 17:27:53 [INFO] [Worker-0] Done | req_id=61 | Time=0.46s
+2025-11-21 17:27:53 [INFO] [Worker-0] Running inference | req_id=62
+2025-11-21 17:27:53 [INFO] [Receiver] Received image | req_id=65 | Queue size=3
+2025-11-21 17:27:54 [INFO] [Receiver] Received image | req_id=66 | Queue size=4
+2025-11-21 17:27:54 [INFO] [Receiver] Received image | req_id=67 | Queue size=5
+2025-11-21 17:27:54 [INFO] [Worker-0] Done | req_id=62 | Time=0.46s
+2025-11-21 17:27:54 [INFO] [Worker-0] Running inference | req_id=63
+2025-11-21 17:27:54 [INFO] [Receiver] Received image | req_id=68 | Queue size=5
+2025-11-21 17:27:54 [INFO] [Receiver] Received image | req_id=69 | Queue size=6
+2025-11-21 17:27:54 [INFO] [Worker-0] Done | req_id=63 | Time=0.46s
+2025-11-21 17:27:54 [INFO] [Worker-0] Running inference | req_id=64
+2025-11-21 17:27:54 [INFO] [Receiver] Received image | req_id=70 | Queue size=6
+2025-11-21 17:27:55 [INFO] [Receiver] Received image | req_id=71 | Queue size=7
+2025-11-21 17:27:55 [INFO] [Worker-0] Done | req_id=64 | Time=0.46s
+2025-11-21 17:27:55 [INFO] [Worker-0] Running inference | req_id=65
+2025-11-21 17:27:55 [INFO] [Receiver] Received image | req_id=72 | Queue size=7
+2025-11-21 17:27:55 [INFO] [Receiver] Received image | req_id=73 | Queue size=8
+2025-11-21 17:27:55 [INFO] [Receiver] Received image | req_id=74 | Queue size=9
+2025-11-21 17:27:55 [INFO] [Worker-0] Done | req_id=65 | Time=0.55s
+2025-11-21 17:27:55 [INFO] [Worker-0] Running inference | req_id=66
+2025-11-21 17:27:55 [INFO] [Receiver] Received image | req_id=75 | Queue size=9
+2025-11-21 17:27:56 [INFO] [Receiver] Received image | req_id=76 | Queue size=10
+2025-11-21 17:27:56 [INFO] [Worker-0] Done | req_id=66 | Time=0.47s
+2025-11-21 17:27:56 [INFO] [Worker-0] Running inference | req_id=67
+2025-11-21 17:27:56 [INFO] [Receiver] Received image | req_id=77 | Queue size=10
+2025-11-21 17:27:56 [INFO] [Receiver] Received image | req_id=78 | Queue size=11
+2025-11-21 17:27:56 [INFO] [Worker-0] Done | req_id=67 | Time=0.46s
+2025-11-21 17:27:56 [INFO] [Worker-0] Running inference | req_id=68
+2025-11-21 17:27:56 [INFO] [Receiver] Received image | req_id=79 | Queue size=11
+2025-11-21 17:27:57 [INFO] [Receiver] Received image | req_id=80 | Queue size=12
+2025-11-21 17:27:57 [INFO] [Worker-0] Done | req_id=68 | Time=0.45s
+2025-11-21 17:27:57 [INFO] [Worker-0] Running inference | req_id=69
+2025-11-21 17:27:57 [INFO] [Receiver] Received image | req_id=81 | Queue size=12
+2025-11-21 17:27:57 [INFO] [Receiver] Received image | req_id=82 | Queue size=13
+2025-11-21 17:27:57 [INFO] [Worker-0] Done | req_id=69 | Time=0.47s
+2025-11-21 17:27:57 [INFO] [Worker-0] Running inference | req_id=70
+2025-11-21 17:27:57 [INFO] [Receiver] Received image | req_id=83 | Queue size=13
+2025-11-21 17:27:57 [INFO] [Receiver] Received image | req_id=84 | Queue size=14
+2025-11-21 17:27:58 [INFO] [Receiver] Received image | req_id=85 | Queue size=15
+2025-11-21 17:27:58 [INFO] [Worker-0] Done | req_id=70 | Time=0.46s
+2025-11-21 17:27:58 [INFO] [Worker-0] Running inference | req_id=71
+2025-11-21 17:27:58 [INFO] [Receiver] Received image | req_id=86 | Queue size=15
+2025-11-21 17:27:58 [INFO] [Receiver] Received image | req_id=87 | Queue size=16
+2025-11-21 17:27:58 [INFO] [Worker-0] Done | req_id=71 | Time=0.48s
+2025-11-21 17:27:58 [INFO] [Worker-0] Running inference | req_id=72
+2025-11-21 17:27:58 [INFO] [Receiver] Received image | req_id=88 | Queue size=16
+2025-11-21 17:27:58 [INFO] [Receiver] Received image | req_id=89 | Queue size=17
+2025-11-21 17:27:59 [INFO] [Worker-0] Done | req_id=72 | Time=0.53s
+2025-11-21 17:27:59 [INFO] [Worker-0] Running inference | req_id=73
+2025-11-21 17:27:59 [INFO] [Receiver] Received image | req_id=90 | Queue size=17
+2025-11-21 17:27:59 [INFO] [Receiver] Received image | req_id=91 | Queue size=18
+2025-11-21 17:27:59 [INFO] [Receiver] Received image | req_id=92 | Queue size=19
+2025-11-21 17:27:59 [INFO] [Worker-0] Done | req_id=73 | Time=0.48s
+2025-11-21 17:27:59 [INFO] [Worker-0] Running inference | req_id=74
+2025-11-21 17:27:59 [INFO] [Receiver] Received image | req_id=93 | Queue size=19
+2025-11-21 17:28:00 [INFO] [Receiver] Received image | req_id=94 | Queue size=20
+2025-11-21 17:28:00 [INFO] [Worker-0] Done | req_id=74 | Time=0.46s
+2025-11-21 17:28:00 [INFO] [Worker-0] Running inference | req_id=75
+2025-11-21 17:28:00 [INFO] [Receiver] Received image | req_id=95 | Queue size=20
+2025-11-21 17:28:00 [INFO] [Receiver] Received image | req_id=96 | Queue size=21
+2025-11-21 17:28:00 [INFO] [Worker-0] Done | req_id=75 | Time=0.46s
+2025-11-21 17:28:00 [INFO] [Worker-0] Running inference | req_id=76
+2025-11-21 17:28:00 [INFO] [Receiver] Received image | req_id=97 | Queue size=21
+2025-11-21 17:28:00 [INFO] [Receiver] Received image | req_id=98 | Queue size=22
+2025-11-21 17:28:01 [INFO] [Receiver] Received image | req_id=99 | Queue size=23
+2025-11-21 17:28:01 [INFO] [Worker-0] Done | req_id=76 | Time=0.56s
+2025-11-21 17:28:01 [INFO] [Worker-0] Running inference | req_id=77
+2025-11-21 17:28:01 [INFO] [Receiver] Received image | req_id=100 | Queue size=23
+2025-11-21 17:28:01 [INFO] [Receiver] Received image | req_id=101 | Queue size=24
+2025-11-21 17:28:01 [INFO] [Worker-0] Done | req_id=77 | Time=0.42s
+2025-11-21 17:28:01 [INFO] [Worker-0] Running inference | req_id=78
+2025-11-21 17:28:01 [INFO] [Receiver] Received image | req_id=102 | Queue size=24
+2025-11-21 17:28:01 [INFO] [Receiver] Received image | req_id=103 | Queue size=25
+2025-11-21 17:28:01 [INFO] [Worker-0] Done | req_id=78 | Time=0.41s
+2025-11-21 17:28:01 [INFO] [Worker-0] Running inference | req_id=79
+2025-11-21 17:28:02 [INFO] [Receiver] Received image | req_id=104 | Queue size=25
+2025-11-21 17:28:02 [INFO] [Worker-0] Done | req_id=79 | Time=0.40s
+2025-11-21 17:28:02 [INFO] [Worker-0] Running inference | req_id=80
+2025-11-21 17:28:02 [INFO] [Receiver] Received image | req_id=105 | Queue size=25
+2025-11-21 17:28:02 [INFO] [Receiver] Received image | req_id=106 | Queue size=26
+2025-11-21 17:28:02 [INFO] [Worker-0] Done | req_id=80 | Time=0.41s
+2025-11-21 17:28:02 [INFO] [Worker-0] Running inference | req_id=81
+2025-11-21 17:28:02 [INFO] [Receiver] Received image | req_id=107 | Queue size=26
+2025-11-21 17:28:02 [INFO] [Receiver] Received image | req_id=108 | Queue size=27
+2025-11-21 17:28:03 [INFO] [Receiver] Received image | req_id=109 | Queue size=28
+2025-11-21 17:28:03 [INFO] [Worker-0] Done | req_id=81 | Time=0.47s
+2025-11-21 17:28:03 [INFO] [Worker-0] Running inference | req_id=82
+2025-11-21 17:28:03 [INFO] [Receiver] Received image | req_id=110 | Queue size=28
+2025-11-21 17:28:03 [INFO] [Receiver] Received image | req_id=111 | Queue size=29
+2025-11-21 17:28:03 [INFO] [Worker-0] Done | req_id=82 | Time=0.46s
+2025-11-21 17:28:03 [INFO] [Worker-0] Running inference | req_id=83
+2025-11-21 17:28:03 [INFO] [Receiver] Received image | req_id=112 | Queue size=29
+2025-11-21 17:28:04 [INFO] [Receiver] Received image | req_id=113 | Queue size=30
+2025-11-21 17:28:04 [INFO] [Worker-0] Done | req_id=83 | Time=0.46s
+2025-11-21 17:28:04 [INFO] [Worker-0] Running inference | req_id=84
+2025-11-21 17:28:04 [INFO] [Receiver] Received image | req_id=114 | Queue size=30
+2025-11-21 17:28:04 [INFO] [Receiver] Received image | req_id=115 | Queue size=31
+2025-11-21 17:28:04 [INFO] [Worker-0] Done | req_id=84 | Time=0.46s
+2025-11-21 17:28:04 [INFO] [Worker-0] Running inference | req_id=85
+2025-11-21 17:28:04 [INFO] [Receiver] Received image | req_id=116 | Queue size=31
+2025-11-21 17:28:04 [INFO] [Receiver] Received image | req_id=117 | Queue size=32
+2025-11-21 17:28:05 [INFO] [Worker-0] Done | req_id=85 | Time=0.46s
+2025-11-21 17:28:05 [INFO] [Worker-0] Running inference | req_id=86
+2025-11-21 17:28:05 [INFO] [Receiver] Received image | req_id=118 | Queue size=32
+2025-11-21 17:28:05 [INFO] [Receiver] Received image | req_id=119 | Queue size=33
+2025-11-21 17:28:05 [INFO] [Receiver] Received image | req_id=120 | Queue size=34
+2025-11-21 17:28:05 [INFO] [Worker-0] Done | req_id=86 | Time=0.57s
+2025-11-21 17:28:05 [INFO] [Worker-0] Running inference | req_id=87
+2025-11-21 17:28:05 [INFO] [Receiver] Received image | req_id=121 | Queue size=34
+2025-11-21 17:28:05 [INFO] [Receiver] Received image | req_id=122 | Queue size=35
+2025-11-21 17:28:05 [INFO] [Receiver] Received image | req_id=123 | Queue size=36
+2025-11-21 17:28:05 [INFO] [Receiver] Received image | req_id=124 | Queue size=37
+2025-11-21 17:28:06 [INFO] [Worker-0] Done | req_id=87 | Time=0.45s
+2025-11-21 17:28:06 [INFO] [Worker-0] Running inference | req_id=88
+2025-11-21 17:28:06 [INFO] [Receiver] Received image | req_id=125 | Queue size=37
+2025-11-21 17:28:06 [INFO] [Receiver] Received image | req_id=126 | Queue size=38
+2025-11-21 17:28:06 [INFO] [Receiver] Received image | req_id=127 | Queue size=39
+2025-11-21 17:28:06 [INFO] [Receiver] Received image | req_id=128 | Queue size=40
+2025-11-21 17:28:06 [INFO] [Receiver] Received image | req_id=129 | Queue size=41
+2025-11-21 17:28:06 [INFO] [Worker-0] Done | req_id=88 | Time=0.46s
+2025-11-21 17:28:06 [INFO] [Worker-0] Running inference | req_id=89
+2025-11-21 17:28:06 [INFO] [Receiver] Received image | req_id=130 | Queue size=41
+2025-11-21 17:28:06 [INFO] [Receiver] Received image | req_id=131 | Queue size=42
+2025-11-21 17:28:06 [INFO] [Receiver] Received image | req_id=132 | Queue size=43
+2025-11-21 17:28:06 [INFO] [Receiver] Received image | req_id=133 | Queue size=44
+2025-11-21 17:28:07 [INFO] [Worker-0] Done | req_id=89 | Time=0.46s
+2025-11-21 17:28:07 [INFO] [Worker-0] Running inference | req_id=90
+2025-11-21 17:28:07 [INFO] [Receiver] Received image | req_id=134 | Queue size=44
+2025-11-21 17:28:07 [INFO] [Receiver] Received image | req_id=135 | Queue size=45
+2025-11-21 17:28:07 [INFO] [Receiver] Received image | req_id=136 | Queue size=46
+2025-11-21 17:28:07 [INFO] [Receiver] Received image | req_id=137 | Queue size=47
+2025-11-21 17:28:07 [INFO] [Worker-0] Done | req_id=90 | Time=0.46s
+2025-11-21 17:28:07 [INFO] [Worker-0] Running inference | req_id=91
+2025-11-21 17:28:07 [INFO] [Receiver] Received image | req_id=138 | Queue size=47
+2025-11-21 17:28:07 [INFO] [Receiver] Received image | req_id=139 | Queue size=48
+2025-11-21 17:28:07 [INFO] [Receiver] Received image | req_id=140 | Queue size=49
+2025-11-21 17:28:07 [INFO] [Receiver] Received image | req_id=141 | Queue size=50
+2025-11-21 17:28:08 [INFO] [Receiver] Received image | req_id=142 | Queue size=51
+2025-11-21 17:28:08 [INFO] [Worker-0] Done | req_id=91 | Time=0.59s
+2025-11-21 17:28:08 [INFO] [Worker-0] Running inference | req_id=92
+2025-11-21 17:28:08 [INFO] [Receiver] Received image | req_id=143 | Queue size=51
+2025-11-21 17:28:08 [INFO] [Receiver] Received image | req_id=144 | Queue size=52
+2025-11-21 17:28:08 [INFO] [Receiver] Received image | req_id=145 | Queue size=53
+2025-11-21 17:28:08 [INFO] [Receiver] Received image | req_id=146 | Queue size=54
+2025-11-21 17:28:08 [INFO] [Worker-0] Done | req_id=92 | Time=0.41s
+2025-11-21 17:28:08 [INFO] [Worker-0] Running inference | req_id=93
+2025-11-21 17:28:08 [INFO] [Receiver] Received image | req_id=147 | Queue size=54
+2025-11-21 17:28:08 [INFO] [Receiver] Received image | req_id=148 | Queue size=55
+2025-11-21 17:28:08 [INFO] [Receiver] Received image | req_id=149 | Queue size=56
+2025-11-21 17:28:08 [INFO] [Receiver] Received image | req_id=150 | Queue size=57
+2025-11-21 17:28:08 [INFO] [Worker-0] Done | req_id=93 | Time=0.42s
+2025-11-21 17:28:08 [INFO] [Worker-0] Running inference | req_id=94
+2025-11-21 17:28:08 [INFO] [Receiver] Received image | req_id=151 | Queue size=57
+2025-11-21 17:28:09 [INFO] [Receiver] Received image | req_id=152 | Queue size=58
+2025-11-21 17:28:09 [INFO] [Receiver] Received image | req_id=153 | Queue size=59
+2025-11-21 17:28:09 [INFO] [Worker-0] Done | req_id=94 | Time=0.42s
+2025-11-21 17:28:09 [INFO] [Worker-0] Running inference | req_id=95
+2025-11-21 17:28:09 [INFO] [Receiver] Received image | req_id=154 | Queue size=59
+2025-11-21 17:28:09 [INFO] [Receiver] Received image | req_id=155 | Queue size=60
+2025-11-21 17:28:09 [INFO] [Receiver] Received image | req_id=156 | Queue size=61
+2025-11-21 17:28:09 [INFO] [Receiver] Received image | req_id=157 | Queue size=62
+2025-11-21 17:28:09 [INFO] [Worker-0] Done | req_id=95 | Time=0.41s
+2025-11-21 17:28:09 [INFO] [Worker-0] Running inference | req_id=96
+2025-11-21 17:28:09 [INFO] [Receiver] Received image | req_id=158 | Queue size=62
+2025-11-21 17:28:09 [INFO] [Receiver] Received image | req_id=159 | Queue size=63
+2025-11-21 17:28:09 [INFO] [Receiver] Received image | req_id=160 | Queue size=64
+2025-11-21 17:28:10 [INFO] [Receiver] Received image | req_id=161 | Queue size=65
+2025-11-21 17:28:10 [INFO] [Worker-0] Done | req_id=96 | Time=0.47s
+2025-11-21 17:28:10 [INFO] [Worker-0] Running inference | req_id=97
+2025-11-21 17:28:10 [INFO] [Receiver] Received image | req_id=162 | Queue size=65
+2025-11-21 17:28:10 [INFO] [Receiver] Received image | req_id=163 | Queue size=66
+2025-11-21 17:28:10 [INFO] [Receiver] Received image | req_id=164 | Queue size=67
+2025-11-21 17:28:10 [INFO] [Receiver] Received image | req_id=165 | Queue size=68
+2025-11-21 17:28:10 [INFO] [Receiver] Received image | req_id=166 | Queue size=69
+2025-11-21 17:28:10 [INFO] [Worker-0] Done | req_id=97 | Time=0.46s
+2025-11-21 17:28:10 [INFO] [Worker-0] Running inference | req_id=98
+2025-11-21 17:28:10 [INFO] [Receiver] Received image | req_id=167 | Queue size=69
+2025-11-21 17:28:10 [INFO] [Receiver] Received image | req_id=168 | Queue size=70
+2025-11-21 17:28:10 [INFO] [Receiver] Received image | req_id=169 | Queue size=71
+2025-11-21 17:28:11 [INFO] [Receiver] Received image | req_id=170 | Queue size=72
+2025-11-21 17:28:11 [INFO] [Worker-0] Done | req_id=98 | Time=0.46s
+2025-11-21 17:28:11 [INFO] [Worker-0] Running inference | req_id=99
+2025-11-21 17:28:11 [INFO] [Receiver] Received image | req_id=171 | Queue size=72
+2025-11-21 17:28:11 [INFO] [Receiver] Received image | req_id=172 | Queue size=73
+2025-11-21 17:28:11 [INFO] [Receiver] Received image | req_id=173 | Queue size=74
+2025-11-21 17:28:11 [INFO] [Receiver] Received image | req_id=174 | Queue size=75
+2025-11-21 17:28:11 [INFO] [Worker-0] Done | req_id=99 | Time=0.49s
+2025-11-21 17:28:11 [INFO] [Worker-0] Running inference | req_id=100
+2025-11-21 17:28:11 [INFO] [Receiver] Received image | req_id=175 | Queue size=75
+2025-11-21 17:28:11 [INFO] [Receiver] Received image | req_id=176 | Queue size=76
+2025-11-21 17:28:11 [INFO] [Receiver] Received image | req_id=177 | Queue size=77
+2025-11-21 17:28:11 [INFO] [Receiver] Received image | req_id=178 | Queue size=78
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=179 | Queue size=79
+2025-11-21 17:28:12 [INFO] [Worker-0] Done | req_id=100 | Time=0.47s
+2025-11-21 17:28:12 [INFO] [Worker-0] Running inference | req_id=101
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=180 | Queue size=79
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=181 | Queue size=80
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=182 | Queue size=81
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=183 | Queue size=82
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=184 | Queue size=83
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=185 | Queue size=84
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=186 | Queue size=85
+2025-11-21 17:28:12 [INFO] [Worker-0] Done | req_id=101 | Time=0.47s
+2025-11-21 17:28:12 [INFO] [Worker-0] Running inference | req_id=102
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=187 | Queue size=85
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=188 | Queue size=86
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=189 | Queue size=87
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=190 | Queue size=88
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=191 | Queue size=89
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=192 | Queue size=90
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=193 | Queue size=91
+2025-11-21 17:28:12 [INFO] [Receiver] Received image | req_id=194 | Queue size=92
+2025-11-21 17:28:13 [INFO] [Worker-0] Done | req_id=102 | Time=0.48s
+2025-11-21 17:28:13 [INFO] [Worker-0] Running inference | req_id=103
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=195 | Queue size=92
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=196 | Queue size=93
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=197 | Queue size=94
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=198 | Queue size=95
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=199 | Queue size=96
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=200 | Queue size=97
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=201 | Queue size=98
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=202 | Queue size=99
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=203 | Queue size=100
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=204 | Queue size=101
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=205 | Queue size=102
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=206 | Queue size=103
+2025-11-21 17:28:13 [INFO] [Worker-0] Done | req_id=103 | Time=0.68s
+2025-11-21 17:28:13 [INFO] [Worker-0] Running inference | req_id=104
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=207 | Queue size=103
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=208 | Queue size=104
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=209 | Queue size=105
+2025-11-21 17:28:13 [INFO] [Receiver] Received image | req_id=210 | Queue size=106
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=211 | Queue size=107
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=212 | Queue size=108
+2025-11-21 17:28:14 [INFO] [Worker-0] Done | req_id=104 | Time=0.40s
+2025-11-21 17:28:14 [INFO] [Worker-0] Running inference | req_id=105
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=213 | Queue size=108
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=214 | Queue size=109
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=215 | Queue size=110
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=216 | Queue size=111
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=217 | Queue size=112
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=218 | Queue size=113
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=219 | Queue size=114
+2025-11-21 17:28:14 [INFO] [Worker-0] Done | req_id=105 | Time=0.41s
+2025-11-21 17:28:14 [INFO] [Worker-0] Running inference | req_id=106
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=220 | Queue size=114
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=221 | Queue size=115
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=222 | Queue size=116
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=223 | Queue size=117
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=224 | Queue size=118
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=225 | Queue size=119
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=226 | Queue size=120
+2025-11-21 17:28:14 [INFO] [Worker-0] Done | req_id=106 | Time=0.41s
+2025-11-21 17:28:14 [INFO] [Worker-0] Running inference | req_id=107
+2025-11-21 17:28:14 [INFO] [Receiver] Received image | req_id=227 | Queue size=120
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=228 | Queue size=121
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=229 | Queue size=122
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=230 | Queue size=123
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=231 | Queue size=124
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=232 | Queue size=125
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=233 | Queue size=126
+2025-11-21 17:28:15 [INFO] [Worker-0] Done | req_id=107 | Time=0.41s
+2025-11-21 17:28:15 [INFO] [Worker-0] Running inference | req_id=108
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=234 | Queue size=126
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=235 | Queue size=127
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=236 | Queue size=128
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=237 | Queue size=129
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=238 | Queue size=130
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=239 | Queue size=131
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=240 | Queue size=132
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=241 | Queue size=133
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=242 | Queue size=134
+2025-11-21 17:28:15 [INFO] [Worker-0] Done | req_id=108 | Time=0.48s
+2025-11-21 17:28:15 [INFO] [Worker-0] Running inference | req_id=109
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=243 | Queue size=134
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=244 | Queue size=135
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=245 | Queue size=136
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=246 | Queue size=137
+2025-11-21 17:28:15 [INFO] [Receiver] Received image | req_id=247 | Queue size=138
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=248 | Queue size=139
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=249 | Queue size=140
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=250 | Queue size=141
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=251 | Queue size=142
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=252 | Queue size=143
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=253 | Queue size=144
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=254 | Queue size=145
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=255 | Queue size=146
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=256 | Queue size=147
+2025-11-21 17:28:16 [INFO] [Worker-0] Done | req_id=109 | Time=0.49s
+2025-11-21 17:28:16 [INFO] [Worker-0] Running inference | req_id=110
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=257 | Queue size=147
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=258 | Queue size=148
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=259 | Queue size=149
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=260 | Queue size=150
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=261 | Queue size=151
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=262 | Queue size=152
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=263 | Queue size=153
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=264 | Queue size=154
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=265 | Queue size=155
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=266 | Queue size=156
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=267 | Queue size=157
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=268 | Queue size=158
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=269 | Queue size=159
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=270 | Queue size=160
+2025-11-21 17:28:16 [INFO] [Worker-0] Done | req_id=110 | Time=0.49s
+2025-11-21 17:28:16 [INFO] [Worker-0] Running inference | req_id=111
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=271 | Queue size=160
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=272 | Queue size=161
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=273 | Queue size=162
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=274 | Queue size=163
+2025-11-21 17:28:16 [INFO] [Receiver] Received image | req_id=275 | Queue size=164
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=276 | Queue size=165
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=277 | Queue size=166
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=278 | Queue size=167
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=279 | Queue size=168
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=280 | Queue size=169
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=281 | Queue size=170
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=282 | Queue size=171
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=283 | Queue size=172
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=284 | Queue size=173
+2025-11-21 17:28:17 [INFO] [Worker-0] Done | req_id=111 | Time=0.48s
+2025-11-21 17:28:17 [INFO] [Worker-0] Running inference | req_id=112
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=285 | Queue size=173
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=286 | Queue size=174
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=287 | Queue size=175
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=288 | Queue size=176
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=289 | Queue size=177
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=290 | Queue size=178
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=291 | Queue size=179
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=292 | Queue size=180
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=293 | Queue size=181
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=294 | Queue size=182
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=295 | Queue size=183
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=296 | Queue size=184
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=297 | Queue size=185
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=298 | Queue size=186
+2025-11-21 17:28:17 [INFO] [Worker-0] Done | req_id=112 | Time=0.49s
+2025-11-21 17:28:17 [INFO] [Worker-0] Running inference | req_id=113
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=299 | Queue size=186
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=300 | Queue size=187
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=301 | Queue size=188
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=302 | Queue size=189
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=303 | Queue size=190
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=304 | Queue size=191
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=305 | Queue size=192
+2025-11-21 17:28:17 [INFO] [Receiver] Received image | req_id=306 | Queue size=193
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=307 | Queue size=194
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=308 | Queue size=195
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=309 | Queue size=196
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=310 | Queue size=197
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=311 | Queue size=198
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=312 | Queue size=199
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=313 | Queue size=200
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=314 | Queue size=201
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=315 | Queue size=202
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=316 | Queue size=203
+2025-11-21 17:28:18 [INFO] [Worker-0] Done | req_id=113 | Time=0.49s
+2025-11-21 17:28:18 [INFO] [Worker-0] Running inference | req_id=114
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=317 | Queue size=203
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=318 | Queue size=204
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=319 | Queue size=205
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=320 | Queue size=206
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=321 | Queue size=207
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=322 | Queue size=208
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=323 | Queue size=209
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=324 | Queue size=210
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=325 | Queue size=211
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=326 | Queue size=212
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=327 | Queue size=213
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=328 | Queue size=214
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=329 | Queue size=215
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=330 | Queue size=216
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=331 | Queue size=217
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=332 | Queue size=218
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=333 | Queue size=219
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=334 | Queue size=220
+2025-11-21 17:28:18 [INFO] [Worker-0] Done | req_id=114 | Time=0.48s
+2025-11-21 17:28:18 [INFO] [Worker-0] Running inference | req_id=115
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=335 | Queue size=220
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=336 | Queue size=221
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=337 | Queue size=222
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=338 | Queue size=223
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=339 | Queue size=224
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=340 | Queue size=225
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=341 | Queue size=226
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=342 | Queue size=227
+2025-11-21 17:28:18 [INFO] [Receiver] Received image | req_id=343 | Queue size=228
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=344 | Queue size=229
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=345 | Queue size=230
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=346 | Queue size=231
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=347 | Queue size=232
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=348 | Queue size=233
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=349 | Queue size=234
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=350 | Queue size=235
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=351 | Queue size=236
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=352 | Queue size=237
+2025-11-21 17:28:19 [INFO] [Worker-0] Done | req_id=115 | Time=0.48s
+2025-11-21 17:28:19 [INFO] [Worker-0] Running inference | req_id=116
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=353 | Queue size=237
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=354 | Queue size=238
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=355 | Queue size=239
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=356 | Queue size=240
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=357 | Queue size=241
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=358 | Queue size=242
+2025-11-21 17:28:19 [INFO] [Receiver] Received image | req_id=359 | Queue size=243
+2025-11-21 17:28:19 [INFO] [Worker-0] Done | req_id=116 | Time=0.47s
+2025-11-21 17:28:19 [INFO] [Worker-0] Running inference | req_id=117
+2025-11-21 17:28:20 [INFO] [Worker-0] Done | req_id=117 | Time=0.49s
+2025-11-21 17:28:20 [INFO] [Worker-0] Running inference | req_id=118
+2025-11-21 17:28:20 [INFO] [Worker-0] Done | req_id=118 | Time=0.46s
+2025-11-21 17:28:20 [INFO] [Worker-0] Running inference | req_id=119
+2025-11-21 17:28:21 [INFO] [Worker-0] Done | req_id=119 | Time=0.49s
+2025-11-21 17:28:21 [INFO] [Worker-0] Running inference | req_id=120
+2025-11-21 17:28:21 [INFO] [Worker-0] Done | req_id=120 | Time=0.45s
+2025-11-21 17:28:21 [INFO] [Worker-0] Running inference | req_id=121
+2025-11-21 17:28:22 [INFO] [Worker-0] Done | req_id=121 | Time=0.45s
+2025-11-21 17:28:22 [INFO] [Worker-0] Running inference | req_id=122
+2025-11-21 17:28:22 [INFO] [Worker-0] Done | req_id=122 | Time=0.45s
+2025-11-21 17:28:22 [INFO] [Worker-0] Running inference | req_id=123
+2025-11-21 17:28:22 [INFO] [Worker-0] Done | req_id=123 | Time=0.46s
+2025-11-21 17:28:22 [INFO] [Worker-0] Running inference | req_id=124
+2025-11-21 17:28:23 [INFO] [Worker-0] Done | req_id=124 | Time=0.53s
+2025-11-21 17:28:23 [INFO] [Worker-0] Running inference | req_id=125
+2025-11-21 17:28:23 [INFO] [Worker-0] Done | req_id=125 | Time=0.46s
+2025-11-21 17:28:23 [INFO] [Worker-0] Running inference | req_id=126
+2025-11-21 17:28:24 [INFO] [Worker-0] Done | req_id=126 | Time=0.46s
+2025-11-21 17:28:24 [INFO] [Worker-0] Running inference | req_id=127
+2025-11-21 17:28:24 [INFO] [Worker-0] Done | req_id=127 | Time=0.45s
+2025-11-21 17:28:24 [INFO] [Worker-0] Running inference | req_id=128
+2025-11-21 17:28:25 [INFO] [Worker-0] Done | req_id=128 | Time=0.45s
+2025-11-21 17:28:25 [INFO] [Worker-0] Running inference | req_id=129
+2025-11-21 17:28:25 [INFO] [Worker-0] Done | req_id=129 | Time=0.53s
+2025-11-21 17:28:25 [INFO] [Worker-0] Running inference | req_id=130
+2025-11-21 17:28:26 [INFO] [Worker-0] Done | req_id=130 | Time=0.40s
+2025-11-21 17:28:26 [INFO] [Worker-0] Running inference | req_id=131
+2025-11-21 17:28:26 [INFO] [Worker-0] Done | req_id=131 | Time=0.40s
+2025-11-21 17:28:26 [INFO] [Worker-0] Running inference | req_id=132
+2025-11-21 17:28:27 [INFO] [Worker-0] Done | req_id=132 | Time=0.40s
+2025-11-21 17:28:27 [INFO] [Worker-0] Running inference | req_id=133
+2025-11-21 17:28:27 [INFO] [Worker-0] Done | req_id=133 | Time=0.41s
+2025-11-21 17:28:27 [INFO] [Worker-0] Running inference | req_id=134
+2025-11-21 17:28:27 [INFO] [Worker-0] Done | req_id=134 | Time=0.42s
+2025-11-21 17:28:27 [INFO] [Worker-0] Running inference | req_id=135
+2025-11-21 17:28:28 [INFO] [Worker-0] Done | req_id=135 | Time=0.43s
+2025-11-21 17:28:28 [INFO] [Worker-0] Running inference | req_id=136
+2025-11-21 17:28:28 [INFO] [Worker-0] Done | req_id=136 | Time=0.43s
+2025-11-21 17:28:28 [INFO] [Worker-0] Running inference | req_id=137
+2025-11-21 17:28:29 [INFO] [Worker-0] Done | req_id=137 | Time=0.43s
+2025-11-21 17:28:29 [INFO] [Worker-0] Running inference | req_id=138
+2025-11-21 17:28:29 [INFO] [Worker-0] Done | req_id=138 | Time=0.43s
+2025-11-21 17:28:29 [INFO] [Worker-0] Running inference | req_id=139
+2025-11-21 17:28:30 [INFO] [Worker-0] Done | req_id=139 | Time=0.47s
+2025-11-21 17:28:30 [INFO] [Worker-0] Running inference | req_id=140
+2025-11-21 17:28:30 [INFO] [Worker-0] Done | req_id=140 | Time=0.48s
+2025-11-21 17:28:30 [INFO] [Worker-0] Running inference | req_id=141
+2025-11-21 17:28:31 [INFO] [Worker-0] Done | req_id=141 | Time=0.47s
+2025-11-21 17:28:31 [INFO] [Worker-0] Running inference | req_id=142
+2025-11-21 17:28:31 [INFO] [Worker-0] Done | req_id=142 | Time=0.47s
+2025-11-21 17:28:31 [INFO] [Worker-0] Running inference | req_id=143
+2025-11-21 17:28:31 [INFO] [Worker-0] Done | req_id=143 | Time=0.47s
+2025-11-21 17:28:31 [INFO] [Worker-0] Running inference | req_id=144
+2025-11-21 17:28:32 [INFO] [Worker-0] Done | req_id=144 | Time=0.55s
+2025-11-21 17:28:32 [INFO] [Worker-0] Running inference | req_id=145
+2025-11-21 17:28:33 [INFO] [Worker-0] Done | req_id=145 | Time=0.54s
+2025-11-21 17:28:33 [INFO] [Worker-0] Running inference | req_id=146
+2025-11-21 17:28:33 [INFO] [Worker-0] Done | req_id=146 | Time=0.41s
+2025-11-21 17:28:33 [INFO] [Worker-0] Running inference | req_id=147
+2025-11-21 17:28:33 [INFO] [Worker-0] Done | req_id=147 | Time=0.40s
+2025-11-21 17:28:33 [INFO] [Worker-0] Running inference | req_id=148
+2025-11-21 17:28:34 [INFO] [Worker-0] Done | req_id=148 | Time=0.39s
+2025-11-21 17:28:34 [INFO] [Worker-0] Running inference | req_id=149
+2025-11-21 17:28:34 [INFO] [Worker-0] Done | req_id=149 | Time=0.40s
+2025-11-21 17:28:34 [INFO] [Worker-0] Running inference | req_id=150
+2025-11-21 17:28:35 [INFO] [Worker-0] Done | req_id=150 | Time=0.42s
+2025-11-21 17:28:35 [INFO] [Worker-0] Running inference | req_id=151
+2025-11-21 17:28:35 [INFO] [Worker-0] Done | req_id=151 | Time=0.43s
+2025-11-21 17:28:35 [INFO] [Worker-0] Running inference | req_id=152
+2025-11-21 17:28:35 [INFO] [Worker-0] Done | req_id=152 | Time=0.43s
+2025-11-21 17:28:35 [INFO] [Worker-0] Running inference | req_id=153
+2025-11-21 17:28:36 [INFO] [Worker-0] Done | req_id=153 | Time=0.43s
+2025-11-21 17:28:36 [INFO] [Worker-0] Running inference | req_id=154
+2025-11-21 17:28:36 [INFO] [Worker-0] Done | req_id=154 | Time=0.47s
+2025-11-21 17:28:36 [INFO] [Worker-0] Running inference | req_id=155
+2025-11-21 17:28:37 [INFO] [Worker-0] Done | req_id=155 | Time=0.46s
+2025-11-21 17:28:37 [INFO] [Worker-0] Running inference | req_id=156
+2025-11-21 17:28:37 [INFO] [Worker-0] Done | req_id=156 | Time=0.46s
+2025-11-21 17:28:37 [INFO] [Worker-0] Running inference | req_id=157
+2025-11-21 17:28:38 [INFO] [Worker-0] Done | req_id=157 | Time=0.47s
+2025-11-21 17:28:38 [INFO] [Worker-0] Running inference | req_id=158
+2025-11-21 17:28:38 [INFO] [Worker-0] Done | req_id=158 | Time=0.47s
+2025-11-21 17:28:38 [INFO] [Worker-0] Running inference | req_id=159
+2025-11-21 17:28:39 [INFO] [Worker-0] Done | req_id=159 | Time=0.47s
+2025-11-21 17:28:39 [INFO] [Worker-0] Running inference | req_id=160
+2025-11-21 17:28:39 [INFO] [Worker-0] Done | req_id=160 | Time=0.53s
+2025-11-21 17:28:39 [INFO] [Worker-0] Running inference | req_id=161
+2025-11-21 17:28:40 [INFO] [Worker-0] Done | req_id=161 | Time=0.46s
+2025-11-21 17:28:40 [INFO] [Worker-0] Running inference | req_id=162
+2025-11-21 17:28:40 [INFO] [Worker-0] Done | req_id=162 | Time=0.46s
+2025-11-21 17:28:40 [INFO] [Worker-0] Running inference | req_id=163
+2025-11-21 17:28:41 [INFO] [Worker-0] Done | req_id=163 | Time=0.45s
+2025-11-21 17:28:41 [INFO] [Worker-0] Running inference | req_id=164
+2025-11-21 17:28:41 [INFO] [Worker-0] Done | req_id=164 | Time=0.50s
+2025-11-21 17:28:41 [INFO] [Worker-0] Running inference | req_id=165
+2025-11-21 17:28:42 [INFO] [Worker-0] Done | req_id=165 | Time=0.45s
+2025-11-21 17:28:42 [INFO] [Worker-0] Running inference | req_id=166
+2025-11-21 17:28:42 [INFO] [Worker-0] Done | req_id=166 | Time=0.45s
+2025-11-21 17:28:42 [INFO] [Worker-0] Running inference | req_id=167
+2025-11-21 17:28:42 [INFO] [Worker-0] Done | req_id=167 | Time=0.46s
+2025-11-21 17:28:42 [INFO] [Worker-0] Running inference | req_id=168
+2025-11-21 17:28:43 [INFO] [Worker-0] Done | req_id=168 | Time=0.46s
+2025-11-21 17:28:43 [INFO] [Worker-0] Running inference | req_id=169
+2025-11-21 17:28:43 [INFO] [Worker-0] Done | req_id=169 | Time=0.45s
+2025-11-21 17:28:43 [INFO] [Worker-0] Running inference | req_id=170
+2025-11-21 17:28:44 [INFO] [Worker-0] Done | req_id=170 | Time=0.50s
+2025-11-21 17:28:44 [INFO] [Worker-0] Running inference | req_id=171
+2025-11-21 17:28:44 [INFO] [Worker-0] Done | req_id=171 | Time=0.46s
+2025-11-21 17:28:44 [INFO] [Worker-0] Running inference | req_id=172
+2025-11-21 17:28:45 [INFO] [Worker-0] Done | req_id=172 | Time=0.46s
+2025-11-21 17:28:45 [INFO] [Worker-0] Running inference | req_id=173
+2025-11-21 17:28:45 [INFO] [Worker-0] Done | req_id=173 | Time=0.46s
+2025-11-21 17:28:45 [INFO] [Worker-0] Running inference | req_id=174
+2025-11-21 17:28:46 [INFO] [Worker-0] Done | req_id=174 | Time=0.45s
+2025-11-21 17:28:46 [INFO] [Worker-0] Running inference | req_id=175
+2025-11-21 17:28:46 [INFO] [Worker-0] Done | req_id=175 | Time=0.45s
+2025-11-21 17:28:46 [INFO] [Worker-0] Running inference | req_id=176
+2025-11-21 17:28:47 [INFO] [Worker-0] Done | req_id=176 | Time=0.54s
+2025-11-21 17:28:47 [INFO] [Worker-0] Running inference | req_id=177
+2025-11-21 17:28:47 [INFO] [Worker-0] Done | req_id=177 | Time=0.46s
+2025-11-21 17:28:47 [INFO] [Worker-0] Running inference | req_id=178
+2025-11-21 17:28:48 [INFO] [Worker-0] Done | req_id=178 | Time=0.45s
+2025-11-21 17:28:48 [INFO] [Worker-0] Running inference | req_id=179
+2025-11-21 17:28:48 [INFO] [Worker-0] Done | req_id=179 | Time=0.45s
+2025-11-21 17:28:48 [INFO] [Worker-0] Running inference | req_id=180
+2025-11-21 17:28:48 [INFO] [Worker-0] Done | req_id=180 | Time=0.46s
+2025-11-21 17:28:48 [INFO] [Worker-0] Running inference | req_id=181
+2025-11-21 17:28:49 [INFO] [Worker-0] Done | req_id=181 | Time=0.45s
+2025-11-21 17:28:49 [INFO] [Worker-0] Running inference | req_id=182
+2025-11-21 17:28:49 [INFO] [Worker-0] Done | req_id=182 | Time=0.45s
+2025-11-21 17:28:49 [INFO] [Worker-0] Running inference | req_id=183
+2025-11-21 17:28:50 [INFO] [Worker-0] Done | req_id=183 | Time=0.54s
+2025-11-21 17:28:50 [INFO] [Worker-0] Running inference | req_id=184
+2025-11-21 17:28:50 [INFO] [Worker-0] Done | req_id=184 | Time=0.40s
+2025-11-21 17:28:50 [INFO] [Worker-0] Running inference | req_id=185
+2025-11-21 17:28:51 [INFO] [Worker-0] Done | req_id=185 | Time=0.40s
+2025-11-21 17:28:51 [INFO] [Worker-0] Running inference | req_id=186
+2025-11-21 17:28:51 [INFO] [Worker-0] Done | req_id=186 | Time=0.40s
+2025-11-21 17:28:51 [INFO] [Worker-0] Running inference | req_id=187
+2025-11-21 17:28:52 [INFO] [Worker-0] Done | req_id=187 | Time=0.41s
+2025-11-21 17:28:52 [INFO] [Worker-0] Running inference | req_id=188
+2025-11-21 17:28:52 [INFO] [Worker-0] Done | req_id=188 | Time=0.42s
+2025-11-21 17:28:52 [INFO] [Worker-0] Running inference | req_id=189
+2025-11-21 17:28:52 [INFO] [Worker-0] Done | req_id=189 | Time=0.43s
+2025-11-21 17:28:52 [INFO] [Worker-0] Running inference | req_id=190
+2025-11-21 17:28:53 [INFO] [Worker-0] Done | req_id=190 | Time=0.42s
+2025-11-21 17:28:53 [INFO] [Worker-0] Running inference | req_id=191
+2025-11-21 17:28:53 [INFO] [Worker-0] Done | req_id=191 | Time=0.43s
+2025-11-21 17:28:53 [INFO] [Worker-0] Running inference | req_id=192
+2025-11-21 17:28:54 [INFO] [Worker-0] Done | req_id=192 | Time=0.44s
+2025-11-21 17:28:54 [INFO] [Worker-0] Running inference | req_id=193
+2025-11-21 17:28:54 [INFO] [Worker-0] Done | req_id=193 | Time=0.48s
+2025-11-21 17:28:54 [INFO] [Worker-0] Running inference | req_id=194
+2025-11-21 17:28:55 [INFO] [Worker-0] Done | req_id=194 | Time=0.48s
+2025-11-21 17:28:55 [INFO] [Worker-0] Running inference | req_id=195
+2025-11-21 17:28:55 [INFO] [Worker-0] Done | req_id=195 | Time=0.48s
+2025-11-21 17:28:55 [INFO] [Worker-0] Running inference | req_id=196
+2025-11-21 17:28:56 [INFO] [Worker-0] Done | req_id=196 | Time=0.46s
+2025-11-21 17:28:56 [INFO] [Worker-0] Running inference | req_id=197
+2025-11-21 17:28:56 [INFO] [Worker-0] Done | req_id=197 | Time=0.47s
+2025-11-21 17:28:56 [INFO] [Worker-0] Running inference | req_id=198
+2025-11-21 17:28:57 [INFO] [Worker-0] Done | req_id=198 | Time=0.55s
+2025-11-21 17:28:57 [INFO] [Worker-0] Running inference | req_id=199
+2025-11-21 17:28:57 [INFO] [Worker-0] Done | req_id=199 | Time=0.54s
+2025-11-21 17:28:57 [INFO] [Worker-0] Running inference | req_id=200
+2025-11-21 17:28:58 [INFO] [Worker-0] Done | req_id=200 | Time=0.45s
+2025-11-21 17:28:58 [INFO] [Worker-0] Running inference | req_id=201
+2025-11-21 17:28:58 [INFO] [Worker-0] Done | req_id=201 | Time=0.44s
+2025-11-21 17:28:58 [INFO] [Worker-0] Running inference | req_id=202
+2025-11-21 17:28:59 [INFO] [Worker-0] Done | req_id=202 | Time=0.44s
+2025-11-21 17:28:59 [INFO] [Worker-0] Running inference | req_id=203
+2025-11-21 17:28:59 [INFO] [Worker-0] Done | req_id=203 | Time=0.45s
+2025-11-21 17:28:59 [INFO] [Worker-0] Running inference | req_id=204
+2025-11-21 17:28:59 [INFO] [Worker-0] Done | req_id=204 | Time=0.46s
+2025-11-21 17:28:59 [INFO] [Worker-0] Running inference | req_id=205
+2025-11-21 17:29:00 [INFO] [Worker-0] Done | req_id=205 | Time=0.46s
+2025-11-21 17:29:00 [INFO] [Worker-0] Running inference | req_id=206
+2025-11-21 17:29:00 [INFO] [Worker-0] Done | req_id=206 | Time=0.52s
+2025-11-21 17:29:00 [INFO] [Worker-0] Running inference | req_id=207
+2025-11-21 17:29:01 [INFO] [Worker-0] Done | req_id=207 | Time=0.46s
+2025-11-21 17:29:01 [INFO] [Worker-0] Running inference | req_id=208
+2025-11-21 17:29:01 [INFO] [Worker-0] Done | req_id=208 | Time=0.45s
+2025-11-21 17:29:01 [INFO] [Worker-0] Running inference | req_id=209
+2025-11-21 17:29:02 [INFO] [Worker-0] Done | req_id=209 | Time=0.45s
+2025-11-21 17:29:02 [INFO] [Worker-0] Running inference | req_id=210
+2025-11-21 17:29:02 [INFO] [Worker-0] Done | req_id=210 | Time=0.52s
+2025-11-21 17:29:02 [INFO] [Worker-0] Running inference | req_id=211
+2025-11-21 17:29:03 [INFO] [Worker-0] Done | req_id=211 | Time=0.45s
+2025-11-21 17:29:03 [INFO] [Worker-0] Running inference | req_id=212
+2025-11-21 17:29:03 [INFO] [Worker-0] Done | req_id=212 | Time=0.45s
+2025-11-21 17:29:03 [INFO] [Worker-0] Running inference | req_id=213
+2025-11-21 17:29:04 [INFO] [Worker-0] Done | req_id=213 | Time=0.45s
+2025-11-21 17:29:04 [INFO] [Worker-0] Running inference | req_id=214
+2025-11-21 17:29:04 [INFO] [Worker-0] Done | req_id=214 | Time=0.44s
+2025-11-21 17:29:04 [INFO] [Worker-0] Running inference | req_id=215
+2025-11-21 17:29:05 [INFO] [Worker-0] Done | req_id=215 | Time=0.45s
+2025-11-21 17:29:05 [INFO] [Worker-0] Running inference | req_id=216
+2025-11-21 17:29:05 [INFO] [Worker-0] Done | req_id=216 | Time=0.45s
+2025-11-21 17:29:05 [INFO] [Worker-0] Running inference | req_id=217
+2025-11-21 17:29:05 [INFO] [Worker-0] Done | req_id=217 | Time=0.46s
+2025-11-21 17:29:05 [INFO] [Worker-0] Running inference | req_id=218
+2025-11-21 17:29:06 [INFO] [Worker-0] Done | req_id=218 | Time=0.54s
+2025-11-21 17:29:06 [INFO] [Worker-0] Running inference | req_id=219
+2025-11-21 17:29:06 [INFO] [Worker-0] Done | req_id=219 | Time=0.46s
+2025-11-21 17:29:06 [INFO] [Worker-0] Running inference | req_id=220
+2025-11-21 17:29:07 [INFO] [Worker-0] Done | req_id=220 | Time=0.46s
+2025-11-21 17:29:07 [INFO] [Worker-0] Running inference | req_id=221
+2025-11-21 17:29:07 [INFO] [Worker-0] Done | req_id=221 | Time=0.46s
+2025-11-21 17:29:07 [INFO] [Worker-0] Running inference | req_id=222
+2025-11-21 17:29:08 [INFO] [Worker-0] Done | req_id=222 | Time=0.55s
+2025-11-21 17:29:08 [INFO] [Worker-0] Running inference | req_id=223
+2025-11-21 17:29:08 [INFO] [Worker-0] Done | req_id=223 | Time=0.40s
+2025-11-21 17:29:08 [INFO] [Worker-0] Running inference | req_id=224
+2025-11-21 17:29:09 [INFO] [Worker-0] Done | req_id=224 | Time=0.40s
+2025-11-21 17:29:09 [INFO] [Worker-0] Running inference | req_id=225
+2025-11-21 17:29:09 [INFO] [Worker-0] Done | req_id=225 | Time=0.41s
+2025-11-21 17:29:09 [INFO] [Worker-0] Running inference | req_id=226
+2025-11-21 17:29:10 [INFO] [Worker-0] Done | req_id=226 | Time=0.40s
+2025-11-21 17:29:10 [INFO] [Worker-0] Running inference | req_id=227
+2025-11-21 17:29:10 [INFO] [Worker-0] Done | req_id=227 | Time=0.42s
+2025-11-21 17:29:10 [INFO] [Worker-0] Running inference | req_id=228
+2025-11-21 17:29:10 [INFO] [Worker-0] Done | req_id=228 | Time=0.42s
+2025-11-21 17:29:10 [INFO] [Worker-0] Running inference | req_id=229
+2025-11-21 17:29:11 [INFO] [Worker-0] Done | req_id=229 | Time=0.42s
+2025-11-21 17:29:11 [INFO] [Worker-0] Running inference | req_id=230
+2025-11-21 17:29:11 [INFO] [Worker-0] Done | req_id=230 | Time=0.43s
+2025-11-21 17:29:11 [INFO] [Worker-0] Running inference | req_id=231
+2025-11-21 17:29:12 [INFO] [Worker-0] Done | req_id=231 | Time=0.48s
+2025-11-21 17:29:12 [INFO] [Worker-0] Running inference | req_id=232
+2025-11-21 17:29:12 [INFO] [Worker-0] Done | req_id=232 | Time=0.47s
+2025-11-21 17:29:12 [INFO] [Worker-0] Running inference | req_id=233
+2025-11-21 17:29:13 [INFO] [Worker-0] Done | req_id=233 | Time=0.46s
+2025-11-21 17:29:13 [INFO] [Worker-0] Running inference | req_id=234
+2025-11-21 17:29:13 [INFO] [Worker-0] Done | req_id=234 | Time=0.46s
+2025-11-21 17:29:13 [INFO] [Worker-0] Running inference | req_id=235
+2025-11-21 17:29:14 [INFO] [Worker-0] Done | req_id=235 | Time=0.45s
+2025-11-21 17:29:14 [INFO] [Worker-0] Running inference | req_id=236
+2025-11-21 17:29:14 [INFO] [Worker-0] Done | req_id=236 | Time=0.46s
+2025-11-21 17:29:14 [INFO] [Worker-0] Running inference | req_id=237
+2025-11-21 17:29:15 [INFO] [Worker-0] Done | req_id=237 | Time=0.54s
+2025-11-21 17:29:15 [INFO] [Worker-0] Running inference | req_id=238
+2025-11-21 17:29:15 [INFO] [Worker-0] Done | req_id=238 | Time=0.45s
+2025-11-21 17:29:15 [INFO] [Worker-0] Running inference | req_id=239
+2025-11-21 17:29:15 [INFO] [Worker-0] Done | req_id=239 | Time=0.45s
+2025-11-21 17:29:15 [INFO] [Worker-0] Running inference | req_id=240
+2025-11-21 17:29:16 [INFO] [Worker-0] Done | req_id=240 | Time=0.45s
+2025-11-21 17:29:16 [INFO] [Worker-0] Running inference | req_id=241
+2025-11-21 17:29:16 [INFO] [Worker-0] Done | req_id=241 | Time=0.46s
+2025-11-21 17:29:16 [INFO] [Worker-0] Running inference | req_id=242
+2025-11-21 17:29:17 [INFO] [Worker-0] Done | req_id=242 | Time=0.46s
+2025-11-21 17:29:17 [INFO] [Worker-0] Running inference | req_id=243
+2025-11-21 17:29:17 [INFO] [Worker-0] Done | req_id=243 | Time=0.55s
+2025-11-21 17:29:17 [INFO] [Worker-0] Running inference | req_id=244
+2025-11-21 17:29:18 [INFO] [Worker-0] Done | req_id=244 | Time=0.45s
+2025-11-21 17:29:18 [INFO] [Worker-0] Running inference | req_id=245
+2025-11-21 17:29:18 [INFO] [Worker-0] Done | req_id=245 | Time=0.45s
+2025-11-21 17:29:18 [INFO] [Worker-0] Running inference | req_id=246
+2025-11-21 17:29:19 [INFO] [Worker-0] Done | req_id=246 | Time=0.44s
+2025-11-21 17:29:19 [INFO] [Worker-0] Running inference | req_id=247
+2025-11-21 17:29:19 [INFO] [Worker-0] Done | req_id=247 | Time=0.47s
+2025-11-21 17:29:19 [INFO] [Worker-0] Running inference | req_id=248
+2025-11-21 17:29:20 [INFO] [Worker-0] Done | req_id=248 | Time=0.54s
+2025-11-21 17:29:20 [INFO] [Worker-0] Running inference | req_id=249
+2025-11-21 17:29:20 [INFO] [Worker-0] Done | req_id=249 | Time=0.40s
+2025-11-21 17:29:20 [INFO] [Worker-0] Running inference | req_id=250
+2025-11-21 17:29:21 [INFO] [Worker-0] Done | req_id=250 | Time=0.40s
+2025-11-21 17:29:21 [INFO] [Worker-0] Running inference | req_id=251
+2025-11-21 17:29:21 [INFO] [Worker-0] Done | req_id=251 | Time=0.39s
+2025-11-21 17:29:21 [INFO] [Worker-0] Running inference | req_id=252
+2025-11-21 17:29:21 [INFO] [Worker-0] Done | req_id=252 | Time=0.39s
+2025-11-21 17:29:21 [INFO] [Worker-0] Running inference | req_id=253
+2025-11-21 17:29:22 [INFO] [Worker-0] Done | req_id=253 | Time=0.44s
+2025-11-21 17:29:22 [INFO] [Worker-0] Running inference | req_id=254
+2025-11-21 17:29:22 [INFO] [Worker-0] Done | req_id=254 | Time=0.45s
+2025-11-21 17:29:22 [INFO] [Worker-0] Running inference | req_id=255
+2025-11-21 17:29:23 [INFO] [Worker-0] Done | req_id=255 | Time=0.45s
+2025-11-21 17:29:23 [INFO] [Worker-0] Running inference | req_id=256
+2025-11-21 17:29:23 [INFO] [Worker-0] Done | req_id=256 | Time=0.46s
+2025-11-21 17:29:23 [INFO] [Worker-0] Running inference | req_id=257
+2025-11-21 17:29:24 [INFO] [Worker-0] Done | req_id=257 | Time=0.46s
+2025-11-21 17:29:24 [INFO] [Worker-0] Running inference | req_id=258
+2025-11-21 17:29:24 [INFO] [Worker-0] Done | req_id=258 | Time=0.54s
+2025-11-21 17:29:24 [INFO] [Worker-0] Running inference | req_id=259
+2025-11-21 17:29:25 [INFO] [Worker-0] Done | req_id=259 | Time=0.41s
+2025-11-21 17:29:25 [INFO] [Worker-0] Running inference | req_id=260
+2025-11-21 17:29:25 [INFO] [Worker-0] Done | req_id=260 | Time=0.40s
+2025-11-21 17:29:25 [INFO] [Worker-0] Running inference | req_id=261
+2025-11-21 17:29:25 [INFO] [Worker-0] Done | req_id=261 | Time=0.40s
+2025-11-21 17:29:25 [INFO] [Worker-0] Running inference | req_id=262
+2025-11-21 17:29:26 [INFO] [Worker-0] Done | req_id=262 | Time=0.40s
+2025-11-21 17:29:26 [INFO] [Worker-0] Running inference | req_id=263
+2025-11-21 17:29:26 [INFO] [Worker-0] Done | req_id=263 | Time=0.43s
+2025-11-21 17:29:26 [INFO] [Worker-0] Running inference | req_id=264
+2025-11-21 17:29:27 [INFO] [Worker-0] Done | req_id=264 | Time=0.42s
+2025-11-21 17:29:27 [INFO] [Worker-0] Running inference | req_id=265
+2025-11-21 17:29:27 [INFO] [Worker-0] Done | req_id=265 | Time=0.42s
+2025-11-21 17:29:27 [INFO] [Worker-0] Running inference | req_id=266
+2025-11-21 17:29:27 [INFO] [Worker-0] Done | req_id=266 | Time=0.43s
+2025-11-21 17:29:27 [INFO] [Worker-0] Running inference | req_id=267
+2025-11-21 17:29:28 [INFO] [Worker-0] Done | req_id=267 | Time=0.48s
+2025-11-21 17:29:28 [INFO] [Worker-0] Running inference | req_id=268
+2025-11-21 17:29:28 [INFO] [Worker-0] Done | req_id=268 | Time=0.46s
+2025-11-21 17:29:28 [INFO] [Worker-0] Running inference | req_id=269
+2025-11-21 17:29:29 [INFO] [Worker-0] Done | req_id=269 | Time=0.47s
+2025-11-21 17:29:29 [INFO] [Worker-0] Running inference | req_id=270
+2025-11-21 17:29:29 [INFO] [Worker-0] Done | req_id=270 | Time=0.47s
+2025-11-21 17:29:29 [INFO] [Worker-0] Running inference | req_id=271
+2025-11-21 17:29:30 [INFO] [Worker-0] Done | req_id=271 | Time=0.46s
+2025-11-21 17:29:30 [INFO] [Worker-0] Running inference | req_id=272
+2025-11-21 17:29:30 [INFO] [Worker-0] Done | req_id=272 | Time=0.46s
+2025-11-21 17:29:30 [INFO] [Worker-0] Running inference | req_id=273
+2025-11-21 17:29:31 [INFO] [Worker-0] Done | req_id=273 | Time=0.53s
+2025-11-21 17:29:31 [INFO] [Worker-0] Running inference | req_id=274
+2025-11-21 17:29:31 [INFO] [Worker-0] Done | req_id=274 | Time=0.45s
+2025-11-21 17:29:31 [INFO] [Worker-0] Running inference | req_id=275
+2025-11-21 17:29:32 [INFO] [Worker-0] Done | req_id=275 | Time=0.45s
+2025-11-21 17:29:32 [INFO] [Worker-0] Running inference | req_id=276
+2025-11-21 17:29:32 [INFO] [Worker-0] Done | req_id=276 | Time=0.45s
+2025-11-21 17:29:32 [INFO] [Worker-0] Running inference | req_id=277
+2025-11-21 17:29:33 [INFO] [Worker-0] Done | req_id=277 | Time=0.50s
+2025-11-21 17:29:33 [INFO] [Worker-0] Running inference | req_id=278
+2025-11-21 17:29:33 [INFO] [Worker-0] Done | req_id=278 | Time=0.46s
+2025-11-21 17:29:33 [INFO] [Worker-0] Running inference | req_id=279
+2025-11-21 17:29:34 [INFO] [Worker-0] Done | req_id=279 | Time=0.46s
+2025-11-21 17:29:34 [INFO] [Worker-0] Running inference | req_id=280
+2025-11-21 17:29:34 [INFO] [Worker-0] Done | req_id=280 | Time=0.46s
+2025-11-21 17:29:34 [INFO] [Worker-0] Running inference | req_id=281
+2025-11-21 17:29:35 [INFO] [Worker-0] Done | req_id=281 | Time=0.45s
+2025-11-21 17:29:35 [INFO] [Worker-0] Running inference | req_id=282
+2025-11-21 17:29:35 [INFO] [Worker-0] Done | req_id=282 | Time=0.55s
+2025-11-21 17:29:35 [INFO] [Worker-0] Running inference | req_id=283
+2025-11-21 17:29:36 [INFO] [Worker-0] Done | req_id=283 | Time=0.46s
+2025-11-21 17:29:36 [INFO] [Worker-0] Running inference | req_id=284
+2025-11-21 17:29:36 [INFO] [Worker-0] Done | req_id=284 | Time=0.45s
+2025-11-21 17:29:36 [INFO] [Worker-0] Running inference | req_id=285
+2025-11-21 17:29:36 [INFO] [Worker-0] Done | req_id=285 | Time=0.45s
+2025-11-21 17:29:36 [INFO] [Worker-0] Running inference | req_id=286
+2025-11-21 17:29:37 [INFO] [Worker-0] Done | req_id=286 | Time=0.45s
+2025-11-21 17:29:37 [INFO] [Worker-0] Running inference | req_id=287
+2025-11-21 17:29:37 [INFO] [Worker-0] Done | req_id=287 | Time=0.46s
+2025-11-21 17:29:37 [INFO] [Worker-0] Running inference | req_id=288
+2025-11-21 17:29:38 [INFO] [Worker-0] Done | req_id=288 | Time=0.54s
+2025-11-21 17:29:38 [INFO] [Worker-0] Running inference | req_id=289
+2025-11-21 17:29:38 [INFO] [Worker-0] Done | req_id=289 | Time=0.45s
+2025-11-21 17:29:38 [INFO] [Worker-0] Running inference | req_id=290
+2025-11-21 17:29:39 [INFO] [Worker-0] Done | req_id=290 | Time=0.45s
+2025-11-21 17:29:39 [INFO] [Worker-0] Running inference | req_id=291
+2025-11-21 17:29:39 [INFO] [Worker-0] Done | req_id=291 | Time=0.45s
+2025-11-21 17:29:39 [INFO] [Worker-0] Running inference | req_id=292
+2025-11-21 17:29:40 [INFO] [Worker-0] Done | req_id=292 | Time=0.45s
+2025-11-21 17:29:40 [INFO] [Worker-0] Running inference | req_id=293
+2025-11-21 17:29:40 [INFO] [Worker-0] Done | req_id=293 | Time=0.45s
+2025-11-21 17:29:40 [INFO] [Worker-0] Running inference | req_id=294
+2025-11-21 17:29:41 [INFO] [Worker-0] Done | req_id=294 | Time=0.45s
+2025-11-21 17:29:41 [INFO] [Worker-0] Running inference | req_id=295
+2025-11-21 17:29:41 [INFO] [Worker-0] Done | req_id=295 | Time=0.56s
+2025-11-21 17:29:41 [INFO] [Worker-0] Running inference | req_id=296
+2025-11-21 17:29:42 [INFO] [Worker-0] Done | req_id=296 | Time=0.40s
+2025-11-21 17:29:42 [INFO] [Worker-0] Running inference | req_id=297
+2025-11-21 17:29:42 [INFO] [Worker-0] Done | req_id=297 | Time=0.40s
+2025-11-21 17:29:42 [INFO] [Worker-0] Running inference | req_id=298
+2025-11-21 17:29:42 [INFO] [Worker-0] Done | req_id=298 | Time=0.41s
+2025-11-21 17:29:42 [INFO] [Worker-0] Running inference | req_id=299
+2025-11-21 17:29:43 [INFO] [Worker-0] Done | req_id=299 | Time=0.39s
+2025-11-21 17:29:43 [INFO] [Worker-0] Running inference | req_id=300
+2025-11-21 17:29:43 [INFO] [Worker-0] Done | req_id=300 | Time=0.41s
+2025-11-21 17:29:43 [INFO] [Worker-0] Running inference | req_id=301
+2025-11-21 17:29:44 [INFO] [Worker-0] Done | req_id=301 | Time=0.45s
+2025-11-21 17:29:44 [INFO] [Worker-0] Running inference | req_id=302
+2025-11-21 17:29:44 [INFO] [Worker-0] Done | req_id=302 | Time=0.46s
+2025-11-21 17:29:44 [INFO] [Worker-0] Running inference | req_id=303
+2025-11-21 17:29:45 [INFO] [Worker-0] Done | req_id=303 | Time=0.46s
+2025-11-21 17:29:45 [INFO] [Worker-0] Running inference | req_id=304
+2025-11-21 17:29:45 [INFO] [Worker-0] Done | req_id=304 | Time=0.46s
+2025-11-21 17:29:45 [INFO] [Worker-0] Running inference | req_id=305
+2025-11-21 17:29:45 [INFO] [Worker-0] Done | req_id=305 | Time=0.47s
+2025-11-21 17:29:45 [INFO] [Worker-0] Running inference | req_id=306
+2025-11-21 17:29:46 [INFO] [Worker-0] Done | req_id=306 | Time=0.47s
+2025-11-21 17:29:46 [INFO] [Worker-0] Running inference | req_id=307
+2025-11-21 17:29:46 [INFO] [Worker-0] Done | req_id=307 | Time=0.54s
+2025-11-21 17:29:46 [INFO] [Worker-0] Running inference | req_id=308
+2025-11-21 17:29:47 [INFO] [Worker-0] Done | req_id=308 | Time=0.45s
+2025-11-21 17:29:47 [INFO] [Worker-0] Running inference | req_id=309
+2025-11-21 17:29:47 [INFO] [Worker-0] Done | req_id=309 | Time=0.45s
+2025-11-21 17:29:47 [INFO] [Worker-0] Running inference | req_id=310
+2025-11-21 17:29:48 [INFO] [Worker-0] Done | req_id=310 | Time=0.46s
+2025-11-21 17:29:48 [INFO] [Worker-0] Running inference | req_id=311
+2025-11-21 17:29:48 [INFO] [Worker-0] Done | req_id=311 | Time=0.45s
+2025-11-21 17:29:48 [INFO] [Worker-0] Running inference | req_id=312
+2025-11-21 17:29:49 [INFO] [Worker-0] Done | req_id=312 | Time=0.46s
+2025-11-21 17:29:49 [INFO] [Worker-0] Running inference | req_id=313
+2025-11-21 17:29:49 [INFO] [Worker-0] Done | req_id=313 | Time=0.55s
+2025-11-21 17:29:49 [INFO] [Worker-0] Running inference | req_id=314
+2025-11-21 17:29:50 [INFO] [Worker-0] Done | req_id=314 | Time=0.45s
+2025-11-21 17:29:50 [INFO] [Worker-0] Running inference | req_id=315
+2025-11-21 17:29:50 [INFO] [Worker-0] Done | req_id=315 | Time=0.45s
+2025-11-21 17:29:50 [INFO] [Worker-0] Running inference | req_id=316
+2025-11-21 17:29:51 [INFO] [Worker-0] Done | req_id=316 | Time=0.44s
+2025-11-21 17:29:51 [INFO] [Worker-0] Running inference | req_id=317
+2025-11-21 17:29:51 [INFO] [Worker-0] Done | req_id=317 | Time=0.45s
+2025-11-21 17:29:51 [INFO] [Worker-0] Running inference | req_id=318
+2025-11-21 17:29:52 [INFO] [Worker-0] Done | req_id=318 | Time=0.45s
+2025-11-21 17:29:52 [INFO] [Worker-0] Running inference | req_id=319
+2025-11-21 17:29:52 [INFO] [Worker-0] Done | req_id=319 | Time=0.45s
+2025-11-21 17:29:52 [INFO] [Worker-0] Running inference | req_id=320
+2025-11-21 17:29:52 [INFO] [Worker-0] Done | req_id=320 | Time=0.45s
+2025-11-21 17:29:52 [INFO] [Worker-0] Running inference | req_id=321
+2025-11-21 17:29:53 [INFO] [Worker-0] Done | req_id=321 | Time=0.54s
+2025-11-21 17:29:53 [INFO] [Worker-0] Running inference | req_id=322
+2025-11-21 17:29:53 [INFO] [Worker-0] Done | req_id=322 | Time=0.45s
+2025-11-21 17:29:53 [INFO] [Worker-0] Running inference | req_id=323
+2025-11-21 17:29:54 [INFO] [Worker-0] Done | req_id=323 | Time=0.44s
+2025-11-21 17:29:54 [INFO] [Worker-0] Running inference | req_id=324
+2025-11-21 17:29:54 [INFO] [Worker-0] Done | req_id=324 | Time=0.45s
+2025-11-21 17:29:54 [INFO] [Worker-0] Running inference | req_id=325
+2025-11-21 17:29:55 [INFO] [Worker-0] Done | req_id=325 | Time=0.47s
+2025-11-21 17:29:55 [INFO] [Worker-0] Running inference | req_id=326
+2025-11-21 17:29:55 [INFO] [Worker-0] Done | req_id=326 | Time=0.55s
+2025-11-21 17:29:55 [INFO] [Worker-0] Running inference | req_id=327
+2025-11-21 17:29:56 [INFO] [Worker-0] Done | req_id=327 | Time=0.40s
+2025-11-21 17:29:56 [INFO] [Worker-0] Running inference | req_id=328
+2025-11-21 17:29:56 [INFO] [Worker-0] Done | req_id=328 | Time=0.40s
+2025-11-21 17:29:56 [INFO] [Worker-0] Running inference | req_id=329
+2025-11-21 17:29:57 [INFO] [Worker-0] Done | req_id=329 | Time=0.40s
+2025-11-21 17:29:57 [INFO] [Worker-0] Running inference | req_id=330
+2025-11-21 17:29:57 [INFO] [Worker-0] Done | req_id=330 | Time=0.40s
+2025-11-21 17:29:57 [INFO] [Worker-0] Running inference | req_id=331
+2025-11-21 17:29:57 [INFO] [Worker-0] Done | req_id=331 | Time=0.41s
+2025-11-21 17:29:57 [INFO] [Worker-0] Running inference | req_id=332
+2025-11-21 17:29:58 [INFO] [Worker-0] Done | req_id=332 | Time=0.42s
+2025-11-21 17:29:58 [INFO] [Worker-0] Running inference | req_id=333
+2025-11-21 17:29:58 [INFO] [Worker-0] Done | req_id=333 | Time=0.43s
+2025-11-21 17:29:58 [INFO] [Worker-0] Running inference | req_id=334
+2025-11-21 17:29:59 [INFO] [Worker-0] Done | req_id=334 | Time=0.44s
+2025-11-21 17:29:59 [INFO] [Worker-0] Running inference | req_id=335
+2025-11-21 17:29:59 [INFO] [Worker-0] Done | req_id=335 | Time=0.43s
+2025-11-21 17:29:59 [INFO] [Worker-0] Running inference | req_id=336
+2025-11-21 17:30:00 [INFO] [Worker-0] Done | req_id=336 | Time=0.47s
+2025-11-21 17:30:00 [INFO] [Worker-0] Running inference | req_id=337
+2025-11-21 17:30:00 [INFO] [Worker-0] Done | req_id=337 | Time=0.46s
+2025-11-21 17:30:00 [INFO] [Worker-0] Running inference | req_id=338
+2025-11-21 17:30:00 [INFO] [Worker-0] Done | req_id=338 | Time=0.46s
+2025-11-21 17:30:00 [INFO] [Worker-0] Running inference | req_id=339
+2025-11-21 17:30:01 [INFO] [Worker-0] Done | req_id=339 | Time=0.46s
+2025-11-21 17:30:01 [INFO] [Worker-0] Running inference | req_id=340
+2025-11-21 17:30:01 [INFO] [Worker-0] Done | req_id=340 | Time=0.46s
+2025-11-21 17:30:01 [INFO] [Worker-0] Running inference | req_id=341
+2025-11-21 17:30:02 [INFO] [Worker-0] Done | req_id=341 | Time=0.54s
+2025-11-21 17:30:02 [INFO] [Worker-0] Running inference | req_id=342
+2025-11-21 17:30:02 [INFO] [Worker-0] Done | req_id=342 | Time=0.40s
+2025-11-21 17:30:02 [INFO] [Worker-0] Running inference | req_id=343
+2025-11-21 17:30:03 [INFO] [Worker-0] Done | req_id=343 | Time=0.40s
+2025-11-21 17:30:03 [INFO] [Worker-0] Running inference | req_id=344
+2025-11-21 17:30:03 [INFO] [Worker-0] Done | req_id=344 | Time=0.40s
+2025-11-21 17:30:03 [INFO] [Worker-0] Running inference | req_id=345
+2025-11-21 17:30:04 [INFO] [Worker-0] Done | req_id=345 | Time=0.40s
+2025-11-21 17:30:04 [INFO] [Worker-0] Running inference | req_id=346
+2025-11-21 17:30:04 [INFO] [Worker-0] Done | req_id=346 | Time=0.42s
+2025-11-21 17:30:04 [INFO] [Worker-0] Running inference | req_id=347
+2025-11-21 17:30:04 [INFO] [Worker-0] Done | req_id=347 | Time=0.42s
+2025-11-21 17:30:04 [INFO] [Worker-0] Running inference | req_id=348
+2025-11-21 17:30:05 [INFO] [Worker-0] Done | req_id=348 | Time=0.42s
+2025-11-21 17:30:05 [INFO] [Worker-0] Running inference | req_id=349
+2025-11-21 17:30:05 [INFO] [Worker-0] Done | req_id=349 | Time=0.43s
+2025-11-21 17:30:05 [INFO] [Worker-0] Running inference | req_id=350
+2025-11-21 17:30:06 [INFO] [Worker-0] Done | req_id=350 | Time=0.44s
+2025-11-21 17:30:06 [INFO] [Worker-0] Running inference | req_id=351
+2025-11-21 17:30:06 [INFO] [Worker-0] Done | req_id=351 | Time=0.47s
+2025-11-21 17:30:06 [INFO] [Worker-0] Running inference | req_id=352
+2025-11-21 17:30:07 [INFO] [Worker-0] Done | req_id=352 | Time=0.46s
+2025-11-21 17:30:07 [INFO] [Worker-0] Running inference | req_id=353
+2025-11-21 17:30:07 [INFO] [Worker-0] Done | req_id=353 | Time=0.47s
+2025-11-21 17:30:07 [INFO] [Worker-0] Running inference | req_id=354
+2025-11-21 17:30:08 [INFO] [Worker-0] Done | req_id=354 | Time=0.46s
+2025-11-21 17:30:08 [INFO] [Worker-0] Running inference | req_id=355
+2025-11-21 17:30:08 [INFO] [Worker-0] Done | req_id=355 | Time=0.46s
+2025-11-21 17:30:08 [INFO] [Worker-0] Running inference | req_id=356
+2025-11-21 17:30:09 [INFO] [Worker-0] Done | req_id=356 | Time=0.54s
+2025-11-21 17:30:09 [INFO] [Worker-0] Running inference | req_id=357
+2025-11-21 17:30:09 [INFO] [Worker-0] Done | req_id=357 | Time=0.40s
+2025-11-21 17:30:09 [INFO] [Worker-0] Running inference | req_id=358
+2025-11-21 17:30:09 [INFO] [Worker-0] Done | req_id=358 | Time=0.40s
+2025-11-21 17:30:09 [INFO] [Worker-0] Running inference | req_id=359
+2025-11-21 17:30:10 [INFO] [Worker-0] Done | req_id=359 | Time=0.40s
+2025-11-21 17:31:24 [INFO] [System] Started inference worker thread #0
+2025-11-21 17:31:24 [INFO] [Worker-0] Started
