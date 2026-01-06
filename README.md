@@ -52,13 +52,26 @@ We categorize any machine learning inference pipeline with sensor data stream as
 ![Cloud Computing System](./Figures/concept_cloud.png)
 
 ## Latency Formula
-We can express the total end-to-end latency in any generic machine learning inference pipeline with sensor data stream as input as following
+We denote the latency in the stage of sensor data acquisition as $L_{acq}$, data stream transmission: $L_{tr}$, data storage and retrieval: $L_{db}$ and data processing: $L_{proc}$.
+Similarly, we denote the latency in the four stages of machine learning inference pipeline as data ingestion and data preprocessing: $L_{etl}$ (which stands for the extraction, transform and load process), 
+prediction generation: $L_{pred}$ 
+and post processing: $L_{post}$. Additionally, there could exist latency from the end-user side, denoted as $L_{GUI}$.
+Then, considering all the factors, the overall latency can be expressed as:
+\begin{equation}
+    \textbf{$L$} = \textbf{$L_{acq}$} + \textbf{$L_{tr}$} + \textbf{$L_{db}$} + \textbf{$L_{proc}$} + \textbf{$L_{etl}$} + \textbf{$L_{pred}$} + \textbf{$L_{post}$} [+ \textbf{$L_{GUI}$}]
+\end{equation}
+Depending on the specific scenario, components of this equation such as \textbf{$L_{tr}$}, may appear multiple times. We denote them as \textbf{$L_{tr1}$}, \textbf{$L_{tr2}$} and so forth.
+Futhermore in fat client scenario, we don't have any data stream transmission latency, thus \textbf{$L_{tr}$} = 0.
 ### 1. Fat Client
 $$
- \textbf{$L$} = \textbf{$L_{acq}$} + \textbf{$L_{tr}$} + \textbf{$L_{db}$} + \textbf{$L_{proc}$} + \textbf{$L_{etl}$} + \textbf{$L_{pred}$} + \textbf{$L_{post}$} [+ \textbf{$L_{GUI}$}]
+ \textbf{$L$} = \textbf{$L_{acq}$} + \textbf{$L_{etl}$} + \textbf{$L_{pred}$} + \textbf{$L_{post}$}
 $$
 ### 2. Remote Inference
-
+$$
+\textbf{$L$} = \textbf{$L_{acq}$} + \textbf{$L_{tr1}$}  + \textbf{$L_{etl}$} + \textbf{$L_{pred}$} + \textbf{$L_{post}$} [+ \textbf{$L_{tr2}$} + \textbf{$L_{GUI}$}]
+$$
 ### 3. Complex Setup
-
+$$
+\textbf{$L$} = \textbf{$L_{acq}$} + \sum_{i=1}^{3}\textbf{$L_{tri}$} + \textbf{$L_{db}$} + \textbf{$L_{proc}$} + \textbf{$L_{etl}$} + \textbf{$L_{pred}$} + \textbf{$L_{post}$} [+ \textbf{$L_{tr4}$} + \textbf{$L_{GUI}$}]
+$$
 ## External Tools
