@@ -42,7 +42,8 @@ FLUX
 |-ntp.py: Clock time synchronization
 ```
 ## Scenario
-We categorize a machine learning inference pipeline with sensor data stream as input into the following categories
+We categorize any machine learning inference pipeline with sensor data stream as input into the following categories based on components
+![Categorization](./Figures/workflows.png)
 ### 1. Fat Client
 ![Fat Client System](./Figures/concept_minimal.png)
 ### 2. Remote Inference
@@ -50,5 +51,14 @@ We categorize a machine learning inference pipeline with sensor data stream as i
 ### 3. Complex Setup
 ![Cloud Computing System](./Figures/concept_cloud.png)
 
-## Literatures
+## Latency Formula
+We can express the total end-to-end latency in any generic machine learning inference pipeline with sensor data stream as input as following
+### 1. Fat Client
+$$
+ \textbf{$L$} = \textbf{$L_{acq}$} + \textbf{$L_{tr}$} + \textbf{$L_{db}$} + \textbf{$L_{proc}$} + \textbf{$L_{etl}$} + \textbf{$L_{pred}$} + \textbf{$L_{post}$} [+ \textbf{$L_{GUI}$}]
+$$
+### 2. Remote Inference
+
+### 3. Complex Setup
+
 ## External Tools
