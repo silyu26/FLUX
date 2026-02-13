@@ -95,11 +95,13 @@ while True:
             # Get experiment details from payload (assuming they exist or setting defaults)
             exp_id = payload.get("expId", 0) # Assuming expId is now sent in the payload
             gen_at = payload.get("gen_at", 0)
+            acq_start = payload.get("acq_start", 0)
             fps = payload.get("fps", 0)
 
             # --- SAVE EXPERIMENT DATA (New) ---
             exp = Experiment(
                 gen_at=gen_at,
+                acq_start=acq_start,
                 exp_id=exp_id,
                 req_id=req_id,
                 model_in=model_in,

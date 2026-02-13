@@ -70,7 +70,7 @@ def mark_worker_free(idx):
         busy_flags[idx] = False
 
 
-def run_inference_background(worker_id, image_bytes, req_id, gen_at, expId, fps, server_in, job_id):
+def run_inference_background(worker_id, image_bytes, acq_start, req_id, gen_at, expId, fps, server_in, job_id):
     """
     Background worker function. This must release the semaphore and
     clear the busy flag when finished (even on exception).
@@ -102,6 +102,7 @@ def run_inference_background(worker_id, image_bytes, req_id, gen_at, expId, fps,
         # Build Experiment object (your SQL model)
         exp = Experiment(
             gen_at=gen_at,
+            acq_start=acq_start,
             exp_id=expId,
             req_id=req_id,
             model_in=model_in,

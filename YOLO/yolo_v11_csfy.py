@@ -44,6 +44,7 @@ async def predict(
     file: UploadFile = File(...),
     req_id: int = Form(...),
     gen_at: str = Form(...),
+    acq_start: str = Form(...),
     expId: int = Form(...),
     fps: int = Form(...)
 ):
@@ -69,6 +70,7 @@ async def predict(
         # Save experiment data
         exp = Experiment(
             gen_at=gen_at,
+            acq_start=acq_start,
             exp_id=expId,
             req_id=req_id,
             model_in=model_in,

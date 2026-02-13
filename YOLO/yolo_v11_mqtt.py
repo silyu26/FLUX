@@ -56,6 +56,7 @@ def on_message(client, userdata, msg):
         expId = payload["expId"]
         fps = payload["fps"]
         gen_at = payload["gen_at"]
+        acq_start = payload.get("acq_start")
         filename = payload.get("filename", "unknown.jpg")
 
         logging.info(f"Received message | req_id={req_id} | expId={expId}")
@@ -80,6 +81,7 @@ def on_message(client, userdata, msg):
 
         exp = Experiment(
             gen_at=gen_at,
+            acq_start=acq_start,
             exp_id=expId,
             req_id=req_id,
             model_in=model_in,

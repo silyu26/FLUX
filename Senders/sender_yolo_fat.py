@@ -54,12 +54,13 @@ for fps in FPS_LIST:
         files = []
 
         try:
+            acq_start = datetime.now().isoformat()
             files.append(("file", (f"{img_path}", open(img_path, "rb"), "image/jpeg")))
         except Exception as e:
             log(f"Error opening image: {e}")
             continue
 
-        data = {"gen_at": datetime.now().isoformat(), "req_id": i + index*60, "fps": fps, "expId": exp}
+        data = {"acq_start": acq_start, "gen_at": datetime.now().isoformat(), "req_id": i + index*60, "fps": fps, "expId": exp}
         try:
             response = requests.post(API_URL, files=files, data=data)
             log(f"Iteration {i+1}/{NUM_ITERATIONS} | FPS={fps} | Status={response.status_code}")

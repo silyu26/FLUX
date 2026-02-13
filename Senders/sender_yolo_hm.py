@@ -64,12 +64,13 @@ def send_http(fps):
 
         for j in range(fps):
             try:
+                acq_start = datetime.now().isoformat()
                 files.append(("file", (f"{img_path}", open(img_path, "rb"), "image/jpeg")))
             except Exception as e:
                 log(f"Error opening image: {e}")
                 continue
 
-        data = {"gen_at": datetime.now().isoformat(), "req_id": i + index*30, "fps": fps, "expId": exp}
+        data = {"acq_start": acq_start, "gen_at": datetime.now().isoformat(), "req_id": i + index*30, "fps": fps, "expId": exp}
         try:
             response = requests.post(HTTP_URL, files=files, data=data, timeout=60)
             log(f"HTTP request {i+1}/{TOTAL_REQUESTS} | FPS={fps} | Status={response.status_code}")

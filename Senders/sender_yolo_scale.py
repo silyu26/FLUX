@@ -69,6 +69,7 @@ def run_sender(sender_id, workflow_n, exp_id):
             files = []
 
             try:
+                acq_start = datetime.now().isoformat()
                 # Note: 'open()' should be inside the loop if the server closes it.
                 # But for 'requests', it's better to open/close each time.
                 files.append(("file", (f"{img_path}", open(img_path, "rb"), "image/jpeg")))
@@ -78,7 +79,7 @@ def run_sender(sender_id, workflow_n, exp_id):
 
             # Calculate unique req_id
             current_req_id = id_offset + (index * NUM_ITERATIONS) + i
-            data = {"gen_at": datetime.now().isoformat(), "req_id": current_req_id, "fps": fps, "expId": exp_id, "device": f"sender_{sender_id}"}
+            data = {"acq_start": acq_start, "gen_at": datetime.now().isoformat(), "req_id": current_req_id, "fps": fps, "expId": exp_id, "device": f"sender_{sender_id}"}
             
             try:
                 # The 'with' statement for files is handled by requests.post

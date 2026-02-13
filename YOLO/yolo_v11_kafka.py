@@ -90,6 +90,7 @@ try:
             expId = payload.get("expId")
             fps = payload.get("fps")
             gen_at = payload.get("gen_at")
+            acq_start = payload.get("acq_start")
             
             logging.info(f"Received message | req_id={req_id} | expId={expId}")
 
@@ -116,6 +117,7 @@ try:
             # Save to SQL (Existing logic)
             exp = Experiment(
                 gen_at=gen_at,
+                acq_start=acq_start,
                 exp_id=expId,
                 req_id=req_id,
                 model_in=model_in,

@@ -70,6 +70,7 @@ for fps in FPS_LIST:
     for i in range(NUM_ITERATIONS):
         try:
             tmp = time.time()
+            acq_start = datetime.now().isoformat()
             with open(IMAGE_PATH, "rb") as f:
                 image_bytes = f.read()
             image_b64 = base64.b64encode(image_bytes).decode("utf-8")
@@ -77,6 +78,7 @@ for fps in FPS_LIST:
             log(f"Image read and encoded in {tmp2 - tmp:.4f} seconds")
 
             message = {
+                "acq_start": acq_start,
                 "gen_at": datetime.now().isoformat(),
                 "req_id": i + index * 30,
                 "fps": fps,

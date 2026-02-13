@@ -15,6 +15,7 @@ def push_buffer_to_db():
         for exp_data in experiments:
             exp = Experiment(
                 gen_at=exp_data["gen_at"],
+                acq_start = exp_data["acq_start"],
                 exp_id=exp_data["exp_id"],
                 req_id=exp_data["req_id"],
                 server_in=datetime.fromisoformat(exp_data["server_in"]) if exp_data["server_in"] else None,

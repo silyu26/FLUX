@@ -104,6 +104,7 @@ for fps in FPS_LIST:
         
         # Prepare Image
         try:
+            acq_start = datetime.now().isoformat()
             with open(IMAGE_PATH, "rb") as f:
                 image_b64 = base64.b64encode(f.read()).decode("utf-8")
         except Exception as e:
@@ -112,6 +113,7 @@ for fps in FPS_LIST:
         
         # --- Data Fields Updated Here ---
         message = {
+            "acq_start": acq_start,
             "req_id": req_id,
             "fps": fps,
             "gen_at": datetime.now().isoformat(),

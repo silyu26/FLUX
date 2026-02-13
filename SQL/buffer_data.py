@@ -11,7 +11,7 @@ def save_experiment_to_buffer(exp: Experiment):
         "gen_at": exp.gen_at,
         "exp_id": exp.exp_id,
         "req_id": exp.req_id,
-        #"acq_start": exp.acq_start if exp.acq_start else None,
+        "acq_start": exp.acq_start if exp.acq_start else None,
         #"acq_end": exp.acq_end if exp.acq_end else None,
         "server_in": exp.server_in if exp.server_in else None,
         "server_out": exp.server_out if exp.server_out else None,

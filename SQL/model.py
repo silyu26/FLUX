@@ -10,6 +10,7 @@ class Experiment(Base):
     req_id = Column(Integer, nullable=False)
     exp_id = Column(Integer, nullable=False)
     gen_at = Column(DATETIME(fsp=3), nullable=False)
+    acq_start = Column(DATETIME(fsp=3), nullable=False)
     server_in = Column(DATETIME(fsp=3), nullable=True)
     server_out = Column(DATETIME(fsp=3), nullable=True)
     model_in = Column(DATETIME(fsp=3), nullable=False)

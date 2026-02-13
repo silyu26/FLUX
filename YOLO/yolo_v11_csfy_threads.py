@@ -53,7 +53,7 @@ def inference_worker(worker_id: int):
                 logging.info(f"[Worker-{worker_id}] Shutdown signal received")
                 break
 
-            req_id, gen_at, expId, fps, server_in, image_bytes = item
+            req_id, acq_start, gen_at, expId, fps, server_in, image_bytes = item
             model_in = datetime.now()
 
             image = Image.open(io.BytesIO(image_bytes))
@@ -72,6 +72,7 @@ def inference_worker(worker_id: int):
 
             exp = Experiment(
                 gen_at=gen_at,
+                acq_start=acq_start,
                 exp_id=expId,
                 req_id=req_id,
                 model_in=model_in,
